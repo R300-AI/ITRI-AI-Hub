@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC
+title: Use Case 2
 nav_order: 2
 ---
 
