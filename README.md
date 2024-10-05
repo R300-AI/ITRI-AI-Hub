@@ -59,7 +59,7 @@ If you are already familiar with development frameworks and processes for deep l
 
 * 2024/09 Released a Simple [**Developer's Guide**](https://r300-ai.github.io/ITRI-AI-Hub/). Website
 * 2024/07 Started Testing Model Deployment with **NVIDIA, AMD, ARM** and **Mediatek**.
-* 2024/05 Release This **ITRI AI Hub** Repository.
+* 2024/05 Release **ITRI AI Hub**.
   
 ## <div align="center">Contridutors</div>
 
