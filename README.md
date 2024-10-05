@@ -56,6 +56,8 @@ If you are already familiar with development frameworks and processes for deep l
 * [Creating a Fracture Pre-Diagnostics Solution for ASE's Reflow.]()
 
 ## <div align="center">News</div>
+
+* 2024/07 Launch of the Developer Guide on **[Pages](https://r300-ai.github.io/ITRI-AI-Hub/)**.
 * 2024/07 Launch of the First Application on **Model Zoo**.
 * 2024/06 Start a Computer Vision Lession in **`docs/Deep_Learning_for_Developers`**.
 * 2024/05 **ITRI AI Hub** Released.
