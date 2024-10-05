@@ -57,8 +57,9 @@ If you are already familiar with development frameworks and processes for deep l
 
 ## <div align="center">News</div>
 
-* 2024/09 Launch of the Developer Guide on **[Pages](https://r300-ai.github.io/ITRI-AI-Hub/)**.
-* 2024/07 Launch **Model Zoo**.
+* 2024/09 New Documentation Website  goes live
+* Launch of the Developer Guide on **[Pages](https://r300-ai.github.io/ITRI-AI-Hub/)**.
+* 2024/07 Start  **Model Zoo**.
 * 2024/05 **ITRI AI Hub** Released.
   
 ## <div align="center">Contridutors</div>
