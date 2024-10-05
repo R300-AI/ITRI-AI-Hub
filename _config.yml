@@ -9,18 +9,29 @@ just_the_docs:
   nav_order: 1
   nav:
     - title: "Home"
-      url: "/docs/index/"
+      url: "/"
       nav_order: 1
-    - title: "About"
-      url: "/docs/about/"
-      nav_order: 2
     - title: "Use Case"
-      url: "/docs/usecase/"
-      nav_order: 3
+      url: "/usecase/"
+      nav_order: 2
       children:
         - title: "Use Case 1"
           url: "/docs/usecase/usecase1/"
           nav_order: 1
+          children:
+            - title: "Sub Use Case 1.1"
+              url: "/docs/usecase/usecase1/subusecase1.md"
+              nav_order: 1
+            - title: "Sub Use Case 1.2"
+              url: "/docs/usecase/usecase1/subusecase2.md"
+              nav_order: 2
         - title: "Use Case 2"
           url: "/docs/usecase/usecase2/"
           nav_order: 2
+          children:
+            - title: "Sub Use Case 2.1"
+              url: "/docs/usecase/usecase2/subusecase1.md"
+              nav_order: 1
+            - title: "Sub Use Case 2.2"
+              url: "/docs/usecase/usecase2/subusecase2.md"
+              nav_order: 2
