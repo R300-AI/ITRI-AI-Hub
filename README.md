@@ -51,10 +51,6 @@ If you are already familiar with development frameworks and processes for deep l
   
 </details>
 
-## <div align="center">Use Case</div>
-* [Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC.]()
-* [Creating a Fracture Pre-Diagnostics Solution for ASE's Reflow.]()
-
 ## <div align="center">News</div>
 
 * 2024/09 Released a Simple and Clear **Developer's Guide** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
