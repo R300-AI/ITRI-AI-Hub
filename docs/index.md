@@ -4,12 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to Your Documentation Site
+# Welcome to ITRI AI Hub
 
-This is the home page of your documentation site.
-
-## Getting Started
-
-* [Getting Started1](docs/getting-started.md)
-* [Getting Started1](docs/getting-started.md)
-* [Getting Started1](docs/getting-started.md)
+This is the homepage.
+xxxxxxxxx
