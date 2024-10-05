@@ -9,7 +9,7 @@ just_the_docs:
   nav_order: 1
   nav:
     - title: "Home"
-      url: "/docs/"
+      url: "/docs/index/"
       nav_order: 1
     - title: "About"
       url: "/docs/about/"
