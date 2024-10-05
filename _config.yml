@@ -17,3 +17,10 @@ just_the_docs:
     - title: "Use Case"
       url: "/usecase/"
       nav_order: 3
+      children:
+        - title: "Use Case 1"
+          url: "/usecase/usecase1/"
+          nav_order: 1
+        - title: "Use Case 2"
+          url: "/usecase/usecase2/"
+          nav_order: 2
