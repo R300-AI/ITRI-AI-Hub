@@ -1,3 +1,7 @@
-## <div align="center">Use Case</div>
-* [Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC.]()
-* [.]()
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
+# Creating a Fracture Pre-Diagnostics Solution for ASE's Reflow
