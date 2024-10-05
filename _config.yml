@@ -1,0 +1,19 @@
+title: ITRI AI Hub
+description: >
+  A description of your site.
+theme: "just-the-docs"
+
+# Just the Docs settings
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  nav_order: 1
+  nav:
+    - title: "Home"
+      url: "/"
+      nav_order: 1
+    - title: "About"
+      url: "/about/"
+      nav_order: 2
+    - title: "Contact"
+      url: "/contact/"
+      nav_order: 3
