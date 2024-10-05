@@ -6,4 +6,4 @@ nav_order: 2
 
 # About
 
-This is the About page.
+Information about the site.
