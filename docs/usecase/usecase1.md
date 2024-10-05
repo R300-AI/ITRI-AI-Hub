@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use Case 1
+title: " - Case 1"
 nav_order: 1
 ---
 

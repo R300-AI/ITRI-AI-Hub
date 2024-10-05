@@ -11,6 +11,9 @@ just_the_docs:
     - title: "Home"
       url: "/"
       nav_order: 1
+    - title: "About"
+      url: "/about"
+      nav_order: 1
     - title: "Use Case"
       url: "/usecase/"
       nav_order: 2
