@@ -5,4 +5,3 @@ nav_order: 5
 ---
 
 # Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC
-xxxxxxxxxxxxxxxx
