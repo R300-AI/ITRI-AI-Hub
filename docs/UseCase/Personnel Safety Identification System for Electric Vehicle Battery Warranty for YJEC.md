@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC
