@@ -1,5 +1,5 @@
 # ITRI AI Hub
-The ITRI AI Hub provides a range of hardware deployment and edge computing solutions for open-source deep learning models. In this repository, we offer:
+ITRI AI Hub provides integrated hardware, software and Internet solutions to help enterprises construct a sophisticated artificial intelligence system.
 
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
