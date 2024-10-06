@@ -1,5 +1,7 @@
 # ITRI AI Hub
-The ITRI AI Hub provides a complete AI infrastructure solution to help enterprises to build a compliant, secure and sophisticated artificial intelligence system. Developers can find various resources on this platform to implement their applications.
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct a compliant, secure, and sophisticated artificial intelligence system. 
+
+Developers can find various resources on this platform to implement their applications.
 
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
