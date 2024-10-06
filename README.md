@@ -1,5 +1,5 @@
 # ITRI AI Hub
-ITRI AI Hub provides integrated hardware, software and Internet solutions to help enterprises construct a sophisticated artificial intelligence system.
+The ITRI AI Hub provides integrated hardware, software and Internet support to help organizations construct compliant, secure and efficient sophisticated artificial intelligence systems.
 
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
