@@ -1,5 +1,5 @@
 # ITRI AI Hub
-The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an AI system with **Compliant, Secure**, and **High Energy Efficiency**. Developers can find the optimal resources on this platform for implementing various sophisticated application services. This includes edge devices that capture cognitive data in private environments, sensory IoT integration that monitors and records the physical world, and state-of-the-art AI services on the cloud.
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an AI system with **Compliant, Secure**, and **High Energy Efficiency**. Developers can find the optimal resources on this platform for implementing various sophisticated application services. This includes edge devices that capture and extract cognitive data in private environments, sensory IoT integration that monitors and records the physical world, and state-of-the-art AI services on the cloud.
 
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
