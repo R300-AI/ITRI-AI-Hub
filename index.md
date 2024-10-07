@@ -10,4 +10,6 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 
 This service includes edge devices that capture and extract cognitive data in private environments, knowledge bases for the physical world and AIoT integration, and state-of-the-art AI services on the cloud.
 
-<img src="./assets/images/framework.png" width="720"/>
+<center>
+  <img src="./assets/images/framework.png" width="720"/>
+</center>
