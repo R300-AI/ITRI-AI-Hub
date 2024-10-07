@@ -6,6 +6,8 @@ nav_order: 1
 
 # Welcome to ITRI AI Hub
 
-The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an AI system with Compliant, Secure, and High Energy Efficiency. Developers can find the optimal resources on this platform for implementing various sophisticated application services. 
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with Compliant, Secure, and High Energy Efficiency. Developers can find the optimal resources on this platform for implementing various sophisticated applications. 
 
-This service includes edge devices that capture and extract cognitive data in private environments, knowledge bases for the physical world and AIoT integration, and state-of-the-art AI services on the cloud.
+
+The service covers various domains such as computer vision, speech, voice, time series, and various other customized functions. In computer vision, it provides image classification, object detection, optical character recognition (OCR), keypoint detection, and other functions. Language functions include text categorization and comprehension, keyword extraction, entity extraction, and question answering. The voice function provides voice-to-text conversion, avatars, and translation. Time series functions include anomaly detection, trend analysis, control and clustering. In addition, the platform supports proof-of-concept with Azure AI services through data quality validation and feasibility assessment, and provides edge deployment options to bring data closer to the host.
+<div align="center"><img src="./assets/images/framework.png" width="720"/></div>
