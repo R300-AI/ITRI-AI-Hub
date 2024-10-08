@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Use Case
-nav_order: 3
+nav_order: 5
 ---
 
 # Use Case
 
-## **Sport Technology<sub>AI Badminton Trainer<\sub>**
+## **Sport**<sub> AI Badminton Trainer

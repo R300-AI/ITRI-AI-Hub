@@ -14,12 +14,18 @@ just_the_docs:
       - title: "Quick Start"
         url: "/docs/pages/quick-start"
         nav_order: 2
+      - title: " - Installation"
+        url: "/docs/pages/quick-start/installation"
+        nav_order: 3
+      - title: " - Deployment"
+        url: "/docs/pages/quick-start/deployment"
+        nav_order: 4
       - title: "Use Case"
         url: "/docs/pages/usecase"
-        nav_order: 3
-      - title: " - Case 1"
-        url: "/docs/pages/usecase1/"
-        nav_order: 4
-      - title: " - Case 2"
-        url: "/docs/pages/usecase2/"
         nav_order: 5
+      - title: " - Case 1"
+        url: "/docs/pages/usecase/usecase1/"
+        nav_order: 6
+      - title: " - Case 2"
+        url: "/docs/pages/usecase/usecase2/"
+        nav_order: 7
