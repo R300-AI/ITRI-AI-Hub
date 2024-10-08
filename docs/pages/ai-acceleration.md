@@ -1,6 +1,6 @@
 ---
 layout: default
-title: " - Deployment"
+title: "AI Acceleration"
 nav_order: 6
 ---
 

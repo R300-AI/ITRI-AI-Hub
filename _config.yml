@@ -18,13 +18,13 @@ just_the_docs:
         url: "/docs/pages/quick-start/setup-environment"
         nav_order: 3
       - title: " - Download Image"
-        url: "/docs/pages/quick-start/download-images"
+        url: "/docs/pages/quick-start/download-prebuilt-image"
         nav_order: 4
       - title: " - Flashing Image to Board"
-        url: "/docs/pages/quick-start/installation"
+        url: "/docs/pages/quick-start/flash-image"
         nav_order: 5
-      - title: " - Deployment"
-        url: "/docs/pages/quick-start/deployment"
+      - title: "AI Acceleration"
+        url: "/docs/pages/ai-acceleration"
         nav_order: 6
       - title: "Use Case"
         url: "/docs/pages/usecase"
