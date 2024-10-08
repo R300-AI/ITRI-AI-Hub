@@ -23,7 +23,7 @@ just_the_docs:
       - title: " - Flashing Image to Board"
         url: "/docs/pages/quick-start/flash-image"
         nav_order: 5
-      - title: "Model Acceleration"
+      - title: "Model Delegation"
         url: "/docs/pages/acceleration"
         nav_order: 6
       - title: "Use Case"

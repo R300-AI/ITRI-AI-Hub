@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Model Acceleration"
+title: "Model Delegation"
 nav_order: 6
 ---
 
