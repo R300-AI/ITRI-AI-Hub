@@ -11,7 +11,7 @@ Internet connection
 
 You can choose between **Yocto** and **Ubuntu** operating systems on your Genio board. When you choose Ubuntu, it means higher development flexibility, but you also need to install the accelerator API by yourself, please refer to [here](https://github.com/R300-AI/Embedded-Research/blob/main/docs/05_Install_ArmNN_and_NeuronPilot_on_Ubuntu_for_Genio_Boards.md) for details.
 
-## Tutorial
+## Flash Image to Boards
 
 **Step1.** Prepare a Ubuntu host server, and connect your development board to the host server's USB with a micro USB on the board.
 
