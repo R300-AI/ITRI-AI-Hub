@@ -1,17 +1,6 @@
 # Genio Installation Tutorial
 
-## Setup Build Environment
-
-Ubuntu 22.04 (LTS)
-
-At least 200 GiB of free disk space
-
-At least 16 GiB of system memory
-
-Internet connection
-
-
-You can choose between **Yocto** and **Ubuntu** operating systems on your Genio board. When you choose Ubuntu, it means higher development flexibility, but you also need to install the accelerator API by yourself, please refer to [here](https://github.com/R300-AI/Embedded-Research/blob/main/docs/05_Install_ArmNN_and_NeuronPilot_on_Ubuntu_for_Genio_Boards.md) for details.
+ Setup Build Environment first
 
 ## Flash Image to Boards
 
