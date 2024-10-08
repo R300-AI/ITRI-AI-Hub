@@ -29,13 +29,12 @@ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE
 **Step 3.**  Run following command and wait until the logs show up.
 
 ```
-cd <IMAGE_PATH>/<YOCTO_IMAGE>
+cd <IMAGE_PATH>/<IMAGE>
 
 # for Yocto Image
 genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
 
 # for Ubuntu Image
-cd <IMAGE_PATH>/<UBUNTU_IMAGE>
 genio-flash
 ```
 
