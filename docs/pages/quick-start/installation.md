@@ -6,14 +6,23 @@ nav_order: 3
 
 # Installation
 
-## **MediaTek Genio Series**
+## Tool & Environment Setup
+
+### **NVIDIA Jetson Series**
+### **MediaTek Genio Series**
+### **ARM Raspberry Pi Series**
+
+
+## Flash Image to Boards
+
+### **NVIDIA Jetson Series**
+### **MediaTek Genio Series**
 
   <details>
-  <summary><strong>Pre-build Files</strong></summary>
-  
-  * Conda
-  * Data& Model
-  * TIS driver
-  * Lightning Setup Tools 
-  
+  <summary><strong>Genio 350 EVK</strong></summary>
+  1. A
+  2. B
+  3. C
   </details>
+
+### **ARM Raspberry Pi Series**
