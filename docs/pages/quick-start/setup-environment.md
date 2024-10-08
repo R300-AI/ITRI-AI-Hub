@@ -8,9 +8,9 @@ nav_order: 3
 
 ## **NVIDIA Jetson Series**
 
-## **MediaTek Genio Flash**
+## **MediaTek<sub>[1](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/build-env-linux.html#), [2](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/flash-env-linux.html), Windows are not supported**
 
-### **Installation on Ubuntu Host**
+### **Install `Genio-Flash` on Ubuntu Host**
 
 > **Requirements:**
 > * Python 3.8 or later
@@ -48,4 +48,4 @@ nav_order: 3
   udev rules: OK
   ```
 
-### **ARM Raspberry Pi Series**
+## **ARM Raspberry Pi Series**
