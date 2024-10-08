@@ -1,12 +1,13 @@
 ---
 layout: default
-title: About
+title: Quick Start
 nav_order: 2
 ---
 
 # Quick Start
 
-## NVIDIA Jetson
+## **Embedded Computer**
+### NVIDIA Jetson
 
   |  Chipsets  | AGX Xavier        | Orin Nano     | Orin NX          | AGX Orin          |
   |:----------:|:-----------------:|:-------------:|:----------------:|:-----------------:|
@@ -16,7 +17,7 @@ nav_order: 2
   | **Power**  |                     10~30W     |                        5~15W     |                        10~25W     |                       15~60W      |
   | **Memory** |                          --    |                           --     |                         --        |      64GB 256-bit LPDDR5 DRAM     |
  
-## ARM RaspberryPi
+### ARM RaspberryPi
 
   |  Chipsets  | Pi-1        | Pi-2        | Pi-3        | Pi-4        | Pi-5         |
   |:----------:|:-----------:|:-----------:|:-----------:|:-----------:|:------------:|
@@ -24,7 +25,7 @@ nav_order: 2
   | **CPU**    |  ARM11<br><sup>(0.7K DMIPS)  | Cortex-A<br><sup>(3.6K DMIPS) | Cortex-A<br><sup>(9.6K DMIPS) | Cortex-A<br><sup>(21.6 DMIPS)  | Cortex-A<br><sup>(38.4 DMIPS) |
   | **Power**  |                  1.8~3.5W    |                     2.5~4W    |                    2.5~5W     |                       3~6W     |                     4~8W      |
 
-## MediaTek Genio
+### MediaTek Genio
 
   |  Chipsets  | Genio 350    | Genio 510     | Genio 700     | Genio 1200       |
   |:----------:|:-------------:|:-------------:|:-------------:|:---------------:|
