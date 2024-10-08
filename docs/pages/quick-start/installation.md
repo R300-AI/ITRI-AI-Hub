@@ -23,6 +23,10 @@ nav_order: 3
   1. A
   2. B
   3. C
+  <code>
+  import os
+  print('OK')
+  <\code>
   </details>
 
 ### **ARM Raspberry Pi Series**
