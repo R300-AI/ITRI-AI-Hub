@@ -16,8 +16,6 @@ nav_order: 5
 
 **Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
 
-<div align="center"><img src="../../assets/images/genio-flash/2.png" width="540"/></div>
-
 ```
 sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 ```
@@ -37,6 +35,9 @@ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.
 genio-flash
 ```
 
+<div align="center"><img src="../../assets/images/genio-flash/2.png" width="540"/></div>
+
 **Step 4.** Press and hlod Download button and tap RST button on the board to start flashing.
+
 <div align="center"><img src="../../assets/images/genio-flash/3.png" width="480"/></div>
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
