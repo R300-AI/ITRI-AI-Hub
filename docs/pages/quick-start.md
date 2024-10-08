@@ -10,34 +10,36 @@ nav_order: 2
 
 ### NVIDIA Jetson Series
 
-The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series includes models such as AGX Xavier, Orin Nano, Orin NX, and AGX Orin, all running on the **Ubuntu** operating system.
+The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series all running on the **Ubuntu** operating system.
 
-  |  Devices   | AGX Xavier        | Orin Nano     | Orin NX          | AGX Orin          |
-  |:----------:|:-----------------:|:-------------:|:----------------:|:-----------------:|
-  | **OS**     |             |         |            |             |
-  | **CPU**    |  Cortex-A<br><sup>(14K DMIPS)  | Cortex-A<br><sup>(14K DMIPS)     | Cortex-A<br><sup>(18K DMIPS)      | Cortex-A<br><sup>(27K DMIPS)      |
-  | **GPU**    |   Volta<br><sup>(1.3 TFLOPS)   | Ampere<br><sup>(1.0 TFLOPS)      | Ampere<br><sup>(2.5 TFLOPS)       | Ampere<br><sup>(5.3 TFLOPS)       |
-  | **Power**  |                     10~30W     |                        5~15W     |                        10~25W     |                       15~60W      |
-  | **Memory** |                          --    |                           --     |                         --        |      64GB 256-bit LPDDR5 DRAM     |
+|  Devices     | AGX Xavier        | Orin Nano     | Orin NX          | AGX Orin          |
+|:------------:|:-----------------:|:-------------:|:----------------:|:-----------------:|
+| **Chipsets** | NVIDIA Xavier     | NVIDIA Orin   | NVIDIA Orin      | NVIDIA Orin       |
+| **CPU**      | 8-core ARM v8.2   | 6-core Cortex-A78AE | 8-core Cortex-A78AE | 12-core Cortex-A78AE |
+| **GPU**      | Volta (512-core)  | Ampere (1024-core) | Ampere (1024-core) | Ampere (2048-core) |
+| **Power**    | 10~30W            | 5~15W         | 10~25W           | 15~60W            |
+| **Memory**   | 32GB LPDDR4x      | 4GB/8GB LPDDR5 | 8GB/16GB LPDDR5  | 32GB/64GB LPDDR5  |
+
  
-### ARM RaspberryPi Series
+### ARM Raspberry Pi Series
 
-The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series includes models such as Pi-1, Pi-2, Pi-3, Pi-4, and Pi-5, all running on the **Raspbian** operating system.
+The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series all running on the **Raspbian** operating system.
 
-  |  Devices  | Pi-1        | Pi-2        | Pi-3        | Pi-4        | Pi-5         |
-  |:----------:|:-----------:|:-----------:|:-----------:|:-----------:|:------------:|
-  | **Chipsets**     |     |     |     |     |      |
-  | **CPU**    |  ARM11<br><sup>(0.7K DMIPS)  | Cortex-A<br><sup>(3.6K DMIPS) | Cortex-A<br><sup>(9.6K DMIPS) | Cortex-A<br><sup>(21.6 DMIPS)  | Cortex-A<br><sup>(38.4 DMIPS) |
-  | **Power**  |                  1.8~3.5W    |                     2.5~4W    |                    2.5~5W     |                       3~6W     |                     4~8W      |
+|  Devices  | Gen-1        | Gen-2        | Gen-3        | Gen-4        | Gen-5         |
+|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|:------------:|
+| **Chipsets** | BCM2835    | BCM2836      | BCM2837      | BCM2711      | BCM2712       |
+| **CPU**    | ARM1176JZF-S | Cortex-A7    | Cortex-A53   | Cortex-A72   | Cortex-A76    |
+| **Power**  | 1.8~3.5W    | 2.5~4W       | 2.5~5W       | 3~6W         | 4~8W          |
+| **Memory** | 256MB/512MB SDRAM | 1GB LPDDR2 | 1GB LPDDR2  | 2GB/4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 |
 
 ### MediaTek Genio Series
 
-The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series includes models such as Genio 350, Genio 510, Genio 700, and Genio 1200, all supporting **Ubuntu-22.04** and **Yocto** operating systems.
+The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting **Ubuntu-22.04** and **Yocto** operating systems.
 
-  |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
-  | :----------: |:------------:|:-------------:|:-------------:|:--------------:|
-  | **Chipsets** |  MT8365 SoC  |  MT8370 SoC   |   MT8390 SoC  |   MT8395 SoC   |
-  | **CPU**      | Cortex-A<br><sup>(19K DMIPS) | Cortex-A<br><sup>(35K DMIPS)     | Cortex-A<br><sup>(45K DMIPS)      | Cortex-A<br><sup>(70K DMIPS)      |
-  | **GPU**      | Mali-G52<br><sup>(57 GFLOPS) | Mali-G57<br><sup>(128 GFLOPS)    | Mali-G57<br><sup>(192 GFLOPS)     | Mali-G57<br><sup>(267 GFLOPS)     |
-  | **APU**      | VP6<br><sup>(0.3 TOPs      ) | MDLA+VP6<br><sup>(2.8 TOPs)      | MDLA+VP6<br><sup> (4.0 TOPs)      | MDLA+VP6<br><sup>(4.8 TOPs)       |
-  | **Power**    |   1.9~2.1W                   | 3.5~4.5W                         |      5~6W                         |    6.2~7.2W                       |
+|  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
+| :----------: |:------------:|:-------------:|:-------------:|:--------------:|
+| **Chipsets** |  MT8365      |  MT8385       |   MT8395      |   MT8396       |
+| **CPU**      | Cortex-A53   | Cortex-A73/A53 | Cortex-A76/A55 | Cortex-A78/A55 |
+| **GPU**      | Mali-G52     | Mali-G57      | Mali-G57      | Mali-G57       |
+| **Power**    | 3~5W         | 5~10W         | 7~15W         | 10~20W         |
+| **Memory**   | 2GB/4GB LPDDR4 | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
