@@ -6,13 +6,15 @@ nav_order: 2
 
 # Quick Start
 
+<br>
 1. Choice HW 
-2.Choice SW 
+2. Choice SW 
 3. Benchmakring
 
 ## **Platform Overview**
 
-> Now We Only Support for Following Embedded Systems
+> [!WARNING]  
+> *Now We Only Support for Following Embedded Systems*
 
 ### NVIDIA Jetson Series
 
