@@ -16,7 +16,7 @@ nav_order: 5
 
 **Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
 
-<div align="center"><img src="../../assets/images/genio-flash/2.png" width="480"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/2.png" width="540"/></div>
 
 ```
 # for Yocto Image
@@ -28,7 +28,7 @@ sudo tar -zxvf <UBUNTU_IMAGE>.tar.xz -C <IMAGE_PATH>
 sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<UBUNTU_FOLDER>
 ```
 
-**Step 3.**  Run following command and wait until the logs displayed.
+**Step 3.**  Run following command and wait until the logs show up.
 
 ```
 # for Yocto Image
@@ -44,4 +44,7 @@ genio-flash
 
 **Step 4.** Press and hlod Download button and tap RST button on the board to start flashing.
 <div align="center"><img src="../../assets/images/genio-flash/3.png" width="480"/></div>
-<div align="center"><img src="../../assets/images/genio-flash/4.png" width="480"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
