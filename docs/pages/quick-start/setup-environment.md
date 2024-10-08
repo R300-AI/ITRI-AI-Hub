@@ -6,10 +6,6 @@ nav_order: 3
 
 # Setup Configure Tool & Environments
 
-<div style="margin-left: 20px;">
-<br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
-</div>
-
 ## **NVIDIA Jetson Series**
 
 ## **MediaTek Genio Series**

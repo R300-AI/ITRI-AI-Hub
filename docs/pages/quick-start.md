@@ -8,6 +8,10 @@ nav_order: 2
 
 <br>For using ITRI AI Hub,...
 
+<div style="margin-left: 20px;">
+<br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
+</div>
+
 1. Choice HW 
 2. Choice SW 
 3. Benchmakring
