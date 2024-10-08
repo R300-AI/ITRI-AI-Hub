@@ -13,9 +13,6 @@ nav_order: 2
 
 ## **Platform Overview**
 
-> [!WARNING]  
-> *Now We Only Support for Following Embedded Systems*
-
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
