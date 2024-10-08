@@ -10,7 +10,7 @@ nav_order: 5
 
 ### **MediaTek Genio 350/510/700/1200 EVK**<sub>[1](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/flash/flash-g350-evk.html)[2](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/flash/flash-g700-evk.html)[3](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/flash/flash-g1200-evk.html)
 
-**Step 1.** Connect the **Image Download** port (MicroUSB or Type-C) of your board to the USB port of the Flash Host according to board layout documents.[[350-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html), [[510/700-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g700-evk.html) and [[1200-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g1200-evk.html) 
+**Step 1.** Connect the **Image Download** port of your board to the USB port of the Host according to board layout documents.[[350-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html), [[510/700-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g700-evk.html) and [[1200-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g1200-evk.html) 
 
 <div align="center"><img src="../../assets/images/genio-flash/1.png" width="640"/></div>
 
