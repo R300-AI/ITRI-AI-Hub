@@ -12,11 +12,11 @@ nav_order: 5
 
 **Step 1.** Connect the **Image Download** port (MicroUSB or Type-C) of your board to the USB port of the Flash Host. Here we will use Genio 510 EVK as an example.
 
-<div align="center"><img src="../../assets/images/genio-flash/1.png" width="720"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/1.png" width="640"/></div>
 
 **Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
 
-<div align="center"><img src="../../assets/images/genio-flash/1.png" width="720"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/2.png" width="640"/></div>
 
 ```
 # for Yocto Image
@@ -40,8 +40,8 @@ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.
 cd <IMAGE_PATH>/<UBUNTU_IMAGE>
 genio-flash
 ```
-<div align="center"><img src="../../assets/images/genio-flash/2.png" width="720"/></div>
+
 
 **Step 4.** Press and hlod Download button and tap RST button on the board to start flashing.
-
-<div align="center"><img src="../../assets/images/genio-flash/3.png" width="720"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/3.png" width="640"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/4.png" width="640"/></div>
