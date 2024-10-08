@@ -8,11 +8,9 @@ nav_order: 3
 
 ## **NVIDIA Jetson Series**
 
-## **MediaTek Genio Series**
+## **MediaTek Genio Flash**
 
-### **Ubuntu Host**
-
-#### **Installation**
+### **Installation on Ubuntu Host**
 
 > **Requirements:**
 > * Python 3.8 or later
@@ -39,9 +37,10 @@ nav_order: 3
   $ sudo udevadm control --reload-rules
   $ sudo udevadm trigger
   ```
-  Step 4. Install and verify the installation.
+  Step 4. Install Genio Tools with administrator privilege and verify the installation.
   ```
   $ pip3 install -U genio-tools
+  $ sudo usermod -a -G dialout $USER
   ```
   ```
   $ genio-config
