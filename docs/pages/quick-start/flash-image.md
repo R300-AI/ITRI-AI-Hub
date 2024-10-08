@@ -33,7 +33,6 @@ cd <IMAGE_PATH>/<IMAGE>
 
 # for Yocto Image
 genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
-
 # for Ubuntu Image
 genio-flash
 ```
