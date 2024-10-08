@@ -11,7 +11,7 @@ nav_order: 2
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
-<p>The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series all running on the **Ubuntu** operating system.</p>
+<p>The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series all running on the <strong>Ubuntu</strong> operating system.</p>
 </div>
 
 |  Devices     | Orin Nano     | Orin NX          | AGX Xavier        | AGX Orin          |
@@ -25,7 +25,7 @@ nav_order: 2
 ### ARM Raspberry Pi Series
 
 <div style="margin-left: 20px;">
-<p>The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series all running on the **Raspbian** operating system.</p>
+<p>The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series all running on the <strong>Raspbian</strong> operating system.</p>
 </div>
 
 |  Devices  | Gen-1        | Gen-2        | Gen-3        | Gen-4        | Gen-5         |
@@ -38,7 +38,7 @@ nav_order: 2
 ### MediaTek Genio Series
 
 <div style="margin-left: 20px;">
-<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting **Ubuntu-22.04** and **Yocto** operating systems.</p>
+<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting <strong>Ubuntu</strong> and <strong>Yocto</strong> operating systems.</p>
 </div>
 
 |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
