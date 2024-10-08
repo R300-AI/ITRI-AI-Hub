@@ -6,4 +6,4 @@ nav_order: 3
 
 # Use Case
 
-## **Sport Technology<sub>AI Badminton Trainer<\sub>**
+## **Sport**<sub> AI Badminton Trainer
