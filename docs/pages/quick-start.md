@@ -34,6 +34,9 @@ The ARM RaspberryPi series is an affordable and popular choice for embedded syst
 
 ### MediaTek Genio Series
 
+>* Installation
+>* Deployment 
+
 The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting **Ubuntu-22.04** and **Yocto** operating systems.
 
 |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
