@@ -20,13 +20,18 @@ nav_order: 3
 
   <details>
   <summary><strong>Genio 350 EVK</strong></summary>
-  1. A
-  2. B
-  3. C
-  <code>
-  import os
-  print('OK')
-  <\code>
+
+  1. A<br>
+    <pre>
+        <code>
+            <span>print('hello world')</span>
+            <span>print('hello world')</span>
+            <span>print('hello world')</span>
+        </code>
+    </pre>
+  2. B<br>
+  3. C<br>
+
   </details>
 
 ### **ARM Raspberry Pi Series**
