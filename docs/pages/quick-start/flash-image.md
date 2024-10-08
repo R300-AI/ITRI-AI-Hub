@@ -16,7 +16,7 @@ nav_order: 5
 
 **Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
 
-<div align="center"><img src="../../assets/images/genio-flash/2.png" width="640"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/2.png" width="480"/></div>
 
 ```
 # for Yocto Image
@@ -43,5 +43,5 @@ genio-flash
 
 
 **Step 4.** Press and hlod Download button and tap RST button on the board to start flashing.
-<div align="center"><img src="../../assets/images/genio-flash/3.png" width="640"/></div>
-<div align="center"><img src="../../assets/images/genio-flash/4.png" width="640"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/3.png" width="480"/></div>
+<div align="center"><img src="../../assets/images/genio-flash/4.png" width="480"/></div>
