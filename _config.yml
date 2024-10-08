@@ -17,7 +17,7 @@ just_the_docs:
       - title: " - Setup Host Environment"
         url: "/docs/pages/quick-start/setup-environment"
         nav_order: 3
-      - title: " - Download Prebuild Images"
+      - title: " - Download Image"
         url: "/docs/pages/quick-start/download-images"
         nav_order: 4
       - title: " - Flashing Image to Board"

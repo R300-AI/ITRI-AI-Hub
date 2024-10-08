@@ -1,6 +1,6 @@
 ---
 layout: default
-title: " - Download Prebuild Images"
+title: " - Download Image"
 nav_order: 4
 ---
-# Download Prebuild Images
+# Download Pre-built Image

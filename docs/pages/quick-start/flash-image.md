@@ -6,19 +6,10 @@ nav_order: 5
 
 # Flash Image to Boards
 
-### **NVIDIA Jetson Series**
-### **MediaTek Genio Series**
+## Genio-Flash
 
-  <details>
-  <summary><strong>Genio 350 EVK</strong></summary>
-  1. A
-    <pre><code>
-        <span>print('hello world')</span>
-        <span>print('hello world')</span>
-        <span>print('hello world')</span>
-    </code></pre>
-  2. B<br>
-  3. C<br>
-  </details>
+### **MediaTek Genio 350/510/700/1200 EVK**
 
-### **ARM Raspberry Pi Series**
+**Step 1.** Connect the download port (MicroUSB or Type-C) of the board to the USB port of the burner. Here we will use Genio 510 EVK as an example.
+
+<div align="center"><img src="./assets/images/genio-flash/1.png" width="720"/></div>
