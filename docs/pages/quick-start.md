@@ -10,9 +10,6 @@ nav_order: 2
 
 ### NVIDIA Jetson Series
 
->* [Installation]()
->* [Deployment]()
-
 The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series all running on the **Ubuntu** operating system.
 
 |  Devices     | AGX Xavier        | Orin Nano     | Orin NX          | AGX Orin          |
@@ -26,9 +23,6 @@ The NVIDIA Jetson series of embedded systems is designed for high-performance co
  
 ### ARM Raspberry Pi Series
 
->* [Installation]()
->* [Deployment]()
-
 The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series all running on the **Raspbian** operating system.
 
 |  Devices  | Gen-1        | Gen-2        | Gen-3        | Gen-4        | Gen-5         |
@@ -39,9 +33,6 @@ The ARM RaspberryPi series is an affordable and popular choice for embedded syst
 | **Memory** | 256MB/512MB SDRAM | 1GB LPDDR2 | 1GB LPDDR2  | 2GB/4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 |
 
 ### MediaTek Genio Series
-
->* [Installation]()
->* [Deployment]()
 
 The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting **Ubuntu-22.04** and **Yocto** operating systems.
 
