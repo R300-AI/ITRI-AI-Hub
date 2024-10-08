@@ -1,6 +1,6 @@
 ---
 layout: default
-title: " - Installation"
+title: " - Setup Host Environment"
 nav_order: 3
 ---
 
