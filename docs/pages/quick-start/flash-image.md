@@ -12,4 +12,4 @@ nav_order: 5
 
 **Step 1.** Connect the download port (MicroUSB or Type-C) of the board to the USB port of the burner. Here we will use Genio 510 EVK as an example.
 
-<div align="center"><img src="./assets/images/genio-flash/1.png" width="720"/></div>
+<div align="center"><img src="./docs/assets/images/genio-flash/1.png" width="720"/></div>
