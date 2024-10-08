@@ -23,8 +23,8 @@ just_the_docs:
       - title: " - Flashing Image to Board"
         url: "/docs/pages/quick-start/flash-image"
         nav_order: 5
-      - title: "AI Acceleration"
-        url: "/docs/pages/ai-acceleration"
+      - title: "Model Acceleration"
+        url: "/docs/pages/acceleration"
         nav_order: 6
       - title: "Use Case"
         url: "/docs/pages/usecase"

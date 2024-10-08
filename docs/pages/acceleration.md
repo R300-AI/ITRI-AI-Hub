@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AI Acceleration"
+title: "Model Acceleration"
 nav_order: 6
 ---
 
