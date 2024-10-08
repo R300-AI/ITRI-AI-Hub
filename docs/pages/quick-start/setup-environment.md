@@ -15,11 +15,13 @@ nav_order: 3
 ## **MediaTek Genio Series**
 
 ### **Ubuntu Host**
-#### **Requirements:**
-* Python 3.8 or later
-* pip3 20.3 or later
-* Git 1.8 or later
-#### Installation
+
+#### **Installation**
+
+> **Requirements:**
+> * Python 3.8 or later
+> * pip3 20.3 or later
+> * Git 1.8 or later
 
   Step 1. Install the required packages.
   ```
@@ -44,9 +46,9 @@ nav_order: 3
   Step 4. Install and verify the installation.
   ```
   $ pip3 install -U genio-tools
+  ```
+  ```
   $ genio-config
-  ```
-  ```
   fastboot: OK
   udev rules: OK
   ```

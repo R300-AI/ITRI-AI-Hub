@@ -6,7 +6,8 @@ nav_order: 2
 
 # Quick Start
 
-<br>
+<br>For using ITRI AI Hub,...
+
 1. Choice HW 
 2. Choice SW 
 3. Benchmakring
