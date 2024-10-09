@@ -1,7 +1,7 @@
 ---
 layout: default
-title: " - Case 2"
-nav_order: 15
+title: " - TensorRT"
+nav_order: 10
 ---
 
 # Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC

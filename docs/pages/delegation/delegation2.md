@@ -1,7 +1,7 @@
 ---
 layout: default
-title: " - Case 2"
-nav_order: 15
+title: " - NeuronPilot"
+nav_order: 11
 ---
 
 # Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC

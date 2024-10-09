@@ -1,7 +1,7 @@
 ---
 layout: default
-title: " - Case 2"
-nav_order: 15
+title: " - ArmNN"
+nav_order: 12
 ---
 
 # Personnel Safety Identification System for Electric Vehicle Battery Warranty for YJEC
