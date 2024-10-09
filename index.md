@@ -30,4 +30,4 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 The following figure roughly shows the currently supported edge system inference benchmarks. these results are achieved through the engines of each These results are achieved through the engines of each major processor. You can evaluate the basic configuration requirements based on underlying transfer efficiency, power consumption, and computational speed.
 </div>
 
-<div align="center"><img src="./assets/images/metric.png" width="720"/></div>
+<div align="center"><img src="./assets/images/metric.png" width="900"/></div>
