@@ -30,6 +30,6 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 <br>This statement does not undermine the necessity of cloud computing; however, it acknowledges that edge AI can be more reliable in certain specific scenarios. It is imperative that we thoroughly understand the entire application context and clearly define the fundamental requirements of each functional unit. This approach will enable us to distribute computing tasks across more reasonable platforms. 
 
 The following figure roughly shows the currently supported edge system inference benchmarks. these results are achieved through the engines of each These results are achieved through the engines of each major processor. You can evaluate the basic configuration requirements based on underlying transfer efficiency, power consumption, and computational speed.
-</div></div>
+</div><br>
 
 <div align="center"><img src="./assets/images/metric.png" width="900"/></div>
