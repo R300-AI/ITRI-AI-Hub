@@ -35,4 +35,5 @@ nav_order: 4
 ## Adlink SARC
 
 ### i1200
+#### Yocto
 [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/Adlink-SMARC/lec-mtk-i1200-ufs_3v4_22_07_24.tar.gz)
