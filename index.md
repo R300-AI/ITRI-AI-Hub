@@ -28,3 +28,4 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 <br>This statement does not undermine the necessity of cloud computing; however, it acknowledges that edge AI can be more reliable in certain specific scenarios. It is imperative that we thoroughly understand the entire application context and clearly define the fundamental requirements of each functional unit. This approach will enable us to distribute computing tasks across more reasonable platforms. Here are a few important evaluation metrics to start with:
 </div>
 
+<div align="center"><img src="./assets/images/metric.png" width="720"/></div>
