@@ -8,7 +8,7 @@ nav_order: 1
 
 <p>
 <div style="margin-left: 20px;">
-The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal resources on this platform for implementing various sophisticated applications. 
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal computing resources on this platform for implementing various sophisticated applications. 
 </div>
 </p>
 
@@ -27,7 +27,7 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 ## **What Can We Do?**
 
 <div style="margin-left: 20px;">
-<br>This statement does not undermine the necessity of cloud computing; however, it acknowledges that edge AI can be more reliable in certain specific scenarios. It is imperative that we thoroughly understand the entire application context and clearly define the fundamental requirements of each functional unit. This approach will enable us to distribute computing tasks across more reasonable platforms. 
+<br>This statement does not undermine the necessity of cloud computing; however, it acknowledges that edge AI can be more reliable in certain specific scenarios. It is imperative that we thoroughly understand the entire application environment and define the basic requirements of each functional unit to determine where each microservice in the system should be delegated and the carriers, this approach will enable us to operate in a more rational use of computing costs and resources.
 
 The following figure roughly shows the currently supported edge system inference benchmarks. these results are achieved through the engines of each These results are achieved through the engines of each major processor. You can evaluate the basic configuration requirements based on underlying transfer efficiency, power consumption, and computational speed.
 </div><br>
