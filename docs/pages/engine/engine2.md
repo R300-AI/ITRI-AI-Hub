@@ -6,6 +6,8 @@ nav_order: 8
 
 # How to install AMD Radeon Driver on Ubuntu 22.04 LTS
 
+<div align="center"><img src="../../assets/images/rocm.png" width="640"/></div>
+
 **Step 1**: Download and convert the package signing key
 ```
 sudo mkdir --parents --mode=0755 /etc/apt/keyrings
