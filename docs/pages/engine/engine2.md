@@ -22,8 +22,10 @@ ver=5.7
 echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/rocm.gpg] https://repo.radeon.com/amdgpu/$ver/ubuntu jammy main" | sudo tee /etc/apt/sources.list.d/amdgpu.list
 # update the package list to include the newly added repository
 sudo apt update
+```
 
-# Create a preference file to prioritize packages from the AMDGPU repository over system packages.
+**Step 3**: Create a preference file to prioritize packages from the AMDGPU repository over system packages.
+```
 echo -e 'Package: *\nPin: release o=repo.radeon.com\nPin-Priority: 600' | sudo tee /etc/apt/preferences.d/rocm-pin-600
 sudo apt install amdgpu-dkms
 sudo reboot
