@@ -41,7 +41,7 @@ genio-flash
 
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
-> We Recommand that you can install bellow extentions manually if you are using **Ubuntu OS**.
+> We Recommand that you can install bellow extentions manually on board if you are using **Ubuntu OS**.
 > * Gnome
 >   * Disable Password Login (important for changing monitor, Setting->Privacy->Screen)
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
