@@ -43,6 +43,7 @@ genio-flash
 > We recommand that you can install bellow extentions on board if you are using **Ubuntu**.
 > * Gnome Desktop
 >   * Disable Password Login (important for changing monitor, Setting->Privacy->Screen)
+>   * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
 > * Gstreamer & NeuronPilot
 >   ```
