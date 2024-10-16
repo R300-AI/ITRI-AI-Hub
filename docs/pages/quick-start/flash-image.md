@@ -45,7 +45,7 @@ genio-flash
 > * Gnome
 >   * Disable Password Login (important for changing monitor, Setting->Privacy->Screen)
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
-> * NeuronPilot
+> * Gstreamer & NeuronPilot
 >   ```
 >   git clone https://github.com/R300-AI/ITRI-AI-Hub.git
 >   # Genio 350
@@ -60,13 +60,8 @@ genio-flash
 >   # Genio 1200
 >   bash ITRI-AI-Hub/tools/setup_genio1200.sh
 >   ```
-> * Verify The installation
+> * Verify the installation
 >   ```
->   # Install required packages
->   sudo apt install python3-pip
->   sudo pip3 install numpy
->
->   # Run the example program:
 >   sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
 >   ```
 
