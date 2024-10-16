@@ -48,15 +48,13 @@ genio-flash
 > * Gstreamer & NeuronPilot
 >   ```
 >   git clone https://github.com/R300-AI/ITRI-AI-Hub.git
+>   
 >   # Genio 350
 >   bash ITRI-AI-Hub/tools/setup_genio350.sh
->  
 >   # Genio 510
 >   bash ITRI-AI-Hub/tools/setup_genio510.sh
->  
 >   # Genio 700
 >   bash ITRI-AI-Hub/tools/setup_genio700.sh
->  
 >   # Genio 1200
 >   bash ITRI-AI-Hub/tools/setup_genio1200.sh
 >   ```
