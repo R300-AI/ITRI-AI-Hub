@@ -1,7 +1,9 @@
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install python3-pip
 sudo pip install numpy
 
+sudo apt-add-repository ppa:mediatek-genio/genio-public
 # NeuronPilot
 sudo apt install mediatek-vpud-genio510
 sudo apt install mediatek-apusys-firmware-genio510
