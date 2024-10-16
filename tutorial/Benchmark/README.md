@@ -1,1 +1,4 @@
-[RyzenAI](https://github.com/amd/RyzenAI-SW/tree/main/tutorial/hello_world)
+```
+conda create --name ryzen
+source activate ryzen
+```
