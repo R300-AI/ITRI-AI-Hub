@@ -4,7 +4,7 @@ title: " - Setup Host Environment"
 nav_order: 3
 ---
 
-# Setup Environments for Flash Host 
+# Setup Flash Environments for Server Host 
 
 ## **MediaTek**<sub>[1](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/build-env-linux.html#), [2](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/flash-env-linux.html)
 
