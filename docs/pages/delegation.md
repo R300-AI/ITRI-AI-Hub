@@ -15,6 +15,7 @@ hailo -h
 ```
 Kleidi AI
 ```
+sudo apt-get install libssl-dev
 git clone https://github.com/Kitware/CMake.git
 cd Cmake
 ./bootstrap && make && sudo make install
