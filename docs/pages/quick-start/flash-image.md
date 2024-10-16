@@ -40,3 +40,6 @@ genio-flash
 **Step 4.** Press and hold **Download** button and tap **RST** button on the board to start flashing.
 
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
+
+> We Recommand that you can config your Genio ubuntu by following step
+>
