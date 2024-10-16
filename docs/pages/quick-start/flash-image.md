@@ -18,9 +18,8 @@ nav_order: 5
 
 ```
 sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
-```
-```
-# If you are using Ubuntu, please run this subsequent command
+
+# If you are using Ubuntu, please run following command
 sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
