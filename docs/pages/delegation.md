@@ -16,6 +16,7 @@ hailo -h
 Hailo model zoo
 ```
 conda install -c conda-forge lap
+pip install numpy==1.23.3
 ```
 
 
