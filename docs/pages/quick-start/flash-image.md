@@ -47,35 +47,18 @@ genio-flash
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
 > * NeuronPilot
 >   ```
+>   git clone https://github.com/R300-AI/ITRI-AI-Hub.git
 >   # Genio 350
->   sudo apt install mediatek-vpud-genio350
->   sudo apt install mediatek-mdpd-genio350
+>   bash ITRI-AI-Hub/tools/setup_genio350.sh
 >  
 >   # Genio 510
->   sudo apt install mediatek-vpud-genio510
->   sudo apt install mediatek-apusys-firmware-genio510
->   sudo apt install mediatek-libneuron mediatek-neuron-utils mediatek-libneuron-dev
+>   bash ITRI-AI-Hub/tools/setup_genio510.sh
 >  
 >   # Genio 700
->   sudo apt install mediatek-vpud-genio700
->   sudo apt install mediatek-apusys-firmware-genio700
->   sudo apt install mediatek-libneuron mediatek-neuron-utils mediatek-libneuron-dev
+>   bash ITRI-AI-Hub/tools/setup_genio700.sh
 >  
 >   # Genio 1200
->   sudo apt install mediatek-vpud-genio1200
->   sudo apt install mediatek-apusys-firmware-genio1200
->   sudo apt install mediatek-libneuron mediatek-neuron-utils mediatek-libneuron-dev
->   ```
-> * Gstreamer
->   ```
->   sudo apt install pulseaudio
->   sudo apt install pulseaudio-utils
->   sudo apt install gstreamer1.0-alsa
->   sudo apt install gstreamer1.0-plugins-base
->   sudo apt install gstreamer1.0-plugins-good
->   sudo apt install gstreamer1.0-plugins-bad
->   sudo rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
->   rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
+>   bash ITRI-AI-Hub/tools/setup_genio1200.sh
 >   ```
 > * Verify The installation
 >   ```
