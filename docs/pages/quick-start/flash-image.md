@@ -59,10 +59,7 @@ genio-flash
 >   bash ITRI-AI-Hub/tools/setup_genio1200.sh
 >   ```
 >   ```
->   reboot
->   ```
-> * Verify the installation
->   ```
+>   # Reboot and verify the installation
 >   sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
 >   ```
 
