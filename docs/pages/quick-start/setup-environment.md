@@ -4,7 +4,7 @@ title: " - Setup Host Environment"
 nav_order: 3
 ---
 
-# Setup Configure Tool & Environments
+# Setup Flash Hist Environments
 
 ## **MediaTek**<sub>[1](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/build-env-linux.html#), [2](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/flash-env-linux.html)
 
