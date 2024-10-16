@@ -41,7 +41,7 @@ genio-flash
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
 > We recommand that you can install bellow extentions on board if you are using **Ubuntu**.
-> * Gnome Desktop
+> * Gnome Desktop and Virtual Environment
 >   * Disable Screen lock and Activate Automatic Login (important for changing monitor, Setting->Privacy/User)
 >   * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
