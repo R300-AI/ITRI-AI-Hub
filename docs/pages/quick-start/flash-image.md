@@ -42,7 +42,7 @@ genio-flash
 
 > We recommand that you can install bellow extentions on board if you are using **Ubuntu**.
 > * Gnome Desktop and Virtual Environment
->   * Disable Screen lock and Activate Automatic Login (important for changing monitor, Setting->Privacy/User)
+>   * Disable Screen lock and Activate Automatic Login (important for changing monitor)
 >   * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
 >   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
 > * Gstreamer & NeuronPilot
