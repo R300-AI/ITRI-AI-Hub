@@ -13,6 +13,12 @@ sudo apt-get install gcc python3-dev graphviz libgraphviz-dev pkg-config
 
 hailo -h
 ```
+Hailo model zoo
+```
+pip install lapx
+```
+
+
 Kleidi AI
 ```
 sudo apt-get install libssl-dev
