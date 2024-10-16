@@ -15,7 +15,7 @@ hailo -h
 ```
 Hailo model zoo
 ```
-pip install lapx
+conda install -c conda-forge lap
 ```
 
 
