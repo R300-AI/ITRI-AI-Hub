@@ -41,7 +41,7 @@ genio-flash
 
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
-> We Recommand that you can config your Genio ubuntu by following step
+> We Recommand that you can install extentions bellow if you are using Ubuntu OS.
 > ```
 > Genio package archives
 > ```
