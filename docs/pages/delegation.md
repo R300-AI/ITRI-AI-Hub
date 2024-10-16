@@ -6,7 +6,12 @@ nav_order: 9
 
 # Deployment
 Vitis AI 
+Hailo data compiler==3.27
+```
 
+pip install tensorflow==1.12.0
+sudo apt-get install gcc python3-dev graphviz libgraphviz-dev pkg-config
+```
 Kleidi AI
 ```
 git clone https://gitlab.arm.com/kleidi/kleidiai
