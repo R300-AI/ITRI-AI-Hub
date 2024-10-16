@@ -42,6 +42,9 @@ genio-flash
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
 > We Recommand that you can install bellow extentions manually if you are using **Ubuntu OS**.
+> * Gnome
+>   * Disable Password Login (optional)
+>   * WIFI driver (if you are using dongles) 
 > * NeuronPilot
 >   ```
 >   # Genio 350
