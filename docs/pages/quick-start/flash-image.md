@@ -74,4 +74,14 @@ genio-flash
 >   sudo rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
 >   rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
 >   ```
+> * Verify The installation
+>   ```
+>   # Install required packages
+>   sudo apt install python3-pip
+>   sudo pip3 install numpy
+>
+>   # Run the example program:
+>   sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
+>   ```
+
 
