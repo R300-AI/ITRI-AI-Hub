@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<br>Before you choose the right hardware solution for your application, we recommend that you do an initial search for a rough profile from our real-world data to avoid too much of a necessary evil.
+<br>Before you select the ideal hardware solution for your application, we recommend that you conduct an initial search for a rough profile from our field test data to avoid too many necessary evils.
 
 <div style="margin-left: 20px;">
 <br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
