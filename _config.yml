@@ -44,8 +44,11 @@ just_the_docs:
         url: "/docs/pages/delegation.md"
         nav_order: 20
       - title: "　-　Data Compiler"
-        url: "/docs/pages/delegationd/ata-compiler.md"
+        url: "/docs/pages/delegationd/data-compiler.md"
         nav_order: 21
+      - title: "　-　Vitis AI"
+        url: "/docs/pages/delegationd/vitis-ai.md.md"
+        nav_order: 22
         
       - title: "Runtime Accelerator"
         url: "/docs/pages/runtime.md"
