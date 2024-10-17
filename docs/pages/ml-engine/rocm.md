@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　ROCm"
-nav_order: 9
+nav_order: 12
 ---
 
 # Install AMD Radeon Driver on Ubuntu 22.04 LTS
