@@ -61,7 +61,7 @@ udev rules: OK
 
 **Step 2.** Connect the **Image Download** port on Board to the USB port on Host.
 > We use Genio 510 as example to show where download port is. if you need check the configuration of others board, please check the documents below: 
-> *　[[350-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html)
+> * [[350-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html)
 > * [[510/700-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g700-evk.html)
 > * [[1200-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g1200-evk.html) 
 
