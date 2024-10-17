@@ -27,7 +27,7 @@ just_the_docs:
         url: "/docs/pages/get-started/jetson-evk.md"
         nav_order: 6
       - title: "ML Engine"
-        url: "/docs/pages/ml-engine"
+        url: "/docs/pages/ml-engine.md"
         nav_order: 7
       - title: "　-　CUDA"
         url: "/docs/pages/ml-engine/cuda.md"
