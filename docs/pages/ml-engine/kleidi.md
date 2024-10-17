@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　KleidiAI"
-nav_order: 10
+nav_order: 13
 ---
 
 # Arm KleidiAI
