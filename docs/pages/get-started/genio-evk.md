@@ -111,7 +111,17 @@ Besides the native BSP that has been included with Yocto, we recommend that if y
 > * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
 > * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
 
-### Step 1: Install Gstreamer and NeuronPilot Library
+### Step 1: Install CMake from Source Code
+To install CMake, execute the following commands:
+
+```
+sudo apt-get install libssl-dev
+cd && git clone https://github.com/Kitware/CMake.git
+cd Cmake
+./bootstrap && make && sudo make install
+```
+
+### Step 2: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
 
 ```
@@ -127,14 +137,14 @@ bash ITRI-AI-Hub/tools/setup_genio700.sh
 bash ITRI-AI-Hub/tools/setup_genio1200.sh
 ```
 
-### Step 2: Reboot and Verify the Installation
+### Step 3: Reboot and Verify the Installation
 Reboot your system and verify the installation by running the following command:
 
 ```
 sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
 ```
 
-### Step 3: Install Kleidi Kernel
+### Step 4: Install Kleidi Kernel
 Follow the [Kleidi Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/ml-engine/kleidi.html) to install the Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
 
 ## Appendix
