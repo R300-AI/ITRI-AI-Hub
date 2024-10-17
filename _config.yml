@@ -12,7 +12,7 @@ just_the_docs:
       nav_order: 1
       children:
       - title: "Get Started"
-        url: "/docs/pages/get-started"
+        url: "/docs/pages/get-started.md"
         nav_order: 2
       - title: "　-　Genio EVKs"
         url: "/docs/pages/get-started/genio-evk.md"
@@ -39,13 +39,13 @@ just_the_docs:
         url: "/docs/pages/ml-engine/kleidi.md"
         nav_order: 10
       - title: "Delegation"
-        url: "/docs/pages/delegation"
+        url: "/docs/pages/delegation.md"
         nav_order: 11
       - title: "　-　Data Compiler"
-        url: "/docs/pages/delegation"
+        url: "/docs/pages/delegation.md"
         nav_order: 12
       - title: "Runtime Accelerator"
-        url: "/docs/pages/runtime"
+        url: "/docs/pages/runtime.md"
         nav_order: 13
       - title: "　-　NeuronPilot"
         url: "/docs/pages/runtime/neuronpilot.md"
@@ -60,11 +60,11 @@ just_the_docs:
         url: "/docs/pages/runtime/tensorrt.md"
         nav_order: 17
       - title: "Benchmarks"
-        url: "/docs/pages/benchmark"
+        url: "/docs/pages/benchmark.md"
         nav_order: 18
       - title: "Use Case"
-        url: "/docs/pages/usecase"
+        url: "/docs/pages/usecase.md"
         nav_order: 19
       - title: "　-　Case 1"
-        url: "/docs/pages/usecase/usecase1/"
+        url: "/docs/pages/usecase/usecase1.md"
         nav_order: 20
