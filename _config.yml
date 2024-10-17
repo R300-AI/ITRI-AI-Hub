@@ -26,7 +26,6 @@ just_the_docs:
       - title: "　-　Jetson EVKs"
         url: "/docs/pages/get-started/jetson-evk.md"
         nav_order: 6
-
       - title: "ML Engine"
         url: "/docs/pages/ml-engine"
         nav_order: 7
@@ -36,10 +35,9 @@ just_the_docs:
       - title: "　-　ROCm"
         url: "/docs/pages/ml-engine/rocm.md"
         nav_order: 9
-      - title: "　-　KleidiAI"
+      - title: "　-　Kleidi AI"
         url: "/docs/pages/ml-engine/kleidi.md"
         nav_order: 10
-
       - title: "Delegated Runtime"
         url: "/docs/pages/runtime"
         nav_order: 11
