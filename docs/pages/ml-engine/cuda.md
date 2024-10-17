@@ -14,3 +14,6 @@ sudo ubuntu-drivers install nvidia:535
 ```
 nvidia-smi
 ```
+```
+pip3 install torch torchvision torchaudio
+```
