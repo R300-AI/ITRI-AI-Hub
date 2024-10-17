@@ -51,7 +51,7 @@ udev rules: OK
 
 ## Flashing Pre-built Image to Board
 
-**Step 1.** Download compatible pre-built image from the table below.
+**Step 1.** Download compatible pre-built image from above table.
 
 | OS\ Device    | Genio350  | Genio510  | Genio700 | Genio1200 |
 |---------------|-----------|-----------|----------|-----------|
@@ -59,8 +59,11 @@ udev rules: OK
 | Ubuntu 22.04  |[[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio350/genio-classic-server-2204-x09-20231004-131.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio350/ubuntu-boot-firmware-genio-350-evk-v23.1.3.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio510/genio-classic-desktop-2204-20240322-185.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio510/ubuntu-boot-firmware-genio-510-evk-v23.2.1.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio700/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio700/ubuntu-boot-firmware-genio-700-evk-v23.1.3.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio1200/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio1200/ubuntu-boot-firmware-genio-1200-evk-v23.1.3.tar.gz) |
 
 
-
-**Step 2.** Connect the **Image Download** port of your board to the USB port of the Host according to board layout documents.[[350-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html), [[510/700-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g700-evk.html) and [[1200-EVK]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g1200-evk.html) 
+**Step 2.** Connect the **Image Download** port on Board to the USB port on Host.
+> We use Genio 510 as example to show where download port is. if you need check the configuration of others board, please check the documents below: 
+> *　[[350-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g350-evk.html)
+> * [[510/700-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g700-evk.html)
+> * [[1200-EVK layout]](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect/ports-g1200-evk.html) 
 
 <div align="center"><img src="../../assets/images/genio-flash/1.png" width="640"/></div>
 
