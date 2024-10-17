@@ -13,28 +13,23 @@ Arm KleidiAI is a specialized library designed to enhance the performance of AI 
 ### Step 1: Install CMake from Source Code
 To install CMake, execute the following commands:
 
-    ```
-    sudo apt-get install libssl-dev
-    cd && git clone https://github.com/Kitware/CMake.git
-    cd Cmake
-    ./bootstrap && make && sudo make install
-    ```
+```
+sudo apt-get install libssl-dev
+cd && git clone https://github.com/Kitware/CMake.git
+cd Cmake
+./bootstrap && make && sudo make install
+```
 
 ### Step 2: Build the Kleidi Library
 To build the Kleidi library on your system, execute the following commands:
 
-    ```
-    cd && git clone https://gitlab.arm.com/kleidi/kleidiai
-    cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
-    cmake --build ./build
-    ```
+```
+cd && git clone https://gitlab.arm.com/kleidi/kleidiai
+cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
+cmake --build ./build
+```
 
 ## Appendix
 
 * [Arm blog: KleidiAI Helping AI frameworks elevate their performance on Arm CPUs](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/kleidiai)
 * [KleidiAI Gitlab - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
-
-
-## Benchmarks
-
-* [MLPerf Inference Suite](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ml-perf/ml-perf/)
