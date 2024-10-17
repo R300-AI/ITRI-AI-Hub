@@ -16,4 +16,6 @@ nvidia-smi
 ```
 ```
 pip3 install torch torchvision torchaudio
+
+python3 -c "import torch; print(torch.cuda.is_available())"
 ```
