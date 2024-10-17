@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　Data Compiler"
-nav_order: 12
+nav_order: 21
 ---
 
 # Hailo Model Zoo
