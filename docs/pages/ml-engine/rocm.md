@@ -37,6 +37,8 @@ rocminfo
 **Step 5**: Enter this command to install Torch and Torchvision for ROCm AMD GPU support
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.1
+
+python3 -c "import torch; print(torch.cuda.is_available())"
 ```
 * **NOTE:** Latest PyTorch requires Python 3.8 or later.
 
