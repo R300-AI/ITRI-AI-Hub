@@ -1,7 +1,7 @@
 ---
 layout: default
 title: " - Setup Host Environment"
-nav_order: 3
+nav_order: 21
 ---
 
 # Setup Flash Environments for Server Host 

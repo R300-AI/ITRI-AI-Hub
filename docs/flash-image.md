@@ -1,7 +1,7 @@
 ---
 layout: default
 title: " - Flashing Image to Board"
-nav_order: 5
+nav_order: 22
 ---
 
 # Flash Image to Boards
