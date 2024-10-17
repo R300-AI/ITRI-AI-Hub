@@ -5,8 +5,13 @@ nav_order: 9
 ---
 
 # Deployment
+### Arm
+* [KleidiAI - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
+* [MLPerf Inference Suite](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ml-perf/ml-perf/)
+
+### AMD
 Vitis AI 
-Hailo data compiler==3.27
+* Hailo data compiler==3.27
 ```
 pip install tensorflow==1.12.0
 sudo apt-get install gcc python3-dev graphviz libgraphviz-dev pkg-config
