@@ -6,9 +6,6 @@ nav_order: 3
 
 # Getting Started with MediaTek Genios Evaluation Kit
 
-* [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
-* [Ubuntu on Genio Documents](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
-
 ### Prerequisites
 
 * To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS host system.
@@ -89,29 +86,39 @@ genio-flash
 
 <div align="center"><img src="../../assets/images/genio-flash/2.png" width="500"/></div>
 
-**Step 4.** Press and hold **Download** button and tap **RST** button on the board to start flashing.
+**Step 4.** Press and hold **Download** button and tap **RST** button on the board to make it into flash mode.
 
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
-> We recommand that you can install bellow extentions on board if you are using **Ubuntu**.
-> * Gnome Desktop and Virtual Environment
->   * Disable Screen lock and Activate Automatic Login (important for changing monitor)
->   * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
->   * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
-> * Gstreamer & NeuronPilot
->   ```
->   git clone https://github.com/R300-AI/ITRI-AI-Hub.git
->   
->   # Genio 350
->   bash ITRI-AI-Hub/tools/setup_genio350.sh
->   # Genio 510
->   bash ITRI-AI-Hub/tools/setup_genio510.sh
->   # Genio 700
->   bash ITRI-AI-Hub/tools/setup_genio700.sh
->   # Genio 1200
->   bash ITRI-AI-Hub/tools/setup_genio1200.sh
->   ```
->   ```
->   # Reboot and verify the installation
->   sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
->   ```
+## Install Board Support Packages (BSP)<sub>(Ubuntu only)
+
+Besides the native BSP that has been included with Yocto, we recommend that if you are using the Ubuntu operating system, please do the following steps to complete the setup of your development environment.
+
+> Gnome Desktop and Virtual Environment (important for changing monitor)
+> * Disable Screen lock and Activate Automatic Login 
+> * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
+> * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
+
+**Step 1.** Install Gstreamer and NeuronPilot library.
+```
+git clone https://github.com/R300-AI/ITRI-AI-Hub.git
+
+# Genio 350
+bash ITRI-AI-Hub/tools/setup_genio350.sh
+# Genio 510
+bash ITRI-AI-Hub/tools/setup_genio510.sh
+# Genio 700
+bash ITRI-AI-Hub/tools/setup_genio700.sh
+# Genio 1200
+bash ITRI-AI-Hub/tools/setup_genio1200.sh
+```
+**Step 2.** Reboot and verify the installation
+```
+sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
+```
+**Step 3.** Follow [THIS](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/ml-engine/kleidi.html) instruction to install Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
+
+### Appendix
+
+* [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
+* [Ubuntu on Genio Documents](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)

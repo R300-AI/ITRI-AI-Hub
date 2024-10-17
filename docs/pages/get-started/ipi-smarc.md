@@ -6,8 +6,6 @@ nav_order: 4
 
 # Getting Started with MediaTek Genios Evaluation Kit
 
-* [Introducing the I-Pi SMARC](https://www.ipi.wiki/pages/1200-docs?page=index.html)
-
 ### Prerequisites
 
 * To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS host system.
@@ -49,3 +47,29 @@ nav_order: 4
   fastboot: OK
   udev rules: OK
   ```
+
+## Flashing Pre-built Image to Board
+
+**Step 1.** Download compatible pre-built image from above table.
+| OS\ Device    | SMARC1200 |
+|---------------|-----------|
+| Yocto         | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/Adlink-SMARC/lec-mtk-i1200-ufs_3v4_22_07_24.tar.gz) |
+
+**Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
+
+```
+sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
+```
+
+**Step 3.**  Run following command and wait until the logs show up.
+
+```
+cd <IMAGE_PATH>/<IMAGE>
+aiot-flash
+```
+
+**Step 4.** Press **reset** key on the board to make it into flash mode.
+
+### Appendix
+
+* [Introducing the I-Pi SMARC](https://www.ipi.wiki/pages/1200-docs?page=index.html)
