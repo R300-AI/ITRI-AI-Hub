@@ -4,42 +4,35 @@ title: "　-　KleidiAI"
 nav_order: 10
 ---
 
-# Install AMD Radeon Driver on Ubuntu 22.04 LTS
-##### update time: 2024/10
+# Arm KleidiAI
 
-<div align="center"><img src="../../assets/images/rocm.png" width="640"/></div>
+Arm KleidiAI is a specialized library designed to enhance the performance of AI frameworks on Arm CPUs. It provides optimized micro-kernels that leverage the unique architecture of Arm processors, enabling more efficient execution of AI workloads. By integrating KleidiAI into your AI projects, you can achieve significant improvements in computational speed and resource utilization, making it an essential tool for developers working with AI on Arm-based systems.
 
-**Step 1**: Install AMD unified driver package repositories and installer script.
-```bash
-sudo apt update
-wget https://repo.radeon.com/amdgpu-install/6.2.3/ubuntu/jammy/amdgpu-install_6.2.60203-1_all.deb
-sudo apt install ./amdgpu-install_6.2.60203-1_all.deb
-```
+## Installation
 
-**Step 2**: Run the following command to install ROCm, add user to the render and reboot the system.
-```bash
-amdgpu-install -y --usecase=graphics,rocm
-sudo usermod -a -G render,video $LOGNAME
-sudo reboot
-```
+### Step 1: Install CMake from Source Code
+To install CMake, execute the following commands:
+    ```
+    sudo apt-get install libssl-dev
+    cd && git clone https://github.com/Kitware/CMake.git
+    cd Cmake
+    ./bootstrap && make && sudo make install
+    ```
 
-**Step 3**: Create a preference file to prioritize packages from the AMDGPU repository over system packages.
-```bash
-echo -e 'Package: *\nPin: release o=repo.radeon.com\nPin-Priority: 600' | sudo tee /etc/apt/preferences.d/rocm-pin-600
-sudo apt install amdgpu-dkms
-sudo reboot
-```
-**Step 4**: Check if the GPU is listed as an agent.
-```bash
-rocminfo
-```
+### Step 2: Build the Kleidi Library
+To build the Kleidi library on your system, execute the following commands:
+    ```
+    cd && git clone https://gitlab.arm.com/kleidi/kleidiai
+    cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
+    cmake --build ./build
+    ```
 
-**Step 5**: Enter this command to install Torch and Torchvision for ROCm AMD GPU support
-```
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.1
-```
-* **NOTE:** Latest PyTorch requires Python 3.8 or later.
+## Appendix
 
-### Appendix
-* [Use ROCm on Radeon GPUs](https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/native_linux/install-radeon.html)
-* [PyTorch -Get Started](https://pytorch.org/get-started/locally/)
+* [Arm blog: KleidiAI Helping AI frameworks elevate their performance on Arm CPUs](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/kleidiai)
+* [KleidiAI Gitlab - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
+
+
+## Benchmarks
+
+* [MLPerf Inference Suite](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ml-perf/ml-perf/)

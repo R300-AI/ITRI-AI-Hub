@@ -90,7 +90,7 @@ genio-flash
 
 <div align="center"><img src="../../assets/images/genio-flash/4.png" width="540"/></div>
 
-## Install Board Support Packages (BSP)<sub>(Ubuntu only)
+## Install Board Support Packages (BSP)<sub>(*Ubuntu only)
 
 Besides the native BSP that has been included with Yocto, we recommend that if you are using the Ubuntu operating system, please do the following steps to complete the setup of your development environment.
 
@@ -118,7 +118,7 @@ sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
 ```
 **Step 3.** Follow [THIS](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/ml-engine/kleidi.html) instruction to install Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
 
-### Appendix
+## Appendix
 
 * [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
 * [Ubuntu on Genio Documents](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)

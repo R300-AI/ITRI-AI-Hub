@@ -5,24 +5,7 @@ nav_order: 11
 ---
 
 # Deployment
-## Arm
-* [KleidiAI - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
-* [MLPerf Inference Suite](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ml-perf/ml-perf/)
 
-### Installation
-**Step1.** Install CMake from source code.
-```
-sudo apt-get install libssl-dev
-cd && git clone https://github.com/Kitware/CMake.git
-cd Cmake
-./bootstrap && make && sudo make install
-```
-**Step2.** Build Kleidi library for your system.
-```
-cd && git clone https://gitlab.arm.com/kleidi/kleidiai
-cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
-cmake --build ./build
-```
 
 ## Hailo 4.18
 

@@ -70,6 +70,6 @@ aiot-flash
 
 **Step 4.** Press **reset** key on the board to make it into flash mode.
 
-### Appendix
+## Appendix
 
 * [Introducing the I-Pi SMARC](https://www.ipi.wiki/pages/1200-docs?page=index.html)
