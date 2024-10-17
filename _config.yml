@@ -26,7 +26,6 @@ just_the_docs:
       - title: "　-　Jetson EVKs"
         url: "/docs/pages/get-started/jetson-evk.md"
         nav_order: 6
-        
       - title: "ML Engine"
         url: "/docs/pages/ml-engine.md"
         nav_order: 10
@@ -39,7 +38,6 @@ just_the_docs:
       - title: "　-　Kleidi AI"
         url: "/docs/pages/ml-engine/kleidi.md"
         nav_order: 13
-        
       - title: "Delegation"
         url: "/docs/pages/delegation.md"
         nav_order: 20
@@ -49,7 +47,6 @@ just_the_docs:
       - title: "　-　Vitis AI"
         url: "/docs/pages/delegationd/vitis-ai.md.md"
         nav_order: 22
-        
       - title: "Runtime Accelerator"
         url: "/docs/pages/runtime.md"
         nav_order: 30
@@ -65,7 +62,6 @@ just_the_docs:
       - title: "　-　TensorRT"
         url: "/docs/pages/runtime/tensorrt.md"
         nav_order: 34
-        
       - title: "Benchmarks"
         url: "/docs/pages/benchmark.md"
         nav_order: 40
