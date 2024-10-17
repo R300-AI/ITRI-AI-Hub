@@ -24,6 +24,9 @@ cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
 cmake --build ./build
 ```
 
+## Hailo 4.18
+
+
 ### AMD
 Vitis AI 
 * Hailo data compiler==3.27
