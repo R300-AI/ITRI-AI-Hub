@@ -42,7 +42,7 @@ just_the_docs:
         url: "/docs/pages/delegation.md"
         nav_order: 11
       - title: "　-　Data Compiler"
-        url: "/docs/pages/delegation.md"
+        url: "/docs/pages/delegationd/ata-compiler.md"
         nav_order: 12
       - title: "Runtime Accelerator"
         url: "/docs/pages/runtime.md"
