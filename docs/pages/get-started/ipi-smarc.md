@@ -4,7 +4,9 @@ title: "　-　I-Pi SMARCs"
 nav_order: 4
 ---
 
-# Getting Started with MediaTek Genios Evaluation Kit
+# I-Pi SMARC Setup Guide
+
+This document provides a comprehensive guide to setting up the I-Pi SMARC 1200 Board. Follow the steps below to ensure a successful installation and configuration.
 
 ### Prerequisites
 
@@ -19,16 +21,24 @@ nav_order: 4
 > * pip3 20.3 or later
 > * Git 1.8 or later
 
-  **Step 1.** Install the required packages.
+### Step 1: Install Required Packages
+Execute the following commands to install the necessary packages:
+
   ```
   $ sudo apt update && sudo apt upgrade -y
   $ sudo apt-get install gawk wget git diffstat unzip texinfo gcc build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint xterm python3-subunit mesa-common-dev
   ```
-  **Step 2.** Install Fastboot and setup the environments.
+
+### Step 2: Install Fastboot and Set Up the Environment
+Execute the following command to install Fastboot and set up the environment:
+
   ```
   $ sudo apt-get install android-tools-adb android-tools-fastboot
   ```
-  **Step 3.** Install USB Driver and setup the environments.
+
+### Step 3: Install USB Driver and Set Up the Environment
+Execute the following commands to install the USB driver and set up the environment:
+
   ```
   $ echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201c", MODE="0660", $ GROUP="plugdev"' | sudo tee -a /etc/udev/rules.d/96-rity.rules
   $ echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201c", MODE="0660", TAG+="uaccess" SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="0003", MODE="0660", TAG+="uaccess" SUBSYSTEM=="usb", ATTR{idVendor}=="0403", MODE="0660", TAG+="uaccess" SUBSYSTEM=="gpio", MODE="0660", TAG+="uaccess" ' | sudo tee /etc/udev/rules.d/72-aiot.rules
@@ -37,11 +47,16 @@ nav_order: 4
   $ sudo usermod -a -G plugdev $USER
   ```
 
-  **Step 4.** Install AIoT Tools and verify the installation.
+### Step 4: Install AIoT Tools and Verify the Installation
+Execute the following commands to install AIoT tools and verify the installation:
+
   ```
   $ pip3 install -U genio-tools
   $ sudo usermod -a -G dialout $USER
   ```
+
+Verify the installation:
+
   ```
   $ aiot-config
   fastboot: OK
@@ -50,25 +65,30 @@ nav_order: 4
 
 ## Flashing Pre-built Image to Board
 
-**Step 1.** Download compatible pre-built image from above table.
-| OS\ Device    | SMARC1200 |
-|---------------|-----------|
-| Yocto         | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/Adlink-SMARC/lec-mtk-i1200-ufs_3v4_22_07_24.tar.gz) |
+### Step 1: Download Compatible Pre-built Image
+Download the compatible pre-built image from the table below:
 
-**Step 2.** Unzip the image into `<IMAGE_PATH>` directory.
+  | OS\ Device    | SMARC1200 |
+  |---------------|-----------|
+  | Yocto         | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/Adlink-SMARC/lec-mtk-i1200-ufs_3v4_22_07_24.tar.gz) |
 
-```
-sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
-```
+### Step 2: Extract the Downloaded Image
+Extract the downloaded image using the following command:
 
-**Step 3.**  Run following command and wait until the logs show up.
+  ```
+  sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
+  ```
 
-```
-cd <IMAGE_PATH>/<IMAGE>
-aiot-flash
-```
+### Step 3: Flash the Image to the Board
+Navigate to the directory containing the extracted image files and execute the following command to flash the image:
 
-**Step 4.** Press **reset** key on the board to make it into flash mode.
+  ```
+  cd <IMAGE_PATH>/<IMAGE>
+  aiot-flash
+  ```
+
+### Step 4: Reboot the Board
+After the flashing process is complete, reboot the board by pressing the reset key.
 
 ## Appendix
 
