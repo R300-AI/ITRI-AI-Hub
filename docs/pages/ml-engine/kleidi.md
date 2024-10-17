@@ -10,17 +10,7 @@ Arm KleidiAI is a specialized library designed to enhance the performance of AI 
 
 ## Installation
 
-### Step 1: Install CMake from Source Code
-To install CMake, execute the following commands:
-
-```
-sudo apt-get install libssl-dev
-cd && git clone https://github.com/Kitware/CMake.git
-cd Cmake
-./bootstrap && make && sudo make install
-```
-
-### Step 2: Build the Kleidi Library
+### Step 1: Build the Kleidi Library
 To build the Kleidi library on your system, execute the following commands:
 
 ```
