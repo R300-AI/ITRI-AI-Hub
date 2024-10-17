@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　Case 1"
-nav_order: 18
+nav_order: 20
 ---
 
 # Creating a Fracture Pre-Diagnostics Solution for ASE's Reflow

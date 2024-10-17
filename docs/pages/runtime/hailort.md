@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　HailoRT"
-nav_order: 14
+nav_order: 16
 ---
 
 # x86

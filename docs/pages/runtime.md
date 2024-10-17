@@ -1,16 +1,7 @@
 ---
 layout: default
-title: "Delegated Runtime"
-nav_order: 11
+title: "Runtime Accelerator"
+nav_order: 13
 ---
 
-# Deployment
-
-
-## Hailo 4.18
-
-
-### AMD
-Vitis AI 
-
-
+# 
