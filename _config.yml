@@ -44,7 +44,6 @@ just_the_docs:
       - title: "　-　Data Compiler"
         url: "/docs/pages/delegation"
         nav_order: 12
-
       - title: "Runtime Accelerator"
         url: "/docs/pages/runtime"
         nav_order: 13
