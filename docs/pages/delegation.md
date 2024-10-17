@@ -5,9 +5,24 @@ nav_order: 9
 ---
 
 # Deployment
-### Arm
+## Arm
 * [KleidiAI - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
 * [MLPerf Inference Suite](https://learn.arm.com/learning-paths/servers-and-cloud-computing/ml-perf/ml-perf/)
+
+### Installation
+**Step1.** Install CMake from source code.
+```
+sudo apt-get install libssl-dev
+cd && git clone https://github.com/Kitware/CMake.git
+cd Cmake
+./bootstrap && make && sudo make install
+```
+**Step2.** Build Kleidi library for your system.
+```
+cd && git clone https://gitlab.arm.com/kleidi/kleidiai
+cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
+cmake --build ./build
+```
 
 ### AMD
 Vitis AI 
@@ -28,14 +43,4 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 ```
 
 
-Kleidi AI
-```
-sudo apt-get install libssl-dev
-git clone https://github.com/Kitware/CMake.git
-cd Cmake
-./bootstrap && make && sudo make install
 
-git clone https://gitlab.arm.com/kleidi/kleidiai
-cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
-cmake --build ./build
-```
