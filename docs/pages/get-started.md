@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Quick Start
+title: Get Started
 nav_order: 2
 ---
 
-# Quick Start
+# Get Started
 
 <br>For using ITRI AI Hub,...
 
@@ -35,7 +35,7 @@ nav_order: 2
 ### MediaTek Genio Series
 
 <div style="margin-left: 20px;">
-<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting <strong>Ubuntu</strong> and <strong>Yocto</strong> operating systems.</p>
+<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting <strong>Ubuntu 22.04</strong> and <strong>Yocto</strong> operating systems.</p>
 </div>
 
 |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |

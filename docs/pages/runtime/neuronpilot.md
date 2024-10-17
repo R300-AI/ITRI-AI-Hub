@@ -1,6 +1,6 @@
 ---
 layout: default
-title: " - ArmNN"
+title: "　-　NeuronPilot"
 nav_order: 12
 ---
 

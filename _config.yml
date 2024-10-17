@@ -11,45 +11,56 @@ just_the_docs:
       url: "/"
       nav_order: 1
       children:
-      - title: "Quick Start"
-        url: "/docs/pages/quick-start"
+      - title: "Get Started"
+        url: "/docs/pages/get-started"
         nav_order: 2
-      - title: " - Setup Host Environment"
-        url: "/docs/pages/quick-start/setup-environment"
+      - title: "　-　Genio EVKs"
+        url: "/docs/pages/get-started/genio-evk.md"
         nav_order: 3
-      - title: " - Download Image"
-        url: "/docs/pages/quick-start/download-prebuilt-image"
+      - title: "　-　I-Pi SMARCs"
+        url: "/docs/pages/get-started/ipi-smarc.md"
         nav_order: 4
-      - title: " - Flashing Image to Board"
-        url: "/docs/pages/quick-start/flash-image"
+      - title: "　-　RaspberryPis"
+        url: "/docs/pages/get-started/raspberrypi.md"
         nav_order: 5
-      - title: "ML Engine"
-        url: "/docs/pages/engine"
+      - title: "　-　Jetson EVKs"
+        url: "/docs/pages/get-started/jetson-evk.md"
         nav_order: 6
-      - title: " - CUDA"
-        url: "/docs/pages/engine/engine1/"
+
+      - title: "ML Engine"
+        url: "/docs/pages/ml-engine"
         nav_order: 7
-      - title: " - ROCm"
-        url: "/docs/pages/engine/engine2/"
+      - title: "　-　CUDA"
+        url: "/docs/pages/ml-engine/cuda.md"
         nav_order: 8
-      - title: "Model Delegation"
-        url: "/docs/pages/delegation"
+      - title: "　-　ROCm"
+        url: "/docs/pages/ml-engine/rocm.md"
         nav_order: 9
-      - title: " - TensorRT"
-        url: "/docs/pages/delegation/delegation1/"
+      - title: "　-　KleidiAI"
+        url: "/docs/pages/ml-engine/kleidi.md"
         nav_order: 10
-      - title: " - NeuronPilot"
-        url: "/docs/pages/delegation/delegation2/"
+
+      - title: "Delegated Runtime"
+        url: "/docs/pages/runtime"
         nav_order: 11
-      - title: " - ArmNN"
-        url: "/docs/pages/delegation/delegation3/"
+      - title: "　-　NeuronPilot"
+        url: "/docs/pages/runtime/neuronpilot.md"
         nav_order: 12
+      - title: "　-　ArmNN"
+        url: "/docs/pages/runtime/armnn.md"
+        nav_order: 13
+      - title: "　-　HailoRT"
+        url: "/docs/pages/runtime/hailort.md"
+        nav_order: 14
+      - title: "　-　TensorRT"
+        url: "/docs/pages/runtime/tensorrt.md"
+        nav_order: 15
+      - title: "Benchmarks"
+        url: "/docs/pages/benchmark"
+        nav_order: 16
       - title: "Use Case"
         url: "/docs/pages/usecase"
-        nav_order: 13
-      - title: " - Case 1"
+        nav_order: 17
+      - title: "　-　Case 1"
         url: "/docs/pages/usecase/usecase1/"
-        nav_order: 14
-      - title: " - Case 2"
-        url: "/docs/pages/usecase/usecase2/"
-        nav_order: 15
+        nav_order: 18

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Model Delegation"
-nav_order: 9
+title: "Delegated Runtime"
+nav_order: 11
 ---
 
 # Deployment
