@@ -33,5 +33,5 @@ This statement does not undermine the necessity of cloud computing; however, it 
 </div><br>
 
 <div align="center"><img src="./assets/images/metric.png" width="900"/></div>
-
+<br>
 <div align="right"><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/get-started.html"> >> Next: Get Started</a></div>
