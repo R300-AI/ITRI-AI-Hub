@@ -42,7 +42,7 @@ sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
 sudo dpkg --install hailort_4.17.0_arm64.deb
 ```
 
-### **Step 2. Install PCIe driver and CLI**
+### **Step 2. Install PyHailoRT**
 Download PyHailoRT APIs and install it by following commands.<br>
 [PyHailoRT](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort-4.17.0-cp38-cp38-linux_aarch64.whl)
 
