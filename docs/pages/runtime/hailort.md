@@ -9,7 +9,14 @@ https://hailo.ai/developer-zone/documentation/hailort-v4-18-0/?sp_referrer=drive
 * GCC 12
 ```
 sudo apt install gcc-12
-sudo rm /usr/bin/gcc && sudo ln -s /usr/bingcc-12 /usr/bin/gcc
+sudo rm /usr/bin/gcc 
+sudo ln -s /usr/bingcc-12 /usr/bin/gcc
+```
+* GCC 11.4
+```
+sudo apt install gcc
+sudo rm /usr/bin/gcc
+sudo ln -s /usr/bin/gcc-11 /usr/bin/gcc
 ```
 ```
 gcc --version
