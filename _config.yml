@@ -47,6 +47,9 @@ just_the_docs:
       - title: "　-　Vitis AI"
         url: "/docs/pages/delegationd/vitis-ai.md.md"
         nav_order: 22
+      - title: "　-　Open VINO"
+        url: "/docs/pages/delegationd/openvino.md"
+        nav_order: 21
       - title: "Runtime Accelerator"
         url: "/docs/pages/runtime.md"
         nav_order: 30
