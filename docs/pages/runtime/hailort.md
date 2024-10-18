@@ -31,15 +31,27 @@ cd hailort-drivers/linux/pcie
 make all
 ```
 
-# HailoRT 4.17.0
-### arm64
+# Install HailoRT 4.17.0 for ARM64 System
+
+### **Step 1. Install PCIe driver and CLI**
+Download Linux Packages and install it by following commands.<br>
+[Download PCIe Driver](), [Download CLI]()
+
+```
+sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
+sudo dpkg --install hailort_4.17.0_arm64.deb
+```
+
+### **Step 2. Install PCIe driver and CLI**
+Download PyHailoRT APIs and install it by following commands.<br>
+[PyHailoRT]()
+
 ```
 conda create --name hailort python=3.8 && source activate hailort
-
-sudo apt install hailo-all
-sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
-sudo dpkg --install hailort_4.17.0_arm64.deb -y
 pip install hailort-4.17.0-cp38-cp38-linux_aarch64.whl
+```
 
+* Step2
+```
 ```
 
