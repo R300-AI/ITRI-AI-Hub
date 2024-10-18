@@ -8,7 +8,7 @@ nav_order: 1
 
 <p>
 <div style="margin-left: 20px;">
-The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal computing resources on this platform for implementing various sophisticated applications. 
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal computing units on this platform for implementing various sophisticated applications.
 </div>
 </p>
 
