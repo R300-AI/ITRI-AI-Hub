@@ -24,7 +24,7 @@ This document provides a comprehensive guide to setting up the I-Pi SMARC 1200 B
 ### Step 1: Install Required Packages
 Execute the following commands to install the necessary packages:
 
-```
+```bash
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt-get install gawk wget git diffstat unzip texinfo gcc build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint xterm python3-subunit mesa-common-dev
 ```
@@ -32,14 +32,14 @@ $ sudo apt-get install gawk wget git diffstat unzip texinfo gcc build-essential 
 ### Step 2: Install Fastboot and Set Up the Environment
 Execute the following command to install Fastboot and set up the environment:
 
-```
+```bash
 $ sudo apt-get install android-tools-adb android-tools-fastboot
 ```
 
 ### Step 3: Install USB Driver and Set Up the Environment
 Execute the following commands to install the USB driver and set up the environment:
 
-```
+```bash
 $ echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201c", MODE="0660", $ GROUP="plugdev"' | sudo tee -a /etc/udev/rules.d/96-rity.rules
 $ echo -n 'SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="201c", MODE="0660", TAG+="uaccess" SUBSYSTEM=="usb", ATTR{idVendor}=="0e8d", ATTR{idProduct}=="0003", MODE="0660", TAG+="uaccess" SUBSYSTEM=="usb", ATTR{idVendor}=="0403", MODE="0660", TAG+="uaccess" SUBSYSTEM=="gpio", MODE="0660", TAG+="uaccess" ' | sudo tee /etc/udev/rules.d/72-aiot.rules
 $ sudo udevadm control --reload-rules
@@ -50,14 +50,14 @@ $ sudo usermod -a -G plugdev $USER
 ### Step 4: Install AIoT Tools and Verify the Installation
 Execute the following commands to install AIoT tools and verify the installation:
 
-```
+```bash
 $ pip3 install -U genio-tools
 $ sudo usermod -a -G dialout $USER
 ```
 
 Verify the installation:
 
-```
+```bash
 $ aiot-config
 fastboot: OK
 udev rules: OK
@@ -75,16 +75,16 @@ Download the compatible pre-built image from the table below:
 ### Step 2: Extract the Downloaded Image
 Extract the downloaded image using the following command:
 
-```
-sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
+```bash
+$ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 ```
 
 ### Step 3: Flash the Image to the Board
 Navigate to the directory containing the extracted image files and execute the following command to flash the image:
 
-```
-cd <IMAGE_PATH>/<IMAGE>
-aiot-flash
+```bash
+$ cd <IMAGE_PATH>/<IMAGE>
+$ aiot-flash
 ```
 
 ### Step 4: Reboot the Board
