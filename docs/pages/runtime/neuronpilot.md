@@ -4,9 +4,9 @@ title: "　-　NeuronPilot"
 nav_order: 31
 ---
 
-# NeuronPilot
+# Install NeuronPilot for Genios-Ubuntu
 
-### Step 2: Install Gstreamer and NeuronPilot Library
+### Step 1: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
 
 ```
@@ -22,7 +22,7 @@ bash ITRI-AI-Hub/tools/setup_genio700.sh
 bash ITRI-AI-Hub/tools/setup_genio1200.sh
 ```
 
-### Step 3: Reboot and Verify the Installation
+### Step 2: Reboot and Verify the Installation
 Reboot your system and verify the installation by running the following command:
 
 ```
