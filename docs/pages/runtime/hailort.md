@@ -32,7 +32,7 @@ make all
 ```
 
 # HailoRT 4.17.0
-
+### arm64
 ```
 conda create --name hailort python=3.8 && source activate hailort
 
