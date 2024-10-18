@@ -20,11 +20,11 @@ The ITRI AI Hub provides a comprehensive AI infrastructure solution to help ente
 
 ## **Designed for AI Applications Everywhere**
 
-<div align="center"><img src="./assets/images/framework.png" width="640"/></div>
-
 <div style="margin-left: 20px;">
-<br>As shown in the figure above, this service encompasses computer vision, speech, voice, time series, and various other customized functions. In computer vision, it provides image classification, object detection, optical character recognition (OCR), keypoint detection, and other functions. Language functions include text categorization and comprehension, keyword extraction, entity extraction, and question answering. The voice function provides voice-to-text conversion, avatars, and translation. Time series functions include anomaly detection, trend analysis, control and clustering. Additionally, we pre-assess the feasibility of embedding some of these functions into edge devices by integrating a variety of formal start-up deployment options. From our reports, organizations can gain quick insights into how these options can be applied to their system, bringing private data closer to the client's host.
+<br>As shown in the figure below, this service encompasses computer vision, speech, voice, time series, and various other customized functions. In computer vision, it provides image classification, object detection, optical character recognition (OCR), keypoint detection, and other functions. Language functions include text categorization and comprehension, keyword extraction, entity extraction, and question answering. The voice function provides voice-to-text conversion, avatars, and translation. Time series functions include anomaly detection, trend analysis, control and clustering. Additionally, we pre-assess the feasibility of embedding some of these functions into edge devices by integrating a variety of formal start-up deployment options. From our reports, organizations can gain quick insights into how these options can be applied to their system, bringing private data closer to the client's host.
 </div>
+
+<div align="center"><img src="./assets/images/framework.png" width="640"/></div>
 
 ### **What Can We Do?**
 
