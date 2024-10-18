@@ -31,4 +31,21 @@ hailo -h
 hailo tutorial
 ```
 
+# 4.17
+```
+conda create --name hailo python=3.8 && source activate hailo
+```
+```
+sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
+sudo dpkg --install hailort_4.17.0_arm64.deb -y
+pip install hailort-4.17.0-cp38-cp38-linux_aarch64.whl
+```
+```
+pip install hailort-4.17.0-cp38-cp38-linux_aarch64.whl
+```
+```
+hailo h
+hailo tutorial
+```
+
 
