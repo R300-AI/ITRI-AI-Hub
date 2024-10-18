@@ -11,7 +11,10 @@ conda create --name hailo python==3.8 && source activate hailo
 sudo dpkg --install hailort-pcie-driver_4.18.0_all.deb hailort_4.18.0_arm64.deb
 pip install hailort-4.18.0-cp38-cp38-linux_aarch64.whl
 ```
-
+```
+hailo -h
+hailo tutorial
+```
 
 # None
 conda install -c conda-forge lap
