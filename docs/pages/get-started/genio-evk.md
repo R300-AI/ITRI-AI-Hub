@@ -77,22 +77,22 @@ Connect the Genio EVK to your host using a USB cable based on board layout confi
 Extract the downloaded image using the following command:
 
 ```
-sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
+$ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 
 # If you are using Ubuntu, please run following command
-sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
+$ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
 ### Step 4: Flash the Image to the Board
 Navigate to the directory containing the extracted image files and execute the following command to flash the image:
 
 ```
-cd <IMAGE_PATH>/<IMAGE>
+$ cd <IMAGE_PATH>/<IMAGE>
 
 # for Yocto Image
-genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
+$ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
 # for Ubuntu Image
-genio-flash
+$ genio-flash
 ```
 
 <div align="center"><img src="../../assets/images/genio-flash/2.png" width="500"/></div>
@@ -115,9 +115,9 @@ Besides the native BSP that has been included with Yocto, we recommend that if y
 To install CMake, execute the following commands:
 
 ```
-sudo apt-get install libssl-dev
-git clone https://github.com/Kitware/CMake.git && cd Cmake
-./bootstrap && make && sudo make install
+$ sudo apt-get install libssl-dev
+$ git clone https://github.com/Kitware/CMake.git && cd Cmake
+$ ./bootstrap && make && sudo make install
 ```
 
 ### Step 2: Install NeuronPilot Library
