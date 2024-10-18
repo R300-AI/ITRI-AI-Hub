@@ -16,4 +16,3 @@ sudo apt install gstreamer1.0-plugins-base
 sudo apt install gstreamer1.0-plugins-good
 sudo apt install gstreamer1.0-plugins-bad
 sudo rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
-rm ~/.cache/gstreamer-1.0/registry.aarch64.bin
