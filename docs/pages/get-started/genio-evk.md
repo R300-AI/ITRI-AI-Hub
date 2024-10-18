@@ -5,7 +5,7 @@ nav_order: 3
 ---
 
 # Genio EVK Setup Guide
-##### update : 2024/10 by Markov Chen
+##### update : 2024/10 by Markov Chen<br>
 
 This document provides a comprehensive guide to setting up the Genio EVK (Evaluation Kit). Follow the steps below to ensure a successful installation and configuration.
 
