@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<br>Before selecting the architecture for your application and system, we recommend that you can start with a rough search of possible platforms from the [Home](https://r300-ai.github.io/ITRI-AI-Hub/) page.
+<br>Before selecting the architecture for your application and system, we recommend that you can start with a rough search of possible platforms from the [Home](https://r300-ai.github.io/ITRI-AI-Hub/) page. Then, you can conduct a detailed conceptual review of these systems.
 
 <div style="margin-left: 20px;">
 <br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
