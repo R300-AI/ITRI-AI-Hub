@@ -5,6 +5,7 @@ nav_order: 31
 ---
 
 # Install NeuronPilot for Genios-Ubuntu
+##### update : 2024/10 by Markov Chen
 
 ### Step 1: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
