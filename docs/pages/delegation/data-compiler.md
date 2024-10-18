@@ -39,10 +39,10 @@ conda create --name hailo python=3.8 && source activate hailo
 ```
 sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
 sudo dpkg --install hailort_4.17.0_amd64.deb -y
-pip install hailort-4.17.0-cp38-cp38-linux_x86_64
+pip install hailort-4.17.0-cp38-cp38-linux_x86_64.whl
 ```
 ```
-pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64
+pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
 ```
 hailo h
