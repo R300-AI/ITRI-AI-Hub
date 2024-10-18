@@ -34,9 +34,11 @@ make all
 # HailoRT 4.17.0
 
 ```
+conda create --name hailort python=3.8 && source activate hailort
+
 sudo apt install hailo-all
 sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
-sudo dpkg --install hailort_4.17.0_arm64.deb
+sudo dpkg --install hailort_4.17.0_arm64.deb -y
 pip install hailort-4.17.0-cp38-cp38-linux_aarch64.whl
 
 ```
