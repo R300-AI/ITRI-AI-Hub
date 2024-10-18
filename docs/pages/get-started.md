@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<br>Before you select the ideal hardware solution for your application, we recommend that you conduct an initial search for a rough profile from [Home](https://r300-ai.github.io/ITRI-AI-Hub/).
+<br>Before you select the ideal hardware solution for your application, we recommend that you conduct an initial search for a rough profile from [Home](https://r300-ai.github.io/ITRI-AI-Hub/) page.
 
 <div style="margin-left: 20px;">
 <br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
