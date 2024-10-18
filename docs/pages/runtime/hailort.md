@@ -35,7 +35,7 @@ make all
 
 ### **Step 1. Install PCIe driver and CLI**
 Download Linux Packages and install it by following commands.<br>
-[Download PCIe Driver](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort-pcie-driver_4.17.0_all.deb), [Download CLI](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort_4.17.0_arm64.deb)
+[[Download PCIe Driver]](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort-pcie-driver_4.17.0_all.deb), [[Download CLI]](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort_4.17.0_arm64.deb)
 
 ```
 sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
@@ -44,7 +44,7 @@ sudo dpkg --install hailort_4.17.0_arm64.deb
 
 ### **Step 2. Install PyHailoRT**
 Download PyHailoRT APIs and install it by following commands.<br>
-[PyHailoRT](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort-4.17.0-cp38-cp38-linux_aarch64.whl)
+[[PyHailoRT]](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailort-4.17.0-cp38-cp38-linux_aarch64.whl)
 
 ```
 conda create --name hailort python=3.8 && source activate hailort
@@ -54,7 +54,7 @@ pip install hailort-4.17.0-cp38-cp38-linux_aarch64.whl
 ### **Step 3. Verify the Installation**
 
 Download and unzip the sample code to run this demonstration.<br>
-[Hailo-Sample-Code](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/Hailo-Sample-Code.zip)
+[[Hailo-Sample-Code]](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/Hailo-Sample-Code.zip)
 
 ```
 cd Hailo-Sample-Code
