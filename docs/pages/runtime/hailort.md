@@ -32,6 +32,7 @@ make all
 ```
 
 # Install HailoRT 4.17.0 for ARM64 System
+##### update : 2024/10 by Markov Chen
 
 ### **Step 1. Install PCIe driver and CLI**
 Download Linux Packages and install it by following commands.<br>
