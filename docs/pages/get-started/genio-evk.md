@@ -121,29 +121,10 @@ git clone https://github.com/Kitware/CMake.git && cd Cmake
 ```
 
 ### Step 2: Install Gstreamer and NeuronPilot Library
-Clone the repository and run the setup script for your specific Genio device:
+Follow the [NeuronPilot Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronpilot.html) to install the NeuronPilot for Genios-Ubuntu systems to access the VPUs and MTK-DLA.
 
-```
-git clone https://github.com/R300-AI/ITRI-AI-Hub.git
 
-# Genio 350
-bash ITRI-AI-Hub/tools/setup_genio350.sh
-# Genio 510
-bash ITRI-AI-Hub/tools/setup_genio510.sh
-# Genio 700
-bash ITRI-AI-Hub/tools/setup_genio700.sh
-# Genio 1200
-bash ITRI-AI-Hub/tools/setup_genio1200.sh
-```
-
-### Step 3: Reboot and Verify the Installation
-Reboot your system and verify the installation by running the following command:
-
-```
-sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
-```
-
-### Step 4: Install Kleidi Kernel
+### Step 3: Install Kleidi Kernel
 Follow the [Kleidi Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/ml-engine/kleidi.html) to install the Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
 
 ## Appendix
