@@ -5,7 +5,7 @@ nav_order: 13
 ---
 
 # Arm KleidiAI
-##### update : 2024/10 by Markov Chen
+##### update : 2024/10 by Markov Chen<br>
 
 Arm KleidiAI is a specialized library designed to enhance the performance of AI frameworks on Arm CPUs. It provides optimized micro-kernels that leverage the unique architecture of Arm processors, enabling more efficient execution of AI workloads. By integrating KleidiAI into your AI projects, you can achieve significant improvements in computational speed and resource utilization, making it an essential tool for developers working with AI on Arm-based systems.
 
