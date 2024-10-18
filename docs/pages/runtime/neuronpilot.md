@@ -4,7 +4,8 @@ title: "　-　NeuronPilot"
 nav_order: 31
 ---
 
-# 
+# NeuronPilot
+
 ### Step 2: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
 
