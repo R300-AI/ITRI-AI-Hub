@@ -120,7 +120,7 @@ git clone https://github.com/Kitware/CMake.git && cd Cmake
 ./bootstrap && make && sudo make install
 ```
 
-### Step 2: Install Gstreamer and NeuronPilot Library
+### Step 2: Install NeuronPilot Library
 Follow the [NeuronPilot Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronpilot.html) to install the NeuronPilot for Genios-Ubuntu systems to access the VPUs and MTK-DLA.
 
 
