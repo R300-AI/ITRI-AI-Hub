@@ -5,6 +5,7 @@ nav_order: 4
 ---
 
 # I-Pi SMARC Setup Guide
+##### update : 2024/10 by Markov Chen
 
 This document provides a comprehensive guide to setting up the I-Pi SMARC 1200 Board. Follow the steps below to ensure a successful installation and configuration.
 
