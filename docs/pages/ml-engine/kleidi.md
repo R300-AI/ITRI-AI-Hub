@@ -14,7 +14,7 @@ Arm KleidiAI is a specialized library designed to enhance the performance of AI 
 To build the Kleidi library on your system, execute the following commands:
 
 ```
-cd && git clone https://gitlab.arm.com/kleidi/kleidiai
+cd && git clone https://gitlab.arm.com/kleidi/kleidiai && cd kleidiai
 cmake -DCMAKE_BUILD_TYPE=Release -S . -B build/
 cmake --build ./build
 ```
