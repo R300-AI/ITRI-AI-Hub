@@ -6,7 +6,15 @@ nav_order: 33
 
 # PCIe Driver==4.18.0
 https://hailo.ai/developer-zone/documentation/hailort-v4-18-0/?sp_referrer=drivers%2Fpcie_linux.html
-
+* GCC 12
+```
+sudo apt install gcc-12
+sudo rm /usr/bin/gcc && sudo ln -s /usr/bingcc-12 /usr/bin/gcc
+```
+```
+gcc --version
+```
+* driver
 ```
 conda create --name hailort python=3.8 && source activate hailort
 git clone https://github.com/hailo-ai/hailort-drivers --branch v4.18.0
