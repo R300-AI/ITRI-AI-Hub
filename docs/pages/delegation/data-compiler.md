@@ -35,6 +35,7 @@ hailo tutorial
 ```
 conda create --name hailo python=3.8 && source activate hailo
 ```
+### x86
 ```
 sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
 sudo dpkg --install hailort_4.17.0_arm64.deb -y
