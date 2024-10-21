@@ -10,7 +10,7 @@ nav_order: 2
 
 * **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the chip because the internal structure of the model is still dynamic at this stage, so it requires invoking a large graphics processor with higher versatility.
 
-* **Compiler**: After the model has been developed and the structure has been fixed, the compiler will be used to convert the computational flow into binary instructions for specific accelerators.
+* **Compiler**: After the model has been developed and the structure has been fixed, the compiler will be used to convert the computational flow into binary instructions for specific accelerator.
 
 ## **Platform Overview**
 
