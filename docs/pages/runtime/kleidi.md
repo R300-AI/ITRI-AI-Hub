@@ -4,7 +4,7 @@ title: "　-　KleidiAI"
 nav_order: 31
 ---
 
-# Arm KleidiAIx
+# Arm Kleidi AI
 ##### update : 2024/10 by Markov Chen
 <br>
 
