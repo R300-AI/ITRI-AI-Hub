@@ -36,7 +36,7 @@ Below is a list of currently supported options:
 ### MediaTek Genio Series
 
 <div style="margin-left: 20px;">
-<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting <strong>Ubuntu 22.04</strong> and <strong>Yocto</strong> operating systems.</p>
+<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series all supporting <strong>Ubuntu 22.04</strong> operating systems.</p>
 </div>
 
 |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
@@ -47,6 +47,10 @@ Below is a list of currently supported options:
 | **GPU**      | Mali-G52     | Mali-G57      | Mali-G57      | Mali-G57       |
 | **Power**    | 3~5W         | 5~10W         | 7~15W         | 10~20W         |
 | **Memory**   | 2GB/4GB LPDDR4 | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
+
+<div style="margin-left: 20px;">
+<p>The Genio 1200 is also available as a lighter board (ADLINK I-Pi SMARCs 1200) with the Yocto operating system.
+</div>
 
 ### ARM Raspberry Pi Series
 
