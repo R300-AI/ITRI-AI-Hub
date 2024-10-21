@@ -6,6 +6,9 @@ nav_order: 31
 
 # Install NeuronPilot for Genios-Ubuntu
 ##### update : 2024/10 by Markov Chen
+<br>
+
+NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for applications such as autonomous driving and industrial automation. NeuronPilot supports deep learning frameworks such as TensorFlow, PyTorch, and ONNX, and is specifically optimised for Neuron hardware to deliver the best performance and efficiency. NeuronPilot provides easy-to-use APIs and tools that enable developers to quickly deploy models to Neuron hardware for efficient inference and data processing.
 
 ### Step 1: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
