@@ -8,7 +8,7 @@ nav_order: 2
 
 <br>Before selecting an accelerated platform for your application and system architecture, we recommend that you find a candidate embedded platform at [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and further review its market position and product specifications. The AI Hub also provides the latest tools for the entire development lifecycle, including **workstations, compilers**, and **accelerators**.
 
-* **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the *Deep Learning Accelerator (DLA)* because the internal structure of the model is still dynamic at this stage, so it requires invoking a large graphics processor with higher versatility.
+* **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the _Deep Learning Accelerator (DLA)_ because the internal structure of the model is still dynamic at this stage, so it requires invoking a large graphics processor with higher versatility.
 
 * **Compiler**: After the model has been developed and its structure fixed, the compiler is used to convert its computational flow into binary instructions for specific accelerators, which is usually done on a host isolated from the DLA.
   
