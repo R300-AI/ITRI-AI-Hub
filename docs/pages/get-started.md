@@ -59,7 +59,7 @@ Below is a list of currently supported options:
 </div>
 
 |  Devices   | Gen-3        | Gen-4        | Gen-5         |
-|:----------:|:-----------:|:-----------:|:------------:|
+|:----------:|:------------:|:------------:|:-------------:|
 | **Chipsets**     | BCM2837      | BCM2711      | BCM2712       |
 | **Architecture** | arm64        | arm64        | arm64         |
 | **CPU**          | Cortex-A53   | Cortex-A72   | Cortex-A76    |
