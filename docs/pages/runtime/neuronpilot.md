@@ -4,7 +4,7 @@ title: "　-　NeuronPilot"
 nav_order: 31
 ---
 
-# Install NeuronPilot for Genios-Ubuntu
+# Install NeuronPilot for Genio Boards
 ##### update : 2024/10 by Markov Chen
 <br>
 
