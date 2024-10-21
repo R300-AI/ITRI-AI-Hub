@@ -20,8 +20,8 @@ nav_order: 2
 
 ## **Workstation**
 
-### Intel Core Series
-### AMD Ryzen Series
+### AMD Radeon Series
+### NVIDIA GeForce Series
 
 
 ## **Embedded**
