@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<br>Before selecting the architecture for your application and system, we recommend that you can start with a rough search of possible platforms from the [Home](https://r300-ai.github.io/ITRI-AI-Hub/) page. Then, you can conduct a detailed conceptual review of these systems.
+<br>Before selecting the architecture for your application and system, we recommend that you can start with a rough search of possible embedded platforms from the [Home](https://r300-ai.github.io/ITRI-AI-Hub/) page. Then, you can conduct a detailed conceptual review of these systems.
 
 <div style="margin-left: 20px;">
 <br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
@@ -16,15 +16,7 @@ nav_order: 2
 2. Choice SW 
 3. Benchmakring
 
-# Platform Overview
-
-## **Workstation**
-
-### AMD Radeon Series
-### NVIDIA GeForce Series
-
-
-## **Embedded**
+## **Platform Overview**
 
 ### NVIDIA Jetson Series
 
