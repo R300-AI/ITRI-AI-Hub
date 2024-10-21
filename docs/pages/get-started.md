@@ -22,7 +22,6 @@ nav_order: 2
 
 ### Intel Core Series
 ### AMD Ryzen Series
-### NVIDIA Jetson Series
 
 
 ## **Embedded**
