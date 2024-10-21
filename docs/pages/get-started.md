@@ -11,6 +11,8 @@ nav_order: 2
 * **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the *Deep Learning Accelerator (DLA)* because the internal structure of the model is still dynamic at this stage, so it requires invoking a large graphics processor with higher versatility.
 
 * **Compiler**: After the model has been developed and its structure fixed, the compiler is used to convert its computational flow into binary instructions for specific accelerators, which is usually done on a host isolated from the DLA.
+
+* **Runtime APIs**: These allow the developer to delegate the model to accelerators which are dedicated to a specific computation via the compiled binary instructions, thus reducing the execution time of the application and improving the overall performance.
   
 ## **Platform Overview**
 
