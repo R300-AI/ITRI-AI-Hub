@@ -5,7 +5,8 @@ nav_order: 12
 ---
 
 # Install AMD Radeon Driver on Ubuntu 22.04 LTS
-##### update : 2024/10 by Markov Chen<br>
+##### update : 2024/10 by Markov Chen
+<br>
 
 <div align="center"><img src="../../assets/images/rocm.png" width="640"/></div>
 

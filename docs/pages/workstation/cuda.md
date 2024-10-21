@@ -5,6 +5,10 @@ nav_order: 11
 ---
 
 # Install NVIDIA Driver on Ubuntu 22.04 LTS
+##### update : 2024/10 by Markov Chen
+<br>
+
+<div align="center"><img src="../../assets/images/cuda.png" width="720"/></div>
 
 ### Step 1: Update and upgrade your system
 Run the following commands to update and upgrade your system:
