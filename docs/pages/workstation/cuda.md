@@ -4,18 +4,40 @@ title: "　-　CUDA"
 nav_order: 11
 ---
 
-# 
-```
-sudo apt update
-sudo apt upgrade
+# Install NVIDIA Driver on Ubuntu 22.04 LTS
 
-sudo ubuntu-drivers install nvidia:535
-```
-```
-nvidia-smi
-```
-```
-pip3 install torch torchvision torchaudio
+### Step 1: Update and upgrade your system
+Run the following commands to update and upgrade your system:
 
-python3 -c "import torch; print(torch.cuda.is_available())"
+```bash
+$ sudo apt update
+$ sudo apt upgrade
 ```
+
+### Step 2: Install NVIDIA driver
+Run the following command to install the NVIDIA driver:
+
+```bash
+$ sudo ubuntu-drivers install nvidia:535
+```
+
+### Step 3: Verify the NVIDIA driver installation
+Verify the installation by running the following command:
+
+```bash
+$ nvidia-smi
+```
+
+### Step 4: Install PyTorch with CUDA support
+Run the following command to install PyTorch with CUDA support:
+
+```bash
+$ pip3 install torch torchvision torchaudio
+
+$ python3 -c "import torch; print(torch.cuda.is_available())"
+```
+
+### Appendix
+* [NVIDIA drivers installation](https://ubuntu.com/server/docs/nvidia-drivers-installation)
+
+
