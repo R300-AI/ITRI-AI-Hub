@@ -6,7 +6,10 @@ nav_order: 2
 
 # Get Started
 
-<br>Before choosing an architecture for your applications and systems, we recommend that you can begin with a rough search of possible embedded platforms from [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and then review them in further detail on this page.
+<br>Before selecting an accelerated platform for your application and system architecture, we recommend that you find a candidate embedded platform at [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and further review its market position and product specifications. Here, the AI Hub provides the tools needed throughout the development lifecycle, including **workstations**, compilers**, and **accelerators**.
+
+
+Before choosing an architecture for your applications and systems, we recommend that you can begin with a rough search of possible embedded platforms from , and then review them in further detail on this page.
 
 
 <div style="margin-left: 20px;">
