@@ -8,7 +8,7 @@ nav_order: 31
 ##### update : 2024/10 by Markov Chen
 <br>
 
-Arm KleidiAI is a specialized library designed to enhance the performance of AI frameworks on Arm CPUs. It provides optimized micro-kernels that leverage the unique architecture of Arm processors, enabling more efficient execution of AI workloads. By integrating KleidiAI into your AI projects, you can achieve significant improvements in computational speed and resource utilization, making it an essential tool for developers working with AI on Arm-based systems.
+KleidiAI is a universal AI acceleration platform that supports a wide range of AI accelerator hardware. It provides a rich set of APIs and tools that allow developers to easily deploy deep learning models to different hardware. KleidiAI supports leading deep learning frameworks such as TensorFlow, PyTorch, and ONNX, and is able to automatically optimise the model inference process to improve performance and efficiency. This makes KleidiAI a flexible and powerful solution for a variety of AI application scenarios.
 
 ## Installation
 
