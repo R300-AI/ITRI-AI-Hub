@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Runtime Accelerator"
+title: "Runtime"
 nav_order: 30
 ---
 

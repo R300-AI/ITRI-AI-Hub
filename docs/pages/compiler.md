@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Delegation"
+title: "Compiler"
 nav_order: 20
 ---
 
-# Delegation
+# Compiler

@@ -26,48 +26,53 @@ just_the_docs:
       - title: "　-　Jetson EVKs"
         url: "/docs/pages/get-started/jetson-evk.md"
         nav_order: 6
-      - title: "ML Engine"
-        url: "/docs/pages/ml-engine.md"
+
+      - title: "Workstation"
+        url: "/docs/pages/workstation.md"
         nav_order: 10
       - title: "　-　CUDA"
-        url: "/docs/pages/ml-engine/cuda.md"
+        url: "/docs/pages/workstation/cuda.md"
         nav_order: 11
       - title: "　-　ROCm"
-        url: "/docs/pages/ml-engine/rocm.md"
+        url: "/docs/pages/workstation/rocm.md"
         nav_order: 12
-      - title: "　-　Kleidi AI"
-        url: "/docs/pages/ml-engine/kleidi.md"
-        nav_order: 13
-      - title: "Delegation"
-        url: "/docs/pages/delegation.md"
+
+      - title: "Compiler"
+        url: "/docs/pages/compiler.md"
         nav_order: 20
       - title: "　-　Data Compiler"
-        url: "/docs/pages/delegationd/data-compiler.md"
+        url: "/docs/pages/compiler/data-compiler.md"
         nav_order: 21
       - title: "　-　Vitis AI"
-        url: "/docs/pages/delegationd/vitis-ai.md.md"
+        url: "/docs/pages/compiler/vitis-ai.md.md"
         nav_order: 22
       - title: "　-　Open VINO"
-        url: "/docs/pages/delegationd/openvino.md"
-        nav_order: 21
-      - title: "Runtime Accelerator"
+        url: "/docs/pages/compiler/openvino.md"
+        nav_order: 23
+
+      - title: "Runtime"
         url: "/docs/pages/runtime.md"
         nav_order: 30
+      - title: "　-　Kleidi AI"
+        url: "/docs/pages/runtime/kleidi.md"
+        nav_order: 31
       - title: "　-　NeuronPilot"
         url: "/docs/pages/runtime/neuronpilot.md"
-        nav_order: 31
+        nav_order: 32
       - title: "　-　ArmNN"
         url: "/docs/pages/runtime/armnn.md"
-        nav_order: 32
+        nav_order: 33
       - title: "　-　HailoRT"
         url: "/docs/pages/runtime/hailort.md"
-        nav_order: 33
+        nav_order: 34
       - title: "　-　TensorRT"
         url: "/docs/pages/runtime/tensorrt.md"
-        nav_order: 34
+        nav_order: 35
+  
       - title: "Benchmarks"
         url: "/docs/pages/benchmark.md"
         nav_order: 40
+
       - title: "Use Case"
         url: "/docs/pages/usecase.md"
         nav_order: 50
