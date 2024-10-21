@@ -4,7 +4,7 @@ title: "　-　KleidiAI"
 nav_order: 31
 ---
 
-# Install Arm Kleidi AI for Arm CPU
+# Install Arm Kleidi AI for ARM64 System
 ##### update : 2024/10 by Markov Chen
 <br>
 
