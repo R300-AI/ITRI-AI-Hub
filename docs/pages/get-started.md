@@ -58,10 +58,10 @@ Below is a list of currently supported options:
 <p>The ARM RaspberryPi series is an affordable and popular choice for embedded systems, ideal for education, DIY projects, and lightweight applications. This series all running on the <strong>Raspbian</strong> operating system.</p>
 </div>
 
-|  Devices  | Gen-1        | Gen-2        | Gen-3        | Gen-4        | Gen-5         |
-|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|:------------:|
-| **Chipsets** | BCM2835    | BCM2836      | BCM2837      | BCM2711      | BCM2712       |
-| **Architecture** | arm64  | arm64        | arm64        | arm64        | arm64         |
-| **CPU**    | ARM1176JZF-S | Cortex-A7    | Cortex-A53   | Cortex-A72   | Cortex-A76    |
-| **Power**  | 1.8~3.5W    | 2.5~4W       | 2.5~5W       | 3~6W         | 4~8W          |
-| **Memory** | 256MB/512MB SDRAM | 1GB LPDDR2 | 1GB LPDDR2  | 2GB/4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 |
+|  Devices   | Gen-3        | Gen-4        | Gen-5         |
+|:----------:|:-----------:|:-----------:|:------------:|
+| **Chipsets**     | BCM2837      | BCM2711      | BCM2712       |
+| **Architecture** | arm64        | arm64        | arm64         |
+| **CPU**          | Cortex-A53   | Cortex-A72   | Cortex-A76    |
+| **Power**        | 2.5~5W       | 3~6W         | 4~8W          |
+| **Memory**       | 1GB LPDDR2  | 2GB/4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 |
