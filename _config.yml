@@ -50,7 +50,7 @@ just_the_docs:
         url: "/docs/pages/compiler/openvino.md"
         nav_order: 23
 
-      - title: "Runtime"
+      - title: "Runtime APIs"
         url: "/docs/pages/runtime.md"
         nav_order: 30
       - title: "　-　Kleidi AI"
