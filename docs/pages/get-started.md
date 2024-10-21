@@ -8,9 +8,7 @@ nav_order: 2
 
 <br>Before selecting an accelerated platform for your application and system architecture, we recommend that you find a candidate embedded platform at [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and further review its market position and product specifications. The AI Hub also provides the latest tools for the entire development lifecycle, including **workstations, compilers**, and **accelerators**.
 
-<div style="margin-left: 20px;">
-<br>If you have not previously installed the Configuration Tool, please follow the instructions below to install it on the host.
-</div>
+* **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the chip because the model is still in a dynamic structure, so it requires invoking a large graphics processor with higher versatility.
 
 ## **Platform Overview**
 
