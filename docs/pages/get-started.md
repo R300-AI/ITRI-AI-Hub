@@ -49,7 +49,7 @@ Below is a list of currently supported options:
 | **Memory**   | 2GB/4GB LPDDR4 | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
 
 <div style="margin-left: 20px;">
-<p>The Genio 1200 is also available as a lighter board (ADLINK I-Pi SMARCs 1200) with the Yocto operating system.
+<p>The Genio 1200 is also available as a lighter board (ADLINK I-Pi SMARCs 1200) with the Yocto operating system.</p>
 </div>
 
 ### ARM Raspberry Pi Series
