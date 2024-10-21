@@ -3,36 +3,13 @@ layout: default
 title: "　-　HailoRT"
 nav_order: 35
 ---
-
-# HailoRT 4.18.0
-## PCIe Driver==
-
-https://hailo.ai/developer-zone/documentation/hailort-v4-18-0/?sp_referrer=drivers%2Fpcie_linux.html
-* GCC 12
-```bash
-$ sudo apt install gcc-12
-$ sudo rm /usr/bin/gcc 
-$ sudo ln -s /usr/bingcc-12 /usr/bin/gcc
-```
-* GCC 11.4
-```bash
-$ sudo apt install gcc
-$ sudo rm /usr/bin/gcc
-$ sudo ln -s /usr/bin/gcc-11 /usr/bin/gcc
-```
-```bash
-$ gcc --version
-```
-* driver
-```bash
-$ conda create --name hailort python=3.8 && source activate hailort
-$ git clone https://github.com/hailo-ai/hailort-drivers --branch v4.18.0
-$ cd hailort-drivers/linux/pcie
-$ make all
-```
-
 # Install HailoRT 4.17.0 for ARM64 System
 ##### update : 2024/10 by Markov Chen
+<br>
+
+HailoRT is a runtime library provided by Hailo and designed for the Hailo-8 m.2 edge AI processor.HailoRT supports major deep learning frameworks such as TensorFlow, PyTorch and ONNX, and provides a rich set of APIs that allow developers to easily deploy deep learning models on Hailo-8 m.2. HailoRT is designed to provide high-performance inference at low power consumption, and is particularly suitable for edge computing and low-power application scenarios. By using HailoRT, developers can achieve efficient data processing and model inference, significantly improving application performance and response time.
+
+## Installation
 
 ### **Step 1. Install PCIe driver and CLI**
 Download Linux Packages and install it by following commands.<br>
