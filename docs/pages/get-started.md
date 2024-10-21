@@ -16,6 +16,8 @@ nav_order: 2
   
 ## **Platform Overview**
 
+Below is a list of currently supported options:
+
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
