@@ -16,8 +16,9 @@ nav_order: 2
 2. Choice SW 
 3. Benchmakring
 
-## **Platform Overview**
+# Platform Overview
 
+## **Embedded System**
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
