@@ -18,7 +18,15 @@ nav_order: 2
 
 # Platform Overview
 
-## **Embedded System**
+## **Workstation**
+
+### Intel Core Series
+### AMD Ryzen Series
+### NVIDIA Jetson Series
+
+
+## **Embedded**
+
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
