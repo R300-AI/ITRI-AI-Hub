@@ -8,11 +8,11 @@ nav_order: 2
 
 <br>Before selecting an accelerated platform for your application and system architecture, we recommend that you find a candidate embedded platform at [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and further review its market position and product specifications. The AI Hub also provides the latest tools for the entire development lifecycle, including **workstations, compilers**, and **accelerators**.
 
-* **Workstation**: This refers to the host environment you use to develop and train your AI models. Usually, this environment is isolated from the *Deep Learning Accelerator (DLA)* because the internal structure of the model is still dynamic at this stage, so it requires invoking a large graphics processor with higher versatility.
+* **Workstation**: This term refers to the host environment utilized for developing and training AI models. Typically, this environment is separate from the *Deep Learning Accelerator (DLA)*, as the internal structure of the model remains dynamic at this stage, necessitating the use of a large graphics processor with higher versatility.
 
-* **Compiler**: This refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process usually involves a series of steps such as simplification and quantisation, and is therefore usually carried out on workstations or massive servers.
+* **Compiler**: This term refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process generally involves a series of steps such as simplification and quantisation, and is therefore usually conducted on workstations or massive servers.
 
-* **Runtime APIs**: These allow developers to run the inference process on embedded systems through programming languages such as Python, C#, etc., and lighten the model through DLAs, thus reducing application execution time and improving overall performance.
+* **Runtime APIs**: These APIs enable developers to execute the inference process on embedded systems using programming languages such as Python, C#, etc., and optimize the model through DLAs, thereby reducing application execution time and enhancing overall performance.
   
 ## **Platform Overview**
 
