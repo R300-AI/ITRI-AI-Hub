@@ -12,7 +12,7 @@ nav_order: 2
 
 * **Compiler**: This refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process usually involves a series of steps such as simplification and quantisation, and is therefore usually carried out on workstations or massive servers.
 
-* **Runtime APIs**: These allow developers to delegate model inference to DLAs on Embedded systems through programming languages such as Python, C#, etc., to reduce application runtime and improve overall performance.
+* **Runtime APIs**: These allow developers to run the inference process on embedded systems through programming languages such as Python, C#, etc., and lighten the model through DLAs, thus reducing application execution time and improving overall performance.
   
 ## **Platform Overview**
 
