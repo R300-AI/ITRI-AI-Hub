@@ -16,16 +16,16 @@ NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for appli
 Clone the repository and run the setup script for your specific Genio device:
 
 ```bash
-$ git clone https://github.com/R300-AI/ITRI-AI-Hub.git
+$ git clone https://github.com/R300-AI/Genio-Ubuntu.git
 
 # Genio 350
-$ bash ITRI-AI-Hub/tools/setup_genio350.sh
+$ bash Genio-Ubuntu/tools/setup_genio350.sh
 # Genio 510
-$ bash ITRI-AI-Hub/tools/setup_genio510.sh
+$ bash Genio-Ubuntu/tools/setup_genio510.sh
 # Genio 700
-$ bash ITRI-AI-Hub/tools/setup_genio700.sh
+$ bash Genio-Ubuntu/tools/setup_genio700.sh
 # Genio 1200
-$ bash ITRI-AI-Hub/tools/setup_genio1200.sh
+$ bash Genio-Ubuntu/tools/setup_genio1200.sh
 ```
 
 ### Step 2: Reboot and Verify the Installation

@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to IRTI AI Hub Document
+# Welcome to ITRI AI Hub Document
 
 <p>
 <div style="margin-left: 20px;">
