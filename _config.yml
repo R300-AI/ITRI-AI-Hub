@@ -49,8 +49,8 @@ just_the_docs:
       - title: "　-　Open VINO"
         url: "/docs/pages/compiler/openvino.md"
         nav_order: 23
-      - title: "　-　NeuronPilot"
-        url: "/docs/pages/runtime/neuronpilot.md"
+      - title: "　-　NCC TFLite"
+        url: "/docs/pages/compiler/ncc-tflite.md"
         nav_order: 24
 
       - title: "Runtime APIs"
@@ -68,6 +68,9 @@ just_the_docs:
       - title: "　-　TensorRT"
         url: "/docs/pages/runtime/tensorrt.md"
         nav_order: 35
+      - title: "　-　NeuronRT"
+        url: "/docs/pages/runtime/neuronrt.md"
+        nav_order: 36
   
       - title: "Benchmarks"
         url: "/docs/pages/benchmark.md"
