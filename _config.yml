@@ -49,6 +49,9 @@ just_the_docs:
       - title: "　-　Open VINO"
         url: "/docs/pages/compiler/openvino.md"
         nav_order: 23
+      - title: "　-　NeuronPilot"
+        url: "/docs/pages/runtime/neuronpilot.md"
+        nav_order: 24
 
       - title: "Runtime APIs"
         url: "/docs/pages/runtime.md"
@@ -56,9 +59,6 @@ just_the_docs:
       - title: "　-　Kleidi AI"
         url: "/docs/pages/runtime/kleidi.md"
         nav_order: 31
-      - title: "　-　NeuronPilot"
-        url: "/docs/pages/runtime/neuronpilot.md"
-        nav_order: 32
       - title: "　-　ArmNN"
         url: "/docs/pages/runtime/armnn.md"
         nav_order: 33
