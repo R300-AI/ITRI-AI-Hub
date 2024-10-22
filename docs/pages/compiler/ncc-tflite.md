@@ -14,8 +14,8 @@ NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for appli
 ```bash
 conda create --name neuronpilot python=3.7
 tar zxvf neuropilot-sdk-basic-6.0.5-build20240103.tar.gz
-
 pip3 install ./neuropilot-sdk-basic-6.0.5-build20240103/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+
 python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
 ```bash
