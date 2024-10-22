@@ -11,26 +11,15 @@ nav_order: 24
 NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for applications such as autonomous driving and industrial automation. NeuronPilot supports deep learning frameworks such as TensorFlow, PyTorch, and ONNX, and is specifically optimised for Neuron hardware to deliver the best performance and efficiency. NeuronPilot provides easy-to-use APIs and tools that enable developers to quickly deploy models to Neuron hardware for efficient inference and data processing.
 
 ## Installation
-
-### Step 1: Install Gstreamer and NeuronPilot Library
-Clone the repository and run the setup script for your specific Genio device:
-
 ```bash
-$ git clone https://github.com/R300-AI/Genio-Ubuntu.git
+conda create --name neuronpilot python=3.7
+tar zxvf neuropilot-sdk-basic-6.0.5-build20240103.tar.gz
 
-# Genio 350
-$ bash Genio-Ubuntu/tools/setup_genio350.sh
-# Genio 510
-$ bash Genio-Ubuntu/tools/setup_genio510.sh
-# Genio 700
-$ bash Genio-Ubuntu/tools/setup_genio700.sh
-# Genio 1200
-$ bash Genio-Ubuntu/tools/setup_genio1200.sh
+pip3 install ./neuropilot-sdk-basic-6.0.5-build20240103/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
-
-### Step 2: Reboot and Verify the Installation
-Reboot your system and verify the installation by running the following command:
-
 ```bash
-$ sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
+export LD_LIBRARY_PATH=/home/r300/Downloads/yolov8s/neuropilot-sdk-basic-6.0.5-build20240103/neuron_sdk/host/lib
+
+python3 convert_to_tflite_quantized.py
 ```
