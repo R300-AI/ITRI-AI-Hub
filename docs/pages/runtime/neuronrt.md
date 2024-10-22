@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　NeuronRT"
-nav_order: 24
+nav_order: 36
 ---
 
 # Install NeuronPilot for Genio Boards
