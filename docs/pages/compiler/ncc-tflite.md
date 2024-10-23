@@ -17,7 +17,7 @@ tar zxvf neuropilot-sdk-basic-6.0.5-build20240103.tar.gz
 pip3 install ./neuropilot-sdk-basic-6.0.5-build20240103/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 
 pip3 install torch==1.9.0 torchvision==0.10.0
-pip3 install pandas requests opencv-python
+pip3 install pandas requests opencv-python psutil PyYAML
 
 python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
