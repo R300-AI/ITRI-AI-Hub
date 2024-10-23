@@ -16,13 +16,12 @@ conda create --name neuronpilot python=3.7 && source activate neuronpilot
 tar zxvf neuropilot-sdk-basic-6.0.5-build20240103.tar.gz
 pip3 install ./neuropilot-sdk-basic-6.0.5-build20240103/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 
-pip3 install torch==1.9.0 torchvision==0.10.0
-pip3 install pandas requests opencv-python psutil PyYAML ultralytics
-
+export LD_LIBRARY_PATH<path_to_neuropilot-sdk-basic-6.0.5-build20240103>/neuron_sdk/host/lib
 python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
 ```bash
-export LD_LIBRARY_PATH=/home/r300/Downloads/yolov8s/neuropilot-sdk-basic-6.0.5-build20240103/neuron_sdk/host/lib
 
+pip3 install torch==1.9.0 torchvision==0.10.0
+pip3 install pandas requests opencv-python psutil PyYAML ultralytics
 python3 convert_to_tflite_quantized.py
 ```
