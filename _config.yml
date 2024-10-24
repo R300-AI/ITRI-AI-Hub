@@ -53,7 +53,7 @@ just_the_docs:
         url: "/docs/pages/compiler/neuronpilot.md"
         nav_order: 24
 
-      - title: "Runtime APIs"
+      - title: "Runtime SDKs"
         url: "/docs/pages/runtime.md"
         nav_order: 30
       - title: "　-　Kleidi AI"
