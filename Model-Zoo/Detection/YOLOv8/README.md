@@ -9,14 +9,15 @@
 ### Model
 * Conda
 ```bash
-conda create --name ultralytics python==3.12 && source activate ultralytics
-pip install ultralytics
+$ conda create --name ultralytics python==3.12 && source activate ultralytics
+$ pip install ultralytics
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 ```bash
-yolo export model=yolov8s.pt format=tflite
+$ yolo export model=yolov8s.pt format=tflite
 ```
 * Compile by NeuronPilot
 ```bash
-/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 yolov8s.tflite
+$ source deactivate && source activate neuronpilot
+$ /neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 yolov8s.tflite
 ```
