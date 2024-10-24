@@ -4,7 +4,7 @@ title: "　-　NeuronRT"
 nav_order: 36
 ---
 
-# Install NeuronPilot for Genio Boards
+# Install NeuronRT for Genio Boards
 ##### update : 2024/10 by Markov Chen
 <br>
 
