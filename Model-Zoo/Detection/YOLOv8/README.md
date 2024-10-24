@@ -17,5 +17,5 @@ yolo export model=yolov8s.pt format=tflite
 ```
 * Compile by NeuronPilot
 ```bash
-/neuropilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 yolov8s.tflite
+/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 yolov8s.tflite
 ```
