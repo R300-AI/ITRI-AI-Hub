@@ -1,4 +1,9 @@
-### Genio 1200
+
+# Genio 1200
+### Prerequisites
+
+* To export and compile the YOLO models, you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
+* A **Genio-1200 EVK** board which NeuronRT Library has been installed.
 
 #### Workstation
 * follow instruction [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html) to install NeuronPilot
