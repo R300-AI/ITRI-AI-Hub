@@ -6,13 +6,16 @@
 * A **Genio-1200 EVK** board which **NeuronRT** Library has been installed.([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/get-started/genio-evk.html))
 
 ## Converting Model for Deployment
-### Convert to INT32-TFLite Format
+### Environment and Train
 * Conda
 ```bash
 $ conda create --name ultralytics python==3.12 && source activate ultralytics
 $ pip install ultralytics
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
+
+
+### Convert to INT32-TFLite Format
 ```bash
 $ yolo export model=yolov8s.pt format=tflite
 ```
