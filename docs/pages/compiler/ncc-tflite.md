@@ -26,4 +26,4 @@ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
 
 ## Appendix
-* [Neuropilot Converter Tool](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/ml-guide/neuron-dev-flow/model_converter/neuropilot_converter_tool.html)
+* [Neuropilot Converter Tool and Demo with YOLOv5](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/ml-guide/neuron-dev-flow/model_converter/neuropilot_converter_tool.html)
