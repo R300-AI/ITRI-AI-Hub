@@ -11,7 +11,7 @@ nav_order: 31
 KleidiAI is a universal AI acceleration platform that supports a wide range of AI accelerator hardware. It provides a rich set of APIs and tools that allow developers to easily deploy deep learning models to different hardware. KleidiAI supports leading deep learning frameworks such as TensorFlow, PyTorch, and ONNX, and is able to automatically optimise the model inference process to improve performance and efficiency. This makes KleidiAI a flexible and powerful solution for a variety of AI application scenarios.
 
 ### Prerequisites
-* To install Kleidi AI, your board must have an arm64 processors.
+* To install Kleidi AI, your board must contain with arm64 processor.
 
 ## Installation
 
