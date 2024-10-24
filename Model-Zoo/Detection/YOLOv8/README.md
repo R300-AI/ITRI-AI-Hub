@@ -3,6 +3,7 @@
 * Conda
 ```bash
 conda create --name ultralytics python==3.12
+pip install ultralytics
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 ```bash
