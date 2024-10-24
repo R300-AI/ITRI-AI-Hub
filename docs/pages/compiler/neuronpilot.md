@@ -23,11 +23,11 @@ Execute the following command to create and activate the Conda environment:
 $ conda create --name neuronpilot python=3.7 && source activate neuronpilot
 ```
 ### Step 2: Extract and Install NeuronPilot
-Download and Extract the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuropilot-6.0.5_x86_64.zip) and install it:
+Download and Extract the NeuronPilot from [HERE]() and install it:
 
 ```bash
-$ tar zxvf neuropilot-6.0.5.tar.gz ~/neuropilot-6.0.5
-$ pip install ~/neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+$ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz ~
+$ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 ```
 
 ### Step 3: Set Library Path and Install Dependencies
