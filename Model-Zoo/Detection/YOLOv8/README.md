@@ -4,13 +4,7 @@
 ```bash
 conda create --name ultralytics python==3.12
 ```
-* Train and Export
-```python
-from ultralytics import YOLO
-
-model = YOLO("yolo11n.pt")
-model.export(format="tflite")
-```
+* [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 ```bash
 yolo export model=yolo11n.pt format=tflite
 ```
