@@ -1,4 +1,4 @@
-# Genios
+### Genio 1200
 * follow instruction [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html) to install NeuronPilot
 
 * Train and Export
