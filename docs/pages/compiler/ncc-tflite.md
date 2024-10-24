@@ -19,7 +19,7 @@ tar zxvf neuropilot-6.0.5.tar.gz && mv ./neuropilot-6.0.5 ~/neuropilot-6.0.5
 pip install ~/neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 ```
 ```bash
-export LD_LIBRARY_PATH<path_to_neuropilot-sdk-basic-6.0.5-build20240103>/neuron_sdk/host/lib
+export LD_LIBRARY_PATH=/neuropilot-6.0.5/neuron_sdk/host/lib
 sudo apt install libncurses5
 ```
 ```bash
