@@ -4,7 +4,7 @@ title: "　-　NeuronPilot"
 nav_order: 24
 ---
 
-# Install NeuronPilot for Wrokstations
+# Install NeuronPilot for Workstations
 ##### update : 2024/10 by Markov Chen
 <br>
 
