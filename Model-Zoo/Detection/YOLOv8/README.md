@@ -9,7 +9,7 @@ model = YOLO("yolo11n.pt")
 model.export(format="tflite")
 ```
 ```
-yolo export model=yolo11n.pt format=onnx  # export official model
+yolo export model=yolo11n.pt format=tflite
 ```
 * Compile
 ```
