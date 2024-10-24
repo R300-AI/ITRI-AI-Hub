@@ -1,4 +1,6 @@
 ### Genio 1200
+
+#### Workstation
 * follow instruction [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html) to install NeuronPilot
 * Conda
 ```bash
