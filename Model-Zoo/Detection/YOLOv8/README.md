@@ -10,7 +10,7 @@
 * Conda
 ```bash
 $ conda create --name ultralytics python==3.11 && source activate ultralytics
-$ pip install ultralytics
+$ pip install -r requirements.txt
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 
