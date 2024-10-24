@@ -17,7 +17,7 @@ $ pip install ultralytics
 
 ### Convert to INT32-TFLite Format
 ```bash
-$ yolo export model=yolov8s.pt format=tflite
+$ yolo export model=yolov8s.pt format=tflite half=True int8=True
 ```
 * Compile by NeuronPilot
 ```bash
