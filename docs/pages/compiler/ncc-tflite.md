@@ -8,7 +8,11 @@ nav_order: 24
 ##### update : 2024/10 by Markov Chen
 <br>
 
-NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for applications such as autonomous driving and industrial automation. NeuronPilot supports deep learning frameworks such as TensorFlow, PyTorch, and ONNX, and is specifically optimised for Neuron hardware to deliver the best performance and efficiency. NeuronPilot provides easy-to-use APIs and tools that enable developers to quickly deploy models to Neuron hardware for efficient inference and data processing.
+NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT8395, MTK8390, etc.) that allows developers to quickly delegate models to the NPU.
+
+It includes a model quantisation tool (`mtk_converter`) and a compilation tool (`ncc-tflite`), both of which are used on Linux-based workstations without APU intervention. The current version of NeuronPilot is **6.0.5**, which only supports **Python 3.7** and **PyTorch from 1.3.0 to 2.0.0**. You can install the NeuronPilot environment by following the instructions below.
+
+Translated with DeepL.com (free version)
 
 ## Installation
 
@@ -16,8 +20,8 @@ NeuronPilot 6.0.5
 
 ```bash
 conda create --name neuronpilot python=3.7 && source activate neuronpilot
-tar zxvf neuropilot-sdk-basic-6.0.5-build20240103.tar.gz
-pip3 install ./neuropilot-sdk-basic-6.0.5-build20240103/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+tar zxvf neuropilot-6.0.5.tar.gz
+pip install ./neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 
 export LD_LIBRARY_PATH<path_to_neuropilot-sdk-basic-6.0.5-build20240103>/neuron_sdk/host/lib
 sudo apt install libncurses5
