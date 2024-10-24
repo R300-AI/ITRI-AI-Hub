@@ -11,7 +11,7 @@ This document provides a comprehensive guide to setting up the Genio EVK (Evalua
 
 ### Prerequisites
 
-* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS host system.
+* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS workstation with x86_64 architecture.
 * Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
 
 ## Make Sure Flash Tools Working on Host
