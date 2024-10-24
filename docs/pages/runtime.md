@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Runtime APIs"
+title: "Runtime SDKs"
 nav_order: 30
 ---
 
