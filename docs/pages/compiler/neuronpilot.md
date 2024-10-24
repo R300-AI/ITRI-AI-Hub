@@ -10,6 +10,10 @@ nav_order: 24
 
 NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT8395, MTK8390, etc.) that allows developers to quickly delegate models to the NPU. It includes a model quantisation tool (`mtk_converter`) and a compilation tool (`ncc-tflite`), both of which are used on Linux-based x86_64 workstations without APU intervention. The current version of **NeuronPilot** is **6.0.5**, and `mtk_converter` only support with **Python 3.7** and **PyTorch from 1.3.0 to 2.0.0**. If this meets your expectations you can follow the instructions to install the NeuronPilot environment.
 
+### Prerequisites
+
+* To install the NCC-TFLite and MTK-Converter, you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
+  
 ## Installation
 
 ### Step 1: Create and Activate Conda Environment
