@@ -8,7 +8,7 @@ nav_order: 24
 ##### update : 2024/10 by Markov Chen
 <br>
 
-NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT8395, MTK8390, etc.) that allows developers to quickly delegate models to the NPU. It includes a model quantisation tool (`mtk_converter`) and a compilation tool (`ncc-tflite`), both of which are used on Linux-based workstations without APU intervention. The current version of **NeuronPilot** is **6.0.5**, which only supports **Python 3.7** and **PyTorch from 1.3.0 to 2.0.0**. You can install the NeuronPilot environment by following instructions.
+NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT8395, MTK8390, etc.) that allows developers to quickly delegate models to the NPU. It includes a model quantisation tool (`mtk_converter`) and a compilation tool (`ncc-tflite`), both of which are used on Linux-based x86_64 workstations without APU intervention. The current version of **NeuronPilot** is **6.0.5**, which only supports **Python 3.7** and **PyTorch from 1.3.0 to 2.0.0**. You can install the NeuronPilot environment by following instructions.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Execute the following command to create and activate the Conda environment:
 $ conda create --name neuronpilot python=3.7 && source activate neuronpilot
 ```
 ### Step 2: Extract and Install NeuronPilot
-Execute the following commands to extract and install NeuronPilot:
+Download and Extract the NeuronPilot from [HERE]() and install it:
 
 ```bash
 $ tar zxvf neuropilot-6.0.5.tar.gz && mv ./neuropilot-6.0.5 ~/neuropilot-6.0.5
