@@ -12,7 +12,7 @@ NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT
 
 ### Prerequisites
 
-* To install the NCC-TFLite and MTK-Converter, you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
+* To install the **NCC-TFLite** and **MTK-Converter**, you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
   
 ## Installation
 
