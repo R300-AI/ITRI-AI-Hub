@@ -7,7 +7,7 @@ pip install ultralytics
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 ```bash
-yolo export model=yolo11n.pt format=tflite
+yolo export model=yolov8s.pt format=tflite
 ```
 * Compile
 ```bash
