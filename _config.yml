@@ -49,7 +49,7 @@ just_the_docs:
       - title: "　-　Open VINO"
         url: "/docs/pages/compiler/openvino.md"
         nav_order: 23
-      - title: "　-　NCC TFLite"
+      - title: "　-　NeuronPilot"
         url: "/docs/pages/compiler/ncc-tflite.md"
         nav_order: 24
 
