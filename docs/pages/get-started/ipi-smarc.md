@@ -11,7 +11,7 @@ This document provides a comprehensive guide to setting up the I-Pi SMARC 1200 B
 
 ### Prerequisites
 
-* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS host system.
+* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
 * Be prepared with the **I-Pi SMARC 1200**, power cable and USB to Micro cable.
 
 
