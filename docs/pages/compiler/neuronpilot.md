@@ -26,7 +26,7 @@ $ conda create --name neuronpilot python=3.7 && source activate neuronpilot
 Download and Extract the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuropilot-6.0.5_x86_64.zip) and install it:
 
 ```bash
-$ tar zxvf neuropilot-6.0.5.tar.gz && mv ./neuropilot-6.0.5 ~/neuropilot-6.0.5
+$ tar zxvf neuropilot-6.0.5.tar.gz ~/neuropilot-6.0.5
 $ pip install ~/neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
 ```
 
