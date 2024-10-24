@@ -34,7 +34,7 @@ $ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-ma
 Execute the following commands to set the library path and install dependencies:
 
 ```bash
-$ export LD_LIBRARY_PATH=/neuropilot-6.0.5/neuron_sdk/host/lib
+$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
 $ sudo apt install libncurses5
 ```
 
@@ -43,6 +43,7 @@ Execute the following command to verify the installation:
 
 ```bash
 $ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
+>> 2.9.0
 ```
 
 ## Appendix
