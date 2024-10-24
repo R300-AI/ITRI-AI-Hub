@@ -22,7 +22,7 @@ $ yolo export model=yolov8s.pt format=tflite half=True int8=True
 * Compile by NeuronPilot
 ```bash
 $ source deactivate && source activate neuronpilot
-$ /neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 yolov8s.tflite
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./yolov8s_saved_model/yolov8s_float32.tflite
 ```
 
 ### Convert to INT8-TFLite Format
