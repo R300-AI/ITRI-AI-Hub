@@ -12,18 +12,33 @@ NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT
 
 ## Installation
 
-```bash
-conda create --name neuronpilot python=3.7 && source activate neuronpilot
+### Step 1: Create and Activate Conda Environment
+Execute the following command to create and activate the Conda environment:
 
-tar zxvf neuropilot-6.0.5.tar.gz && mv ./neuropilot-6.0.5 ~/neuropilot-6.0.5
-pip install ~/neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
-```
 ```bash
-export LD_LIBRARY_PATH=/neuropilot-6.0.5/neuron_sdk/host/lib
-sudo apt install libncurses5
+$ conda create --name neuronpilot python=3.7 && source activate neuronpilot
 ```
+### Step 2: Extract and Install NeuronPilot
+Execute the following commands to extract and install NeuronPilot:
+
 ```bash
-python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
+$ tar zxvf neuropilot-6.0.5.tar.gz && mv ./neuropilot-6.0.5 ~/neuropilot-6.0.5
+$ pip install ~/neuropilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+```
+
+### Step 3: Set Library Path and Install Dependencies
+Execute the following commands to set the library path and install dependencies:
+
+```bash
+$ export LD_LIBRARY_PATH=/neuropilot-6.0.5/neuron_sdk/host/lib
+$ sudo apt install libncurses5
+```
+
+### Step 4: Verify Installation
+Execute the following command to verify the installation:
+
+```bash
+$ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
 ```
 
 ## Appendix

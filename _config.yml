@@ -50,7 +50,7 @@ just_the_docs:
         url: "/docs/pages/compiler/openvino.md"
         nav_order: 23
       - title: "　-　NeuronPilot"
-        url: "/docs/pages/compiler/ncc-tflite.md"
+        url: "/docs/pages/compiler/neuronpilot.md"
         nav_order: 24
 
       - title: "Runtime APIs"
