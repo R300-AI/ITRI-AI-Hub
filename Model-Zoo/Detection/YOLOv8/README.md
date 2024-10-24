@@ -6,7 +6,7 @@
 * A **Genio-1200 EVK** board which **NeuronRT** Library has been installed.([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/get-started/genio-evk.html))
 
 ## Converting Model for Deployment
-### Model
+### Convert to TFLite<sub>INT8
 * Conda
 ```bash
 $ conda create --name ultralytics python==3.12 && source activate ultralytics
