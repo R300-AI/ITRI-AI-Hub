@@ -1,5 +1,6 @@
 
 # Genio 1200
+The yolov5 model is only supported by Genio-510/700 which use MDLA3.0 , not supported by Genio-1200, MDLA2.0.
 
 https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/ml-guide/model-hub/YOLOv8s.html
 
@@ -29,3 +30,4 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 ```
 
 ### Convert to INT8-TFLite Format
+
