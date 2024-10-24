@@ -3,11 +3,14 @@ layout: default
 title: "　-　HailoRT"
 nav_order: 35
 ---
-# Install HailoRT 4.17.0 for ARM64 System
+# Install HailoRT 4.17.0 for Boards
 ##### update : 2024/10 by Markov Chen
 <br>
 
 HailoRT is a runtime library provided by Hailo and designed for the Hailo-8 m.2 edge AI processor.HailoRT supports major deep learning frameworks such as TensorFlow, PyTorch and ONNX, and provides a rich set of APIs that allow developers to easily deploy deep learning models on Hailo-8 m.2. HailoRT is designed to provide high-performance inference at low power consumption, and is particularly suitable for edge computing and low-power application scenarios. By using HailoRT, developers can achieve efficient data processing and model inference, significantly improving application performance and response time.
+
+### Prerequisites
+* To install HailoRT, your board must have an arm64 processors.
 
 ## Installation
 
