@@ -16,7 +16,7 @@
 
 ## Benchmarks
 
-### Embedded Chips Runtime
+### Delegated Runtime
 
   | **Model Name**         | Core i9<br><sub>(onnx) | G350<br><sub> | G510<br><sub> | G700<br><sub> | G1200<br><sub>(onnx) | 
   | ---------------------- | ---------------------- |  ------------ |  ------------ |  ------------ | -------------------- |
