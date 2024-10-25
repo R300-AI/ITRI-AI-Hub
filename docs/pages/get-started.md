@@ -45,6 +45,7 @@ Below is a list of currently supported options:
 | **Architecture** | arm64    | arm64         | arm64         | arm64          |
 | **CPU**      | Cortex-A53   | Cortex-A73/A53 | Cortex-A76/A55 | Cortex-A78/A55 |
 | **GPU**      | Mali-G52     | Mali-G57      | Mali-G57      | Mali-G57       |
+| **NPU**      |      --      | MDLA-3.0      | MDLA-3.0      | MDLA-2.0       |
 | **Power**    | 3~5W         | 5~10W         | 7~15W         | 10~20W         |
 | **Memory**   | 2GB/4GB LPDDR4 | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
 
