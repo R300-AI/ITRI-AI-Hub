@@ -21,7 +21,7 @@ Below is a list of currently supported options:
 ### NVIDIA Jetson Series
 
 <div style="margin-left: 20px;">
-<p>The NVIDIA Jetson series of embedded systems is designed for high-performance computing, suitable for AI and machine learning applications. This series all running on the <strong>Ubuntu</strong> operating system.</p>
+<p>The MediaTek Genio series of embedded systems is designed for versatile applications, offering a balance of performance and power efficiency. This series fully supports the <strong>Ubuntu 22.04</strong> operating system, with the primary differences being the types of NPUs. For basic image processing needs, the <strong>Genio 350</strong> is sufficient; the <strong>Genio 510</strong> and <strong>Genio 700</strong> support the most AI operators; the <strong>Genio 1200</strong> is mainly used for high CPU and GPU access and simple AI operations, but cannot delegate more complex models (e.g., YOLO) to the NPU for computation.</p>
 </div>
 
 |  Devices     | Orin Nano     | Orin NX          | AGX Xavier        | AGX Orin          |
