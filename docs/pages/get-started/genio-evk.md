@@ -123,7 +123,7 @@ $ ./bootstrap && make && sudo make install
 ```
 
 ### Step 2: Install NeuronRT Library
-Follow the [NeuronRT Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html) to install the NeuronPilot for Genios-Ubuntu systems to access the VPUs and MTK-DLA.
+Follow the [NeuronRT Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html) to install the NeuronPilot for Genios-Ubuntu systems to access MediaTek Deep Learning Accelerator (MDLA).
 
 
 ### Step 3: Install Kleidi Kernel
