@@ -4,7 +4,7 @@ title: "　-　KleidiAI"
 nav_order: 31
 ---
 
-# Install Arm Kleidi AI for Boards
+# Install Arm Kleidi AI for ARM64 Boards
 ##### update : 2024/10 by Markov Chen
 <br>
 
