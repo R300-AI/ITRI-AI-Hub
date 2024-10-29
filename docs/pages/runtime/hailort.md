@@ -3,7 +3,7 @@ layout: default
 title: "　-　HailoRT"
 nav_order: 35
 ---
-# Install HailoRT 4.17.0 for Boards
+# Install HailoRT 4.17.0 for ARM64 Boards
 ##### update : 2024/10 by Markov Chen
 <br>
 
