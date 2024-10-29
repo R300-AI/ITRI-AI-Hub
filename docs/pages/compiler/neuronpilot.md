@@ -20,23 +20,24 @@ NeuronPilot is an acceleration kit for MediaTek's Genio series of SoCs (e.g., MT
 Execute the following command to create and activate the Conda environment:
 
 ```bash
-$ conda create --name neuronpilot python=3.7 && source activate neuronpilot
+$ conda create --name neuronpilot python=3.7
 ```
 ### Step 2: Extract and Install NeuronPilot
 Download and Extract the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
 ```bash
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
-$ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
-$ pip install torch==1.9.0 torchvision==0.10.0
+$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
+$ sudo apt install libncurses5
 ```
 
 ### Step 3: Set Library Path and Install Dependencies
 Execute the following commands to set the library path and install dependencies:
 
 ```bash
-$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
-$ sudo apt install libncurses5
+$ source activate neuronpilot
+$ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+$ pip install torch==1.9.0 torchvision==0.10.0
 ```
 
 ### Step 4: Verify Installation
