@@ -23,7 +23,7 @@ Execute the following command to create and activate the Conda environment:
 $ conda create --name neuronpilot python=3.7
 ```
 ### Step 2: Extract and Install NeuronPilot
-Download and Extract the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
+Download the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
 ```bash
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
@@ -32,7 +32,7 @@ $ sudo apt install libncurses5
 ```
 
 ### Step 3: Set Library Path and Install Dependencies
-Execute the following commands to set the library path and install dependencies:
+Execute the following commands to install dependencies:
 
 ```bash
 $ source activate neuronpilot
