@@ -42,7 +42,7 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 
 ```bash
 conda create --name YOLOs python=3.9 && source activate YOLOs
-pip install numpy opencv-python tflite-runtime
+sudo pip install numpy opencv-python tflite-runtime
 ```
 
 
