@@ -12,7 +12,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 ### Prerequisites
 
-* **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed. ([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
+* **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed.
 
 ### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
@@ -37,7 +37,7 @@ $ yolo export model=yolov8s.pt imgsz=640 format=tflite
 ```
 
 ### Step 4: Model Compilation with NeuronPilot
-Compile the model with NeuronPilot using the commands below:
+Use the following commands to compile a model in NeuronPilot, if you do not have NeuronPilot installed please refer to the guide [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html):
 
 ```bash
 $ source deactivate && source activate neuronpilot
