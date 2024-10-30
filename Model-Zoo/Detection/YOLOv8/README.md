@@ -18,6 +18,11 @@ $ pip install -r requirements.txt
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 
+### Convert to INT8-TFLite Format
+
+```bash
+$ yolo export model=yolov8s.pt imgsz=640 format=torchscript
+```
 
 ### Convert to INT32-TFLite Format
 ```bash
