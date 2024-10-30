@@ -1,6 +1,6 @@
 # YOLOs
 
-## MediaTek Genios Converting Model for Deployment
+## MediaTek Genios
 
 ### Support Metric
 
@@ -12,7 +12,7 @@
 
 * **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed. ([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
 
-### Compile
+### Converting Model for Deployment
 * Conda
 ```bash
 $ conda create --name ultralytics python==3.11 && source activate ultralytics
