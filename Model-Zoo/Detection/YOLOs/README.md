@@ -34,6 +34,5 @@ Use the following commands to compile a model in NeuronPilot, if you do not have
 
 ```bash
 $ source deactivate && source activate neuronpilot
-$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite ./<model_name>_float32_mdla3.tflite
 ```
-
