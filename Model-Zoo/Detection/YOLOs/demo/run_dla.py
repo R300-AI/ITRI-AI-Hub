@@ -15,15 +15,15 @@ class DLA():
         self.img_to_bin(image_path)
         res = subprocess.run(self.cmd, shell=True, check=True, executable='/bin/bash', stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
         outputs = [np.fromfile(output) for output in self.outputs]
-        print(outputs[0].shape)
+        return outputs[0]
         
     def img_to_bin(self, image_path):
-        img = cv2.resize(cv2.imread(image_path), self.intput_size[1:3], interpolation=cv2.INTER_AREA)
+        img = cv2.resize(cv2.imread(image_path), self.intput_size[1: 3], interpolation=cv2.INTER_AREA)
         img = np.float32([img / 255.0])
-        print()
         assert img.shape == self.intput_size
         img.tofile(self.inputs);
         return self.inputs
 
 model = DLA(model_path = './yolov8s_saved_model/yolov8s_float32.dla')
-model.predict('grace_hopper.jpg')
+output = model.predict('grace_hopper.jpg')
+print(output.shape)
