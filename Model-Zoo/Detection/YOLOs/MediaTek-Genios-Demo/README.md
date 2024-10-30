@@ -2,6 +2,7 @@
 
 ### Prerequisites
 
+* Follow the Instruction [HERE](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs) to obtain `yolov8s_float_mdla3.dla`
 * A **Genio-510/700 EVK** board which **NeuronRT** Library has been installed.
 
 ### Demo
