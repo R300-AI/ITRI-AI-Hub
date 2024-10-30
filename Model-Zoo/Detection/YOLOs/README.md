@@ -42,27 +42,5 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 
 ```bash
 conda create --name YOLOs python=3.9 && source activate YOLOs
-sudo pip install numpy opencv-python tflite-runtime
-```
-
-
-```
-neuronpilot run --model your_model.dla --input input_data.bin --output output_data.bin
-```
-```
-import numpy as np
-
-# Define the path to the output binary file
-output_file_path = 'output_data.bin'
-
-# Define the data type and shape of the output (this depends on your model's output)
-output_dtype = np.float32  # Example data type
-output_shape = (1, 1000)   # Example shape
-
-# Read the binary file
-output_data = np.fromfile(output_file_path, dtype=output_dtype)
-output_data = output_data.reshape(output_shape)
-
-# Print or process the output data
-print(output_data)
+sudo pip install numpy==1.26.4 opencv-python tflite-runtime
 ```
