@@ -28,7 +28,8 @@ Download the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/git
 ```bash
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
 $ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
-$ sudo apt install libncurses5
+$ sudo apt-get update
+$ sudo apt install libncurses5 libstdc++6
 ```
 
 ### Step 3: Set Library Path and Install Dependencies
