@@ -23,24 +23,17 @@ $ pip install -r requirements.txt
 ```
 
 ### Step 2: Model Training and Export
-Use the following commands to export the pre-trained model, or you can retrain your own model by following the guidelines in the [Official Ultralytics Documentation](https://docs.ultralytics.com/modes/train/#usage-examples):
+Use the following commands to export the pre-trained model, or you can retrain your own model by following the guidelines in the [Ultralytics Documentation](https://docs.ultralytics.com/modes/train/#usage-examples):
 
 ```bash
-$ yolo export model=<model_name>.pt imgsz=640 format=tflite half=True int8=True
+$ yolo export model=<model_name>.pt imgsz=640 format=tflite
 ```
 
-### Step 3: Model Conversion to INT32-TFLite Format
-Convert the model to INT32-TFLite format by executing the following command:
-
-```bash
-$ yolo export model=yolov8s.pt imgsz=640 format=tflite
-```
-
-### Step 4: Model Compilation with NeuronPilot
+### Step 3: Model Compilation with NeuronPilot
 Use the following commands to compile a model in NeuronPilot, if you do not have NeuronPilot installed please refer to the guide [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html):
 
 ```bash
 $ source deactivate && source activate neuronpilot
-$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./yolov8s_saved_model/yolov8s_float32.tflite
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite
 ```
 
