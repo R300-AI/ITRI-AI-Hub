@@ -23,6 +23,10 @@ $ pip install -r requirements.txt
 ```bash
 $ yolo export model=yolov8s.pt imgsz=640 format=torchscript
 ```
+```bash
+$ source activate neuronpilot
+$ python3 convert_to_tflite_quantized.py
+```
 
 ### Convert to INT32-TFLite Format
 ```bash
