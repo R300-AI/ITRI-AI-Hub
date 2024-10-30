@@ -1,6 +1,6 @@
 # YOLOs
 
-## MediaTek Genios
+## MediaTek Genios Converting Model for Deployment
 
 ### Support Metric
 
@@ -11,10 +11,8 @@
 ### Prerequisites
 
 * **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed. ([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
-* A compatible **Genio EVK** board which **NeuronRT** Library has been installed.([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/get-started/genio-evk.html))
 
-## Converting Model for Deployment
-### Environment and Train
+### Compile
 * Conda
 ```bash
 $ conda create --name ultralytics python==3.11 && source activate ultralytics
@@ -44,6 +42,7 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 
 ## Board
 
+* A compatible **Genio EVK** board which **NeuronRT** Library has been installed.([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/get-started/genio-evk.html))
 ```bash
 conda create --name YOLOs python=3.9 && source activate YOLOs
 sudo pip install numpy==1.26.4 opencv-python tflite-runtime
