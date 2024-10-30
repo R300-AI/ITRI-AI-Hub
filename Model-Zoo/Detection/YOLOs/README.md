@@ -23,10 +23,10 @@ $ pip install -r requirements.txt
 ```
 
 ### Step 2: Model Training and Export
-Use the following commands to export the pre-trained model, or you can retrain your own model by following the guidelines in the [Official Ultralytics Documentation](https://docs.ultralytics.com/modes/train/#usage-examples):
+Use the following commands to export the pre-trained model, or you can retrain your own model by following the guidelines in the [Ultralytics Documentation](https://docs.ultralytics.com/modes/train/#usage-examples):
 
 ```bash
-$ yolo export model=<model_name>.pt imgsz=640 format=tflite half=True int8=True
+$ yolo export model=<model_name>.pt imgsz=640 format=tflite
 ```
 
 ### Step 3: Model Conversion to INT32-TFLite Format
