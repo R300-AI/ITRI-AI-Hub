@@ -1,5 +1,5 @@
 
-# Genio 1200
+# Genio 510
 The yolov5 model is only supported by Genio-510/700 which use MDLA3.0 , not supported by Genio-1200, MDLA2.0.
 
 https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/ml-guide/model-hub/YOLOv8s.html
@@ -21,7 +21,7 @@ $ pip install -r requirements.txt
 
 ### Convert to INT32-TFLite Format
 ```bash
-$ yolo export model=yolov8s.pt format=tflite half=True int8=True
+$ yolo export model=yolov8s.pt imgsz=640 format=tflite half=True int8=True
 ```
 * Compile by NeuronPilot
 ```bash
