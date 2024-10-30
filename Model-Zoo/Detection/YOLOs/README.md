@@ -41,9 +41,11 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 ## Board
 
 ```bash
-pip install numpy Pillow
-python /usr/share/neuropilot/demo_dla/label_image.py
+conda create --name YOLOs python=3.9 && source activate YOLOs
+pip install numpy opencv-python tflite-runtime
 ```
+
+
 ```
 neuronpilot run --model your_model.dla --input input_data.bin --output output_data.bin
 ```
