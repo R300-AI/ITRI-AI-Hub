@@ -8,10 +8,7 @@
 
 
 
-# Genio 510
-The yolov5 model is only supported by Genio-510/700 which use MDLA3.0 , not supported by Genio-1200, MDLA2.0.
-
-https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/ml-guide/model-hub/YOLOv8s.html
+# Compile
 
 ### Prerequisites
 
