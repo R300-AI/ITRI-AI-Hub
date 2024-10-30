@@ -1,10 +1,8 @@
 # YOLOs
 
-## Support Metric
+## MediaTek Genios
 
-### MediaTek Genios
-
-#### Support Metric
+### Support Metric
 
 |          | Genio 350          | Genio 510          | Genio 700          | Genio 1200         |
 |----------|--------------------|--------------------|--------------------|--------------------|
