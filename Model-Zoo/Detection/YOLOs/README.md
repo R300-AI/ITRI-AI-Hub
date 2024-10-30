@@ -4,19 +4,19 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 ## MediaTek Genios
 
-### Support Metric
+#### Support Metric
 
 |          | Genio 350          | Genio 510          | Genio 700          | Genio 1200         |
 |----------|--------------------|--------------------|--------------------|--------------------|
 | YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
 
-### Prerequisites
+#### Prerequisites
 
 * **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed.
 
-## Converting Model for Deployment
+### Converting Model for Deployment
 
-### Step 1: Environment Setup
+#### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
 
 ```bash
@@ -24,14 +24,14 @@ $ conda create --name ultralytics python==3.11 && source activate ultralytics
 $ pip install -r requirements.txt
 ```
 
-### Step 2: Model Training and Export
+#### Step 2: Model Training and Export
 Use the following commands to export the pre-trained model, or you can retrain your own model by following the guidelines in the [Ultralytics Documentation](https://docs.ultralytics.com/modes/train/#usage-examples):
 
 ```bash
 $ yolo export model=<model_name>.pt imgsz=640 format=tflite
 ```
 
-### Step 3: Model Compilation with NeuronPilot
+#### Step 3: Model Compilation with NeuronPilot
 Use the following commands to compile a model in NeuronPilot, if you do not have NeuronPilot installed please refer to the guide [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html):
 
 ```bash
