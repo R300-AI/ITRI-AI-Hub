@@ -2,7 +2,7 @@
 
 ## Support Metric
 
-|          | Genio 510          | Genio 510          | Genio 510          | Genio 510          |
+|          | Genio 350          | Genio 510          | Genio 700          | Genio 1200         |
 |----------|--------------------|--------------------|--------------------|--------------------|
 | YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
 
