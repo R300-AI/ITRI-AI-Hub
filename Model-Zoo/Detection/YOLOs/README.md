@@ -13,29 +13,19 @@
 * **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed. ([Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
 
 ### Converting Model for Deployment
-* Conda
+step1 Conda
 ```bash
 $ conda create --name ultralytics python==3.11 && source activate ultralytics
 $ pip install -r requirements.txt
 ```
 * [Train](https://docs.ultralytics.com/modes/train/) and [Export](https://docs.ultralytics.com/modes/export/#usage-examples) by Python
 
-### Convert to INT8-TFLite Format
-
+step2 Convert to INT32-TFLite Format
 ```bash
-$ yolo export model=yolov8s.pt imgsz=640 format=torchscript
+$ yolo export model=<model_name>.pt imgsz=640 format=tflite half=True int8=True
 ```
-```bash
-$ source activate neuronpilot
-$ python3 convert_to_tflite_quantized.py
-```
-
-### Convert to INT32-TFLite Format
-```bash
-$ yolo export model=yolov8s.pt imgsz=640 format=tflite half=True int8=True
-```
-* Compile by NeuronPilot
+step3 Compile by NeuronPilot
 ```bash
 $ source deactivate && source activate neuronpilot
-$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./yolov8s_saved_model/yolov8s_float32.tflite
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite
 ```
