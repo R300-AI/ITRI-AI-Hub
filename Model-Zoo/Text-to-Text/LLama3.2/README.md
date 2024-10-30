@@ -11,6 +11,6 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ```
 ollama run llama3.2:1b --verbose
->> please write a Fibonacci Function using Python.
+>> give me all the numbers from 1 to 100 without any extra introduction.
 ```
 
