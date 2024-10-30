@@ -1,3 +1,13 @@
+# YOLOs
+
+## Support Metric
+
+|          | Genio 510          | Genio 510          | Genio 510          | Genio 510          |
+|----------|--------------------|--------------------|--------------------|--------------------|
+| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
+:x:
+
+
 
 # Genio 510
 The yolov5 model is only supported by Genio-510/700 which use MDLA3.0 , not supported by Genio-1200, MDLA2.0.
