@@ -38,5 +38,10 @@ $ source deactivate && source activate neuronpilot
 $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./yolov8s_saved_model/yolov8s_float32.tflite
 ```
 
-### Convert to INT8-TFLite Format
+## Board
+
+```bash
+pip install numpy Pillow
+python /usr/share/neuropilot/demo_dla/label_image.py
+```
 
