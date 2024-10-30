@@ -21,6 +21,7 @@ To set up the environment and prepare for model training, execute the following 
 
 ```bash
 $ git clone https://github.com/R300-AI/ITRI-AI-Hub.git && cd Model-Zoo/Detection/YOLOs
+
 $ conda create --name ultralytics python==3.11 && source activate ultralytics
 $ pip install -r requirements.txt
 ```
