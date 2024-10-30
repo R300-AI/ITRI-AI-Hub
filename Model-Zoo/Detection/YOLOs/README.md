@@ -29,18 +29,11 @@ Use the following commands to export the pre-trained model, or you can retrain y
 $ yolo export model=<model_name>.pt imgsz=640 format=tflite
 ```
 
-### Step 3: Model Conversion to INT32-TFLite Format
-Convert the model to INT32-TFLite format by executing the following command:
-
-```bash
-$ yolo export model=yolov8s.pt imgsz=640 format=tflite
-```
-
-### Step 4: Model Compilation with NeuronPilot
+### Step 3: Model Compilation with NeuronPilot
 Compile the model with NeuronPilot using the commands below:
 
 ```bash
 $ source deactivate && source activate neuronpilot
-$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./yolov8s_saved_model/yolov8s_float32.tflite
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite
 ```
 
