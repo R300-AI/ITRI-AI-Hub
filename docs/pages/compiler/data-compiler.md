@@ -17,7 +17,8 @@ Hailo Data Compiler 3.27 compatible with HailoRT 4.17
 ## Installation
 
 ```bash
-$ conda create --name data-compiler python=3.8 && source activate data-compiler 
+$ conda create --name data-compiler python=3.8 && source activate data-compiler
+$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
 ```
 hailo RT
 ```bash
@@ -40,7 +41,7 @@ sudo apt-get install -y graphviz-dev
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
 ```bash
-$ hailo h
+$ hailo scan
 $ hailo tutorial
 ```
 
