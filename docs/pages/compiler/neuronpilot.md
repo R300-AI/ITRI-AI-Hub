@@ -26,10 +26,10 @@ $ conda create --name neuronpilot python=3.7
 Download the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
 ```bash
+$ sudo apt-get update
+$ sudo apt install libncurses5 libstdc++6 libc++1
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
 $ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib:$LD_LIBRARY_PATH
-$ sudo apt-get update
-$ sudo apt install libncurses5 libstdc++6
 ```
 
 ### Step 3: Set Library Path and Install Dependencies
@@ -42,7 +42,7 @@ $ pip install torch==1.9.0 torchvision==0.10.0
 ```
 
 ### Step 4: Verify Installation
-Execute the following command to verify the installation:
+Reboot and execute the following command to verify the installation:
 
 ```bash
 $ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
