@@ -18,7 +18,7 @@ Hailo Data Compiler 3.27 compatible with HailoRT 4.17
 
 ```bash
 $ conda create --name data-compiler python=3.8 && source activate data-compiler
-$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib
+$ export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
 hailo RT
 ```bash
