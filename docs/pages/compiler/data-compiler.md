@@ -37,6 +37,7 @@ data compiler
 $ sudo apt-get install -y graphviz-dev
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
+* reboot
 ```bash
 $ python3 -c "import hailo_sdk_client; print('OK')"
 $ hailo scan   # hailo tutorial
