@@ -22,27 +22,24 @@ $ export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
 hailo RT
 ```bash
-$ sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
+$ pip install opencv-python-headless==4.9.0.80 numpy==1.23.3
+$ sudo dpkg --install hailort_4.17.0_amd64.deb hailort-pcie-driver_4.17.0_all.deb
 $ reboot
 ```
 ```bash
-$ pip install opencv-python-headless==4.9.0.80 numpy==1.23.3
-$ sudo dpkg --install hailort_4.17.0_amd64.deb
 $ pip install hailort-4.17.0-cp38-cp38-linux_x86_64.whl
 ```
 ```bash
 $ hailortcli scan
 ```
 data compiler
-```
-sudo apt-get install -y graphviz-dev
-```
 ```bash
+$ sudo apt-get install -y graphviz-dev
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
 ```bash
-$ hailo scan
-$ hailo tutorial
+$ hailo scan   # hailo tutorial
 ```
+
 
 
