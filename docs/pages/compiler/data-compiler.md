@@ -24,11 +24,11 @@ hailo RT
 ```bash
 $ pip install opencv-python-headless==4.9.0.80 numpy==1.23.3
 $ sudo dpkg --install hailort_4.17.0_amd64.deb hailort-pcie-driver_4.17.0_all.deb
-$ reboot
 ```
 ```bash
 $ pip install hailort-4.17.0-cp38-cp38-linux_x86_64.whl
 ```
+* reboot
 ```bash
 $ hailortcli scan
 ```
