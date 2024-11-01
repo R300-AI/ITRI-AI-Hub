@@ -44,7 +44,7 @@ Reboot the system and verify the installation by executing the following command
 
 ```bash
 $ hailo scan
-$ python3 -c "import hailo_sdk_client; print('OK')"   # you can learn how to use by 'hailo tutorial' command
+$ python3 -c "import hailo_sdk_client; print('OK')"   # you also can learn how to use it by 'hailo tutorial' command
 ```
 
 
