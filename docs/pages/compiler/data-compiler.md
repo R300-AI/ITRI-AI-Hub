@@ -32,7 +32,7 @@ $ export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
 
 ### Step 3: Install Dependencies
-Execute the following commands to install dependencies:
+Download the Data Compiler 3.27.0 from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl) and install it:
 
 ```bash
 $ sudo apt-get install -y graphviz-dev
