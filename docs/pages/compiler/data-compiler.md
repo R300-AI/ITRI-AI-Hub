@@ -19,17 +19,20 @@ Hailo Data Compiler 3.27 compatible with HailoRT 4.17
 ```bash
 $ conda create --name data-compiler python=3.8 && source activate data-compiler
 ```
+hailo RT
 ```bash
-# data compiler
-$ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
-
-# hailo RT
 $ sudo dpkg --install hailort-pcie-driver_4.17.0_all.deb
-$ sudo dpkg --install hailort_4.17.0_amd64.deb -y
+$ sudo dpkg --install hailort_4.17.0_amd64.deb
 $ pip install hailort-4.17.0-cp38-cp38-linux_x86_64.whl
 ```
 ```bash
 $ hailo h
+```
+data compiler
+```bash
+$ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
+```
+```bash
 $ hailo tutorial
 ```
 
