@@ -8,7 +8,7 @@ nav_order: 21
 ##### update : 2024/10 by Markov Chen
 <br>
 
-Hailo Data Compiler 3.27 compatible with HailoRT 4.17
+Hailo Data Compiler is a tool designed for Hailo's AI processors, enabling developers to efficiently compile and optimize models for deployment on Hailo hardware. It includes a model compilation tool (hailo_dataflow_compiler) and is compatible with HailoRT runtime. The current version of Hailo Data Compiler is 3.27, and it supports Python 3.8. If this meets your expectations, you can follow the instructions to install the Hailo Data Compiler environment.
 
 ### Prerequisites
 
@@ -16,19 +16,35 @@ Hailo Data Compiler 3.27 compatible with HailoRT 4.17
   
 ## Installation
 
+### Step 1: Create and Activate Conda Environment
+Execute the following commands to create and activate the Conda environment:
+
 ```bash
-$ conda create --name data-compiler python=3.8 && source activate data-compiler
+$ conda create --name data-compiler python=3.8
+$ source activate data-compiler
+```
+
+### Step 2: Set Library Path
+Set the library path by executing the following command:
+
+```bash
 $ export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 ```
-data compiler
+
+### Step 3: Install Dependencies
+Execute the following commands to install dependencies:
+
 ```bash
 $ sudo apt-get install -y graphviz-dev
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
-* reboot
+
+### Step 4: Verify Installation
+Reboot the system and verify the installation by executing the following commands:
+
 ```bash
-$ python3 -c "import hailo_sdk_client; print('OK')"
-$ hailo scan   # hailo tutorial
+$ hailo scan
+$ python3 -c "import hailo_sdk_client; print('OK')"   # you can learn how to use by 'hailo tutorial' command
 ```
 
 
