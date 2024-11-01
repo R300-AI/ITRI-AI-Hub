@@ -4,8 +4,18 @@ title: "　-　Data Compiler"
 nav_order: 21
 ---
 
-# Hailo Data Compiler 3.27
-compatible with HailoRT 4.17
+# Install Data Compiler for Workstations
+##### update : 2024/10 by Markov Chen
+<br>
+
+Hailo Data Compiler 3.27 compatible with HailoRT 4.17
+
+### Prerequisites
+
+* To install the **Data Compiler** and **Hailo RT**, you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
+  
+## Installation
+
 ```
 conda create --name data-compiler python=3.8 && source activate data-compiler
 ```
