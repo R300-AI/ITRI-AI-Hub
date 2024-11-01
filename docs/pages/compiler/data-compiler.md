@@ -30,13 +30,14 @@ $ sudo dpkg --install hailort_4.17.0_amd64.deb
 $ pip install hailort-4.17.0-cp38-cp38-linux_x86_64.whl
 ```
 ```bash
-$ hailo h
+$ hailortcli scan
 ```
 data compiler
 ```bash
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 ```
 ```bash
+$ hailo h
 $ hailo tutorial
 ```
 
