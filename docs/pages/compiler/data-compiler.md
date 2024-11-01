@@ -18,7 +18,7 @@ Hailo Data Compiler 3.27 compatible with HailoRT 4.17
 
 ```bash
 $ conda create --name data-compiler python=3.8 && source activate data-compiler
-$ pip install opencv-python-headless==4.9.0.80 numpy==1.24.4 pyparsing==2.3.1 pyyaml==5.3.1
+$ pip install opencv-python-headless==4.9.0.80 numpy==1.23.3 pyparsing==2.3.1 pyyaml==5.3.1
 ```
 hailo RT
 ```bash
