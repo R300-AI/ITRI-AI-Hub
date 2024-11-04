@@ -1,5 +1,61 @@
-import numpy as np
 import cv2
+import numpy as np
+import tensorflow as tf
+
+class YOLOs():
+    def __init__(self, model_path):
+        self.interpreter = tf.lite.Interpreter(model_path=model_path)
+        self.input_details = self.interpreter.get_input_details()
+        self.output_details = self.interpreter.get_output_details()
+        self.interpreter.allocate_tensors()
+
+    def predict(self, frames, conf=0.25, iou=0.7, agnostic=False, max_det=300):
+        im = self.preprocess(frames)
+        preds = self.inference(im)
+        results = self.postprocess(preds, conf_thres=conf, iou_thres=iou, agnostic=agnostic, max_det=max_det)
+        return results
+
+    def postprocess(self, prediction, conf_thres=0.25, iou_thres=0.45, classes=None, agnostic=False, multi_label=False, labels=(), max_det=300, nc=0, max_time_img=0.05, max_nms=30000, max_wh=7680, in_place=True, rotated=False):
+        nc = prediction.shape[1]
+        xc = np.max(prediction[:, 4: nc], axis = 1) > conf_thres
+        prediction = np.transpose(prediction, (0, 2, 1))
+        prediction[..., :4] = xywh2xyxy(prediction[..., :4])
+        output = []
+        for xi, x in enumerate(prediction):
+          x = x[xc[0]]
+          if not x.shape[0]:
+              continue
+          box, cls = x[:, :4], x[:, 4:]
+          j = np.argmax(cls, axis=1)
+          conf = cls[[i for i in range(len(j))], j]
+          concatenated = np.concatenate((box, conf.reshape(-1, 1), j.reshape(-1, 1).astype(float)), axis=1)
+          x = concatenated[conf.flatten() > conf_thres]
+          if x.shape[0] > max_nms:  # excess boxes
+              x = x[x[:, 4].argsort(descending=True)[:max_nms]]
+          cls = x[:, 5:6] * (0 if agnostic else max_wh)
+          scores, boxes = x[:, 4], x[:, :4] + cls
+          i = non_max_suppression(boxes, scores, iou_thres)
+          output.append(x[i[:max_det]])
+        return output
+
+    def inference(self, im):
+        im = im.transpose((0, 1, 2, 3))
+        self.interpreter.set_tensor(self.input_details[0]['index'], im)
+        self.interpreter.invoke()
+        preds = self.interpreter.get_tensor(self.output_details[0]['index'])
+        preds[:, [0, 2]] *= im.shape[1]; preds[:, [1, 3]] *= im.shape[2]
+        return preds
+
+    def preprocess(self, im):
+        im = np.stack(self.pre_transform(im))
+        im = im[..., ::-1]
+        im = np.ascontiguousarray(im).astype(np.float32)
+        im /= 255.0
+        return im
+
+    def pre_transform(self, im):
+        imgsz = self.input_details[0]['shape'][1:3]
+        return [cv2.resize(im[0], imgsz, interpolation=cv2.INTER_LINEAR) for x in im]
 
 class LetterBox:
     def __init__(self, new_shape=(640, 640), auto=False, scaleFill=False, scaleup=True, center=True, stride=32):
