@@ -5,7 +5,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 # Prepare 
 
 ### YOLOv8n
-|  Device    | Chipsets    | ArmNN       |  NeuronRT  |
+|  Device    | Chipset    | ArmNN       |  NeuronRT  |
 |------------|-------------|-------------|------------------|
 | Genio350   |`Mali GPU`|||
 | Genio350   |  ||:x:|
