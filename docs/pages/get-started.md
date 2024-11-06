@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
+
 
 <br>Before selecting an embedded processor for your application and system, we recommend that you find a case study or similar implemented model in Model Zoo, and then select the appropriate Evaluation Kit based on its performance benchmarks on different types of processors.
 
@@ -18,7 +18,9 @@ In the following documents, we provide software installation guidelines related 
 * **Evaluation Kits:**: Embedded System
     > Runtime APIs: these APIs enable developers to perform reasoning on embedded systems using programming languages such as Python, C#, etc. and optimise the model's computational process through DLAs, thus reducing the execution time of the application and the energy consumption per unit of computation.
   
-## **Platform Overview**
+<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
+
+## **Evaluation Kits Overview**
 
 Below is a list of currently supported options:
 
