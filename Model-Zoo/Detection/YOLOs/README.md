@@ -15,23 +15,3 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | Genio700   |`MDLA 3.0`  |||
 | Genio1200  |`Mali GPU`|||
 | Genio1200  |`MDLA 2.0`||:x:|
-
-#### Support Metric
-
-|          | Genio 350          | Genio 510          | Genio 700          | Genio 1200         |
-|----------|--------------------|--------------------|--------------------|--------------------|
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: |                 |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
