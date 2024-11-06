@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-* **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed.
+* **Ubuntu 22.04 LTS x86_64 Workstation** which **NeuronPilot** has been installed.
 * A **Genio-510/700 EVK (equipped with MDLA3.0)** board which **NeuronRT** Library has been installed.
 
 
