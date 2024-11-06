@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　Genio EVKs"
-nav_order: 31
+nav_order: 21
 ---
 
 # Genio EVK Setup Guide

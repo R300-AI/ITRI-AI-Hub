@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　RaspberryPis"
-nav_order: 33
+nav_order: 23
 ---
 
 # 

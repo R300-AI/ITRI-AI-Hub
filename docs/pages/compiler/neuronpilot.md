@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　NeuronPilot"
-nav_order: 22
+nav_order: 32
 ---
 
 # Install NeuronPilot for Workstations

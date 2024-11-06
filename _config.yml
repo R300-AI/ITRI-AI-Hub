@@ -31,34 +31,34 @@ just_the_docs:
         url: "/docs/pages/workstation/ryzen-ai.md"
         nav_order: 14
 
-      - title: "Converter Tools"
-        url: "/docs/pages/compiler.md"
-        nav_order: 20
-      - title: "　-　Data Compiler"
-        url: "/docs/pages/compiler/data-compiler.md"
-        nav_order: 21
-      - title: "　-　NeuronPilot"
-        url: "/docs/pages/compiler/neuronpilot.md"
-        nav_order: 22
-      - title: "　-　Vitis AI"
-        url: "/docs/pages/compiler/vitis-ai.md.md"
-        nav_order: 23
-
       - title: "Evaluation Kits"
         url: "/docs/pages/evaluation-kits.md"
-        nav_order: 30
+        nav_order: 20
       - title: "　-　Genio EVKs"
         url: "/docs/pages/evaluation-kits/genio-evk.md"
-        nav_order: 31
+        nav_order: 21
       - title: "　-　I-Pi SMARC"
         url: "/docs/pages/evaluation-kits/ipi-smarc.md"
-        nav_order: 32
+        nav_order: 22
       - title: "　-　Raspberry Pi"
         url: "/docs/pages/evaluation-kits/raspberrypi.md"
-        nav_order: 33
+        nav_order: 23
       - title: "　-　Jetson EVK"
         url: "/docs/pages/evaluation-kits/jetson-evk.md"
-        nav_order: 34
+        nav_order: 24
+
+      - title: "Converter Tools"
+        url: "/docs/pages/compiler.md"
+        nav_order: 30
+      - title: "　-　Data Compiler"
+        url: "/docs/pages/compiler/data-compiler.md"
+        nav_order: 31
+      - title: "　-　NeuronPilot"
+        url: "/docs/pages/compiler/neuronpilot.md"
+        nav_order: 32
+      - title: "　-　Vitis AI"
+        url: "/docs/pages/compiler/vitis-ai.md.md"
+        nav_order: 33
 
       - title: "Runtime SDKs"
         url: "/docs/pages/runtime.md"

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　Data Compiler"
-nav_order: 21
+nav_order: 31
 ---
 
 # Install Data Compiler for Workstations

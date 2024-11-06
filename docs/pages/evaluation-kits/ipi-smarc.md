@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　I-Pi SMARCs"
-nav_order: 32
+nav_order: 22
 ---
 
 # I-Pi SMARC Setup Guide
