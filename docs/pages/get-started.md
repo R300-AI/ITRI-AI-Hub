@@ -24,7 +24,7 @@ In the following documents, we provide software installation guidelines related 
 * **Work Station**: This term refers to the host environment used to develop and train AI models. Typically, this environment is separate from the embedded processor because the internal structure of the model must remain dynamic at this stage, and therefore a more versatile graphics processor must be used for training and compilation.
     > **Converter Tools**: This term refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process usually involves a series of steps such as simplification and quantisation, and is therefore usually performed on a workstation or large server.
 
-* **Evaluation Kits:**: haha
+* **Evaluation Kits:**: Embedded System
     > Runtime APIs: these APIs enable developers to perform reasoning on embedded systems using programming languages such as Python, C#, etc. and optimise the model's computational process through DLAs, thus reducing the execution time of the application and the energy consumption per unit of computation.
   
 ## **Platform Overview**
