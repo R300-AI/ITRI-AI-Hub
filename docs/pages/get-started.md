@@ -6,7 +6,7 @@ nav_order: 2
 
 # Get Started
 
-<div align="center"><img src="../assets/images/software-support-metric.png" width="900"/></div>
+<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
 
 <br>Before selecting an accelerated platform for your application and system architecture, we recommend that you find a candidate embedded platform at [Home](https://r300-ai.github.io/ITRI-AI-Hub/), and further review its market position and product specifications. The AI Hub also provides the latest tools for the entire development lifecycle, including **workstations, compilers**, and **accelerators**.
 
