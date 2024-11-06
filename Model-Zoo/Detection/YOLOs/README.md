@@ -10,9 +10,9 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | Genio350   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |          |
 | Genio350   |`VPU`        |NeuronRT     |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |
 | Genio510   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |          |
-| Genio510   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |
+| Genio510   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |          |          |          |          |          |          |          |
 | Genio700   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |          |
-| Genio700   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |
+| Genio700   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |          |          |          |          |          |          |          |
 | Genio1200  |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |          |
 | Genio1200  |`MDLA 2.0`   |NeuronRT     |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |
 
