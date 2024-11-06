@@ -8,15 +8,15 @@ nav_order: 2
 
 
 
-<br>Before selecting an embedded processor for your application and system, we recommend that you find a case study or similar implemented model in Model Zoo, and then select the appropriate Evaluation Kit based on its performance benchmarks on different types of processors.
+<br>Before selecting an embedded processor for your application, we recommend finding a case study or a similar implemented model in the Model Zoo. Based on its performance benchmarks on different processors, select the appropriate Evaluation Kit.
 
-In the following documents, we provide software installation guidelines related to Work Station and Evaluation Kits to meet the basic needs of developing embedded AI:
+In the following documents, we provide software installation guidelines for Work Stations and Evaluation Kits to meet the basic needs of developing embedded AI:
 
-* **Work Station**: This term refers to the host environment used to develop and train AI models. Typically, this environment is separate from the embedded processor because the internal structure of the model must remain dynamic at this stage, and therefore a more versatile graphics processor must be used for training and compilation.
-    > **Converter Tools**: This term refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process usually involves a series of steps such as simplification and quantisation, and is therefore usually performed on a workstation or large server.
+* **Work Station**: This term refers to the host used to develop and train AI models (usually through PyTorch or TensorFlow), which mainly includes facilities such as GPUs and CPUs. Typically, it is separate from embedded systems because this stage requires high performance and high power consumption.
+    > **Converter Tools**: These tools involve vendor-specific properties designed to translate the model into instructions readable by the accelerator.
 
-* **Evaluation Kits:**: Embedded System
-    > Runtime APIs: these APIs enable developers to perform reasoning on embedded systems using programming languages such as Python, C#, etc. and optimise the model's computational process through DLAs, thus reducing the execution time of the application and the energy consumption per unit of computation.
+* **Evaluation Kits:**: 
+    > **Runtime APIs**: 
   
 <div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
 
