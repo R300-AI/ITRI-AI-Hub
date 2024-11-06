@@ -13,7 +13,6 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | Genio700   |`MT83`|||
 | Genio1200  |`Mali-G`    |||
 | Genio1200  |`MT8395`    ||:x:|
-## MediaTek Genios
 
 #### Support Metric
 
