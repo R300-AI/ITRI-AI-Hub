@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-* Converted `yolov8s_float_mdla3.dla` produced by [HERE](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs)
+* **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed.
 * A **Genio-510/700 EVK** board which **NeuronRT** Library has been installed.
 
 ### Demo
