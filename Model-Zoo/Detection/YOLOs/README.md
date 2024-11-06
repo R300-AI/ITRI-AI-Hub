@@ -4,6 +4,11 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Prepare 
 
+### YOLOv8
+|  Device   | Runtime API | YOLOv8n          |
+|-----------|-------------|------------------|
+| Genio510  | ArmNN       |                  |
+
 ## MediaTek Genios
 
 #### Support Metric
