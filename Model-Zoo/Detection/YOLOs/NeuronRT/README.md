@@ -6,7 +6,7 @@
 * A **Genio-510/700 EVK (equipped with MDLA3.0)** board which **NeuronRT** Library has been installed.
 
 
-### Training and Compile YOLOs on Workstation
+### Training YOLOs and Compile it on Workstation
 
 #### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
