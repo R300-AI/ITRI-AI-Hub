@@ -7,7 +7,9 @@ nav_order: 2
 # Get Started
 ##### update : 2024/11 by Markov Chen
 
-<br>Before selecting an embedded processor for your application, we recommend that you review the use cases or similar real-world models in Model Zoo. Then, select the appropriate Evaluation Kits based on their performance benchmarks on different processors.
+<br>Before selecting an embedded processor for your application, we recommend that you review the use cases or similar real-world models in Model Zoo. Then, select the appropriate Evaluation Kits based on their performance benchmarks on different processors. (...增加下圖的描述)
+
+<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
 
 In the following documents, we provide software installation guidelines for Work Stations and Evaluation Kits to meet the basic needs of developing embedded AI:
 
@@ -17,7 +19,6 @@ In the following documents, we provide software installation guidelines for Work
 * **Evaluation Kits**: This term refers to lightweight motherboards designed specifically for certain embedded processors. Due to their highly reconfigurable hardware, they are often used in the development of various portable devices and electronic products.
     > **Runtime APIs**: APIs that delegate the model inference process to designated computing units. Usage examples can be found in the Model Zoo.
 
-<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
 
 ## **Evaluation Kits Overview**
 
