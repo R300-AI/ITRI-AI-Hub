@@ -15,6 +15,17 @@ nav_order: 2
 * **Compiler**: This term refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process generally involves a series of steps such as simplification and quantisation, and is therefore usually conducted on workstations or massive servers.
 
 * **Runtime APIs**: These APIs enable developers to perform inference on embedded systems using programming languages such as Python, C#, etc. and optimise the model's computational process through DLA, thereby reducing application execution time and energy consumption per unit of computation.
+
+
+Before selecting an embedded processor for your application and system, we recommend that you find a case study or similar implemented model in Model Zoo, and then select the appropriate Evaluation Kit based on its performance benchmarks on different types of processors.
+
+In the following documents, we provide software installation guidelines related to Work Station and Evaluation Kits to meet the basic needs of developing embedded AI:
+
+* **Work Station**: This term refers to the host environment used to develop and train AI models. Typically, this environment is separate from the embedded processor because the internal structure of the model must remain dynamic at this stage, and therefore a more versatile graphics processor must be used for training and compilation.
+    > **Converter Tools**: This term refers to the process of converting each computational step into binary instructions for a specific DLA after the model has been developed. This process usually involves a series of steps such as simplification and quantisation, and is therefore usually performed on a workstation or large server.
+
+* **Evaluation Kits:**: haha
+    > Runtime APIs: these APIs enable developers to perform reasoning on embedded systems using programming languages such as Python, C#, etc. and optimise the model's computational process through DLAs, thus reducing the execution time of the application and the energy consumption per unit of computation.
   
 ## **Platform Overview**
 
