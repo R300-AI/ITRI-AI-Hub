@@ -36,6 +36,12 @@ just_the_docs:
       - title: "　-　ROCm"
         url: "/docs/pages/workstation/rocm.md"
         nav_order: 12
+      - title: "　-　Open VINO"
+        url: "/docs/pages/workstation/openvino.md"
+        nav_order: 13
+      - title: "　- Ryzen AI"
+        url: "/docs/pages/workstation/ryzen-ai.md"
+        nav_order: 14
 
       - title: "Compiler"
         url: "/docs/pages/compiler.md"
@@ -46,9 +52,6 @@ just_the_docs:
       - title: "　-　Vitis AI"
         url: "/docs/pages/compiler/vitis-ai.md.md"
         nav_order: 22
-      - title: "　-　Open VINO"
-        url: "/docs/pages/compiler/openvino.md"
-        nav_order: 23
       - title: "　-　NeuronPilot"
         url: "/docs/pages/compiler/neuronpilot.md"
         nav_order: 24
