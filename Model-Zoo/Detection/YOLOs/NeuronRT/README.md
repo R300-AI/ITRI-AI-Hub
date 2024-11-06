@@ -3,7 +3,7 @@
 ### Prerequisites
 
 * **Ubuntu 22.04 LTS** Workstation with **x86_64** processors and **NeuronPilot** installed.
-* A **Genio-510/700 EVK** board which **NeuronRT** Library has been installed.
+* A **Genio-510/700 EVK (equipped with MDLA3.0)** board which **NeuronRT** Library has been installed.
 
 
 ### Training and Compile YOLOs on Workstation
