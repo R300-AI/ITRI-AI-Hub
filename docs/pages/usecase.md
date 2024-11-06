@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Use Case"
-nav_order: 50
+nav_order: 60
 ---
 
 # Use Case

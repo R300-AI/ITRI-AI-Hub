@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Benchmarks"
-nav_order: 40
+nav_order: 50
 ---
 
 ## Benchmarks

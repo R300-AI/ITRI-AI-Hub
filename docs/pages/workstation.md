@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Workstation"
+title: "Work Station"
 nav_order: 10
 ---
 
