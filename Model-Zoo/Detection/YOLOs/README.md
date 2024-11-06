@@ -5,16 +5,16 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 # Prepare 
 
 ### YOLOv8n
-|  Device    | Chipsets    | ArmNN |  NeuronRT<sub>  |
+|  Device    | Chipsets    | ArmNN       |  NeuronRT  |
 |------------|-------------|-------------|------------------|
-| Genio350   |`Mali-G`||:x:|
-| Genio350   |`MT83`  ||:x:|
-| Genio510   |`Mali-G`|||
-| Genio510   |`MT83`  |||
-| Genio700   |`Mali-G`|||
-| Genio700   |`MT83`  |||
-| Genio1200  |`Mali-G`|||
-| Genio1200  |`MT8395`||:x:|
+| Genio350   |`Mali GPU`|||
+| Genio350   |  ||:x:|
+| Genio510   |`Mali GPU`|||
+| Genio510   |`MDLA 3.0`  |||
+| Genio700   |`Mali GPU`|||
+| Genio700   |`MDLA 3.0`  |||
+| Genio1200  |`Mali GPU`|||
+| Genio1200  |`MDLA 2.0`||:x:|
 
 #### Support Metric
 
