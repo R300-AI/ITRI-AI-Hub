@@ -9,10 +9,10 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 |------------|-------------|-------------|------------------|
 | Genio510   ||||
 | Genio510   ||||
-| Genio510   ||||
-| Genio510   ||||
+| Genio700   ||||
+| Genio700   ||||
 | Genio1200  ||||
-
+| Genio1200  ||||
 ## MediaTek Genios
 
 #### Support Metric
