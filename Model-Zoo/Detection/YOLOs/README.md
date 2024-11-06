@@ -4,7 +4,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Prepare 
 
-### YOLOv8
+### YOLOv8n
 |  Device    | Chipsets    | ArmNN |  NeuronRT  |
 |------------|-------------|-------------|------------------|
 | Genio510   ||||
