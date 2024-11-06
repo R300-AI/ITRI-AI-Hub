@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　NeuronRT"
-nav_order: 36
+nav_order: 45
 ---
 
 # Install NeuronRT for Genio Boards

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "　-　KleidiAI"
-nav_order: 31
+nav_order: 41
 ---
 
 # Install Arm Kleidi AI for ARM64 Boards
