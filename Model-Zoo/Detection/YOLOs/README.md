@@ -4,14 +4,16 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Benchmarks
 
-### YOLOv8n 
-|  Device    | Chipset    | ArmNN       |  NeuronRT  |
-|------------|-------------|-------------|------------------|
-| Genio350   |`Mali GPU`|||
-| Genio350   |  ||:x:|
-| Genio510   |`Mali GPU`|||
-| Genio510   |`MDLA 3.0`  |||
-| Genio700   |`Mali GPU`|||
-| Genio700   |`MDLA 3.0`  |||
-| Genio1200  |`Mali GPU`|||
-| Genio1200  |`MDLA 2.0`||:x:|
+### Speed 
+|  Device    | Chipset     | Runtime API | YOLOv8n       |
+|------------|-------------|-------------|-------------|
+| Genio350   |`Mali GPU`   |ArmNN        ||
+| Genio350   |`VPU`        |NeuronRT     |:x:|
+| Genio510   |`Mali GPU`   |ArmNN        ||
+| Genio510   |`MDLA 3.0`   |NeuronRT     ||
+| Genio700   |`Mali GPU`   |ArmNN        ||
+| Genio700   |`MDLA 3.0`   |NeuronRT     ||
+| Genio1200  |`Mali GPU`   |ArmNN        ||
+| Genio1200  |`MDLA 2.0`   |NeuronRT     |:x:|
+
+### Memory 
