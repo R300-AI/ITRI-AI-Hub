@@ -17,3 +17,13 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | Genio1200  |`MDLA 2.0`   |NeuronRT     |:x:|
 
 ## Memory 
+|  Device    | Chipset     | Runtime API | YOLOv8n       |
+|------------|-------------|-------------|-------------|
+| Genio350   |`Mali GPU`   |ArmNN        ||
+| Genio350   |`VPU`        |NeuronRT     |:x:|
+| Genio510   |`Mali GPU`   |ArmNN        ||
+| Genio510   |`MDLA 3.0`   |NeuronRT     ||
+| Genio700   |`Mali GPU`   |ArmNN        ||
+| Genio700   |`MDLA 3.0`   |NeuronRT     ||
+| Genio1200  |`Mali GPU`   |ArmNN        ||
+| Genio1200  |`MDLA 2.0`   |NeuronRT     |:x:|
