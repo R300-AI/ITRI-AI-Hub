@@ -5,19 +5,18 @@ nav_order: 2
 ---
 
 # Get Started
+##### update : 2024/11 by Markov Chen
 
-
-
-<br>Before selecting an embedded processor for your application, we recommend finding a case study or a similar implemented model in the Model Zoo. Based on its performance benchmarks on different processors, select the appropriate Evaluation Kit.
+<br>Before selecting an embedded processor for your application, we recommend that you review the use cases or similar real-world models in Model Zoo. Then, select the appropriate Evaluation Kits based on their performance benchmarks on different processors.
 
 In the following documents, we provide software installation guidelines for Work Stations and Evaluation Kits to meet the basic needs of developing embedded AI:
 
 * **Work Station**: This term refers to the host used to develop and train AI models (usually through PyTorch or TensorFlow), which mainly includes facilities such as GPUs and CPUs. Typically, it is separate from embedded systems because this stage requires high performance and high power consumption.
-    > **Converter Tools**: These tools involve vendor-specific properties designed to translate the model into instructions readable by the accelerator.
+    > **Converter Tools**: These tools involve vendor-specific properties designed to translate the model into instructions readable by the embedded processors.
 
-* **Evaluation Kits:**: 
-    > **Runtime APIs**: 
-  
+* **Evaluation Kits**: This term refers to lightweight motherboards designed specifically for certain embedded processors. Due to their highly reconfigurable hardware, they are often used in the development of various portable devices and electronic products.
+    > **Runtime APIs**: APIs that delegate the model inference process to designated computing units. Usage examples can be found in the Model Zoo.
+
 <div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
 
 ## **Evaluation Kits Overview**
