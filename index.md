@@ -8,13 +8,15 @@ nav_order: 1
 
 <p>
 <div style="margin-left: 20px;">
-The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct an portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal computing units on this platform for implementing various sophisticated applications.
+The ITRI AI Hub provides a comprehensive AI infrastructure solution to help enterprises construct a portable AI system with <b>Compliant, Secure,</b> and <b>High Energy Efficiency</b>. Developers can find the optimal computing units on this platform for implementing various sophisticated applications.
 </div>
 </p>
 
 <div style="margin-left: 20px;">
-<br>Imagine how important an Embedded AI with high endurance is in a jungle with no internet connection. Let's suppose you're alone with your digital assistant, but unable to use its full functionality due to no internet connectivity. Embedded AI is able to efficiently process data and perform tasks on a local device, meaning that even when the internet is unavailable, your digital assistant can still identify dangerous animals and plants, provide voice survival guides, and monitor physiological conditions, among other key functions. A laptop workstation is an alternative solution; however, it may face challenges such as limited battery life. In contrast, using cloud-based AI involves bottlenecks such as finding network signals, connecting to the network, synchronizing data and requesting cloud services, all of which may not be completed in real time during such emergencies, thereby compromising your safety and convenience.
+<br>Imagine how important an Embedded AI with high durability is in a jungle with no internet connection. Let's suppose you're alone with your digital assistant, but unable to use its full functionality due to no internet connectivity. Embedded AI is able to efficiently process data and perform tasks on a local device, meaning that even when the internet is unavailable, your digital assistant can still identify dangerous animals and plants, provide voice survival guides, and monitor physiological conditions, among other key functions. A laptop workstation is an alternative solution. however, it may face challenges such as limited battery life. In contrast, using cloud-based AI involves bottlenecks such as finding network signals, connecting to the network, synchronizing data and requesting cloud services, all of which may not be completed in real-time during such emergencies, thereby compromising your safety and convenience.
 </div>
+
+Imagine how important an embedded AI with high durability is in a jungle with no internet connection. Suppose you're alone with your digital assistant but unable to use its full functionality due to no internet connectivity. Embedded AI can efficiently process data and perform tasks on a local device, meaning that even when the internet is unavailable, your digital assistant can still identify dangerous animals and plants, provide voice survival guides, and monitor physiological conditions, among other key functions. A laptop workstation is an alternative solution; however, it may face challenges such as limited battery life. In contrast, using cloud-based AI involves bottlenecks such as finding network signals, connecting to the network, synchronizing data, and requesting cloud services, all of which may not be completed in real-time during such emergencies, thereby compromising your safety and convenience.
 
 
 ## **Designed for AI Applications Everywhere**
