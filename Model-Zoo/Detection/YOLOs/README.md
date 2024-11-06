@@ -7,19 +7,19 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 ### YOLOv8n
 |  Device    | Chipsets    | ArmNN |  NeuronRT  |
 |------------|-------------|-------------|------------------|
-| Genio510   ||||
-| Genio510   ||||
-| Genio700   ||||
-| Genio700   ||||
-| Genio1200  ||||
-| Genio1200  ||||
+| Genio510   |`Mali-G`|||
+| Genio510   |`MT83`|||
+| Genio700   |`Mali-G`|||
+| Genio700   |`MT83`|||
+| Genio1200  |`Mali-G`    |||
+| Genio1200  |`MT8395`    ||:x:|
 ## MediaTek Genios
 
 #### Support Metric
 
 |          | Genio 350          | Genio 510          | Genio 700          | Genio 1200         |
 |----------|--------------------|--------------------|--------------------|--------------------|
-| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
+| YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: |                 |
 | YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
 | YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
 | YOLOv8s  | :x:                | :white_check_mark: | :white_check_mark: | :x:                |
