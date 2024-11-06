@@ -39,7 +39,7 @@ just_the_docs:
       - title: "　-　Open VINO"
         url: "/docs/pages/workstation/openvino.md"
         nav_order: 13
-      - title: "　- Ryzen AI"
+      - title: "　-　Ryzen AI"
         url: "/docs/pages/workstation/ryzen-ai.md"
         nav_order: 14
 
