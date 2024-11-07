@@ -64,8 +64,8 @@ Below is a list of currently supported options:
 
 |  Devices   | Gen-3        | Gen-4        | Gen-5         |
 |:----------:|:------------:|:------------:|:-------------:|
-| **Chipsets**     | BCM2837      | BCM2711      | BCM2712       |
-| **Architecture** | arm64        | arm64        | arm64         |
-| **CPU**          | Cortex-A53   | Cortex-A72   | Cortex-A76    |
+| **Chipsets**     | `Cortex-A`      | `Cortex-A`       | `Cortex-A`        |
+| **Converter Tool**   | -                         | -                          | -   |
+| **Runtime SDK**      | `Kleidi AI` | `Kleidi AI` | `Kleidi AI` |
 | **Power**        | 2.5~5W       | 3~6W         | 4~8W          |
 | **Memory**       | 1GB LPDDR2  | 2GB/4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 |
