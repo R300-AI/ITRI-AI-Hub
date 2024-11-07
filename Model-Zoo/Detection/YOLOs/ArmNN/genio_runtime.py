@@ -11,6 +11,6 @@ labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5
           78: 'hair drier', 79: 'toothbrush'}
 
 tflite_model = YOLOs(model_path='./yolo8n_float32.tflite')
-results = tflite_model.predict([frame])
+results = tflite_model.predict([frame], conf=0.25, iou=0.7, agnostic=False, max_det=300)
 print(results)
 cv2.imshow(plot(frame.copy(), results[0].copy(), labels))
