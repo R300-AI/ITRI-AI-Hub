@@ -5,7 +5,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 # Benchmarks
 ## Train/Val Accuracy
 ## Inference Speed 
-|  Device    | Chipset     | Runtime API | YOLOv5nu<sub>fp16  | YOLOv5nu<sub>fp32 | YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
+|  Device    | Chipset     | API | YOLOv5nu<sub>fp16  | YOLOv5nu<sub>fp32 | YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
 |------------|-------------|-------------|--------------------|-------------------|------------------|------------------|-------------------|------------------|
 | Genio350   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
 | Genio350   |`VPU`        |NeuronRT     |:x:       |:x:       |:x:       |:x:       |:x:       |:x:       |
