@@ -46,11 +46,9 @@ Below is a list of currently supported options:
 
 |  Devices     | Genio 350    | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:------------:|:-------------:|:-------------:|:--------------:|
-| **Chipsets** |  MT8365      |  MT8385       |   MT8395      |   MT8396       |
-| **Architecture** | arm64    | arm64         | arm64         | arm64          |
-| **CPU**      | Cortex-A53   | Cortex-A73/A53 | Cortex-A76/A55 | Cortex-A78/A55 |
-| **GPU**      | Mali-G52     | Mali-G57      | Mali-G57      | Mali-G57       |
-| **NPU**      |      --      | MDLA-3.0      | MDLA-3.0      | MDLA-2.0       |
+| **Chipsets** |  `Cortex-A`, `Mali GPU`, `VPU`  |  `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 2.0` |
+| **Converter Tool**   | NeuronPilot             | NeuronPilot                         | NeuronPilot                          | NeuronPilot                          |
+| **Runtime SDK**      | `Kleidi AI`, `ArmNN`, `NeuronRT` | `Kleidi AI`, `ArmNN`, `NeuronRT`| `Kleidi AI`, `ArmNN`, `NeuronRT` | `Kleidi AI`, `ArmNN`, `NeuronRT` |
 | **Power**    | 3~5W         | 5~10W         | 7~15W         | 10~20W         |
 | **Memory**   | 2GB/4GB LPDDR4 | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
 
