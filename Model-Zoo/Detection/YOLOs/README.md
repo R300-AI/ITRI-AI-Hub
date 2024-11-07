@@ -4,11 +4,11 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Benchmarks
 ## Train/Val Accuracy
-|  Model     |  mAP<sub>50     |  mAP<sub>50-95     |
-|------------|-----------------|--------------------|
-| YOLOv5n    |||
-| YOLOv8n    |||
-| YOLO11n    |||
+|  Model     | Prorcess Time (hr)   |  mAP<sub>50     |  mAP<sub>50-95     |
+|------------|-----------------|-----------------|--------------------|
+| YOLOv5n    ||||
+| YOLOv8n    ||||
+| YOLO11n    ||||
 
 ## Inference Speed 
 |  Device    | Chipset     | API | YOLOv5n<sub>fp16  | YOLOv5n<sub>fp32 | YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
