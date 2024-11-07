@@ -32,10 +32,9 @@ Below is a list of currently supported options:
 
 |  Devices     | Orin Nano     | Orin NX          | AGX Xavier        | AGX Orin          |
 |:------------:|:-------------:|:----------------:|:-----------------:|:-----------------:|
-| **Chipsets**         | NVIDIA Orin         | NVIDIA Orin         | NVIDIA Xavier     | NVIDIA Orin          |
-| **Converter Tool**   | `TensorRT` | 8-core Cortex-A78AE | 8-core ARM v8.2   | 12-core Cortex-A78AE |
-| **Runtime SDK**      | `Kleidi AI`, `TensorRT`  | arm64               | arm64             | arm64                |
-| **Chiplset**         | `Cortex-A`, `Ampere`  | `Ampere`  | `Volta`  | `Ampere`   |
+| **Chipsets**         | `Cortex-A`, `Ampere` | `Cortex-A`, `Ampere` | `Volta` || `Cortex-A`, `Ampere` |
+| **Converter Tool**   | `TensorRT`          | `TensorRT`          | `TensorRT`        | `TensorRT`           |
+| **Runtime SDK**      | `Kleidi AI`, `TensorRT` | `Kleidi AI`, `TensorRT`| `TensorRT` | `Kleidi AI`, `TensorRT` |
 | **Power**            | 5~15W               | 10~25W              | 10~30W            | 15~60W               |
 | **Memory**           | 4GB/8GB LPDDR5      | 8GB/16GB LPDDR5     | 32GB LPDDR4x      | 32GB/64GB LPDDR5     |
  
