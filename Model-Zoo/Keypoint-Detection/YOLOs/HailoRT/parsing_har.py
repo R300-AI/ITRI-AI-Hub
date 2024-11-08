@@ -2,7 +2,7 @@ from hailo_sdk_client import ClientRunner
 import numpy as np
 import onnx, subprocess
 
-model_name = 'yolov8m-pose'
+model_name = 'yolov8n-pose'
 calibration_size = 100
 onnx_model = onnx.load(f'{model_name}_modified.onnx')
 input_names = {input.name: tuple([i.dim_value for i in input.type.tensor_type.shape.dim]) for input in onnx_model.graph.input}

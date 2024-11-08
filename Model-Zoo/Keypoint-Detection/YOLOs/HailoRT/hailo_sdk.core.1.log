@@ -1,7 +1,0 @@
-[2024-11-08 15:38:01.935] [default] [info] Ran from command: "parsing_har.py"
-[2024-11-08 15:38:01.936] [default] [info] Loading network parameters
-[2024-11-08 15:38:02.658] [default] [info] Starting Hailo allocation and compilation flow
-[2024-11-08 15:38:02.684] [default] [info] Model name: yolov8m-pose
-[2024-11-08 15:38:32.398] [default] [info] Trying to solve in single context
-[2024-11-08 15:41:15.435] [default] [info] Single context flow failed: Failed to save enough resources to fit in the required parameters (in a recoverable manner): SCs: 569/384, 16bit SCs: 0/384, APUs: 134/120, IAs: 134/192, L3 weights: 736/768, L3 ios: 267/768, LCUs: 134/96, continuing in multi context
-[2024-11-08 15:41:48.007] [default] [info] Finding the best partition to contexts...

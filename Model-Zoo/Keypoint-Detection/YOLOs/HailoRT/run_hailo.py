@@ -1,7 +1,7 @@
 from hailo_sdk_client import ClientRunner, InferenceContext
 import numpy as np
 
-model_name = 'yolov8m-pose'
+model_name = 'yolov8n-pose'
 runner = ClientRunner(hw_arch='hailo8', har=f'{model_name}.har')
 with runner.infer_context(InferenceContext.SDK_HAILO_HW) as hw:
     results = runner.infer(hw, np.zeros((1, 640, 640, 3)).astype(np.uint8))
