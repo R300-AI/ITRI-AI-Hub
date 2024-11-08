@@ -31,8 +31,6 @@ if 1==1: #'y' in input('Is that correct?').lower():
 
 #BACK
 onnx_model = onnx.load(f'{model_name}.onnx')
-connections = {edge.name: tuple(edge.shape) for edge in ort.InferenceSession(f'./{model_name}_modified.onnx').get_outputs()}
-#print(connections)
 
 new_inputs = []
 onnx_model.graph.input.clear()
@@ -55,17 +53,3 @@ for node in onnx_model.graph.node:
 
 onnx.save(onnx_model, f'{model_name}_modified_cpu.onnx')
 print(f'modified ONNX saved to ./{model_name}_modified_cpu.onnx')
-
-# CPU
-"""
-ort_session = ort.InferenceSession(f'./{model_name}.onnx')
-input_names = {output.name.split('_output_')[0]: tuple(output.shape) for output in ort.InferenceSession(f'./{model_name}_modified.onnx').get_outputs()}
-output_names = {output.name: tuple(output.shape) for output in ort_session.get_outputs()}
-print(input_names)
-print(output_names)
-
-outputs = ort_session.run(list(output_names.keys()), {input_name: np.zeros(input_names[input_name]).astype(np.float32) for input_name in input_names})
-output = np.transpose(outputs[0], (0, 2, 3, 1))
-print(output)
-np.save('onnx_prediction', output)
-"""
