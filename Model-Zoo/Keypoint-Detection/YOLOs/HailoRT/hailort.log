@@ -1,0 +1,63 @@
+[2024-11-08 12:46:25.865] [480566] [HailoRT] [info] [device.cpp:46] [Device] OS Version: Linux 5.15.0-124-generic #134~20.04.1-Ubuntu SMP Tue Oct 1 15:27:33 UTC 2024 x86_64
+[2024-11-08 12:46:25.865] [480566] [HailoRT] [info] [control.cpp:100] [control__parse_identify_results] firmware_version is: 4.17.0
+[2024-11-08 12:46:25.865] [480566] [HailoRT] [info] [vdevice.cpp:566] [create] VDevice Infos: 0000:03:00.0
+[2024-11-08 12:46:25.872] [480566] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-08 12:46:25.872] [480566] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-08 12:46:25.882] [480566] [HailoRT] [info] [internal_buffer_manager.cpp:206] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2024-11-08 12:46:25.882] [480566] [HailoRT] [info] [internal_buffer_manager.cpp:216] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-11-08 12:46:25.888] [480566] [HailoRT] [info] [device_internal.cpp:58] [configure] Configuring HEF took 16.012817 milliseconds
+[2024-11-08 12:46:25.888] [480566] [HailoRT] [info] [vdevice.cpp:665] [configure] Configuring HEF on VDevice took 16.386936 milliseconds
+[2024-11-08 12:46:25.892] [480566] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolo11n-pose took 0.259305 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-08 12:46:25.892] [480566] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolo11n-pose took 0.267132 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-08 12:46:25.892] [480566] [HailoRT] [info] [edge_elements.cpp:55] [create] Created (HwWriteEl1yolo11n-pose/input_layer1 | hw_frame_size: 1228800)
+[2024-11-08 12:46:25.892] [480566] [HailoRT] [info] [queue_elements.cpp:255] [create] Created (PushQEl1yolo11n-pose/input_layer1 | timeout: 10s)
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [filter_elements.cpp:110] [create] Created (PreInferEl1yolo11n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3))
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating yolo11n-pose/input_layer1...
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [vstream_builder.cpp:101] [create_inputs] Input pipeline 'yolo11n-pose/input_layer1': (PreInferEl1yolo11n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3)) >> (PushQEl1yolo11n-pose/input_layer1 | timeout: 10s) >> (HwWriteEl1yolo11n-pose/input_layer1 | hw_frame_size: 1228800) >> HW
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl0yolo11n-pose/concat2 | hw_frame_size: 614400)
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read0yolo11n-pose/concat2)
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl0yolo11n-pose/concat2 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -0.56826, limvals_max: 5.4695)
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl0yolo11n-pose/concat2 | timeout: 10s)
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolo11n-pose/concat2...
+[2024-11-08 12:46:25.894] [480566] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolo11n-pose/concat2': HW >> (HwReadEl0yolo11n-pose/concat2 | hw_frame_size: 614400) >> (PullQEl_hw_read0yolo11n-pose/concat2) >> (PostInferEl0yolo11n-pose/concat2 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -0.56826, limvals_max: 5.4695) >> (UserBuffQEl0yolo11n-pose/concat2 | timeout: 10s)
+[2024-11-08 12:46:26.171] [480630] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0yolo11n-pose/concat2!
+[2024-11-08 12:46:26.171] [480629] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-08 12:46:26.171] [480629] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-08 12:46:26.171] [480629] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read0yolo11n-pose/concat2 was aborted!
+[2024-11-08 12:46:26.171] [480629] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read0yolo11n-pose/concat2 is not running anymore, exiting..
+[2024-11-08 12:46:26.171] [480566] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read0yolo11n-pose/concat2 has 0 frames in his Queue on destruction
+[2024-11-08 12:46:26.171] [480630] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl0yolo11n-pose/concat2 is not running anymore, exiting..
+[2024-11-08 12:46:26.171] [480566] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl0yolo11n-pose/concat2 has 0 frames in his Queue on destruction
+[2024-11-08 12:46:26.171] [480628] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PushQEl1yolo11n-pose/input_layer1 is not running anymore, exiting..
+[2024-11-08 12:46:26.172] [480566] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PushQEl1yolo11n-pose/input_layer1 has 0 frames in his Queue on destruction
+[2024-11-08 12:46:26.173] [480566] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.719001 ms
+[2024-11-08 12:46:26.173] [480566] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.730646 ms
+[2024-11-08 12:46:33.413] [480730] [HailoRT] [info] [device.cpp:46] [Device] OS Version: Linux 5.15.0-124-generic #134~20.04.1-Ubuntu SMP Tue Oct 1 15:27:33 UTC 2024 x86_64
+[2024-11-08 12:46:33.414] [480730] [HailoRT] [info] [control.cpp:100] [control__parse_identify_results] firmware_version is: 4.17.0
+[2024-11-08 12:46:33.414] [480730] [HailoRT] [info] [vdevice.cpp:566] [create] VDevice Infos: 0000:03:00.0
+[2024-11-08 12:46:33.426] [480730] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-08 12:46:33.426] [480730] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-08 12:46:33.435] [480730] [HailoRT] [info] [internal_buffer_manager.cpp:206] [print_execution_results] Default Internal buffer planner failed to meet requirements
+[2024-11-08 12:46:33.435] [480730] [HailoRT] [info] [internal_buffer_manager.cpp:216] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-11-08 12:46:33.448] [480730] [HailoRT] [info] [device_internal.cpp:58] [configure] Configuring HEF took 22.326251 milliseconds
+[2024-11-08 12:46:33.448] [480730] [HailoRT] [info] [vdevice.cpp:665] [configure] Configuring HEF on VDevice took 22.747184 milliseconds
+[2024-11-08 12:46:33.449] [480730] [HailoRT] [info] [hef.cpp:1802] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo11n-pose
+[2024-11-08 12:46:33.449] [480730] [HailoRT] [info] [hef.cpp:1802] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo11n-pose
+[2024-11-08 12:46:33.454] [480730] [HailoRT] [info] [edge_elements.cpp:55] [create] Created (HwWriteEl1yolo11n-pose/input_layer1 | hw_frame_size: 1228800)
+[2024-11-08 12:46:33.454] [480730] [HailoRT] [info] [queue_elements.cpp:255] [create] Created (PushQEl1yolo11n-pose/input_layer1 | timeout: 10s)
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [filter_elements.cpp:110] [create] Created (PreInferEl1yolo11n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3))
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating yolo11n-pose/input_layer1...
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [vstream_builder.cpp:101] [create_inputs] Input pipeline 'yolo11n-pose/input_layer1': (PreInferEl1yolo11n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3)) >> (PushQEl1yolo11n-pose/input_layer1 | timeout: 10s) >> (HwWriteEl1yolo11n-pose/input_layer1 | hw_frame_size: 1228800) >> HW
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl0yolo11n-pose/concat2 | hw_frame_size: 614400)
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl0yolo11n-pose/concat2 | timeout: 10s)
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolo11n-pose/concat2...
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolo11n-pose/concat2': HW >> (HwReadEl0yolo11n-pose/concat2 | hw_frame_size: 614400) >> (UserBuffQEl0yolo11n-pose/concat2 | timeout: 10s)
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolo11n-pose took 0.330609 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-08 12:46:33.457] [480730] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolo11n-pose took 0.342661 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-08 12:46:34.329] [480730] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.697267 ms
+[2024-11-08 12:46:34.329] [480730] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.715808 ms
+[2024-11-08 12:46:34.329] [480757] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0yolo11n-pose/concat2!
+[2024-11-08 12:46:34.329] [480757] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl0yolo11n-pose/concat2 is not running anymore, exiting..
+[2024-11-08 12:46:34.329] [480730] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl0yolo11n-pose/concat2 has 0 frames in his Queue on destruction
+[2024-11-08 12:46:34.329] [480756] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PushQEl1yolo11n-pose/input_layer1 is not running anymore, exiting..
+[2024-11-08 12:46:34.329] [480730] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PushQEl1yolo11n-pose/input_layer1 has 0 frames in his Queue on destruction

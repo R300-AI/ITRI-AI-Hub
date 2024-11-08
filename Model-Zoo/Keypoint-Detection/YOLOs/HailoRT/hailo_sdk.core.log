@@ -1,0 +1,1329 @@
+[2024-11-08 12:45:38.726] [default] [info] Ran from command: "parsing_har.py"
+[2024-11-08 12:45:38.726] [default] [info] Loading network parameters
+[2024-11-08 12:45:38.788] [default] [info] Starting Hailo allocation and compilation flow
+[2024-11-08 12:45:38.814] [default] [info] Model name: yolo11n-pose
+[2024-11-08 12:45:39.236] [default] [info] Trying to solve in single context
+[2024-11-08 12:45:39.313] [default] [info] Model fits in single context
+[2024-11-08 12:45:39.313] [default] [info] Model fits in single context, trying to increase utilization
+[2024-11-08 12:45:39.315] [default] [info] Initial resources counter with: SCs: 18/384, 16bit SCs: 0/384, APUs: 16/120, IAs: 16/192, L3 weights: 0/768, L3 ios: 22/768, LCUs: 16/96
+[2024-11-08 12:45:43.833] [default] [info] Converged after 79 iterations
+[2024-11-08 12:45:43.833] [default] [info] Final resources: SCs: 122/384, 16bit SCs: 0/384, APUs: 58/120, IAs: 67/192, L3 weights: 0/768, L3 ios: 99/768, LCUs: 58/96
+[2024-11-08 12:45:43.833] [default] [info] Trying to apply higher utilization solution
+[2024-11-08 12:45:47.989] [default] [info] Pre-allocation Resources for context_0
++--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| Node                                 | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
++--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| input_layer1                         | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
+| sh_from_input_layer1_to_conv1_sd0-3  | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd0                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd1                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd2                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd3                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd0-3_to_conv1_sdc | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| sh_from_input_layer1_to_conv1_sd4-7  | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd4                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd5                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd6                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd7                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd4-7_to_conv1_sdc | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sdc                            | 1           | 0                     | 6                     | 0.000          | 0   | 0   |
+| conv2_sd4                            | 4           | 0                     | 3                     | 0.000          | 0   | 0   |
+| sh_from_conv1_to_conv2_sd0-3         | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv2_sd0                            | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv2_sd1                            | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd2                            | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd3                            | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv2_sd0-3_to_conv2_sdc | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv2_sdc                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_1             | 2           | 0                     | 8                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_2             | 2           | 0                     | 32                    | 0.000          | 0   | 0   |
+| conv4_sd0                            | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sd1                            | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sdc                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv5_d0                             | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv5_d1                             | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv5_dc                             | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| ew_add1                              | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| concat1                              | 1           | 0                     | 8                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d0-3        | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d0                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d1                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d2                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d3                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d0-3_to_conv6_dc   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d4-7        | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d4                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d5                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d6                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d7                             | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d4-7_to_conv6_dc   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_dc                             | 1           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv7_sd4                            | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| sh_from_conv6_to_conv7_sd0-3         | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv7_sd0                            | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd1                            | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd2                            | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd3                            | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat_from_conv7_sd0-3_to_conv7_sdc | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sdc                            | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_1             | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_2             | 2           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv9                                | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv10                               | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| ew_add2                              | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat2                              | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_layer1                        | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
++--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+TOTAL:  LCUs: 58 (45.3125%), Subclusters: 122 (23.8281%), Weight memory cuts:0 (0%), L3 Output memory cuts: 231 (22.5586%), L3 total cuts: 231 (22.5586%), L4 memory cuts: 0 (0%), IBs: 0 (0%), OBs: 0 (0%)
+[2024-11-08 12:45:48.001] [default] [info] Pre-allocation buffers for context_0 buffers:
++--------------------------------------+--------------------------------------+-------------------------------+
+| Src                                  | Dst                                  | Max buffers                   |
++--------------------------------------+--------------------------------------+-------------------------------+
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd0-3  | 2[RPC] (L3 memory cuts: 2)    |
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd4-7  | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd0                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd1                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd2                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd3                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd0                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd1                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd2                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd3                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd4                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd5                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd6                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd7                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd4                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd5                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd6                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd7                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sdc                            | conv2_sd4                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv1_sdc                            | sh_from_conv1_to_conv2_sd0-3         | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd4                            | conv2_sdc                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd0                            | concat_from_conv2_sd0-3_to_conv2_sdc | 1[RPC] (L3 memory cuts: 1)    |
+| conv2_sd1                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd2                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd3                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc | conv2_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_1             | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter1_1             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd0                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd1                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | ew_add1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv4_sd0                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sd1                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d0                             | 3 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d1                             | 3 (L3 memory cuts: 1)         |
+| conv5_d0                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_d1                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_dc                             | ew_add1                              | 2 (L3 memory cuts: 1)         |
+| ew_add1                              | concat1                              | 3[RPC] (L3 memory cuts: 3)    |
+| concat1                              | sh_from_concat1_to_conv6_d0-3        | 4[S][RPC] (L3 memory cuts: 4) |
+| concat1                              | sh_from_concat1_to_conv6_d4-7        | 4[S][RPC] (L3 memory cuts: 4) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d0                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d1                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d2                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d3                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d0                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d1                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d2                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d3                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d0-3_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d4                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d5                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d6                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d7                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d4                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d5                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d6                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d7                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d4-7_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | conv7_sd4                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | sh_from_conv6_to_conv7_sd0-3         | 2[RPC] (L3 memory cuts: 2)    |
+| conv7_sd4                            | conv7_sdc                            | 2 (L3 memory cuts: 1)         |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv7_sd0                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd1                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd2                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd3                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| concat_from_conv7_sd0-3_to_conv7_sdc | conv7_sdc                            | 1 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_1             | 2 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_1             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | conv9                                | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | ew_add2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv9                                | conv10                               | 10[S] (L3 memory cuts: 1)     |
+| conv10                               | ew_add2                              | 2 (L3 memory cuts: 1)         |
+| ew_add2                              | concat2                              | 2 (L3 memory cuts: 1)         |
+| concat2                              | output_layer1                        | 2 (L3 memory cuts: 1)         |
++--------------------------------------+--------------------------------------+-------------------------------+
+[2024-11-08 12:45:48.001] [default] [info] Higher utilization solution passed validation, taking it
+[2024-11-08 12:45:48.022] [default] [info] Adjust Edges Start State buffers:
++--------------------------------------+--------------------------------------+--------------------------+
+| Src                                  | Dst                                  | Max buffers              |
++--------------------------------------+--------------------------------------+--------------------------+
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd0-3  | 2 (L3 memory cuts: 1)    |
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd4-7  | 2 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd0                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd1                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd2                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd3                            | 5 (L3 memory cuts: 1)    |
+| conv1_sd0                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd1                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd2                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd3                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc | conv1_sdc                            | 2 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd4                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd5                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd6                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd7                            | 5 (L3 memory cuts: 1)    |
+| conv1_sd4                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd5                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd6                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd7                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc | conv1_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv1_sdc                            | conv2_sd4                            | 2 (L3 memory cuts: 1)    |
+| conv1_sdc                            | sh_from_conv1_to_conv2_sd0-3         | 2 (L3 memory cuts: 1)    |
+| conv2_sd4                            | conv2_sdc                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd0                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd1                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd2                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd3                            | 2 (L3 memory cuts: 1)    |
+| conv2_sd0                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| conv2_sd1                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| conv2_sd2                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| conv2_sd3                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc | conv2_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv2_sdc                            | conv_feature_splitter1_1             | 2 (L3 memory cuts: 1)    |
+| conv2_sdc                            | conv_feature_splitter1_2             | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_1             | concat1                              | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | conv4_sd0                            | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | conv4_sd1                            | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | ew_add1                              | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | concat1                              | 2 (L3 memory cuts: 1)    |
+| conv4_sd0                            | conv4_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv4_sd1                            | conv4_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv4_sdc                            | conv5_d0                             | 5 (L3 memory cuts: 1)    |
+| conv4_sdc                            | conv5_d1                             | 5 (L3 memory cuts: 1)    |
+| conv5_d0                             | conv5_dc                             | 2[S] (L3 memory cuts: 1) |
+| conv5_d1                             | conv5_dc                             | 2[S] (L3 memory cuts: 1) |
+| conv5_dc                             | ew_add1                              | 2 (L3 memory cuts: 1)    |
+| ew_add1                              | concat1                              | 2 (L3 memory cuts: 1)    |
+| concat1                              | sh_from_concat1_to_conv6_d0-3        | 2[S] (L3 memory cuts: 1) |
+| concat1                              | sh_from_concat1_to_conv6_d4-7        | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d0                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d1                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d2                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d3                             | 2[S] (L3 memory cuts: 1) |
+| conv6_d0                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d1                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d2                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d3                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| concat_from_conv6_d0-3_to_conv6_dc   | conv6_dc                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d4                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d5                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d6                             | 2[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d7                             | 2[S] (L3 memory cuts: 1) |
+| conv6_d4                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d5                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d6                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d7                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| concat_from_conv6_d4-7_to_conv6_dc   | conv6_dc                             | 2[S] (L3 memory cuts: 1) |
+| conv6_dc                             | conv7_sd4                            | 2 (L3 memory cuts: 1)    |
+| conv6_dc                             | sh_from_conv6_to_conv7_sd0-3         | 2 (L3 memory cuts: 1)    |
+| conv7_sd4                            | conv7_sdc                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd0                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd1                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd2                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd3                            | 2 (L3 memory cuts: 1)    |
+| conv7_sd0                            | concat_from_conv7_sd0-3_to_conv7_sdc | 2 (L3 memory cuts: 1)    |
+| conv7_sd1                            | concat_from_conv7_sd0-3_to_conv7_sdc | 2 (L3 memory cuts: 1)    |
+| conv7_sd2                            | concat_from_conv7_sd0-3_to_conv7_sdc | 2 (L3 memory cuts: 1)    |
+| conv7_sd3                            | concat_from_conv7_sd0-3_to_conv7_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv7_sd0-3_to_conv7_sdc | conv7_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv7_sdc                            | conv_feature_splitter2_1             | 2 (L3 memory cuts: 1)    |
+| conv7_sdc                            | conv_feature_splitter2_2             | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_1             | concat2                              | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | conv9                                | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | ew_add2                              | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | concat2                              | 2 (L3 memory cuts: 1)    |
+| conv9                                | conv10                               | 4[S] (L3 memory cuts: 1) |
+| conv10                               | ew_add2                              | 2 (L3 memory cuts: 1)    |
+| ew_add2                              | concat2                              | 2 (L3 memory cuts: 1)    |
+| concat2                              | output_layer1                        | 2 (L3 memory cuts: 1)    |
++--------------------------------------+--------------------------------------+--------------------------+
+[2024-11-08 12:45:48.743] [default] [info] Adjust Edges After Merges and Joins buffers:
++--------------------------------------+--------------------------------------+--------------------------+
+| Src                                  | Dst                                  | Max buffers              |
++--------------------------------------+--------------------------------------+--------------------------+
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd0-3  | 2 (L3 memory cuts: 1)    |
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd4-7  | 2 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd0                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd1                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd2                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd3                            | 5 (L3 memory cuts: 1)    |
+| conv1_sd0                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd1                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd2                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd3                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc | conv1_sdc                            | 2 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd4                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd5                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd6                            | 5 (L3 memory cuts: 1)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd7                            | 5 (L3 memory cuts: 1)    |
+| conv1_sd4                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd5                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd6                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| conv1_sd7                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc | conv1_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv1_sdc                            | conv2_sd4                            | 3 (L3 memory cuts: 1)    |
+| conv1_sdc                            | sh_from_conv1_to_conv2_sd0-3         | 3 (L3 memory cuts: 1)    |
+| conv2_sd4                            | conv2_sdc                            | 3 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd0                            | 3 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd1                            | 3 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd2                            | 3 (L3 memory cuts: 1)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd3                            | 3 (L3 memory cuts: 1)    |
+| conv2_sd0                            | concat_from_conv2_sd0-3_to_conv2_sdc | 1 (L3 memory cuts: 1)    |
+| conv2_sd1                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| conv2_sd2                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| conv2_sd3                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2 (L3 memory cuts: 1)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc | conv2_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv2_sdc                            | conv_feature_splitter1_1             | 2 (L3 memory cuts: 1)    |
+| conv2_sdc                            | conv_feature_splitter1_2             | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_1             | concat1                              | 8 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | conv4_sd0                            | 8 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | conv4_sd1                            | 8 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | ew_add1                              | 8 (L3 memory cuts: 1)    |
+| conv_feature_splitter1_2             | concat1                              | 8 (L3 memory cuts: 1)    |
+| conv4_sd0                            | conv4_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv4_sd1                            | conv4_sdc                            | 2 (L3 memory cuts: 1)    |
+| conv4_sdc                            | conv5_d0                             | 3 (L3 memory cuts: 1)    |
+| conv4_sdc                            | conv5_d1                             | 3 (L3 memory cuts: 1)    |
+| conv5_d0                             | conv5_dc                             | 4[S] (L3 memory cuts: 1) |
+| conv5_d1                             | conv5_dc                             | 4[S] (L3 memory cuts: 1) |
+| conv5_dc                             | ew_add1                              | 2 (L3 memory cuts: 1)    |
+| ew_add1                              | concat1                              | 3 (L3 memory cuts: 1)    |
+| concat1                              | sh_from_concat1_to_conv6_d0-3        | 4[S] (L3 memory cuts: 1) |
+| concat1                              | sh_from_concat1_to_conv6_d4-7        | 4[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d0                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d1                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d2                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d3                             | 3[S] (L3 memory cuts: 1) |
+| conv6_d0                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d1                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d2                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d3                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| concat_from_conv6_d0-3_to_conv6_dc   | conv6_dc                             | 8[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d4                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d5                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d6                             | 3[S] (L3 memory cuts: 1) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d7                             | 3[S] (L3 memory cuts: 1) |
+| conv6_d4                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d5                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d6                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| conv6_d7                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S] (L3 memory cuts: 1) |
+| concat_from_conv6_d4-7_to_conv6_dc   | conv6_dc                             | 8[S] (L3 memory cuts: 1) |
+| conv6_dc                             | conv7_sd4                            | 2 (L3 memory cuts: 1)    |
+| conv6_dc                             | sh_from_conv6_to_conv7_sd0-3         | 2 (L3 memory cuts: 1)    |
+| conv7_sd4                            | conv7_sdc                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd0                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd1                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd2                            | 2 (L3 memory cuts: 1)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd3                            | 2 (L3 memory cuts: 1)    |
+| conv7_sd0                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)    |
+| conv7_sd1                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)    |
+| conv7_sd2                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)    |
+| conv7_sd3                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)    |
+| concat_from_conv7_sd0-3_to_conv7_sdc | conv7_sdc                            | 1 (L3 memory cuts: 1)    |
+| conv7_sdc                            | conv_feature_splitter2_1             | 2 (L3 memory cuts: 1)    |
+| conv7_sdc                            | conv_feature_splitter2_2             | 2 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_1             | concat2                              | 5 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | conv9                                | 5 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | ew_add2                              | 5 (L3 memory cuts: 1)    |
+| conv_feature_splitter2_2             | concat2                              | 5 (L3 memory cuts: 1)    |
+| conv9                                | conv10                               | 9[S] (L3 memory cuts: 1) |
+| conv10                               | ew_add2                              | 2 (L3 memory cuts: 1)    |
+| ew_add2                              | concat2                              | 2 (L3 memory cuts: 1)    |
+| concat2                              | output_layer1                        | 2 (L3 memory cuts: 1)    |
++--------------------------------------+--------------------------------------+--------------------------+
+[2024-11-08 12:45:50.069] [default] [info] Adjust Edges Before Dimaffer buffers:
++--------------------------------------+--------------------------------------+-------------------------------+
+| Src                                  | Dst                                  | Max buffers                   |
++--------------------------------------+--------------------------------------+-------------------------------+
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd0-3  | 2[RPC] (L3 memory cuts: 2)    |
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd4-7  | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd0                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd1                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd2                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd3                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd0                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd1                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd2                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd3                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd4                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd5                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd6                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd7                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd4                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd5                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd6                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd7                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sdc                            | conv2_sd4                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv1_sdc                            | sh_from_conv1_to_conv2_sd0-3         | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd4                            | conv2_sdc                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd0                            | concat_from_conv2_sd0-3_to_conv2_sdc | 1[RPC] (L3 memory cuts: 1)    |
+| conv2_sd1                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd2                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd3                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc | conv2_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_1             | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter1_1             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd0                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd1                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | ew_add1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv4_sd0                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sd1                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d0                             | 3 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d1                             | 3 (L3 memory cuts: 1)         |
+| conv5_d0                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_d1                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_dc                             | ew_add1                              | 2 (L3 memory cuts: 1)         |
+| ew_add1                              | concat1                              | 3[RPC] (L3 memory cuts: 3)    |
+| concat1                              | sh_from_concat1_to_conv6_d0-3        | 4[S][RPC] (L3 memory cuts: 4) |
+| concat1                              | sh_from_concat1_to_conv6_d4-7        | 4[S][RPC] (L3 memory cuts: 4) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d0                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d1                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d2                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d3                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d0                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d1                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d2                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d3                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d0-3_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d4                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d5                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d6                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d7                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d4                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d5                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d6                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d7                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d4-7_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | conv7_sd4                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | sh_from_conv6_to_conv7_sd0-3         | 2[RPC] (L3 memory cuts: 2)    |
+| conv7_sd4                            | conv7_sdc                            | 2 (L3 memory cuts: 1)         |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv7_sd0                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd1                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd2                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd3                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| concat_from_conv7_sd0-3_to_conv7_sdc | conv7_sdc                            | 1 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_1             | 2 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_1             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | conv9                                | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | ew_add2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv9                                | conv10                               | 10[S] (L3 memory cuts: 1)     |
+| conv10                               | ew_add2                              | 2 (L3 memory cuts: 1)         |
+| ew_add2                              | concat2                              | 2 (L3 memory cuts: 1)         |
+| concat2                              | output_layer1                        | 2 (L3 memory cuts: 1)         |
++--------------------------------------+--------------------------------------+-------------------------------+
+[2024-11-08 12:45:50.117] [default] [info] Adjust Edges After Dimaffer buffers:
++--------------------------------------+--------------------------------------+-------------------------------+
+| Src                                  | Dst                                  | Max buffers                   |
++--------------------------------------+--------------------------------------+-------------------------------+
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd0-3  | 2[RPC] (L3 memory cuts: 2)    |
+| input_layer1                         | sh_from_input_layer1_to_conv1_sd4-7  | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd0                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd1                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd2                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3  | conv1_sd3                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd0                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd1                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd2                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd3                            | concat_from_conv1_sd0-3_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd4                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd5                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd6                            | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7  | conv1_sd7                            | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd4                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd5                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd6                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd7                            | concat_from_conv1_sd4-7_to_conv1_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc | conv1_sdc                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sdc                            | conv2_sd4                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv1_sdc                            | sh_from_conv1_to_conv2_sd0-3         | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd4                            | conv2_sdc                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3         | conv2_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd0                            | concat_from_conv2_sd0-3_to_conv2_sdc | 1[RPC] (L3 memory cuts: 1)    |
+| conv2_sd1                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd2                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd3                            | concat_from_conv2_sd0-3_to_conv2_sdc | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc | conv2_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_1             | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                            | conv_feature_splitter1_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter1_1             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd0                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | conv4_sd1                            | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | ew_add1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2             | concat1                              | 8[RPC] (L3 memory cuts: 8)    |
+| conv4_sd0                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sd1                            | conv4_sdc                            | 2 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d0                             | 3 (L3 memory cuts: 1)         |
+| conv4_sdc                            | conv5_d1                             | 3 (L3 memory cuts: 1)         |
+| conv5_d0                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_d1                             | conv5_dc                             | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_dc                             | ew_add1                              | 2 (L3 memory cuts: 1)         |
+| ew_add1                              | concat1                              | 3[RPC] (L3 memory cuts: 3)    |
+| concat1                              | sh_from_concat1_to_conv6_d0-3        | 4[S][RPC] (L3 memory cuts: 4) |
+| concat1                              | sh_from_concat1_to_conv6_d4-7        | 4[S][RPC] (L3 memory cuts: 4) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d0                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d1                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d2                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3        | conv6_d3                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d0                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d1                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d2                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d3                             | concat_from_conv6_d0-3_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d0-3_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d4                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d5                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d6                             | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7        | conv6_d7                             | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d4                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d5                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d6                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d7                             | concat_from_conv6_d4-7_to_conv6_dc   | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d4-7_to_conv6_dc   | conv6_dc                             | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | conv7_sd4                            | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                             | sh_from_conv6_to_conv7_sd0-3         | 2[RPC] (L3 memory cuts: 2)    |
+| conv7_sd4                            | conv7_sdc                            | 2 (L3 memory cuts: 1)         |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd0                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd1                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd2                            | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3         | conv7_sd3                            | 3[RPC] (L3 memory cuts: 3)    |
+| conv7_sd0                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd1                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd2                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| conv7_sd3                            | concat_from_conv7_sd0-3_to_conv7_sdc | 1 (L3 memory cuts: 1)         |
+| concat_from_conv7_sd0-3_to_conv7_sdc | conv7_sdc                            | 1 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_1             | 2 (L3 memory cuts: 1)         |
+| conv7_sdc                            | conv_feature_splitter2_2             | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_1             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | conv9                                | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | ew_add2                              | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2             | concat2                              | 5 (L3 memory cuts: 1)         |
+| conv9                                | conv10                               | 10[S] (L3 memory cuts: 1)     |
+| conv10                               | ew_add2                              | 2 (L3 memory cuts: 1)         |
+| ew_add2                              | concat2                              | 2 (L3 memory cuts: 1)         |
+| concat2                              | output_layer1                        | 2 (L3 memory cuts: 1)         |
++--------------------------------------+--------------------------------------+-------------------------------+
+[2024-11-08 12:45:50.822] [default] [info] Pre-allocation Resources for context_0
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| Node                                       | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| input_layer1                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
+| sh_from_input_layer1_to_conv1_sd0-3        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd0                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd1                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd2                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd3                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| sh_from_input_layer1_to_conv1_sd4-7        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd4                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd5                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd6                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd7                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sdc                                  | 1           | 0                     | 6                     | 0.000          | 0   | 0   |
+| conv2_sd4                                  | 4           | 0                     | 3                     | 0.000          | 0   | 0   |
+| sh_from_conv1_to_conv2_sd0-3               | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv2_sd0                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv2_sd1                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd2                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd3                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv2_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_1                   | 2           | 0                     | 8                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_2                   | 2           | 0                     | 32                    | 0.000          | 0   | 0   |
+| conv4_sd0                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sd1                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv5_d0                                   | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv5_d1                                   | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv5_dc                                   | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| ew_add1                                    | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| concat1                                    | 1           | 0                     | 8                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d0-3              | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d0                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d1                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d2                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d3                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d0-3_to_conv6_dc         | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d4-7              | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d4                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d5                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d6                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d7                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d4-7_to_conv6_dc         | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_dc                                   | 1           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv7_sd4                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| sh_from_conv6_to_conv7_sd0-3               | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv7_sd0                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd1                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd2                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd3                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_1                   | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_2                   | 2           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv9                                      | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv10                                     | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| ew_add2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| auto_reshape_from_concat2_to_output_layer1 | 0           | 0                     | 0                     | 1.000          | 0   | 0   |
+| output_layer1                              | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+TOTAL:  LCUs: 58 (45.3125%), Subclusters: 122 (23.8281%), Weight memory cuts:0 (0%), L3 Output memory cuts: 231 (22.5586%), L3 total cuts: 231 (22.5586%), L4 memory cuts: 1 (3.57143%), IBs: 0 (0%), OBs: 0 (0%)
+[2024-11-08 12:45:50.834] [default] [info] Pre-allocation buffers for context_0 buffers:
++--------------------------------------------+--------------------------------------------+-------------------------------+
+| Src                                        | Dst                                        | Max buffers                   |
++--------------------------------------------+--------------------------------------------+-------------------------------+
+| input_layer1                               | sh_from_input_layer1_to_conv1_sd0-3        | 2[RPC] (L3 memory cuts: 2)    |
+| input_layer1                               | sh_from_input_layer1_to_conv1_sd4-7        | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd0                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd1                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd2                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd3                                  | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd0                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd1                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd2                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd3                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | conv1_sdc                                  | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd4                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd5                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd6                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd7                                  | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd4                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd5                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd6                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd7                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | conv1_sdc                                  | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sdc                                  | conv2_sd4                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv1_sdc                                  | sh_from_conv1_to_conv2_sd0-3               | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd4                                  | conv2_sdc                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd0                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd1                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd2                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd3                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd0                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 1[RPC] (L3 memory cuts: 1)    |
+| conv2_sd1                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd2                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd3                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | conv2_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                                  | conv_feature_splitter1_1                   | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                                  | conv_feature_splitter1_2                   | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter1_1                   | concat1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | conv4_sd0                                  | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | conv4_sd1                                  | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | ew_add1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | concat1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv4_sd0                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv4_sd1                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv4_sdc                                  | conv5_d0                                   | 3 (L3 memory cuts: 1)         |
+| conv4_sdc                                  | conv5_d1                                   | 3 (L3 memory cuts: 1)         |
+| conv5_d0                                   | conv5_dc                                   | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_d1                                   | conv5_dc                                   | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_dc                                   | ew_add1                                    | 2 (L3 memory cuts: 1)         |
+| ew_add1                                    | concat1                                    | 3[RPC] (L3 memory cuts: 3)    |
+| concat1                                    | sh_from_concat1_to_conv6_d0-3              | 4[S][RPC] (L3 memory cuts: 4) |
+| concat1                                    | sh_from_concat1_to_conv6_d4-7              | 4[S][RPC] (L3 memory cuts: 4) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d0                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d1                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d2                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d3                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d0                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d1                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d2                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d3                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d0-3_to_conv6_dc         | conv6_dc                                   | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d4                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d5                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d6                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d7                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d4                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d5                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d6                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d7                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d4-7_to_conv6_dc         | conv6_dc                                   | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                                   | conv7_sd4                                  | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                                   | sh_from_conv6_to_conv7_sd0-3               | 2[RPC] (L3 memory cuts: 2)    |
+| conv7_sd4                                  | conv7_sdc                                  | 2 (L3 memory cuts: 1)         |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd0                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd1                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd2                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd3                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv7_sd0                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd1                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd2                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd3                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | conv7_sdc                                  | 1 (L3 memory cuts: 1)         |
+| conv7_sdc                                  | conv_feature_splitter2_1                   | 2 (L3 memory cuts: 1)         |
+| conv7_sdc                                  | conv_feature_splitter2_2                   | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_1                   | concat2                                    | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | conv9                                      | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | ew_add2                                    | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | concat2                                    | 5 (L3 memory cuts: 1)         |
+| conv9                                      | conv10                                     | 10[S] (L3 memory cuts: 1)     |
+| conv10                                     | ew_add2                                    | 2 (L3 memory cuts: 1)         |
+| ew_add2                                    | concat2                                    | 2 (L3 memory cuts: 1)         |
+| concat2                                    | auto_reshape_from_concat2_to_output_layer1 | 2 (L3 memory cuts: 1)         |
+| auto_reshape_from_concat2_to_output_layer1 | output_layer1                              | 2 (L4 memory cuts: 1)         |
++--------------------------------------------+--------------------------------------------+-------------------------------+
+[2024-11-08 12:45:50.834] [default] [info] context_0 - Bottleneck FPS: 1716.89 (layer: conv1_sdc)
+[2024-11-08 12:45:50.834] [default] [info] Using Single-context flow
+[2024-11-08 12:45:50.834] [default] [info] Resources optimization guidelines: Strategy -> GREEDY Objective -> MAX_FPS
+[2024-11-08 12:45:50.834] [default] [info] Resources optimization params: max_control_utilization=75%, max_compute_utilization=75%, max_compute_16bit_utilization=75%, max_memory_utilization (weights)=75%, max_input_aligner_utilization=75%, max_apu_utilization=75%
+[2024-11-08 12:45:50.834] [default] [info] context_0 - Bottleneck FPS: 1716.89 (layer: conv1_sdc)
+[2024-11-08 12:45:50.834] [default] [info] Using Single-context flow
+[2024-11-08 12:45:50.834] [default] [info] Resources optimization guidelines: Strategy -> GREEDY Objective -> MAX_FPS
+[2024-11-08 12:45:50.834] [default] [info] Resources optimization params: max_control_utilization=75%, max_compute_utilization=75%, max_compute_16bit_utilization=75%, max_memory_utilization (weights)=75%, max_input_aligner_utilization=75%, max_apu_utilization=75%
+[2024-11-08 12:45:51.072] [default] [info] Pre-Allocation Layers FPS: 
+context_0: 
+	input_layer1: 2582.63
+	output_layer1: 2604.15
+	sh_from_input_layer1_to_conv1_sd0-3: 2431.63
+	conv1_sd0: 1760.73
+	conv1_sd1: 1763.22
+	conv1_sd2: 1763.22
+	conv1_sd3: 1763.22
+	concat_from_conv1_sd0-3_to_conv1_sdc: 2625.59
+	sh_from_input_layer1_to_conv1_sd4-7: 2431.63
+	conv1_sd4: 1763.22
+	conv1_sd5: 1763.22
+	conv1_sd6: 1763.22
+	conv1_sd7: 1763.22
+	concat_from_conv1_sd4-7_to_conv1_sdc: 2625.59
+	conv1_sdc: 1716.89
+	conv2_sd4: 1771.82
+	sh_from_conv1_to_conv2_sd0-3: 1902.42
+	conv2_sd0: 1730.13
+	conv2_sd1: 1771.82
+	conv2_sd2: 1771.82
+	conv2_sd3: 1771.82
+	concat_from_conv2_sd0-3_to_conv2_sdc: 3140.04
+	conv2_sdc: 3156.09
+	conv_feature_splitter1_1: 1767.87
+	conv_feature_splitter1_2: 1767.87
+	conv4_sd0: 2237.31
+	conv4_sd1: 2243.33
+	conv4_sdc: 1,1567.7
+	conv5_d0: 1867.49
+	conv5_d1: 1867.49
+	conv5_dc: 5100.8
+	ew_add1: 1899.52
+	concat1: 2070.92
+	sh_from_concat1_to_conv6_d0-3: 1952.94
+	conv6_d0: 1921.4
+	conv6_d1: 1921.4
+	conv6_d2: 1921.4
+	conv6_d3: 1921.4
+	concat_from_conv6_d0-3_to_conv6_dc: 2933.69
+	sh_from_concat1_to_conv6_d4-7: 1952.94
+	conv6_d4: 1921.4
+	conv6_d5: 1921.4
+	conv6_d6: 1921.4
+	conv6_d7: 1921.4
+	concat_from_conv6_d4-7_to_conv6_dc: 2933.69
+	conv6_dc: 1922.9
+	conv7_sd4: 1987.02
+	sh_from_conv6_to_conv7_sd0-3: 1927.35
+	conv7_sd0: 1889.41
+	conv7_sd1: 1987.02
+	conv7_sd2: 1987.02
+	conv7_sd3: 1987.02
+	concat_from_conv7_sd0-3_to_conv7_sdc: 4751.33
+	conv7_sdc: 5433.38
+	conv_feature_splitter2_1: 2457.89
+	conv_feature_splitter2_2: 2457.89
+	conv9: 2374.37
+	conv10: 2367.07
+	ew_add2: 3854.34
+	concat2: 5090.03
+	auto_reshape_from_concat2_to_output_layer1: 2545.81
+[2024-11-08 12:45:51.113] [default] [info] Partition passed at control_util 0.75.
+[2024-11-08 12:45:51.545] [default] [info] Solving the allocation (Mapping), time per context: 59m 59s
+[2024-11-08 12:45:51.567] [default] [info] Resolve-prepost Buffers context_0 buffers:
++--------------------------------------------+--------------------------------------------+-------------------------------+
+| Src                                        | Dst                                        | Max buffers                   |
++--------------------------------------------+--------------------------------------------+-------------------------------+
+| input_layer1                               | input_to_cluster_unknown_62_i0             | 2[RPC] (L3 memory cuts: 2)    |
+| input_to_cluster_unknown_62_i0             | sh_from_input_layer1_to_conv1_sd0-3        | 2[RPC] (L3 memory cuts: 2)    |
+| input_to_cluster_unknown_62_i0             | sh_from_input_layer1_to_conv1_sd4-7        | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd0                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd1                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd2                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd3                                  | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd0                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd1                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd2                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd3                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | conv1_sdc                                  | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd4                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd5                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd6                                  | 5[RPC] (L3 memory cuts: 5)    |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd7                                  | 5[RPC] (L3 memory cuts: 5)    |
+| conv1_sd4                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd5                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd6                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sd7                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | conv1_sdc                                  | 2[RPC] (L3 memory cuts: 2)    |
+| conv1_sdc                                  | conv2_sd4                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv1_sdc                                  | sh_from_conv1_to_conv2_sd0-3               | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd4                                  | conv2_sdc                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd0                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd1                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd2                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd3                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv2_sd0                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 1[RPC] (L3 memory cuts: 1)    |
+| conv2_sd1                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd2                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| conv2_sd3                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)    |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | conv2_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                                  | conv_feature_splitter1_1                   | 2 (L3 memory cuts: 1)         |
+| conv2_sdc                                  | conv_feature_splitter1_2                   | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter1_1                   | concat1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | conv4_sd0                                  | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | conv4_sd1                                  | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | ew_add1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv_feature_splitter1_2                   | concat1                                    | 8[RPC] (L3 memory cuts: 8)    |
+| conv4_sd0                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv4_sd1                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)         |
+| conv4_sdc                                  | conv5_d0                                   | 3 (L3 memory cuts: 1)         |
+| conv4_sdc                                  | conv5_d1                                   | 3 (L3 memory cuts: 1)         |
+| conv5_d0                                   | conv5_dc                                   | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_d1                                   | conv5_dc                                   | 4[S][RPC] (L3 memory cuts: 4) |
+| conv5_dc                                   | ew_add1                                    | 2 (L3 memory cuts: 1)         |
+| ew_add1                                    | concat1                                    | 3[RPC] (L3 memory cuts: 3)    |
+| concat1                                    | sh_from_concat1_to_conv6_d0-3              | 4[S][RPC] (L3 memory cuts: 4) |
+| concat1                                    | sh_from_concat1_to_conv6_d4-7              | 4[S][RPC] (L3 memory cuts: 4) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d0                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d1                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d2                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d3                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d0                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d1                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d2                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d3                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d0-3_to_conv6_dc         | conv6_dc                                   | 2[RPC] (L3 memory cuts: 2)    |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d4                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d5                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d6                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d7                                   | 3[S][RPC] (L3 memory cuts: 3) |
+| conv6_d4                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d5                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d6                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| conv6_d7                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2) |
+| concat_from_conv6_d4-7_to_conv6_dc         | conv6_dc                                   | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                                   | conv7_sd4                                  | 2[RPC] (L3 memory cuts: 2)    |
+| conv6_dc                                   | sh_from_conv6_to_conv7_sd0-3               | 2[RPC] (L3 memory cuts: 2)    |
+| conv7_sd4                                  | conv7_sdc                                  | 2 (L3 memory cuts: 1)         |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd0                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd1                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd2                                  | 3[RPC] (L3 memory cuts: 3)    |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd3                                  | 3[RPC] (L3 memory cuts: 3)    |
+| conv7_sd0                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd1                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd2                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| conv7_sd3                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)         |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | conv7_sdc                                  | 1 (L3 memory cuts: 1)         |
+| conv7_sdc                                  | conv_feature_splitter2_1                   | 2 (L3 memory cuts: 1)         |
+| conv7_sdc                                  | conv_feature_splitter2_2                   | 2 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_1                   | concat2                                    | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | conv9                                      | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | ew_add2                                    | 5 (L3 memory cuts: 1)         |
+| conv_feature_splitter2_2                   | concat2                                    | 5 (L3 memory cuts: 1)         |
+| conv9                                      | conv10                                     | 10[S] (L3 memory cuts: 1)     |
+| conv10                                     | ew_add2                                    | 2 (L3 memory cuts: 1)         |
+| ew_add2                                    | concat2                                    | 2 (L3 memory cuts: 1)         |
+| concat2                                    | output_from_cluster_unknown_63_i0          | 2 (L3 memory cuts: 1)         |
+| output_from_cluster_unknown_63_i0          | input_to_prepost_64_i0                     | 2 (L3 memory cuts: 1)         |
+| input_to_prepost_64_i0                     | auto_reshape_from_concat2_to_output_layer1 | 2 (L4 memory cuts: 1)         |
+| auto_reshape_from_concat2_to_output_layer1 | output_from_prepost_65_i0                  | 2 (L4 memory cuts: 1)         |
+| output_from_prepost_65_i0                  | output_layer1                              | 2 (L4 memory cuts: 1)         |
++--------------------------------------------+--------------------------------------------+-------------------------------+
+[2024-11-08 12:45:55.343] [default] [info] Post-Split Resources for context_0, iteration 1 (CP)
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| Node                                       | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| input_layer1                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
+| input_to_cluster_0_62_i1                   | 0           | 0                     | 4                     | 0.000          | 2   | 0   |
+| sh_from_input_layer1_to_conv1_sd0-3        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd0                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv1_sd1                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv1_sd2                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_63_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_1_64_i1                   | 0           | 0                     | 5                     | 0.000          | 2   | 0   |
+| conv1_sd3                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_1_65_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_66_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_67_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_68_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| sh_from_input_layer1_to_conv1_sd4-7        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd4                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd5                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd6                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd7                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_69_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_70_i1                   | 0           | 0                     | 3                     | 0.000          | 1   | 0   |
+| conv1_sdc                                  | 1           | 0                     | 6                     | 0.000          | 0   | 0   |
+| conv2_sd4                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_71_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_72_i1                   | 0           | 0                     | 3                     | 0.000          | 1   | 0   |
+| sh_from_conv1_to_conv2_sd0-3               | 1           | 0                     | 9                     | 0.000          | 0   | 0   |
+| conv2_sd0                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd1                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_73_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_0_74_i1                   | 0           | 0                     | 6                     | 0.000          | 2   | 0   |
+| conv2_sd2                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_75_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_76_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv2_sd3                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_77_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_78_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_79_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_80_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv2_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_1                   | 2           | 0                     | 10                    | 0.000          | 0   | 0   |
+| output_from_cluster_6_81_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_82_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv_feature_splitter1_2                   | 2           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_83_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_84_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv4_sd0                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_85_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv4_sd1                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv5_d0                                   | 2           | 0                     | 10                    | 0.000          | 0   | 0   |
+| output_from_cluster_6_88_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_89_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv5_d1                                   | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_90_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_91_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv5_dc                                   | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_86_i1                   | 0           | 0                     | 7                     | 0.000          | 1   | 0   |
+| ew_add1                                    | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_87_i1                   | 0           | 0                     | 8                     | 0.000          | 1   | 0   |
+| concat1                                    | 1           | 0                     | 8                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d0-3              | 1           | 0                     | 9                     | 0.000          | 0   | 0   |
+| conv6_d0                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_6_97_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_98_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv6_d1                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_6_99_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_100_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| output_from_cluster_6_94_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_1_95_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| conv6_d2                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| input_to_cluster_2_96_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| conv6_d3                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_2_101_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_102_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv6_d0-3_to_conv6_dc         | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_1_103_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_104_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| output_from_cluster_6_92_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_3_93_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| sh_from_concat1_to_conv6_d4-7              | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d4                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d5                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d6                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d7                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d4-7_to_conv6_dc         | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv6_dc                                   | 1           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv7_sd4                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_105_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_106_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| sh_from_conv6_to_conv7_sd0-3               | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv7_sd0                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd1                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd2                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd3                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_107_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_108_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv7_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_2                   | 2           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_5_113_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_114_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| input_to_cluster_7_115_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv9                                      | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_7_116_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_117_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv10                                     | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_118_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_119_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| ew_add2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_5_120_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_121_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| output_from_cluster_5_109_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_110_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv_feature_splitter2_1                   | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_111_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_112_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| concat2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_122_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_prepost_123_i1                    | 0           | 0                     | 0                     | 1.000          | 0   | 0   |
+| auto_reshape_from_concat2_to_output_layer1 | 0           | 0                     | 0                     | 1.000          | 0   | 0   |
+| output_from_prepost_124_i1                 | 0           | 0                     | 0                     | 0.000          | 0   | 0   |
+| output_layer1                              | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+TOTAL:  LCUs: 58 (45.3125%), Subclusters: 122 (23.8281%), Weight memory cuts:0 (0%), L3 Output memory cuts: 282 (27.5391%), L3 total cuts: 282 (27.5391%), L4 memory cuts: 2 (7.14286%), IBs: 39 (60.9375%), OBs: 32 (50%)
+[2024-11-08 12:45:55.363] [default] [info] Post-Split Buffers for context_0, iteration 1 (CP) buffers:
++--------------------------------------------+--------------------------------------------+---------------------------------+
+| Src                                        | Dst                                        | Max buffers                     |
++--------------------------------------------+--------------------------------------------+---------------------------------+
+| input_layer1                               | input_to_cluster_0_62_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_0_62_i1                   | sh_from_input_layer1_to_conv1_sd0-3        | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_0_62_i1                   | sh_from_input_layer1_to_conv1_sd4-7        | 2[RPC] (L3 memory cuts: 2)      |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd0                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd1                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd0-3        | conv1_sd2                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd0-3        | output_from_cluster_0_63_i1                | 5[RPC] (L3 memory cuts: 5)      |
+| conv1_sd0                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 3[RPC] (L3 memory cuts: 3)      |
+| conv1_sd1                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 3[RPC] (L3 memory cuts: 3)      |
+| conv1_sd2                                  | concat_from_conv1_sd0-3_to_conv1_sdc       | 3[RPC] (L3 memory cuts: 3)      |
+| output_from_cluster_0_63_i1                | input_to_cluster_1_64_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_1_64_i1                   | conv1_sd3                                  | 5[RPC] (L3 memory cuts: 5)      |
+| conv1_sd3                                  | output_from_cluster_1_65_i1                | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_1_65_i1                | input_to_cluster_0_66_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_0_66_i1                   | concat_from_conv1_sd0-3_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | output_from_cluster_0_67_i1                | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_67_i1                | input_to_cluster_4_68_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_4_68_i1                   | conv1_sdc                                  | 2[RPC] (L3 memory cuts: 2)      |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd4                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd5                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd6                                  | 5[RPC] (L3 memory cuts: 5)      |
+| sh_from_input_layer1_to_conv1_sd4-7        | conv1_sd7                                  | 5[RPC] (L3 memory cuts: 5)      |
+| conv1_sd4                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| conv1_sd5                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| conv1_sd6                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| conv1_sd7                                  | concat_from_conv1_sd4-7_to_conv1_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | output_from_cluster_0_69_i1                | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_69_i1                | input_to_cluster_4_70_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_4_70_i1                   | conv1_sdc                                  | 3[RPC] (L3 memory cuts: 3)      |
+| conv1_sdc                                  | conv2_sd4                                  | 3[RPC] (L3 memory cuts: 3)      |
+| conv1_sdc                                  | sh_from_conv1_to_conv2_sd0-3               | 3[RPC] (L3 memory cuts: 3)      |
+| conv2_sd4                                  | output_from_cluster_4_71_i1                | 1[RPC] (L3 memory cuts: 1)      |
+| output_from_cluster_4_71_i1                | input_to_cluster_6_72_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_6_72_i1                   | conv2_sdc                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd0                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv1_to_conv2_sd0-3               | conv2_sd1                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv1_to_conv2_sd0-3               | output_from_cluster_4_73_i1                | 3[RPC] (L3 memory cuts: 3)      |
+| conv2_sd0                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| conv2_sd1                                  | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_4_73_i1                | input_to_cluster_0_74_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_0_74_i1                   | conv2_sd2                                  | 3[RPC] (L3 memory cuts: 3)      |
+| input_to_cluster_0_74_i1                   | conv2_sd3                                  | 3[RPC] (L3 memory cuts: 3)      |
+| conv2_sd2                                  | output_from_cluster_0_75_i1                | 1[RPC] (L3 memory cuts: 1)      |
+| output_from_cluster_0_75_i1                | input_to_cluster_4_76_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_4_76_i1                   | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| conv2_sd3                                  | output_from_cluster_0_77_i1                | 1[RPC] (L3 memory cuts: 1)      |
+| output_from_cluster_0_77_i1                | input_to_cluster_4_78_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_4_78_i1                   | concat_from_conv2_sd0-3_to_conv2_sdc       | 2[RPC] (L3 memory cuts: 2)      |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | output_from_cluster_4_79_i1                | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_4_79_i1                | input_to_cluster_6_80_i1                   | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_6_80_i1                   | conv2_sdc                                  | 2 (L3 memory cuts: 1)           |
+| conv2_sdc                                  | conv_feature_splitter1_1                   | 2 (L3 memory cuts: 1)           |
+| conv2_sdc                                  | output_from_cluster_6_81_i1                | 2 (L3 memory cuts: 1)           |
+| conv_feature_splitter1_1                   | concat1                                    | 10[RPC] (L3 memory cuts: 10)    |
+| output_from_cluster_6_81_i1                | input_to_cluster_0_82_i1                   | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_0_82_i1                   | conv_feature_splitter1_2                   | 2 (L3 memory cuts: 1)           |
+| conv_feature_splitter1_2                   | output_from_cluster_0_83_i1                | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_83_i1                | input_to_cluster_6_87_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_83_i1                | input_to_cluster_6_84_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_83_i1                | input_to_cluster_6_85_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_0_83_i1                | input_to_cluster_6_86_i1                   | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_6_84_i1                   | conv4_sd0                                  | 2[RPC] (L3 memory cuts: 2)      |
+| conv4_sd0                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_6_85_i1                   | conv4_sd1                                  | 2[RPC] (L3 memory cuts: 2)      |
+| conv4_sd1                                  | conv4_sdc                                  | 2 (L3 memory cuts: 1)           |
+| conv4_sdc                                  | conv5_d0                                   | 3 (L3 memory cuts: 1)           |
+| conv4_sdc                                  | output_from_cluster_6_88_i1                | 3 (L3 memory cuts: 1)           |
+| conv5_d0                                   | conv5_dc                                   | 10[S][RPC] (L3 memory cuts: 10) |
+| output_from_cluster_6_88_i1                | input_to_cluster_3_89_i1                   | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_3_89_i1                   | conv5_d1                                   | 3 (L3 memory cuts: 1)           |
+| conv5_d1                                   | output_from_cluster_3_90_i1                | 4[S][RPC] (L3 memory cuts: 4)   |
+| output_from_cluster_3_90_i1                | input_to_cluster_6_91_i1                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_6_91_i1                   | conv5_dc                                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| conv5_dc                                   | ew_add1                                    | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_6_86_i1                   | ew_add1                                    | 7[RPC] (L3 memory cuts: 7)      |
+| ew_add1                                    | concat1                                    | 3[RPC] (L3 memory cuts: 3)      |
+| input_to_cluster_6_87_i1                   | concat1                                    | 8[RPC] (L3 memory cuts: 8)      |
+| concat1                                    | sh_from_concat1_to_conv6_d0-3              | 4[S][RPC] (L3 memory cuts: 4)   |
+| concat1                                    | output_from_cluster_6_92_i1                | 4[S][RPC] (L3 memory cuts: 4)   |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d0                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d0-3              | conv6_d1                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d0-3              | output_from_cluster_6_94_i1                | 3[S][RPC] (L3 memory cuts: 3)   |
+| conv6_d0                                   | output_from_cluster_6_97_i1                | 2[S][RPC] (L3 memory cuts: 2)   |
+| output_from_cluster_6_97_i1                | input_to_cluster_1_98_i1                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_1_98_i1                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| conv6_d1                                   | output_from_cluster_6_99_i1                | 2[S][RPC] (L3 memory cuts: 2)   |
+| output_from_cluster_6_99_i1                | input_to_cluster_1_100_i1                  | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_1_100_i1                  | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| output_from_cluster_6_94_i1                | input_to_cluster_2_96_i1                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| output_from_cluster_6_94_i1                | input_to_cluster_1_95_i1                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_1_95_i1                   | conv6_d2                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| conv6_d2                                   | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_2_96_i1                   | conv6_d3                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| conv6_d3                                   | output_from_cluster_2_101_i1               | 2[S][RPC] (L3 memory cuts: 2)   |
+| output_from_cluster_2_101_i1               | input_to_cluster_1_102_i1                  | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_1_102_i1                  | concat_from_conv6_d0-3_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| concat_from_conv6_d0-3_to_conv6_dc         | output_from_cluster_1_103_i1               | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_1_103_i1               | input_to_cluster_3_104_i1                  | 2[RPC] (L3 memory cuts: 2)      |
+| input_to_cluster_3_104_i1                  | conv6_dc                                   | 2[RPC] (L3 memory cuts: 2)      |
+| output_from_cluster_6_92_i1                | input_to_cluster_3_93_i1                   | 2[S][RPC] (L3 memory cuts: 2)   |
+| input_to_cluster_3_93_i1                   | sh_from_concat1_to_conv6_d4-7              | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d4                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d5                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d6                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| sh_from_concat1_to_conv6_d4-7              | conv6_d7                                   | 3[S][RPC] (L3 memory cuts: 3)   |
+| conv6_d4                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| conv6_d5                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| conv6_d6                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| conv6_d7                                   | concat_from_conv6_d4-7_to_conv6_dc         | 2[S][RPC] (L3 memory cuts: 2)   |
+| concat_from_conv6_d4-7_to_conv6_dc         | conv6_dc                                   | 3[RPC] (L3 memory cuts: 3)      |
+| conv6_dc                                   | conv7_sd4                                  | 2[RPC] (L3 memory cuts: 2)      |
+| conv6_dc                                   | sh_from_conv6_to_conv7_sd0-3               | 2[RPC] (L3 memory cuts: 2)      |
+| conv7_sd4                                  | output_from_cluster_3_105_i1               | 1 (L3 memory cuts: 1)           |
+| output_from_cluster_3_105_i1               | input_to_cluster_5_106_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_5_106_i1                  | conv7_sdc                                  | 2 (L3 memory cuts: 1)           |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd0                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd1                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd2                                  | 3[RPC] (L3 memory cuts: 3)      |
+| sh_from_conv6_to_conv7_sd0-3               | conv7_sd3                                  | 3[RPC] (L3 memory cuts: 3)      |
+| conv7_sd0                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)           |
+| conv7_sd1                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)           |
+| conv7_sd2                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)           |
+| conv7_sd3                                  | concat_from_conv7_sd0-3_to_conv7_sdc       | 1 (L3 memory cuts: 1)           |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | output_from_cluster_3_107_i1               | 1 (L3 memory cuts: 1)           |
+| output_from_cluster_3_107_i1               | input_to_cluster_5_108_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_5_108_i1                  | conv7_sdc                                  | 2 (L3 memory cuts: 1)           |
+| conv7_sdc                                  | output_from_cluster_5_109_i1               | 2 (L3 memory cuts: 1)           |
+| conv7_sdc                                  | conv_feature_splitter2_2                   | 2 (L3 memory cuts: 1)           |
+| conv_feature_splitter2_2                   | output_from_cluster_5_113_i1               | 5 (L3 memory cuts: 1)           |
+| conv_feature_splitter2_2                   | ew_add2                                    | 5 (L3 memory cuts: 1)           |
+| output_from_cluster_5_113_i1               | input_to_cluster_7_115_i1                  | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_5_113_i1               | input_to_cluster_3_114_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_3_114_i1                  | concat2                                    | 5 (L3 memory cuts: 1)           |
+| input_to_cluster_7_115_i1                  | conv9                                      | 2 (L3 memory cuts: 1)           |
+| conv9                                      | output_from_cluster_7_116_i1               | 4[S] (L3 memory cuts: 1)        |
+| output_from_cluster_7_116_i1               | input_to_cluster_4_117_i1                  | 2[S] (L3 memory cuts: 1)        |
+| input_to_cluster_4_117_i1                  | conv10                                     | 8[S] (L3 memory cuts: 1)        |
+| conv10                                     | output_from_cluster_4_118_i1               | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_4_118_i1               | input_to_cluster_5_119_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_5_119_i1                  | ew_add2                                    | 2 (L3 memory cuts: 1)           |
+| ew_add2                                    | output_from_cluster_5_120_i1               | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_5_120_i1               | input_to_cluster_3_121_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_3_121_i1                  | concat2                                    | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_5_109_i1               | input_to_cluster_0_110_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_0_110_i1                  | conv_feature_splitter2_1                   | 2 (L3 memory cuts: 1)           |
+| conv_feature_splitter2_1                   | output_from_cluster_0_111_i1               | 1 (L3 memory cuts: 1)           |
+| output_from_cluster_0_111_i1               | input_to_cluster_3_112_i1                  | 2 (L3 memory cuts: 1)           |
+| input_to_cluster_3_112_i1                  | concat2                                    | 5 (L3 memory cuts: 1)           |
+| concat2                                    | output_from_cluster_3_122_i1               | 2 (L3 memory cuts: 1)           |
+| output_from_cluster_3_122_i1               | input_to_prepost_123_i1                    | 2 (L3 memory cuts: 1)           |
+| input_to_prepost_123_i1                    | auto_reshape_from_concat2_to_output_layer1 | 2 (L4 memory cuts: 1)           |
+| auto_reshape_from_concat2_to_output_layer1 | output_from_prepost_124_i1                 | 2 (L4 memory cuts: 1)           |
+| output_from_prepost_124_i1                 | output_layer1                              | 2 (L4 memory cuts: 1)           |
++--------------------------------------------+--------------------------------------------+---------------------------------+
+[2024-11-08 12:45:55.726] [default] [info] Post-Final-Split Resources for context_0, iteration 4
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| Node                                       | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+| input_layer1                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
+| input_to_cluster_0_62_i1                   | 0           | 0                     | 4                     | 0.000          | 2   | 0   |
+| sh_from_input_layer1_to_conv1_sd0-3        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd0                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv1_sd1                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv1_sd2                                  | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_63_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_1_64_i1                   | 0           | 0                     | 5                     | 0.000          | 2   | 0   |
+| conv1_sd3                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_1_65_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_66_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv1_sd0-3_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_67_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_68_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| sh_from_input_layer1_to_conv1_sd4-7        | 1           | 0                     | 20                    | 0.000          | 0   | 0   |
+| conv1_sd4                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd5                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd6                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv1_sd7                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv1_sd4-7_to_conv1_sdc       | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_69_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_70_i1                   | 0           | 0                     | 3                     | 0.000          | 1   | 0   |
+| conv1_sdc                                  | 1           | 0                     | 6                     | 0.000          | 0   | 0   |
+| conv2_sd4                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_71_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_72_i1                   | 0           | 0                     | 3                     | 0.000          | 1   | 0   |
+| sh_from_conv1_to_conv2_sd0-3               | 1           | 0                     | 9                     | 0.000          | 0   | 0   |
+| conv2_sd0                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv2_sd1                                  | 4           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_73_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_0_74_i1                   | 0           | 0                     | 6                     | 0.000          | 2   | 0   |
+| conv2_sd2                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_75_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_76_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv2_sd3                                  | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_77_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_78_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv2_sd0-3_to_conv2_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_79_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_80_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv2_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter1_1                   | 2           | 0                     | 10                    | 0.000          | 0   | 0   |
+| output_from_cluster_6_81_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_82_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv_feature_splitter1_2                   | 2           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_83_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_84_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv4_sd0                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_85_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv4_sd1                                  | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv4_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv5_d0                                   | 2           | 0                     | 10                    | 0.000          | 0   | 0   |
+| output_from_cluster_6_88_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_89_i1                   | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv5_d1                                   | 2           | 0                     | 4                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_90_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_6_91_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv5_dc                                   | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_86_i1                   | 0           | 0                     | 7                     | 0.000          | 1   | 0   |
+| ew_add1                                    | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| input_to_cluster_6_87_i1                   | 0           | 0                     | 8                     | 0.000          | 1   | 0   |
+| concat1                                    | 1           | 0                     | 8                     | 0.000          | 0   | 0   |
+| sh_from_concat1_to_conv6_d0-3              | 1           | 0                     | 9                     | 0.000          | 0   | 0   |
+| conv6_d0                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_6_97_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_98_i1                   | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| conv6_d1                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_6_99_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_100_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| output_from_cluster_6_94_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_1_95_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| conv6_d2                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| input_to_cluster_2_96_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| conv6_d3                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_2_101_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_1_102_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| concat_from_conv6_d0-3_to_conv6_dc         | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_1_103_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_104_i1                  | 0           | 0                     | 2                     | 0.000          | 1   | 0   |
+| output_from_cluster_6_92_i1                | 0           | 0                     | 0                     | 0.000          | 0   | 2   |
+| input_to_cluster_3_93_i1                   | 0           | 0                     | 3                     | 0.000          | 2   | 0   |
+| sh_from_concat1_to_conv6_d4-7              | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv6_d4                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d5                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d6                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv6_d7                                   | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| concat_from_conv6_d4-7_to_conv6_dc         | 1           | 0                     | 3                     | 0.000          | 0   | 0   |
+| conv6_dc                                   | 1           | 0                     | 4                     | 0.000          | 0   | 0   |
+| conv7_sd4                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_105_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_106_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| sh_from_conv6_to_conv7_sd0-3               | 1           | 0                     | 12                    | 0.000          | 0   | 0   |
+| conv7_sd0                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd1                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd2                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| conv7_sd3                                  | 8           | 0                     | 1                     | 0.000          | 0   | 0   |
+| concat_from_conv7_sd0-3_to_conv7_sdc       | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_107_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_108_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv7_sdc                                  | 1           | 0                     | 2                     | 0.000          | 0   | 0   |
+| conv_feature_splitter2_2                   | 2           | 0                     | 2                     | 0.000          | 0   | 0   |
+| output_from_cluster_5_113_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_114_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| input_to_cluster_7_115_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv9                                      | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_7_116_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_4_117_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv10                                     | 4           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_4_118_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_5_119_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| ew_add2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_5_120_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_121_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| output_from_cluster_5_109_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_0_110_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| conv_feature_splitter2_1                   | 2           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_0_111_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_cluster_3_112_i1                  | 0           | 0                     | 1                     | 0.000          | 1   | 0   |
+| concat2                                    | 1           | 0                     | 1                     | 0.000          | 0   | 0   |
+| output_from_cluster_3_122_i1               | 0           | 0                     | 0                     | 0.000          | 0   | 1   |
+| input_to_prepost_123_i1                    | 0           | 0                     | 0                     | 1.000          | 0   | 0   |
+| auto_reshape_from_concat2_to_output_layer1 | 0           | 0                     | 0                     | 1.000          | 0   | 0   |
+| output_from_prepost_124_i1                 | 0           | 0                     | 0                     | 0.000          | 0   | 0   |
+| output_layer1                              | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
++--------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
+TOTAL:  LCUs: 58 (45.3125%), Subclusters: 122 (23.8281%), Weight memory cuts:0 (0%), L3 Output memory cuts: 282 (27.5391%), L3 total cuts: 282 (27.5391%), L4 memory cuts: 2 (7.14286%), IBs: 39 (60.9375%), OBs: 32 (50%)
+[2024-11-08 12:45:55.780] [default] [info] Iterations: 4
+Reverts on cluster mapping: 0
+Reverts on inter-cluster connectivity: 0
+Reverts on pre-mapping validation: 0
+Reverts on split failed: 0
+[2024-11-08 12:45:55.783] [default] [info] Resolver passed at control_util 0.75 with 1716.89 FPS. Setting new partition.
+[2024-11-08 12:45:56.623] [default] [info] context context_0 Post-Allocation FPS from simulation: 1672.77
+[2024-11-08 12:45:56.625] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-08 12:45:56.625] [default] [info] | Cluster   | Control Utilization | Compute Utilization | Memory Utilization |
+[2024-11-08 12:45:56.625] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-08 12:45:56.625] [default] [info] | cluster_0 | 6.3%                | 6.3%                | 1.6%               |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_1 | 18.8%               | 4.7%                | 15.6%              |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_2 | 93.8%               | 35.9%               | 62.5%              |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_3 | 75%                 | 25%                 | 59.4%              |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_4 | 100%                | 81.3%               | 46.1%              |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_5 | 18.8%               | 6.3%                | 6.3%               |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_6 | 43.8%               | 29.7%               | 25%                |
+[2024-11-08 12:45:56.625] [default] [info] | cluster_7 | 6.3%                | 1.6%                | 3.9%               |
+[2024-11-08 12:45:56.625] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-08 12:45:56.625] [default] [info] | Total     | 45.3%               | 23.8%               | 27.5%              |
+[2024-11-08 12:45:56.625] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-08 12:45:56.677] [default] [info] [1;32mSuccessful Mapping (allocation time: 17s)[0m
+[2024-11-08 12:45:56.688] [default] [info] [1;36mCompiling context_0...[0m
+[2024-11-08 12:45:57.264] [default] [info] Bandwidth of model inputs: 9.375 Mbps, outputs: 4.6875 Mbps (for a single frame)
+[2024-11-08 12:45:57.264] [default] [info] Bandwidth of DDR buffers: 0.0 Mbps (for a single frame)
+[2024-11-08 12:45:57.264] [default] [info] Bandwidth of inter context tensors: 0.0 Mbps (for a single frame)
+[2024-11-08 12:45:57.301] [default] [info] [1;36mBuilding HEF...[0m
+[2024-11-08 12:45:57.610] [default] [info] [1;32mSuccessful Compilation (compilation time: 0s)[0m
+[2024-11-08 12:45:57.654] [default] [info] Builder successful

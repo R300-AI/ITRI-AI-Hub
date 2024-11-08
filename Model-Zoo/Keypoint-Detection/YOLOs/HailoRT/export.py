@@ -1,9 +1,23 @@
 from ultralytics import YOLO
-model = YOLO("yolo11n-pose.pt")
+import onnx
+
+model_name = 'yolo11n-pose'
+model = YOLO(f"{model_name}.pt")
 model.export(format="onnx", opset=11)
 
-import onnx
-onnx_model = onnx.load('yolo11n-pose.onnx')  # Load the exported ONNX model
+print('----------[ Profiling]----------')
+onnx_model = onnx.load(f'{model_name}.onnx')
+
+input_names = onnx_model.graph.input
+node_names = onnx_model.graph.node
+output_names = onnx_model.graph.output
+
+print("Input Names:")
+for input in input_names:
+  print(' -', input.name, [i.dim_value for i in input.type.tensor_type.shape.dim])
 print("Node Names:")
-for input in onnx_model.graph.input:
-  print(input.name, input.type.tensor_type.shape)
+for node in node_names:
+  print(' -', node.name)
+print("Output Names:")
+for output in output_names:
+  print(' -', output.name, [i.dim_value for i in output.type.tensor_type.shape.dim])
