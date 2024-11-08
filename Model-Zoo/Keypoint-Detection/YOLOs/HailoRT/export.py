@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import onnx
 
-model_name = 'yolo11n-pose'
+model_name = 'yolov8m-pose'
 model = YOLO(f"{model_name}.pt")
 model.export(format="onnx", opset=11)
 
