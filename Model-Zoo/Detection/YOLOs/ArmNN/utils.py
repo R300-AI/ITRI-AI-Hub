@@ -39,7 +39,7 @@ class YOLOs():
         return output
 
     def inference(self, im):
-        im = im.transpose((0, 1, 2, 3))
+        #im = im.transpose((0, 1, 2, 3))
         self.interpreter.set_tensor(self.input_details[0]['index'], im)
         self.interpreter.invoke()
         preds = self.interpreter.get_tensor(self.output_details[0]['index'])
