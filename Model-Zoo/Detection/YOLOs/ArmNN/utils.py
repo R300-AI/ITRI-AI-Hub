@@ -8,6 +8,8 @@ class YOLOs():
         self.input_details = self.interpreter.get_input_details()
         self.output_details = self.interpreter.get_output_details()
         self.interpreter.allocate_tensors()
+        self.X_axis = [0, 2]
+        self.y_axis = [1, 3]
 
     def predict(self, frames, conf=0.25, iou=0.7, agnostic=False, max_det=300):
         im = self.preprocess(frames)
@@ -39,11 +41,10 @@ class YOLOs():
         return output
 
     def inference(self, im):
-        #im = im.transpose((0, 1, 2, 3))
         self.interpreter.set_tensor(self.input_details[0]['index'], im)
         self.interpreter.invoke()
         preds = self.interpreter.get_tensor(self.output_details[0]['index'])
-        preds[:, [0, 2]] *= im.shape[1]; preds[:, [1, 3]] *= im.shape[2]
+        preds[:, self.X_axis] *= im.shape[1]; preds[:, self.y_axis] *= im.shape[2]
         return preds
 
     def preprocess(self, im):
