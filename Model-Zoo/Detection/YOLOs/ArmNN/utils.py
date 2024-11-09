@@ -23,22 +23,21 @@ class YOLOs():
         preds = np.transpose(preds, (0, 2, 1))
         preds[..., :4] = xywh2xyxy(preds[..., :4])
         output = []
-        for xi, x in enumerate(preds):
-          x = x[xc[0]]
-          if not x.shape[0]:
-              continue
-          box, cls = x[:, :4], x[:, 4:]
-          j = np.argmax(cls, axis=1)
-          conf = cls[[i for i in range(len(j))], j]
-          concatenated = np.concatenate((box, conf.reshape(-1, 1), j.reshape(-1, 1).astype(float)), axis=1)
-          x = concatenated[conf.flatten() > conf_thres]
-          if x.shape[0] > max_nms:  # excess boxes
-              x = x[x[:, 4].argsort(descending=True)[:max_nms]]
-          cls = x[:, 5:6] * (0 if agnostic else max_wh)
-          scores, boxes = x[:, 4], x[:, :4] + cls
-          i = non_max_suppression(boxes, scores, iou_thres)
-          output.append(x[i[:max_det]])
-        return output
+
+      x = preds[0][xc[0]]
+      if not x.shape[0]:
+          return None
+      box, cls = x[:, :4], x[:, 4:]
+      j = np.argmax(cls, axis=1)
+      conf = cls[[i for i in range(len(j))], j]
+      concatenated = np.concatenate((box, conf.reshape(-1, 1), j.reshape(-1, 1).astype(float)), axis=1)
+      x = concatenated[conf.flatten() > conf_thres]
+      if x.shape[0] > max_nms:  # excess boxes
+          x = x[x[:, 4].argsort(descending=True)[:max_nms]]
+      cls = x[:, 5:6] * (0 if agnostic else max_wh)
+      scores, boxes = x[:, 4], x[:, :4] + cls
+      i = non_max_suppression(boxes, scores, iou_thres)
+      return [x[i[:max_det]]]
 
     def inference(self, im):
         self.interpreter.set_tensor(self.input_details[0]['index'], im)
