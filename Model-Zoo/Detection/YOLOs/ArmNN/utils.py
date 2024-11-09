@@ -17,13 +17,13 @@ class YOLOs():
         results = self.postprocess(preds, conf_thres=conf, iou_thres=iou, agnostic=agnostic, max_det=max_det)
         return results
 
-    def postprocess(self, prediction, conf_thres=0.25, iou_thres=0.45, classes=None, agnostic=False, multi_label=False, labels=(), max_det=300, nc=0, max_time_img=0.05, max_nms=30000, max_wh=7680, in_place=True, rotated=False):
-        nc = prediction.shape[1]
-        xc = np.max(prediction[:, 4: nc], axis = 1) > conf_thres
-        prediction = np.transpose(prediction, (0, 2, 1))
-        prediction[..., :4] = xywh2xyxy(prediction[..., :4])
+    def postprocess(self, preds, conf_thres=0.25, iou_thres=0.45, classes=None, agnostic=False, multi_label=False, labels=(), max_det=300, nc=0, max_time_img=0.05, max_nms=30000, max_wh=7680, in_place=True, rotated=False):
+        nc = preds.shape[1]
+        xc = np.max(preds[:, 4: nc], axis = 1) > conf_thres
+        preds = np.transpose(preds, (0, 2, 1))
+        preds[..., :4] = xywh2xyxy(preds[..., :4])
         output = []
-        for xi, x in enumerate(prediction):
+        for xi, x in enumerate(preds):
           x = x[xc[0]]
           if not x.shape[0]:
               continue
