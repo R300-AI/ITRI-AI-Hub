@@ -4,3 +4,5 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Benchmarks
 ## Train/Val Accuracy
+
+* [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
