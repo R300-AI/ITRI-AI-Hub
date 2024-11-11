@@ -1,206 +1,206 @@
-[2024-11-11 13:55:34.489] [default] [info] Ran from command: "parsing_har.py"
-[2024-11-11 13:55:34.489] [default] [info] Loading network parameters
-[2024-11-11 13:55:34.920] [default] [info] Starting Hailo allocation and compilation flow
-[2024-11-11 13:55:34.946] [default] [info] Model name: yolov8n-pose
-[2024-11-11 13:55:38.257] [default] [info] Trying to solve in single context
-[2024-11-11 13:55:39.914] [default] [info] Single context flow failed: Failed to save enough resources to fit in the required parameters (in a recoverable manner): SCs: 259/384, 16bit SCs: 0/384, APUs: 104/120, IAs: 110/192, L3 weights: 43/768, L3 ios: 158/768, LCUs: 104/96, continuing in multi context
-[2024-11-11 13:55:44.881] [default] [info] Finding the best partition to contexts...
-[2024-11-11 13:56:35.981] [default] [info] Iteration #1 - Contexts: 2, Changed: context_0, Fast FPS: 167.783 (best: 0) Unikorn FPS: 116 (best: 0)
-[2024-11-11 13:56:36.426] [default] [info] Iteration #2 - Contexts: 2, Changed: context_0, Fast FPS: 167.779 (best: 167.783)
-[2024-11-11 13:56:57.188] [default] [info] Iteration #3 - Contexts: 2, Changed: context_0, Fast FPS: 176.194 (best: 167.783) Unikorn FPS: 127 (best: 116)
-[2024-11-11 13:56:58.863] [default] [info] Iteration #4 - Contexts: 2, Changed: context_0, Fast FPS: 175.713 (best: 176.194)
-[2024-11-11 13:57:14.196] [default] [info] Iteration #5 - Contexts: 2, Changed: context_0, Fast FPS: 281.258 (best: 176.194) Unikorn FPS: 168 (best: 127)
-[2024-11-11 13:57:30.791] [default] [info] Iteration #6 - Contexts: 2, Changed: context_0, Fast FPS: 296.937 (best: 281.258) Unikorn FPS: 166 (best: 168)
-[2024-11-11 13:57:51.152] [default] [info] Iteration #7 - Contexts: 2, Changed: context_0, Fast FPS: 298.356 (best: 296.937) Unikorn FPS: 166 (best: 168)
-[2024-11-11 13:57:52.840] [default] [info] Iteration #8 - Contexts: 2, Changed: context_0, Fast FPS: 296.921 (best: 298.356)
-[2024-11-11 13:57:54.505] [default] [info] Iteration #9 - Contexts: 2, Changed: context_0, Fast FPS: 294.443 (best: 298.356)
-[2024-11-11 13:57:58.870] [default] [info] Iteration #10 - Contexts: 2, Changed: context_0, Fast FPS: 291.856 (best: 298.356)
-[2024-11-11 13:58:01.262] [default] [info] Iteration #11 - Contexts: 2, Changed: context_0, Fast FPS: 285.498 (best: 298.356)
-[2024-11-11 13:58:05.464] [default] [info] Iteration #12 - Contexts: 2, Changed: context_0, Fast FPS: 286.702 (best: 298.356)
-[2024-11-11 13:58:06.047] [default] [info] Iteration #13 - Contexts: 2, Changed: context_0, Fast FPS: 286.708 (best: 298.356)
-[2024-11-11 13:58:20.376] [default] [info] Iteration #14 - Contexts: 2, Changed: context_0, Fast FPS: 339.657 (best: 298.356) Unikorn FPS: 179 (best: 168)
-[2024-11-11 13:58:38.179] [default] [info] Iteration #15 - Contexts: 2, Changed: context_0, Fast FPS: 347.401 (best: 339.657) Unikorn FPS: 189 (best: 179)
-[2024-11-11 13:58:55.960] [default] [info] Iteration #16 - Contexts: 2, Changed: context_0, Fast FPS: 380.314 (best: 347.401) Unikorn FPS: 206 (best: 189)
-[2024-11-11 13:58:58.463] [default] [info] Iteration #17 - Contexts: 2, Changed: context_0, Fast FPS: 365.855 (best: 380.314)
-[2024-11-11 13:59:02.186] [default] [info] Iteration #18 - Contexts: 2, Changed: context_0, Fast FPS: 370.612 (best: 380.314)
-[2024-11-11 13:59:02.792] [default] [info] Iteration #19 - Contexts: 2, Changed: context_0, Fast FPS: 370.612 (best: 380.314)
-[2024-11-11 13:59:03.589] [default] [info] Iteration #20 - Contexts: 2, Changed: context_0, Fast FPS: 375.653 (best: 380.314)
-[2024-11-11 13:59:04.231] [default] [info] Iteration #21 - Contexts: 2, Changed: context_0, Fast FPS: 375.742 (best: 380.314)
-[2024-11-11 13:59:04.826] [default] [info] Iteration #22 - Contexts: 2, Changed: context_0, Fast FPS: 375.578 (best: 380.314)
-[2024-11-11 13:59:11.459] [default] [info] Iteration #23 - Contexts: 2, Changed: context_0, Fast FPS: 375.811 (best: 380.314)
-[2024-11-11 13:59:12.286] [default] [info] Iteration #24 - Contexts: 2, Changed: context_0, Fast FPS: 375.811 (best: 380.314)
-[2024-11-11 13:59:12.960] [default] [info] Iteration #25 - Contexts: 2, Changed: context_0, Fast FPS: 377.251 (best: 380.314)
-[2024-11-11 13:59:13.818] [default] [info] Iteration #26 - Contexts: 2, Changed: context_0, Fast FPS: 377.251 (best: 380.314)
-[2024-11-11 13:59:14.454] [default] [info] Iteration #27 - Contexts: 2, Changed: context_0, Fast FPS: 371.741 (best: 380.314)
-[2024-11-11 13:59:15.073] [default] [info] Iteration #28 - Contexts: 2, Changed: context_0, Fast FPS: 371.814 (best: 380.314)
-[2024-11-11 13:59:15.710] [default] [info] Iteration #29 - Contexts: 2, Changed: context_0, Fast FPS: 376.348 (best: 380.314)
-[2024-11-11 13:59:16.504] [default] [info] Iteration #30 - Contexts: 2, Changed: context_0, Fast FPS: 375.474 (best: 380.314)
-[2024-11-11 13:59:17.155] [default] [info] Iteration #31 - Contexts: 2, Changed: context_0, Fast FPS: 376.348 (best: 380.314)
-[2024-11-11 13:59:17.803] [default] [info] Iteration #32 - Contexts: 2, Changed: context_0, Fast FPS: 379.002 (best: 380.314)
-[2024-11-11 13:59:18.558] [default] [info] Iteration #33 - Contexts: 2, Changed: context_0, Fast FPS: 379.002 (best: 380.314)
-[2024-11-11 13:59:19.334] [default] [info] Iteration #34 - Contexts: 2, Changed: context_0, Fast FPS: 378.946 (best: 380.314)
-[2024-11-11 13:59:32.486] [default] [info] Iteration #35 - Contexts: 2, Changed: context_0, Fast FPS: 380.381 (best: 380.314) Unikorn FPS: 228 (best: 206)
-[2024-11-11 13:59:45.599] [default] [info] Iteration #36 - Contexts: 2, Changed: context_0, Fast FPS: 382.625 (best: 380.381) Unikorn FPS: 231 (best: 228)
-[2024-11-11 13:59:46.889] [default] [info] Iteration #37 - Contexts: 2, Changed: context_0, Fast FPS: 357.337 (best: 382.625)
-[2024-11-11 13:59:48.190] [default] [info] Iteration #38 - Contexts: 2, Changed: context_0, Fast FPS: 352.962 (best: 382.625)
-[2024-11-11 13:59:49.419] [default] [info] Iteration #39 - Contexts: 2, Changed: context_0, Fast FPS: 304.916 (best: 382.625)
-[2024-11-11 13:59:50.531] [default] [info] Iteration #40 - Contexts: 3, Changed: context_1, Fast FPS: 349.575 (best: 382.625)
-[2024-11-11 13:59:51.059] [default] [info] Iteration #41 - Contexts: 3, Changed: context_1, Fast FPS: 349.55 (best: 382.625)
-[2024-11-11 13:59:51.637] [default] [info] Iteration #42 - Contexts: 3, Changed: context_1, Fast FPS: 369.153 (best: 382.625)
-[2024-11-11 13:59:52.175] [default] [info] Iteration #43 - Contexts: 3, Changed: context_1, Fast FPS: 366.399 (best: 382.625)
-[2024-11-11 13:59:52.706] [default] [info] Iteration #44 - Contexts: 3, Changed: context_1, Fast FPS: 363.74 (best: 382.625)
-[2024-11-11 13:59:53.245] [default] [info] Iteration #45 - Contexts: 3, Changed: context_1, Fast FPS: 365.692 (best: 382.625)
-[2024-11-11 13:59:53.791] [default] [info] Iteration #46 - Contexts: 3, Changed: context_1, Fast FPS: 346.205 (best: 382.625)
-[2024-11-11 13:59:54.320] [default] [info] Iteration #47 - Contexts: 3, Changed: context_1, Fast FPS: 343.195 (best: 382.625)
-[2024-11-11 13:59:54.855] [default] [info] Iteration #48 - Contexts: 3, Changed: context_1, Fast FPS: 345.054 (best: 382.625)
-[2024-11-11 13:59:55.409] [default] [info] Iteration #49 - Contexts: 3, Changed: context_1, Fast FPS: 346.111 (best: 382.625)
-[2024-11-11 13:59:55.939] [default] [info] Iteration #50 - Contexts: 3, Changed: context_1, Fast FPS: 346.111 (best: 382.625)
-[2024-11-11 13:59:56.475] [default] [info] Iteration #51 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
-[2024-11-11 13:59:57.024] [default] [info] Iteration #52 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
-[2024-11-11 13:59:57.566] [default] [info] Iteration #53 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
-[2024-11-11 13:59:58.090] [default] [info] Iteration #54 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
-[2024-11-11 13:59:58.625] [default] [info] Iteration #55 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
-[2024-11-11 13:59:59.148] [default] [info] Iteration #56 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
-[2024-11-11 13:59:59.693] [default] [info] Iteration #57 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
-[2024-11-11 14:00:00.203] [default] [info] Iteration #58 - Contexts: 3, Changed: context_0, Fast FPS: 343.321 (best: 382.625)
-[2024-11-11 14:00:00.747] [default] [info] Iteration #59 - Contexts: 3, Changed: context_1, Fast FPS: 359.342 (best: 382.625)
-[2024-11-11 14:00:01.234] [default] [info] Iteration #60 - Contexts: 3, Changed: context_0, Fast FPS: 342.076 (best: 382.625)
-[2024-11-11 14:00:01.781] [default] [info] Iteration #61 - Contexts: 3, Changed: context_1, Fast FPS: 357.668 (best: 382.625)
-[2024-11-11 14:00:02.248] [default] [info] Iteration #62 - Contexts: 3, Changed: context_0, Fast FPS: 337.643 (best: 382.625)
-[2024-11-11 14:00:02.794] [default] [info] Iteration #63 - Contexts: 3, Changed: context_1, Fast FPS: 355.668 (best: 382.625)
-[2024-11-11 14:00:03.256] [default] [info] Iteration #64 - Contexts: 3, Changed: context_0, Fast FPS: 341.388 (best: 382.625)
-[2024-11-11 14:00:03.807] [default] [info] Iteration #65 - Contexts: 3, Changed: context_1, Fast FPS: 357.751 (best: 382.625)
-[2024-11-11 14:00:04.251] [default] [info] Iteration #66 - Contexts: 3, Changed: context_0, Fast FPS: 339.784 (best: 382.625)
-[2024-11-11 14:00:04.804] [default] [info] Iteration #67 - Contexts: 3, Changed: context_1, Fast FPS: 339.784 (best: 382.625)
-[2024-11-11 14:00:05.355] [default] [info] Iteration #68 - Contexts: 3, Changed: context_1, Fast FPS: 339.784 (best: 382.625)
-[2024-11-11 14:00:05.911] [default] [info] Iteration #69 - Contexts: 3, Changed: context_1, Fast FPS: 355.99 (best: 382.625)
-[2024-11-11 14:00:06.333] [default] [info] Iteration #70 - Contexts: 3, Changed: context_0, Fast FPS: 338.663 (best: 382.625)
-[2024-11-11 14:00:06.887] [default] [info] Iteration #71 - Contexts: 3, Changed: context_1, Fast FPS: 355.99 (best: 382.625)
-[2024-11-11 14:00:07.308] [default] [info] Iteration #72 - Contexts: 3, Changed: context_0, Fast FPS: 338.663 (best: 382.625)
-[2024-11-11 14:00:07.928] [default] [info] Iteration #73 - Contexts: 3, Changed: context_1, Fast FPS: 350.901 (best: 382.625)
-[2024-11-11 14:00:08.333] [default] [info] Iteration #74 - Contexts: 3, Changed: context_0, Fast FPS: 334.054 (best: 382.625)
-[2024-11-11 14:00:08.953] [default] [info] Iteration #75 - Contexts: 3, Changed: context_1, Fast FPS: 353.376 (best: 382.625)
-[2024-11-11 14:00:09.356] [default] [info] Iteration #76 - Contexts: 3, Changed: context_0, Fast FPS: 335.267 (best: 382.625)
-[2024-11-11 14:00:09.974] [default] [info] Iteration #77 - Contexts: 3, Changed: context_1, Fast FPS: 357.36 (best: 382.625)
-[2024-11-11 14:00:10.360] [default] [info] Iteration #78 - Contexts: 3, Changed: context_0, Fast FPS: 338.893 (best: 382.625)
-[2024-11-11 14:00:10.972] [default] [info] Iteration #79 - Contexts: 3, Changed: context_1, Fast FPS: 358.563 (best: 382.625)
-[2024-11-11 14:00:11.339] [default] [info] Iteration #80 - Contexts: 3, Changed: context_0, Fast FPS: 339.489 (best: 382.625)
-[2024-11-11 14:00:11.918] [default] [info] Iteration #81 - Contexts: 3, Changed: context_1, Fast FPS: 358.411 (best: 382.625)
-[2024-11-11 14:00:12.283] [default] [info] Iteration #82 - Contexts: 3, Changed: context_0, Fast FPS: 338.304 (best: 382.625)
-[2024-11-11 14:00:12.901] [default] [info] Iteration #83 - Contexts: 3, Changed: context_1, Fast FPS: 357.023 (best: 382.625)
-[2024-11-11 14:00:13.531] [default] [info] Iteration #84 - Contexts: 3, Changed: context_1, Fast FPS: 357.568 (best: 382.625)
-[2024-11-11 14:00:14.107] [default] [info] Iteration #85 - Contexts: 3, Changed: context_1, Fast FPS: 357.568 (best: 382.625)
-[2024-11-11 14:00:14.688] [default] [info] Iteration #86 - Contexts: 3, Changed: context_1, Fast FPS: 363.101 (best: 382.625)
-[2024-11-11 14:00:15.326] [default] [info] Iteration #87 - Contexts: 3, Changed: context_1, Fast FPS: 361.117 (best: 382.625)
-[2024-11-11 14:00:15.909] [default] [info] Iteration #88 - Contexts: 3, Changed: context_1, Fast FPS: 361.89 (best: 382.625)
-[2024-11-11 14:00:16.708] [default] [info] Iteration #89 - Contexts: 3, Changed: context_1, Fast FPS: 357.858 (best: 382.625)
-[2024-11-11 14:00:17.347] [default] [info] Iteration #90 - Contexts: 3, Changed: context_1, Fast FPS: 354.043 (best: 382.625)
-[2024-11-11 14:00:18.008] [default] [info] Iteration #91 - Contexts: 3, Changed: context_1, Fast FPS: 378.342 (best: 382.625)
-[2024-11-11 14:00:32.155] [default] [info] Iteration #92 - Contexts: 3, Changed: context_1, Fast FPS: 386.292 (best: 382.625) Unikorn FPS: 166 (best: 231)
-[2024-11-11 14:00:46.248] [default] [info] Iteration #93 - Contexts: 3, Changed: context_1, Fast FPS: 386.302 (best: 386.292) Unikorn FPS: 166 (best: 231)
-[2024-11-11 14:00:48.421] [default] [info] Iteration #94 - Contexts: 3, Changed: context_1, Fast FPS: 384.27 (best: 386.302)
-[2024-11-11 14:00:50.279] [default] [info] Iteration #95 - Contexts: 3, Changed: context_1, Fast FPS: 373.645 (best: 386.302)
-[2024-11-11 14:00:51.471] [default] [info] Iteration #96 - Contexts: 3, Changed: context_1, Fast FPS: 372.851 (best: 386.302)
-[2024-11-11 14:00:52.584] [default] [info] Iteration #97 - Contexts: 3, Changed: context_1, Fast FPS: 356.832 (best: 386.302)
-[2024-11-11 14:00:53.586] [default] [info] Iteration #98 - Contexts: 4, Changed: context_2, Fast FPS: 359.628 (best: 386.302)
-[2024-11-11 14:00:54.186] [default] [info] Iteration #99 - Contexts: 4, Changed: context_2, Fast FPS: 373.163 (best: 386.302)
-[2024-11-11 14:00:54.683] [default] [info] Iteration #100 - Contexts: 4, Changed: context_2, Fast FPS: 366.903 (best: 386.302)
-[2024-11-11 14:00:55.235] [default] [info] Iteration #101 - Contexts: 4, Changed: context_2, Fast FPS: 363.175 (best: 386.302)
-[2024-11-11 14:00:55.794] [default] [info] Iteration #102 - Contexts: 4, Changed: context_2, Fast FPS: 364.059 (best: 386.302)
-[2024-11-11 14:00:56.352] [default] [info] Iteration #103 - Contexts: 4, Changed: context_2, Fast FPS: 366.014 (best: 386.302)
-[2024-11-11 14:00:56.872] [default] [info] Iteration #104 - Contexts: 4, Changed: context_2, Fast FPS: 346.74 (best: 386.302)
-[2024-11-11 14:00:57.387] [default] [info] Iteration #105 - Contexts: 4, Changed: context_2, Fast FPS: 343.721 (best: 386.302)
-[2024-11-11 14:00:57.893] [default] [info] Iteration #106 - Contexts: 4, Changed: context_2, Fast FPS: 345.776 (best: 386.302)
-[2024-11-11 14:00:58.415] [default] [info] Iteration #107 - Contexts: 4, Changed: context_2, Fast FPS: 347.085 (best: 386.302)
-[2024-11-11 14:00:58.933] [default] [info] Iteration #108 - Contexts: 4, Changed: context_2, Fast FPS: 347.085 (best: 386.302)
-[2024-11-11 14:00:59.459] [default] [info] Iteration #109 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
-[2024-11-11 14:00:59.975] [default] [info] Iteration #110 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
-[2024-11-11 14:01:00.481] [default] [info] Iteration #111 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
-[2024-11-11 14:01:00.979] [default] [info] Iteration #112 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
-[2024-11-11 14:01:01.490] [default] [info] Iteration #113 - Contexts: 4, Changed: context_2, Fast FPS: 345.335 (best: 386.302)
-[2024-11-11 14:01:01.996] [default] [info] Iteration #114 - Contexts: 4, Changed: context_2, Fast FPS: 344.556 (best: 386.302)
-[2024-11-11 14:01:02.511] [default] [info] Iteration #115 - Contexts: 4, Changed: context_2, Fast FPS: 349.563 (best: 386.302)
-[2024-11-11 14:01:03.013] [default] [info] Iteration #116 - Contexts: 4, Changed: context_2, Fast FPS: 357.963 (best: 386.302)
-[2024-11-11 14:01:03.447] [default] [info] Iteration #117 - Contexts: 4, Changed: context_1, Fast FPS: 354.502 (best: 386.302)
-[2024-11-11 14:01:03.970] [default] [info] Iteration #118 - Contexts: 4, Changed: context_2, Fast FPS: 357.963 (best: 386.302)
-[2024-11-11 14:01:04.407] [default] [info] Iteration #119 - Contexts: 4, Changed: context_1, Fast FPS: 356.315 (best: 386.302)
-[2024-11-11 14:01:04.942] [default] [info] Iteration #120 - Contexts: 4, Changed: context_2, Fast FPS: 360.895 (best: 386.302)
-[2024-11-11 14:01:05.367] [default] [info] Iteration #121 - Contexts: 4, Changed: context_1, Fast FPS: 357.969 (best: 386.302)
-[2024-11-11 14:01:05.949] [default] [info] Iteration #122 - Contexts: 4, Changed: context_2, Fast FPS: 356.315 (best: 386.302)
-[2024-11-11 14:01:06.486] [default] [info] Iteration #123 - Contexts: 4, Changed: context_2, Fast FPS: 362.853 (best: 386.302)
-[2024-11-11 14:01:06.901] [default] [info] Iteration #124 - Contexts: 4, Changed: context_1, Fast FPS: 361.318 (best: 386.302)
-[2024-11-11 14:01:07.264] [default] [info] Iteration #125 - Contexts: 4, Changed: context_1, Fast FPS: 356.634 (best: 386.302)
-[2024-11-11 14:01:08.017] [default] [info] Iteration #126 - Contexts: 4, Changed: context_2, Fast FPS: 354.775 (best: 386.302)
-[2024-11-11 14:01:08.362] [default] [info] Iteration #127 - Contexts: 4, Changed: context_1, Fast FPS: 353.025 (best: 386.302)
-[2024-11-11 14:01:28.805] [default] [info] Iteration #128 - Contexts: 4, Changed: context_1, Fast FPS: 398.407 (best: 386.302) Unikorn FPS: 139 (best: 231)
-[2024-11-11 14:01:42.510] [default] [info] Iteration #129 - Contexts: 4, Changed: context_2, Fast FPS: 399.469 (best: 398.407) Unikorn FPS: 141 (best: 231)
-[2024-11-11 14:01:57.639] [default] [info] Iteration #130 - Contexts: 4, Changed: context_2, Fast FPS: 402.495 (best: 399.469) Unikorn FPS: 141 (best: 231)
-[2024-11-11 14:02:14.736] [default] [info] Iteration #131 - Contexts: 4, Changed: context_1, Fast FPS: 409.208 (best: 402.495) Unikorn FPS: 163 (best: 231)
-[2024-11-11 14:02:29.719] [default] [info] Iteration #132 - Contexts: 4, Changed: context_2, Fast FPS: 409.291 (best: 409.208) Unikorn FPS: 159 (best: 231)
-[2024-11-11 14:02:30.275] [default] [info] Iteration #133 - Contexts: 4, Changed: context_2, Fast FPS: 409.093 (best: 409.291)
-[2024-11-11 14:02:30.980] [default] [info] Iteration #134 - Contexts: 4, Changed: context_2, Fast FPS: 407.75 (best: 409.291)
-[2024-11-11 14:02:31.570] [default] [info] Iteration #135 - Contexts: 4, Changed: context_2, Fast FPS: 405.182 (best: 409.291)
-[2024-11-11 14:02:32.101] [default] [info] Iteration #136 - Contexts: 4, Changed: context_2, Fast FPS: 405.182 (best: 409.291)
-[2024-11-11 14:02:32.634] [default] [info] Iteration #137 - Contexts: 4, Changed: context_2, Fast FPS: 409.252 (best: 409.291)
-[2024-11-11 14:02:32.928] [default] [info] Iteration #138 - Contexts: 4, Changed: context_1, Fast FPS: 407.608 (best: 409.291)
-[2024-11-11 14:02:33.530] [default] [info] Iteration #139 - Contexts: 4, Changed: context_2, Fast FPS: 405.11 (best: 409.291)
-[2024-11-11 14:02:34.090] [default] [info] Iteration #140 - Contexts: 4, Changed: context_2, Fast FPS: 402.469 (best: 409.291)
-[2024-11-11 14:02:34.684] [default] [info] Iteration #141 - Contexts: 4, Changed: context_2, Fast FPS: 396.648 (best: 409.291)
-[2024-11-11 14:02:35.284] [default] [info] Iteration #142 - Contexts: 4, Changed: context_2, Fast FPS: 391.967 (best: 409.291)
-[2024-11-11 14:02:35.894] [default] [info] Iteration #143 - Contexts: 4, Changed: context_2, Fast FPS: 380.584 (best: 409.291)
-[2024-11-11 14:02:36.497] [default] [info] Iteration #144 - Contexts: 4, Changed: context_2, Fast FPS: 377.828 (best: 409.291)
-[2024-11-11 14:02:37.821] [default] [info] Iteration #145 - Contexts: 4, Changed: context_2, Fast FPS: 377.838 (best: 409.291)
-[2024-11-11 14:02:38.848] [default] [info] Iteration #146 - Contexts: 4, Changed: context_2, Fast FPS: 370.571 (best: 409.291)
-[2024-11-11 14:02:40.006] [default] [info] Iteration #147 - Contexts: 4, Changed: context_2, Fast FPS: 363.6 (best: 409.291)
-[2024-11-11 14:02:41.140] [default] [info] Iteration #148 - Contexts: 4, Changed: context_2, Fast FPS: 362.848 (best: 409.291)
-[2024-11-11 14:02:42.212] [default] [info] Iteration #149 - Contexts: 4, Changed: context_2, Fast FPS: 347.66 (best: 409.291)
-[2024-11-11 14:02:43.208] [default] [info] Iteration #150 - Contexts: 5, Changed: context_3, Fast FPS: 350.314 (best: 409.291)
-[2024-11-11 14:02:43.794] [default] [info] Iteration #151 - Contexts: 5, Changed: context_3, Fast FPS: 363.143 (best: 409.291)
-[2024-11-11 14:02:44.302] [default] [info] Iteration #152 - Contexts: 5, Changed: context_3, Fast FPS: 357.213 (best: 409.291)
-[2024-11-11 14:02:44.853] [default] [info] Iteration #153 - Contexts: 5, Changed: context_3, Fast FPS: 353.678 (best: 409.291)
-[2024-11-11 14:02:45.397] [default] [info] Iteration #154 - Contexts: 5, Changed: context_3, Fast FPS: 354.517 (best: 409.291)
-[2024-11-11 14:02:45.940] [default] [info] Iteration #155 - Contexts: 5, Changed: context_3, Fast FPS: 356.37 (best: 409.291)
-[2024-11-11 14:02:46.466] [default] [info] Iteration #156 - Contexts: 5, Changed: context_3, Fast FPS: 338.073 (best: 409.291)
-[2024-11-11 14:02:46.986] [default] [info] Iteration #157 - Contexts: 5, Changed: context_3, Fast FPS: 335.202 (best: 409.291)
-[2024-11-11 14:02:47.493] [default] [info] Iteration #158 - Contexts: 5, Changed: context_3, Fast FPS: 337.157 (best: 409.291)
-[2024-11-11 14:02:48.023] [default] [info] Iteration #159 - Contexts: 5, Changed: context_3, Fast FPS: 338.401 (best: 409.291)
-[2024-11-11 14:02:48.542] [default] [info] Iteration #160 - Contexts: 5, Changed: context_3, Fast FPS: 338.401 (best: 409.291)
-[2024-11-11 14:02:49.064] [default] [info] Iteration #161 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
-[2024-11-11 14:02:49.573] [default] [info] Iteration #162 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
-[2024-11-11 14:02:50.071] [default] [info] Iteration #163 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
-[2024-11-11 14:02:50.565] [default] [info] Iteration #164 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
-[2024-11-11 14:02:51.076] [default] [info] Iteration #165 - Contexts: 5, Changed: context_3, Fast FPS: 336.737 (best: 409.291)
-[2024-11-11 14:02:51.580] [default] [info] Iteration #166 - Contexts: 5, Changed: context_3, Fast FPS: 335.997 (best: 409.291)
-[2024-11-11 14:02:52.085] [default] [info] Iteration #167 - Contexts: 5, Changed: context_3, Fast FPS: 340.756 (best: 409.291)
-[2024-11-11 14:02:52.586] [default] [info] Iteration #168 - Contexts: 5, Changed: context_3, Fast FPS: 348.733 (best: 409.291)
-[2024-11-11 14:02:53.092] [default] [info] Iteration #169 - Contexts: 5, Changed: context_3, Fast FPS: 353.647 (best: 409.291)
-[2024-11-11 14:02:53.581] [default] [info] Iteration #170 - Contexts: 5, Changed: context_3, Fast FPS: 353.703 (best: 409.291)
-[2024-11-11 14:02:54.073] [default] [info] Iteration #171 - Contexts: 5, Changed: context_3, Fast FPS: 353.703 (best: 409.291)
-[2024-11-11 14:02:54.566] [default] [info] Iteration #172 - Contexts: 5, Changed: context_3, Fast FPS: 354.115 (best: 409.291)
-[2024-11-11 14:02:55.165] [default] [info] Iteration #173 - Contexts: 5, Changed: context_3, Fast FPS: 348.874 (best: 409.291)
-[2024-11-11 14:02:55.703] [default] [info] Iteration #174 - Contexts: 5, Changed: context_3, Fast FPS: 357.625 (best: 409.291)
-[2024-11-11 14:02:56.252] [default] [info] Iteration #175 - Contexts: 5, Changed: context_3, Fast FPS: 360.131 (best: 409.291)
-[2024-11-11 14:02:56.790] [default] [info] Iteration #176 - Contexts: 5, Changed: context_3, Fast FPS: 360.561 (best: 409.291)
-[2024-11-11 14:02:57.269] [default] [info] Iteration #177 - Contexts: 5, Changed: context_3, Fast FPS: 360.408 (best: 409.291)
-[2024-11-11 14:02:57.796] [default] [info] Iteration #178 - Contexts: 5, Changed: context_3, Fast FPS: 366.521 (best: 409.291)
-[2024-11-11 14:02:57.967] [default] [info] Iteration #179 - Contexts: 5, Changed: context_1, Fast FPS: 366.521 (best: 409.291)
-[2024-11-11 14:02:58.162] [default] [info] Iteration #180 - Contexts: 5, Changed: context_1, Fast FPS: 366.441 (best: 409.291)
-[2024-11-11 14:02:58.550] [default] [info] Iteration #181 - Contexts: 5, Changed: context_1, Fast FPS: 366.361 (best: 409.291)
-[2024-11-11 14:02:58.750] [default] [info] Iteration #182 - Contexts: 5, Changed: context_1, Fast FPS: 365.839 (best: 409.291)
-[2024-11-11 14:02:58.947] [default] [info] Iteration #183 - Contexts: 5, Changed: context_1, Fast FPS: 366.145 (best: 409.291)
-[2024-11-11 14:02:59.144] [default] [info] Iteration #184 - Contexts: 5, Changed: context_1, Fast FPS: 366.145 (best: 409.291)
-[2024-11-11 14:02:59.348] [default] [info] Iteration #185 - Contexts: 5, Changed: context_1, Fast FPS: 365.042 (best: 409.291)
-[2024-11-11 14:02:59.839] [default] [info] Iteration #186 - Contexts: 5, Changed: context_2, Fast FPS: 365.411 (best: 409.291)
-[2024-11-11 14:03:00.150] [default] [info] Iteration #187 - Contexts: 5, Changed: context_2, Fast FPS: 360.143 (best: 409.291)
-[2024-11-11 14:03:00.461] [default] [info] Iteration #188 - Contexts: 5, Changed: context_2, Fast FPS: 357.252 (best: 409.291)
-[2024-11-11 14:03:01.132] [default] [info] Iteration #189 - Contexts: 5, Changed: context_3, Fast FPS: 356.678 (best: 409.291)
-[2024-11-11 14:03:01.650] [default] [info] Iteration #190 - Contexts: 5, Changed: context_3, Fast FPS: 356.678 (best: 409.291)
-[2024-11-11 14:03:02.167] [default] [info] Iteration #191 - Contexts: 5, Changed: context_3, Fast FPS: 359.69 (best: 409.291)
-[2024-11-11 14:03:02.768] [default] [info] Best unikorn FPS: 231.0 Time it took 7m 17s 886ms
-[2024-11-11 14:03:02.768] [default] [info] Winning Context Partition:
+[2024-11-11 17:41:48.122] [default] [info] Ran from command: "parsing_har.py"
+[2024-11-11 17:41:48.123] [default] [info] Loading network parameters
+[2024-11-11 17:41:48.531] [default] [info] Starting Hailo allocation and compilation flow
+[2024-11-11 17:41:48.559] [default] [info] Model name: yolov8n-pose
+[2024-11-11 17:41:51.859] [default] [info] Trying to solve in single context
+[2024-11-11 17:41:53.467] [default] [info] Single context flow failed: Failed to save enough resources to fit in the required parameters (in a recoverable manner): SCs: 259/384, 16bit SCs: 0/384, APUs: 104/120, IAs: 110/192, L3 weights: 43/768, L3 ios: 158/768, LCUs: 104/96, continuing in multi context
+[2024-11-11 17:41:58.422] [default] [info] Finding the best partition to contexts...
+[2024-11-11 17:42:47.885] [default] [info] Iteration #1 - Contexts: 2, Changed: context_0, Fast FPS: 167.783 (best: 0) Unikorn FPS: 116 (best: 0)
+[2024-11-11 17:42:48.233] [default] [info] Iteration #2 - Contexts: 2, Changed: context_0, Fast FPS: 167.779 (best: 167.783)
+[2024-11-11 17:43:08.725] [default] [info] Iteration #3 - Contexts: 2, Changed: context_0, Fast FPS: 176.194 (best: 167.783) Unikorn FPS: 127 (best: 116)
+[2024-11-11 17:43:10.412] [default] [info] Iteration #4 - Contexts: 2, Changed: context_0, Fast FPS: 175.713 (best: 176.194)
+[2024-11-11 17:43:25.571] [default] [info] Iteration #5 - Contexts: 2, Changed: context_0, Fast FPS: 281.258 (best: 176.194) Unikorn FPS: 168 (best: 127)
+[2024-11-11 17:43:41.937] [default] [info] Iteration #6 - Contexts: 2, Changed: context_0, Fast FPS: 296.937 (best: 281.258) Unikorn FPS: 166 (best: 168)
+[2024-11-11 17:44:02.002] [default] [info] Iteration #7 - Contexts: 2, Changed: context_0, Fast FPS: 298.356 (best: 296.937) Unikorn FPS: 166 (best: 168)
+[2024-11-11 17:44:03.619] [default] [info] Iteration #8 - Contexts: 2, Changed: context_0, Fast FPS: 296.921 (best: 298.356)
+[2024-11-11 17:44:05.310] [default] [info] Iteration #9 - Contexts: 2, Changed: context_0, Fast FPS: 294.443 (best: 298.356)
+[2024-11-11 17:44:09.407] [default] [info] Iteration #10 - Contexts: 2, Changed: context_0, Fast FPS: 291.856 (best: 298.356)
+[2024-11-11 17:44:11.778] [default] [info] Iteration #11 - Contexts: 2, Changed: context_0, Fast FPS: 285.498 (best: 298.356)
+[2024-11-11 17:44:16.021] [default] [info] Iteration #12 - Contexts: 2, Changed: context_0, Fast FPS: 286.702 (best: 298.356)
+[2024-11-11 17:44:16.785] [default] [info] Iteration #13 - Contexts: 2, Changed: context_0, Fast FPS: 286.708 (best: 298.356)
+[2024-11-11 17:44:31.004] [default] [info] Iteration #14 - Contexts: 2, Changed: context_0, Fast FPS: 339.657 (best: 298.356) Unikorn FPS: 179 (best: 168)
+[2024-11-11 17:44:49.816] [default] [info] Iteration #15 - Contexts: 2, Changed: context_0, Fast FPS: 347.401 (best: 339.657) Unikorn FPS: 189 (best: 179)
+[2024-11-11 17:45:07.810] [default] [info] Iteration #16 - Contexts: 2, Changed: context_0, Fast FPS: 380.314 (best: 347.401) Unikorn FPS: 206 (best: 189)
+[2024-11-11 17:45:10.258] [default] [info] Iteration #17 - Contexts: 2, Changed: context_0, Fast FPS: 365.855 (best: 380.314)
+[2024-11-11 17:45:13.858] [default] [info] Iteration #18 - Contexts: 2, Changed: context_0, Fast FPS: 370.612 (best: 380.314)
+[2024-11-11 17:45:14.484] [default] [info] Iteration #19 - Contexts: 2, Changed: context_0, Fast FPS: 370.612 (best: 380.314)
+[2024-11-11 17:45:15.284] [default] [info] Iteration #20 - Contexts: 2, Changed: context_0, Fast FPS: 375.653 (best: 380.314)
+[2024-11-11 17:45:15.878] [default] [info] Iteration #21 - Contexts: 2, Changed: context_0, Fast FPS: 375.742 (best: 380.314)
+[2024-11-11 17:45:16.484] [default] [info] Iteration #22 - Contexts: 2, Changed: context_0, Fast FPS: 375.578 (best: 380.314)
+[2024-11-11 17:45:23.459] [default] [info] Iteration #23 - Contexts: 2, Changed: context_0, Fast FPS: 375.811 (best: 380.314)
+[2024-11-11 17:45:24.179] [default] [info] Iteration #24 - Contexts: 2, Changed: context_0, Fast FPS: 375.811 (best: 380.314)
+[2024-11-11 17:45:24.893] [default] [info] Iteration #25 - Contexts: 2, Changed: context_0, Fast FPS: 377.251 (best: 380.314)
+[2024-11-11 17:45:25.771] [default] [info] Iteration #26 - Contexts: 2, Changed: context_0, Fast FPS: 377.251 (best: 380.314)
+[2024-11-11 17:45:26.540] [default] [info] Iteration #27 - Contexts: 2, Changed: context_0, Fast FPS: 371.741 (best: 380.314)
+[2024-11-11 17:45:27.231] [default] [info] Iteration #28 - Contexts: 2, Changed: context_0, Fast FPS: 371.814 (best: 380.314)
+[2024-11-11 17:45:27.886] [default] [info] Iteration #29 - Contexts: 2, Changed: context_0, Fast FPS: 376.348 (best: 380.314)
+[2024-11-11 17:45:28.588] [default] [info] Iteration #30 - Contexts: 2, Changed: context_0, Fast FPS: 375.474 (best: 380.314)
+[2024-11-11 17:45:29.257] [default] [info] Iteration #31 - Contexts: 2, Changed: context_0, Fast FPS: 376.348 (best: 380.314)
+[2024-11-11 17:45:29.970] [default] [info] Iteration #32 - Contexts: 2, Changed: context_0, Fast FPS: 379.002 (best: 380.314)
+[2024-11-11 17:45:30.676] [default] [info] Iteration #33 - Contexts: 2, Changed: context_0, Fast FPS: 379.002 (best: 380.314)
+[2024-11-11 17:45:31.447] [default] [info] Iteration #34 - Contexts: 2, Changed: context_0, Fast FPS: 378.946 (best: 380.314)
+[2024-11-11 17:45:44.855] [default] [info] Iteration #35 - Contexts: 2, Changed: context_0, Fast FPS: 380.381 (best: 380.314) Unikorn FPS: 228 (best: 206)
+[2024-11-11 17:45:58.090] [default] [info] Iteration #36 - Contexts: 2, Changed: context_0, Fast FPS: 382.625 (best: 380.381) Unikorn FPS: 231 (best: 228)
+[2024-11-11 17:45:59.563] [default] [info] Iteration #37 - Contexts: 2, Changed: context_0, Fast FPS: 357.337 (best: 382.625)
+[2024-11-11 17:46:00.793] [default] [info] Iteration #38 - Contexts: 2, Changed: context_0, Fast FPS: 352.962 (best: 382.625)
+[2024-11-11 17:46:02.065] [default] [info] Iteration #39 - Contexts: 2, Changed: context_0, Fast FPS: 304.916 (best: 382.625)
+[2024-11-11 17:46:03.393] [default] [info] Iteration #40 - Contexts: 3, Changed: context_1, Fast FPS: 349.575 (best: 382.625)
+[2024-11-11 17:46:03.940] [default] [info] Iteration #41 - Contexts: 3, Changed: context_1, Fast FPS: 349.55 (best: 382.625)
+[2024-11-11 17:46:04.513] [default] [info] Iteration #42 - Contexts: 3, Changed: context_1, Fast FPS: 369.153 (best: 382.625)
+[2024-11-11 17:46:05.047] [default] [info] Iteration #43 - Contexts: 3, Changed: context_1, Fast FPS: 366.399 (best: 382.625)
+[2024-11-11 17:46:05.579] [default] [info] Iteration #44 - Contexts: 3, Changed: context_1, Fast FPS: 363.74 (best: 382.625)
+[2024-11-11 17:46:06.132] [default] [info] Iteration #45 - Contexts: 3, Changed: context_1, Fast FPS: 365.692 (best: 382.625)
+[2024-11-11 17:46:06.674] [default] [info] Iteration #46 - Contexts: 3, Changed: context_1, Fast FPS: 346.205 (best: 382.625)
+[2024-11-11 17:46:07.230] [default] [info] Iteration #47 - Contexts: 3, Changed: context_1, Fast FPS: 343.195 (best: 382.625)
+[2024-11-11 17:46:07.760] [default] [info] Iteration #48 - Contexts: 3, Changed: context_1, Fast FPS: 345.054 (best: 382.625)
+[2024-11-11 17:46:08.292] [default] [info] Iteration #49 - Contexts: 3, Changed: context_1, Fast FPS: 346.111 (best: 382.625)
+[2024-11-11 17:46:08.833] [default] [info] Iteration #50 - Contexts: 3, Changed: context_1, Fast FPS: 346.111 (best: 382.625)
+[2024-11-11 17:46:09.371] [default] [info] Iteration #51 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
+[2024-11-11 17:46:09.913] [default] [info] Iteration #52 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
+[2024-11-11 17:46:10.465] [default] [info] Iteration #53 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
+[2024-11-11 17:46:10.993] [default] [info] Iteration #54 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
+[2024-11-11 17:46:11.537] [default] [info] Iteration #55 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
+[2024-11-11 17:46:12.078] [default] [info] Iteration #56 - Contexts: 3, Changed: context_0, Fast FPS: 345.619 (best: 382.625)
+[2024-11-11 17:46:12.649] [default] [info] Iteration #57 - Contexts: 3, Changed: context_1, Fast FPS: 362.4 (best: 382.625)
+[2024-11-11 17:46:13.175] [default] [info] Iteration #58 - Contexts: 3, Changed: context_0, Fast FPS: 343.321 (best: 382.625)
+[2024-11-11 17:46:13.737] [default] [info] Iteration #59 - Contexts: 3, Changed: context_1, Fast FPS: 359.342 (best: 382.625)
+[2024-11-11 17:46:14.236] [default] [info] Iteration #60 - Contexts: 3, Changed: context_0, Fast FPS: 342.076 (best: 382.625)
+[2024-11-11 17:46:14.787] [default] [info] Iteration #61 - Contexts: 3, Changed: context_1, Fast FPS: 357.668 (best: 382.625)
+[2024-11-11 17:46:15.257] [default] [info] Iteration #62 - Contexts: 3, Changed: context_0, Fast FPS: 337.643 (best: 382.625)
+[2024-11-11 17:46:15.809] [default] [info] Iteration #63 - Contexts: 3, Changed: context_1, Fast FPS: 355.668 (best: 382.625)
+[2024-11-11 17:46:16.264] [default] [info] Iteration #64 - Contexts: 3, Changed: context_0, Fast FPS: 341.388 (best: 382.625)
+[2024-11-11 17:46:16.834] [default] [info] Iteration #65 - Contexts: 3, Changed: context_1, Fast FPS: 357.751 (best: 382.625)
+[2024-11-11 17:46:17.290] [default] [info] Iteration #66 - Contexts: 3, Changed: context_0, Fast FPS: 339.784 (best: 382.625)
+[2024-11-11 17:46:17.849] [default] [info] Iteration #67 - Contexts: 3, Changed: context_1, Fast FPS: 339.784 (best: 382.625)
+[2024-11-11 17:46:18.398] [default] [info] Iteration #68 - Contexts: 3, Changed: context_1, Fast FPS: 339.784 (best: 382.625)
+[2024-11-11 17:46:18.950] [default] [info] Iteration #69 - Contexts: 3, Changed: context_1, Fast FPS: 355.99 (best: 382.625)
+[2024-11-11 17:46:19.378] [default] [info] Iteration #70 - Contexts: 3, Changed: context_0, Fast FPS: 338.663 (best: 382.625)
+[2024-11-11 17:46:19.936] [default] [info] Iteration #71 - Contexts: 3, Changed: context_1, Fast FPS: 355.99 (best: 382.625)
+[2024-11-11 17:46:20.368] [default] [info] Iteration #72 - Contexts: 3, Changed: context_0, Fast FPS: 338.663 (best: 382.625)
+[2024-11-11 17:46:20.991] [default] [info] Iteration #73 - Contexts: 3, Changed: context_1, Fast FPS: 350.901 (best: 382.625)
+[2024-11-11 17:46:21.399] [default] [info] Iteration #74 - Contexts: 3, Changed: context_0, Fast FPS: 334.054 (best: 382.625)
+[2024-11-11 17:46:22.011] [default] [info] Iteration #75 - Contexts: 3, Changed: context_1, Fast FPS: 353.376 (best: 382.625)
+[2024-11-11 17:46:22.417] [default] [info] Iteration #76 - Contexts: 3, Changed: context_0, Fast FPS: 335.267 (best: 382.625)
+[2024-11-11 17:46:23.043] [default] [info] Iteration #77 - Contexts: 3, Changed: context_1, Fast FPS: 357.36 (best: 382.625)
+[2024-11-11 17:46:23.442] [default] [info] Iteration #78 - Contexts: 3, Changed: context_0, Fast FPS: 338.893 (best: 382.625)
+[2024-11-11 17:46:24.080] [default] [info] Iteration #79 - Contexts: 3, Changed: context_1, Fast FPS: 358.563 (best: 382.625)
+[2024-11-11 17:46:24.452] [default] [info] Iteration #80 - Contexts: 3, Changed: context_0, Fast FPS: 339.489 (best: 382.625)
+[2024-11-11 17:46:25.051] [default] [info] Iteration #81 - Contexts: 3, Changed: context_1, Fast FPS: 358.411 (best: 382.625)
+[2024-11-11 17:46:25.453] [default] [info] Iteration #82 - Contexts: 3, Changed: context_0, Fast FPS: 338.304 (best: 382.625)
+[2024-11-11 17:46:26.145] [default] [info] Iteration #83 - Contexts: 3, Changed: context_1, Fast FPS: 357.023 (best: 382.625)
+[2024-11-11 17:46:26.808] [default] [info] Iteration #84 - Contexts: 3, Changed: context_1, Fast FPS: 357.568 (best: 382.625)
+[2024-11-11 17:46:27.403] [default] [info] Iteration #85 - Contexts: 3, Changed: context_1, Fast FPS: 357.568 (best: 382.625)
+[2024-11-11 17:46:28.157] [default] [info] Iteration #86 - Contexts: 3, Changed: context_1, Fast FPS: 363.101 (best: 382.625)
+[2024-11-11 17:46:28.829] [default] [info] Iteration #87 - Contexts: 3, Changed: context_1, Fast FPS: 361.117 (best: 382.625)
+[2024-11-11 17:46:29.450] [default] [info] Iteration #88 - Contexts: 3, Changed: context_1, Fast FPS: 361.89 (best: 382.625)
+[2024-11-11 17:46:30.188] [default] [info] Iteration #89 - Contexts: 3, Changed: context_1, Fast FPS: 357.858 (best: 382.625)
+[2024-11-11 17:46:30.857] [default] [info] Iteration #90 - Contexts: 3, Changed: context_1, Fast FPS: 354.043 (best: 382.625)
+[2024-11-11 17:46:31.532] [default] [info] Iteration #91 - Contexts: 3, Changed: context_1, Fast FPS: 378.342 (best: 382.625)
+[2024-11-11 17:46:45.834] [default] [info] Iteration #92 - Contexts: 3, Changed: context_1, Fast FPS: 386.292 (best: 382.625) Unikorn FPS: 166 (best: 231)
+[2024-11-11 17:47:00.139] [default] [info] Iteration #93 - Contexts: 3, Changed: context_1, Fast FPS: 386.302 (best: 386.292) Unikorn FPS: 166 (best: 231)
+[2024-11-11 17:47:02.339] [default] [info] Iteration #94 - Contexts: 3, Changed: context_1, Fast FPS: 384.27 (best: 386.302)
+[2024-11-11 17:47:04.253] [default] [info] Iteration #95 - Contexts: 3, Changed: context_1, Fast FPS: 373.645 (best: 386.302)
+[2024-11-11 17:47:05.481] [default] [info] Iteration #96 - Contexts: 3, Changed: context_1, Fast FPS: 372.851 (best: 386.302)
+[2024-11-11 17:47:06.634] [default] [info] Iteration #97 - Contexts: 3, Changed: context_1, Fast FPS: 356.832 (best: 386.302)
+[2024-11-11 17:47:07.660] [default] [info] Iteration #98 - Contexts: 4, Changed: context_2, Fast FPS: 359.628 (best: 386.302)
+[2024-11-11 17:47:08.241] [default] [info] Iteration #99 - Contexts: 4, Changed: context_2, Fast FPS: 373.163 (best: 386.302)
+[2024-11-11 17:47:08.746] [default] [info] Iteration #100 - Contexts: 4, Changed: context_2, Fast FPS: 366.903 (best: 386.302)
+[2024-11-11 17:47:09.310] [default] [info] Iteration #101 - Contexts: 4, Changed: context_2, Fast FPS: 363.175 (best: 386.302)
+[2024-11-11 17:47:09.857] [default] [info] Iteration #102 - Contexts: 4, Changed: context_2, Fast FPS: 364.059 (best: 386.302)
+[2024-11-11 17:47:10.409] [default] [info] Iteration #103 - Contexts: 4, Changed: context_2, Fast FPS: 366.014 (best: 386.302)
+[2024-11-11 17:47:10.936] [default] [info] Iteration #104 - Contexts: 4, Changed: context_2, Fast FPS: 346.74 (best: 386.302)
+[2024-11-11 17:47:11.475] [default] [info] Iteration #105 - Contexts: 4, Changed: context_2, Fast FPS: 343.721 (best: 386.302)
+[2024-11-11 17:47:12.011] [default] [info] Iteration #106 - Contexts: 4, Changed: context_2, Fast FPS: 345.776 (best: 386.302)
+[2024-11-11 17:47:12.572] [default] [info] Iteration #107 - Contexts: 4, Changed: context_2, Fast FPS: 347.085 (best: 386.302)
+[2024-11-11 17:47:13.115] [default] [info] Iteration #108 - Contexts: 4, Changed: context_2, Fast FPS: 347.085 (best: 386.302)
+[2024-11-11 17:47:13.654] [default] [info] Iteration #109 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
+[2024-11-11 17:47:14.174] [default] [info] Iteration #110 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
+[2024-11-11 17:47:14.689] [default] [info] Iteration #111 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
+[2024-11-11 17:47:15.211] [default] [info] Iteration #112 - Contexts: 4, Changed: context_2, Fast FPS: 345.813 (best: 386.302)
+[2024-11-11 17:47:15.750] [default] [info] Iteration #113 - Contexts: 4, Changed: context_2, Fast FPS: 345.335 (best: 386.302)
+[2024-11-11 17:47:16.267] [default] [info] Iteration #114 - Contexts: 4, Changed: context_2, Fast FPS: 344.556 (best: 386.302)
+[2024-11-11 17:47:16.787] [default] [info] Iteration #115 - Contexts: 4, Changed: context_2, Fast FPS: 349.563 (best: 386.302)
+[2024-11-11 17:47:17.317] [default] [info] Iteration #116 - Contexts: 4, Changed: context_2, Fast FPS: 357.963 (best: 386.302)
+[2024-11-11 17:47:17.779] [default] [info] Iteration #117 - Contexts: 4, Changed: context_1, Fast FPS: 354.502 (best: 386.302)
+[2024-11-11 17:47:18.317] [default] [info] Iteration #118 - Contexts: 4, Changed: context_2, Fast FPS: 357.963 (best: 386.302)
+[2024-11-11 17:47:18.782] [default] [info] Iteration #119 - Contexts: 4, Changed: context_1, Fast FPS: 356.315 (best: 386.302)
+[2024-11-11 17:47:19.330] [default] [info] Iteration #120 - Contexts: 4, Changed: context_2, Fast FPS: 360.895 (best: 386.302)
+[2024-11-11 17:47:19.759] [default] [info] Iteration #121 - Contexts: 4, Changed: context_1, Fast FPS: 357.969 (best: 386.302)
+[2024-11-11 17:47:20.314] [default] [info] Iteration #122 - Contexts: 4, Changed: context_2, Fast FPS: 356.315 (best: 386.302)
+[2024-11-11 17:47:20.849] [default] [info] Iteration #123 - Contexts: 4, Changed: context_2, Fast FPS: 362.853 (best: 386.302)
+[2024-11-11 17:47:21.265] [default] [info] Iteration #124 - Contexts: 4, Changed: context_1, Fast FPS: 361.318 (best: 386.302)
+[2024-11-11 17:47:21.629] [default] [info] Iteration #125 - Contexts: 4, Changed: context_1, Fast FPS: 356.634 (best: 386.302)
+[2024-11-11 17:47:22.345] [default] [info] Iteration #126 - Contexts: 4, Changed: context_2, Fast FPS: 354.775 (best: 386.302)
+[2024-11-11 17:47:22.703] [default] [info] Iteration #127 - Contexts: 4, Changed: context_1, Fast FPS: 353.025 (best: 386.302)
+[2024-11-11 17:47:43.508] [default] [info] Iteration #128 - Contexts: 4, Changed: context_1, Fast FPS: 398.407 (best: 386.302) Unikorn FPS: 139 (best: 231)
+[2024-11-11 17:47:57.313] [default] [info] Iteration #129 - Contexts: 4, Changed: context_2, Fast FPS: 399.469 (best: 398.407) Unikorn FPS: 141 (best: 231)
+[2024-11-11 17:48:12.418] [default] [info] Iteration #130 - Contexts: 4, Changed: context_2, Fast FPS: 402.495 (best: 399.469) Unikorn FPS: 141 (best: 231)
+[2024-11-11 17:48:29.395] [default] [info] Iteration #131 - Contexts: 4, Changed: context_1, Fast FPS: 409.208 (best: 402.495) Unikorn FPS: 163 (best: 231)
+[2024-11-11 17:48:44.550] [default] [info] Iteration #132 - Contexts: 4, Changed: context_2, Fast FPS: 409.291 (best: 409.208) Unikorn FPS: 159 (best: 231)
+[2024-11-11 17:48:45.112] [default] [info] Iteration #133 - Contexts: 4, Changed: context_2, Fast FPS: 409.093 (best: 409.291)
+[2024-11-11 17:48:45.687] [default] [info] Iteration #134 - Contexts: 4, Changed: context_2, Fast FPS: 407.75 (best: 409.291)
+[2024-11-11 17:48:46.283] [default] [info] Iteration #135 - Contexts: 4, Changed: context_2, Fast FPS: 405.182 (best: 409.291)
+[2024-11-11 17:48:46.814] [default] [info] Iteration #136 - Contexts: 4, Changed: context_2, Fast FPS: 405.182 (best: 409.291)
+[2024-11-11 17:48:47.358] [default] [info] Iteration #137 - Contexts: 4, Changed: context_2, Fast FPS: 409.252 (best: 409.291)
+[2024-11-11 17:48:47.658] [default] [info] Iteration #138 - Contexts: 4, Changed: context_1, Fast FPS: 407.608 (best: 409.291)
+[2024-11-11 17:48:48.265] [default] [info] Iteration #139 - Contexts: 4, Changed: context_2, Fast FPS: 405.11 (best: 409.291)
+[2024-11-11 17:48:48.825] [default] [info] Iteration #140 - Contexts: 4, Changed: context_2, Fast FPS: 402.469 (best: 409.291)
+[2024-11-11 17:48:49.401] [default] [info] Iteration #141 - Contexts: 4, Changed: context_2, Fast FPS: 396.648 (best: 409.291)
+[2024-11-11 17:48:50.011] [default] [info] Iteration #142 - Contexts: 4, Changed: context_2, Fast FPS: 391.967 (best: 409.291)
+[2024-11-11 17:48:50.639] [default] [info] Iteration #143 - Contexts: 4, Changed: context_2, Fast FPS: 380.584 (best: 409.291)
+[2024-11-11 17:48:51.251] [default] [info] Iteration #144 - Contexts: 4, Changed: context_2, Fast FPS: 377.828 (best: 409.291)
+[2024-11-11 17:48:52.568] [default] [info] Iteration #145 - Contexts: 4, Changed: context_2, Fast FPS: 377.838 (best: 409.291)
+[2024-11-11 17:48:53.589] [default] [info] Iteration #146 - Contexts: 4, Changed: context_2, Fast FPS: 370.571 (best: 409.291)
+[2024-11-11 17:48:54.769] [default] [info] Iteration #147 - Contexts: 4, Changed: context_2, Fast FPS: 363.6 (best: 409.291)
+[2024-11-11 17:48:55.915] [default] [info] Iteration #148 - Contexts: 4, Changed: context_2, Fast FPS: 362.848 (best: 409.291)
+[2024-11-11 17:48:57.000] [default] [info] Iteration #149 - Contexts: 4, Changed: context_2, Fast FPS: 347.66 (best: 409.291)
+[2024-11-11 17:48:57.991] [default] [info] Iteration #150 - Contexts: 5, Changed: context_3, Fast FPS: 350.314 (best: 409.291)
+[2024-11-11 17:48:58.581] [default] [info] Iteration #151 - Contexts: 5, Changed: context_3, Fast FPS: 363.143 (best: 409.291)
+[2024-11-11 17:48:59.074] [default] [info] Iteration #152 - Contexts: 5, Changed: context_3, Fast FPS: 357.213 (best: 409.291)
+[2024-11-11 17:48:59.627] [default] [info] Iteration #153 - Contexts: 5, Changed: context_3, Fast FPS: 353.678 (best: 409.291)
+[2024-11-11 17:49:00.165] [default] [info] Iteration #154 - Contexts: 5, Changed: context_3, Fast FPS: 354.517 (best: 409.291)
+[2024-11-11 17:49:00.711] [default] [info] Iteration #155 - Contexts: 5, Changed: context_3, Fast FPS: 356.37 (best: 409.291)
+[2024-11-11 17:49:01.231] [default] [info] Iteration #156 - Contexts: 5, Changed: context_3, Fast FPS: 338.073 (best: 409.291)
+[2024-11-11 17:49:01.751] [default] [info] Iteration #157 - Contexts: 5, Changed: context_3, Fast FPS: 335.202 (best: 409.291)
+[2024-11-11 17:49:02.258] [default] [info] Iteration #158 - Contexts: 5, Changed: context_3, Fast FPS: 337.157 (best: 409.291)
+[2024-11-11 17:49:02.784] [default] [info] Iteration #159 - Contexts: 5, Changed: context_3, Fast FPS: 338.401 (best: 409.291)
+[2024-11-11 17:49:03.312] [default] [info] Iteration #160 - Contexts: 5, Changed: context_3, Fast FPS: 338.401 (best: 409.291)
+[2024-11-11 17:49:03.842] [default] [info] Iteration #161 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
+[2024-11-11 17:49:04.353] [default] [info] Iteration #162 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
+[2024-11-11 17:49:04.860] [default] [info] Iteration #163 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
+[2024-11-11 17:49:05.362] [default] [info] Iteration #164 - Contexts: 5, Changed: context_3, Fast FPS: 337.192 (best: 409.291)
+[2024-11-11 17:49:05.870] [default] [info] Iteration #165 - Contexts: 5, Changed: context_3, Fast FPS: 336.737 (best: 409.291)
+[2024-11-11 17:49:06.366] [default] [info] Iteration #166 - Contexts: 5, Changed: context_3, Fast FPS: 335.997 (best: 409.291)
+[2024-11-11 17:49:06.876] [default] [info] Iteration #167 - Contexts: 5, Changed: context_3, Fast FPS: 340.756 (best: 409.291)
+[2024-11-11 17:49:07.376] [default] [info] Iteration #168 - Contexts: 5, Changed: context_3, Fast FPS: 348.733 (best: 409.291)
+[2024-11-11 17:49:07.883] [default] [info] Iteration #169 - Contexts: 5, Changed: context_3, Fast FPS: 353.647 (best: 409.291)
+[2024-11-11 17:49:08.372] [default] [info] Iteration #170 - Contexts: 5, Changed: context_3, Fast FPS: 353.703 (best: 409.291)
+[2024-11-11 17:49:08.863] [default] [info] Iteration #171 - Contexts: 5, Changed: context_3, Fast FPS: 353.703 (best: 409.291)
+[2024-11-11 17:49:09.346] [default] [info] Iteration #172 - Contexts: 5, Changed: context_3, Fast FPS: 354.115 (best: 409.291)
+[2024-11-11 17:49:09.906] [default] [info] Iteration #173 - Contexts: 5, Changed: context_3, Fast FPS: 348.874 (best: 409.291)
+[2024-11-11 17:49:10.440] [default] [info] Iteration #174 - Contexts: 5, Changed: context_3, Fast FPS: 357.625 (best: 409.291)
+[2024-11-11 17:49:10.984] [default] [info] Iteration #175 - Contexts: 5, Changed: context_3, Fast FPS: 360.131 (best: 409.291)
+[2024-11-11 17:49:11.511] [default] [info] Iteration #176 - Contexts: 5, Changed: context_3, Fast FPS: 360.561 (best: 409.291)
+[2024-11-11 17:49:12.037] [default] [info] Iteration #177 - Contexts: 5, Changed: context_3, Fast FPS: 360.408 (best: 409.291)
+[2024-11-11 17:49:12.562] [default] [info] Iteration #178 - Contexts: 5, Changed: context_3, Fast FPS: 366.521 (best: 409.291)
+[2024-11-11 17:49:12.737] [default] [info] Iteration #179 - Contexts: 5, Changed: context_1, Fast FPS: 366.521 (best: 409.291)
+[2024-11-11 17:49:13.125] [default] [info] Iteration #180 - Contexts: 5, Changed: context_1, Fast FPS: 366.441 (best: 409.291)
+[2024-11-11 17:49:13.323] [default] [info] Iteration #181 - Contexts: 5, Changed: context_1, Fast FPS: 366.361 (best: 409.291)
+[2024-11-11 17:49:13.524] [default] [info] Iteration #182 - Contexts: 5, Changed: context_1, Fast FPS: 365.839 (best: 409.291)
+[2024-11-11 17:49:13.723] [default] [info] Iteration #183 - Contexts: 5, Changed: context_1, Fast FPS: 366.145 (best: 409.291)
+[2024-11-11 17:49:13.924] [default] [info] Iteration #184 - Contexts: 5, Changed: context_1, Fast FPS: 366.145 (best: 409.291)
+[2024-11-11 17:49:14.308] [default] [info] Iteration #185 - Contexts: 5, Changed: context_1, Fast FPS: 365.042 (best: 409.291)
+[2024-11-11 17:49:14.603] [default] [info] Iteration #186 - Contexts: 5, Changed: context_2, Fast FPS: 365.411 (best: 409.291)
+[2024-11-11 17:49:14.908] [default] [info] Iteration #187 - Contexts: 5, Changed: context_2, Fast FPS: 360.143 (best: 409.291)
+[2024-11-11 17:49:15.221] [default] [info] Iteration #188 - Contexts: 5, Changed: context_2, Fast FPS: 357.252 (best: 409.291)
+[2024-11-11 17:49:15.866] [default] [info] Iteration #189 - Contexts: 5, Changed: context_3, Fast FPS: 356.678 (best: 409.291)
+[2024-11-11 17:49:16.388] [default] [info] Iteration #190 - Contexts: 5, Changed: context_3, Fast FPS: 356.678 (best: 409.291)
+[2024-11-11 17:49:16.905] [default] [info] Iteration #191 - Contexts: 5, Changed: context_3, Fast FPS: 359.69 (best: 409.291)
+[2024-11-11 17:49:18.494] [default] [info] Best unikorn FPS: 231.0 Time it took 7m 20s 70ms
+[2024-11-11 17:49:18.494] [default] [info] Winning Context Partition:
 context_0: input_layer1, conv1, conv2, conv_feature_splitter1_1, conv_feature_splitter1_2, conv4, conv5, ew_add1, concat1, conv6, conv7, conv_feature_splitter2_1, conv_feature_splitter2_2, conv9, conv10, ew_add2, conv11, conv12, ew_add3, concat2, conv13, conv14, conv_feature_splitter3_1, conv_feature_splitter3_2, conv16, conv17, ew_add4, conv18, conv19, ew_add5, concat3, conv20, conv21, conv_feature_splitter4_1, conv_feature_splitter4_2, conv23, conv24, ew_add6, concat4, conv25, conv26, maxpool1, maxpool2
 context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1, conv_feature_splitter5_2, conv29, conv30, concat7, conv31, resize2, concat8, conv_feature_splitter6_1, conv_feature_splitter6_2, conv33, conv34, concat9, conv35, conv36, conv37, conv38, conv39, concat10, conv40, conv41, conv42, conv_feature_splitter7_1, conv_feature_splitter7_2, conv43, conv44, conv45, conv47, output_layer1, output_layer2, output_layer3, conv48, concat11, conv49, conv50, conv51, conv52, conv53, concat12, conv54, conv55, conv56, conv_feature_splitter8_1, conv_feature_splitter8_2, conv57, conv58, conv59, conv61, output_layer4, output_layer5, output_layer6, conv62, concat13, conv63, conv64, conv65, conv66, conv67, conv68, conv69, conv70, conv71, conv72, output_layer7, output_layer8, output_layer9
-[2024-11-11 14:03:02.817] [default] [info] Adjust Edges Start State buffers:
+[2024-11-11 17:49:18.546] [default] [info] Adjust Edges Start State buffers:
 +---------------------------------------------+---------------------------------------------+--------------------------+
 | Src                                         | Dst                                         | Max buffers              |
 +---------------------------------------------+---------------------------------------------+--------------------------+
@@ -431,7 +431,7 @@ context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1
 | conv41_sdc                                  | conv44                                      | 2 (L3 memory cuts: 1)    |
 | conv44                                      | output_layer2                               | 2 (L3 memory cuts: 1)    |
 +---------------------------------------------+---------------------------------------------+--------------------------+
-[2024-11-11 14:03:02.850] [default] [info] Adjust Edges After Merges and Joins buffers:
+[2024-11-11 17:49:18.576] [default] [info] Adjust Edges After Merges and Joins buffers:
 +---------------------------------------------+---------------------------------------------+--------------------------+
 | Src                                         | Dst                                         | Max buffers              |
 +---------------------------------------------+---------------------------------------------+--------------------------+
@@ -662,7 +662,7 @@ context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1
 | conv41_sdc                                  | conv44                                      | 2 (L3 memory cuts: 1)    |
 | conv44                                      | output_layer2                               | 2 (L3 memory cuts: 1)    |
 +---------------------------------------------+---------------------------------------------+--------------------------+
-[2024-11-11 14:03:07.790] [default] [info] Adjust Edges Before Dimaffer buffers:
+[2024-11-11 17:49:23.338] [default] [info] Adjust Edges Before Dimaffer buffers:
 +---------------------------------------------+---------------------------------------------+-------------------------------+
 | Src                                         | Dst                                         | Max buffers                   |
 +---------------------------------------------+---------------------------------------------+-------------------------------+
@@ -893,7 +893,7 @@ context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1
 | conv41_sdc                                  | conv44                                      | 1 (L3 memory cuts: 1)         |
 | conv44                                      | output_layer2                               | 2 (L3 memory cuts: 1)         |
 +---------------------------------------------+---------------------------------------------+-------------------------------+
-[2024-11-11 14:03:07.822] [default] [info] Adjust Edges After Dimaffer buffers:
+[2024-11-11 17:49:23.371] [default] [info] Adjust Edges After Dimaffer buffers:
 +---------------------------------------------+---------------------------------------------+-------------------------------+
 | Src                                         | Dst                                         | Max buffers                   |
 +---------------------------------------------+---------------------------------------------+-------------------------------+
@@ -1124,7 +1124,7 @@ context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1
 | conv41_sdc                                  | conv44                                      | 1 (L3 memory cuts: 1)         |
 | conv44                                      | output_layer2                               | 2 (L3 memory cuts: 1)         |
 +---------------------------------------------+---------------------------------------------+-------------------------------+
-[2024-11-11 14:03:11.463] [default] [info] Pre-allocation Resources for context_0
+[2024-11-11 17:49:26.963] [default] [info] Pre-allocation Resources for context_0
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                 | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -1211,7 +1211,7 @@ context_1: maxpool3, concat5, conv27, resize1, concat6, conv_feature_splitter5_1
 | context_0_to_context_1_0             | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171 (16.6992%), L3 Output memory cuts: 123 (12.0117%), L3 total cuts: 294 (28.7109%), L4 memory cuts: 0 (0%), IBs: 0 (0%), OBs: 0 (0%)
-[2024-11-11 14:03:11.479] [default] [info] Pre-allocation buffers for context_0 buffers:
+[2024-11-11 17:49:26.977] [default] [info] Pre-allocation buffers for context_0 buffers:
 +--------------------------------------+--------------------------------------+-------------------------------+
 | Src                                  | Dst                                  | Max buffers                   |
 +--------------------------------------+--------------------------------------+-------------------------------+
@@ -1329,7 +1329,7 @@ TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171
 | maxpool2_d1                          | maxpool2_dc                          | 2 (L3 memory cuts: 1)         |
 | maxpool2_dc                          | context_0_to_context_1_8             | 1 (L3 memory cuts: 1)         |
 +--------------------------------------+--------------------------------------+-------------------------------+
-[2024-11-11 14:03:11.617] [default] [info] Pre-allocation Resources for context_1
+[2024-11-11 17:49:27.116] [default] [info] Pre-allocation Resources for context_1
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                        | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -1435,7 +1435,7 @@ TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171
 | output_layer9                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207 (20.2148%), L3 Output memory cuts: 113 (11.0352%), L3 total cuts: 320 (31.25%), L4 memory cuts: 8 (28.5714%), IBs: 0 (0%), OBs: 0 (0%)
-[2024-11-11 14:03:11.632] [default] [info] Pre-allocation buffers for context_1 buffers:
+[2024-11-11 17:49:27.131] [default] [info] Pre-allocation buffers for context_1 buffers:
 +---------------------------------------------+---------------------------------------------+----------------------------+
 | Src                                         | Dst                                         | Max buffers                |
 +---------------------------------------------+---------------------------------------------+----------------------------+
@@ -1555,12 +1555,12 @@ TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207
 | conv72                                      | auto_reshape_from_conv72_to_output_layer9   | 1 (L3 memory cuts: 1)      |
 | auto_reshape_from_conv72_to_output_layer9   | output_layer9                               | 2 (L4 memory cuts: 1)      |
 +---------------------------------------------+---------------------------------------------+----------------------------+
-[2024-11-11 14:03:11.632] [default] [info] context_0 - Bottleneck FPS: 1302.08 (layer: input_layer1)
-[2024-11-11 14:03:11.632] [default] [info] context_1 - Bottleneck FPS: 1288.5 (layer: maxpool3)
-[2024-11-11 14:03:11.632] [default] [info] Using Multi-context flow
-[2024-11-11 14:03:11.632] [default] [info] Resources optimization guidelines: Strategy -> GREEDY Objective -> MAX_FPS
-[2024-11-11 14:03:11.632] [default] [info] Resources optimization params: max_control_utilization=60%, max_compute_utilization=60%, max_compute_16bit_utilization=60%, max_memory_utilization (weights)=60%, max_input_aligner_utilization=60%, max_apu_utilization=60%
-[2024-11-11 14:03:12.325] [default] [info] Pre-Allocation Layers FPS: 
+[2024-11-11 17:49:27.131] [default] [info] context_0 - Bottleneck FPS: 1302.08 (layer: input_layer1)
+[2024-11-11 17:49:27.131] [default] [info] context_1 - Bottleneck FPS: 1288.5 (layer: maxpool3)
+[2024-11-11 17:49:27.131] [default] [info] Using Multi-context flow
+[2024-11-11 17:49:27.131] [default] [info] Resources optimization guidelines: Strategy -> GREEDY Objective -> MAX_FPS
+[2024-11-11 17:49:27.131] [default] [info] Resources optimization params: max_control_utilization=60%, max_compute_utilization=60%, max_compute_16bit_utilization=60%, max_memory_utilization (weights)=60%, max_input_aligner_utilization=60%, max_apu_utilization=60%
+[2024-11-11 17:49:27.826] [default] [info] Pre-Allocation Layers FPS: 
 context_0: 
 	input_layer1: 1302.08
 	conv_feature_splitter1_1: 2143.84
@@ -1744,9 +1744,9 @@ context_1:
 	auto_reshape_from_conv72_to_output_layer9: 5,2624.7
 	auto_reshape_from_conv44_to_output_layer2: 7,8109.7
 	auto_reshape_from_conv58_to_output_layer5: 18,5099
-[2024-11-11 14:03:13.496] [default] [info] Partition passed at control_util 0.75.
-[2024-11-11 14:03:27.666] [default] [info] Solving the allocation (Mapping), time per context: 59m 59s
-[2024-11-11 14:03:27.691] [default] [info] Resolve-prepost Buffers context_0 buffers:
+[2024-11-11 17:49:29.019] [default] [info] Partition passed at control_util 0.75.
+[2024-11-11 17:49:43.020] [default] [info] Solving the allocation (Mapping), time per context: 59m 59s
+[2024-11-11 17:49:43.039] [default] [info] Resolve-prepost Buffers context_0 buffers:
 +--------------------------------------+--------------------------------------+-------------------------------+
 | Src                                  | Dst                                  | Max buffers                   |
 +--------------------------------------+--------------------------------------+-------------------------------+
@@ -1870,7 +1870,7 @@ context_1:
 | output_from_cluster_unknown_184_i0   | context_0_to_context_1_2             | 2 (L3 memory cuts: 1)         |
 | output_from_cluster_unknown_183_i0   | context_0_to_context_1_0             | 2 (L3 memory cuts: 1)         |
 +--------------------------------------+--------------------------------------+-------------------------------+
-[2024-11-11 14:03:27.715] [default] [info] Resolve-prepost Buffers context_1 buffers:
+[2024-11-11 17:49:43.064] [default] [info] Resolve-prepost Buffers context_1 buffers:
 +---------------------------------------------+---------------------------------------------+----------------------------+
 | Src                                         | Dst                                         | Max buffers                |
 +---------------------------------------------+---------------------------------------------+----------------------------+
@@ -2021,7 +2021,7 @@ context_1:
 | auto_reshape_from_conv72_to_output_layer9   | output_from_prepost_216_i0                  | 2 (L4 memory cuts: 1)      |
 | output_from_prepost_216_i0                  | output_layer9                               | 2 (L4 memory cuts: 1)      |
 +---------------------------------------------+---------------------------------------------+----------------------------+
-[2024-11-11 14:03:32.051] [default] [info] Post-Split Resources for context_0, iteration 1 (CP)
+[2024-11-11 17:49:47.411] [default] [info] Post-Split Resources for context_0, iteration 1 (CP)
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                 | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -2199,7 +2199,7 @@ context_1:
 | context_0_to_context_1_2             | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171 (16.6992%), L3 Output memory cuts: 167 (16.3086%), L3 total cuts: 338 (33.0078%), L4 memory cuts: 0 (0%), IBs: 50 (78.125%), OBs: 43 (67.1875%)
-[2024-11-11 14:03:32.077] [default] [info] Post-Split Buffers for context_0, iteration 1 (CP) buffers:
+[2024-11-11 17:49:47.437] [default] [info] Post-Split Buffers for context_0, iteration 1 (CP) buffers:
 +--------------------------------------+--------------------------------------+-------------------------------+
 | Src                                  | Dst                                  | Max buffers                   |
 +--------------------------------------+--------------------------------------+-------------------------------+
@@ -2408,7 +2408,7 @@ TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171
 | output_from_cluster_1_272_i1         | context_0_to_context_1_8             | 2 (L3 memory cuts: 1)         |
 | output_from_cluster_7_248_i1         | context_0_to_context_1_2             | 2 (L3 memory cuts: 1)         |
 +--------------------------------------+--------------------------------------+-------------------------------+
-[2024-11-11 14:03:32.336] [default] [info] Post-Final-Split Resources for context_0, iteration 4
+[2024-11-11 17:49:47.693] [default] [info] Post-Final-Split Resources for context_0, iteration 4
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                 | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -2586,7 +2586,7 @@ TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171
 | context_0_to_context_1_2             | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +--------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171 (16.6992%), L3 Output memory cuts: 167 (16.3086%), L3 total cuts: 338 (33.0078%), L4 memory cuts: 0 (0%), IBs: 50 (78.125%), OBs: 43 (67.1875%)
-[2024-11-11 14:03:40.053] [default] [info] Post-Split Resources for context_1, iteration 1 (CP)
+[2024-11-11 17:49:55.373] [default] [info] Post-Split Resources for context_1, iteration 1 (CP)
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                        | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -2790,7 +2790,7 @@ TOTAL:  LCUs: 75 (58.5938%), Subclusters: 236 (46.0938%), Weight memory cuts:171
 | output_layer9                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207 (20.2148%), L3 Output memory cuts: 157 (15.332%), L3 total cuts: 364 (35.5469%), L4 memory cuts: 17 (60.7143%), IBs: 41 (64.0625%), OBs: 41 (64.0625%)
-[2024-11-11 14:03:40.081] [default] [info] Post-Split Buffers for context_1, iteration 1 (CP) buffers:
+[2024-11-11 17:49:55.401] [default] [info] Post-Split Buffers for context_1, iteration 1 (CP) buffers:
 +---------------------------------------------+---------------------------------------------+----------------------------+
 | Src                                         | Dst                                         | Max buffers                |
 +---------------------------------------------+---------------------------------------------+----------------------------+
@@ -3008,7 +3008,7 @@ TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207
 | auto_reshape_from_conv72_to_output_layer9   | output_from_prepost_368_i1                  | 2 (L4 memory cuts: 1)      |
 | output_from_prepost_368_i1                  | output_layer9                               | 2 (L4 memory cuts: 1)      |
 +---------------------------------------------+---------------------------------------------+----------------------------+
-[2024-11-11 14:03:40.340] [default] [info] Post-Final-Split Resources for context_1, iteration 4
+[2024-11-11 17:49:55.656] [default] [info] Post-Final-Split Resources for context_1, iteration 4
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 | Node                                        | Subclusters | L3 Weight Memory Cuts | L3 Output Memory Cuts | L4 Memory Cuts | IBs | OBs |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
@@ -3212,31 +3212,31 @@ TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207
 | output_layer9                               | 0           | 0                     | 0                     | 0.500          | 0   | 0   |
 +---------------------------------------------+-------------+-----------------------+-----------------------+----------------+-----+-----+
 TOTAL:  LCUs: 77 (60.1562%), Subclusters: 278 (54.2969%), Weight memory cuts:207 (20.2148%), L3 Output memory cuts: 157 (15.332%), L3 total cuts: 364 (35.5469%), L4 memory cuts: 17 (60.7143%), IBs: 41 (64.0625%), OBs: 41 (64.0625%)
-[2024-11-11 14:03:40.402] [default] [info] context_0 (context_0):
+[2024-11-11 17:49:55.721] [default] [info] context_0 (context_0):
 Iterations: 4
 Reverts on cluster mapping: 0
 Reverts on inter-cluster connectivity: 0
 Reverts on pre-mapping validation: 0
 Reverts on split failed: 0
-[2024-11-11 14:03:40.402] [default] [info] context_0 (context_0):
+[2024-11-11 17:49:55.721] [default] [info] context_0 (context_0):
 3: maxpool1_d0
 3: concat1
-2: conv_feature_splitter1_2
 2: conv4_sd0
+2: conv_feature_splitter1_2
 2: maxpool1_fs
 2: maxpool1_d1
 2: conv4_sd1
 2: conv4_sdc
 2: maxpool1_dc
+1: conv26
+1: conv9
+1: conv7_sd2
 1: ew_add1
 1: conv5_sdc
 1: conv5_sd0
 1: smuffers_shortcut_conv4_to_conv5
-1: conv9
 1: conv1_sd5
 1: conv_feature_splitter2_2
-1: conv7_sd2
-1: conv26
 1: maxpool2_dc
 1: conv20
 1: conv21_d1
@@ -3249,51 +3249,51 @@ Reverts on split failed: 0
 1: conv5_sd1
 1: maxpool2_d0
 
-[2024-11-11 14:03:40.402] [default] [info] context_1 (context_1):
+[2024-11-11 17:49:55.721] [default] [info] context_1 (context_1):
 Iterations: 4
 Reverts on cluster mapping: 0
 Reverts on inter-cluster connectivity: 0
 Reverts on pre-mapping validation: 0
 Reverts on split failed: 0
-[2024-11-11 14:03:40.417] [default] [info] Resolver passed at control_util 0.75 with 230.156 FPS. Setting new partition.
-[2024-11-11 14:03:42.879] [default] [info] context context_0 Post-Allocation FPS from simulation: 1189.5
-[2024-11-11 14:03:43.200] [default] [info] context context_1 Post-Allocation FPS from simulation: 1182.31
-[2024-11-11 14:03:43.209] [default] [info] context_0 utilization: 
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | Cluster   | Control Utilization | Compute Utilization | Memory Utilization |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | cluster_0 | 37.5%               | 25%                 | 20.3%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_1 | 31.3%               | 7.8%                | 10.2%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_2 | 93.8%               | 96.9%               | 50.8%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_3 | 87.5%               | 60.9%               | 47.7%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_4 | 43.8%               | 23.4%               | 23.4%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_5 | 25%                 | 28.1%               | 17.2%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_6 | 50%                 | 39.1%               | 27.3%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_7 | 100%                | 87.5%               | 67.2%              |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | Total     | 58.6%               | 46.1%               | 33%                |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] context_1 utilization: 
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | Cluster   | Control Utilization | Compute Utilization | Memory Utilization |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | cluster_0 | 81.3%               | 54.7%               | 41.4%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_1 | 6.3%                | 1.6%                | 2.3%               |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_2 | 100%                | 96.9%               | 64.8%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_3 | 68.8%               | 64.1%               | 42.2%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_4 | 62.5%               | 42.2%               | 32%                |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_5 | 6.3%                | 6.3%                | 4.7%               |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_6 | 81.3%               | 100%                | 48.4%              |
-[2024-11-11 14:03:43.209] [default] [info] | cluster_7 | 75%                 | 68.8%               | 48.4%              |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.209] [default] [info] | Total     | 60.2%               | 54.3%               | 35.5%              |
-[2024-11-11 14:03:43.209] [default] [info] +-----------+---------------------+---------------------+--------------------+
-[2024-11-11 14:03:43.273] [default] [info] [1;32mSuccessful Mapping (allocation time: 8m 5s)[0m
-[2024-11-11 14:03:43.321] [default] [info] [1;36mCompiling context_0...[0m
-[2024-11-11 14:03:44.899] [default] [info] [1;36mCompiling context_1...[0m
-[2024-11-11 14:03:48.311] [default] [info] Bandwidth of model inputs: 9.375 Mbps, outputs: 7.43408 Mbps (for a single frame)
-[2024-11-11 14:03:48.311] [default] [info] Bandwidth of DDR buffers: 0.0 Mbps (for a single frame)
-[2024-11-11 14:03:48.311] [default] [info] Bandwidth of inter context tensors: 12.1094 Mbps (for a single frame)
-[2024-11-11 14:03:48.398] [default] [info] [1;36mBuilding HEF...[0m
-[2024-11-11 14:03:49.674] [default] [info] [1;32mSuccessful Compilation (compilation time: 6s)[0m
-[2024-11-11 14:03:49.794] [default] [info] Builder successful
+[2024-11-11 17:49:55.743] [default] [info] Resolver passed at control_util 0.75 with 230.156 FPS. Setting new partition.
+[2024-11-11 17:49:58.142] [default] [info] context context_0 Post-Allocation FPS from simulation: 1189.5
+[2024-11-11 17:49:58.449] [default] [info] context context_1 Post-Allocation FPS from simulation: 1182.31
+[2024-11-11 17:49:58.457] [default] [info] context_0 utilization: 
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | Cluster   | Control Utilization | Compute Utilization | Memory Utilization |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | cluster_0 | 37.5%               | 25%                 | 20.3%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_1 | 31.3%               | 7.8%                | 10.2%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_2 | 93.8%               | 96.9%               | 50.8%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_3 | 87.5%               | 60.9%               | 47.7%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_4 | 43.8%               | 23.4%               | 23.4%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_5 | 25%                 | 28.1%               | 17.2%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_6 | 50%                 | 39.1%               | 27.3%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_7 | 100%                | 87.5%               | 67.2%              |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | Total     | 58.6%               | 46.1%               | 33%                |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] context_1 utilization: 
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | Cluster   | Control Utilization | Compute Utilization | Memory Utilization |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | cluster_0 | 81.3%               | 54.7%               | 41.4%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_1 | 6.3%                | 1.6%                | 2.3%               |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_2 | 100%                | 96.9%               | 64.8%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_3 | 68.8%               | 64.1%               | 42.2%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_4 | 62.5%               | 42.2%               | 32%                |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_5 | 6.3%                | 6.3%                | 4.7%               |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_6 | 81.3%               | 100%                | 48.4%              |
+[2024-11-11 17:49:58.457] [default] [info] | cluster_7 | 75%                 | 68.8%               | 48.4%              |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.457] [default] [info] | Total     | 60.2%               | 54.3%               | 35.5%              |
+[2024-11-11 17:49:58.457] [default] [info] +-----------+---------------------+---------------------+--------------------+
+[2024-11-11 17:49:58.521] [default] [info] [1;32mSuccessful Mapping (allocation time: 8m 6s)[0m
+[2024-11-11 17:49:58.558] [default] [info] [1;36mCompiling context_0...[0m
+[2024-11-11 17:50:00.103] [default] [info] [1;36mCompiling context_1...[0m
+[2024-11-11 17:50:03.460] [default] [info] Bandwidth of model inputs: 9.375 Mbps, outputs: 7.43408 Mbps (for a single frame)
+[2024-11-11 17:50:03.460] [default] [info] Bandwidth of DDR buffers: 0.0 Mbps (for a single frame)
+[2024-11-11 17:50:03.460] [default] [info] Bandwidth of inter context tensors: 12.1094 Mbps (for a single frame)
+[2024-11-11 17:50:03.548] [default] [info] [1;36mBuilding HEF...[0m
+[2024-11-11 17:50:04.799] [default] [info] [1;32mSuccessful Compilation (compilation time: 6s)[0m
+[2024-11-11 17:50:04.913] [default] [info] Builder successful

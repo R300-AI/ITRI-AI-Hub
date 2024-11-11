@@ -10,7 +10,9 @@ labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5
           67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 
           78: 'hair drier', 79: 'toothbrush'}
 
+frame = cv2.resize(cv2.imread('./grace_hopper.jpg'), (640, 640))
+
 tflite_model = YOLOs(model_path='./yolo8n_float32.tflite')
 results = tflite_model.predict([frame], conf=0.25, iou=0.7, agnostic=False, max_det=300)
-print(results)
+
 cv2.imshow(plot(frame.copy(), results[0].copy(), labels))

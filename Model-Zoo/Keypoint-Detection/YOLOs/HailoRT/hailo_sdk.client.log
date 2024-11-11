@@ -49,3 +49,57 @@ Total Output Bandwidth  N/A
 Context Switch Configs  N/A
 ----------------------  ---
 2024-11-11 14:04:01,316 - INFO - profiler.py:59 - Saved Profiler HTML Report to: /home/r300/Documents/Github/ITRI-AI-Hub/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/yolov8n-pose_compiled_model.html
+2024-11-11 17:39:48,477 - INFO - parser.py:96 - Translation started on ONNX model yolov8n-pose
+2024-11-11 17:39:48,487 - INFO - parser.py:124 - Restored ONNX model yolov8n-pose (completion time: 00:00:00.01)
+2024-11-11 17:39:48,490 - INFO - parser.py:147 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.01)
+2024-11-11 17:40:54,949 - INFO - parser.py:96 - Translation started on ONNX model yolov8n-pose
+2024-11-11 17:40:55,004 - INFO - parser.py:124 - Restored ONNX model yolov8n-pose (completion time: 00:00:00.06)
+2024-11-11 17:40:55,039 - INFO - parser.py:147 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.09)
+2024-11-11 17:40:55,255 - WARNING - parser.py:235 - ONNX shape inference failed: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Failed to load model with error: /onnxruntime_src/onnxruntime/core/graph/model.cc:147 onnxruntime::Model::Model(onnx::ModelProto&&, const PathString&, const IOnnxRuntimeOpSchemaRegistryList*, const onnxruntime::logging::Logger&, const onnxruntime::ModelOptions&) Unsupported model IR version: 9, max supported IR version: 8
+
+2024-11-11 17:40:55,611 - INFO - parser.py:269 - Start nodes mapped from original model: 'images': 'yolov8n-pose/input_layer1'.
+2024-11-11 17:40:55,611 - INFO - parser.py:270 - End nodes mapped from original model: '/model.22/cv4.0/cv4.0.2/Conv', '/model.22/cv2.0/cv2.0.2/Conv', '/model.22/cv3.0/cv3.0.2/Conv', '/model.22/cv4.1/cv4.1.2/Conv', '/model.22/cv2.1/cv2.1.2/Conv', '/model.22/cv3.1/cv3.1.2/Conv', '/model.22/cv4.2/cv4.2.2/Conv', '/model.22/cv2.2/cv2.2.2/Conv', '/model.22/cv3.2/cv3.2.2/Conv'.
+2024-11-11 17:40:55,664 - INFO - translator.py:71 - Unable to export parsing report: output
+2024-11-11 17:40:55,664 - INFO - parser.py:217 - Translation completed on ONNX model yolov8n-pose (completion time: 00:00:00.72)
+2024-11-11 17:40:57,789 - IMPORTANT - sdk_backend.py:897 - Starting Model Optimization
+2024-11-11 17:41:46,934 - IMPORTANT - sdk_backend.py:915 - Model Optimization is done
+2024-11-11 17:50:06,419 - INFO - client_runner.py:1442 - Saved HAR to: /home/r300/Documents/Github/ITRI-AI-Hub/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/yolov8n-pose.har
+2024-11-11 17:50:09,990 - INFO - main.py:32 - Current Time: 17:50:09, 11/11/24
+2024-11-11 17:50:11,030 - INFO - main.py:36 - CPU: Architecture: x86_64, Model: Intel(R) Core(TM) i9-10900TE CPU @ 1.80GHz, Number Of Cores: 20, Utilization: 0.1%
+2024-11-11 17:50:11,031 - INFO - main.py:38 - Memory: Total: 62GB, Available: 56GB
+2024-11-11 17:50:11,031 - INFO - main.py:40 - System info: OS: Linux, Kernel: 5.15.0-124-generic
+2024-11-11 17:50:11,032 - INFO - main.py:41 - Hailo DFC Version: 3.27.0
+2024-11-11 17:50:11,033 - INFO - main.py:46 - HailoRT Version: 4.17.0
+2024-11-11 17:50:11,075 - INFO - main.py:65 - PCIe: 03:00.0: Number Of Lanes: 1, Speed: 8.0 GT/s PCIe
+2024-11-11 17:50:11,075 - INFO - main.py:73 - Running `hailo profiler yolov8n-pose.har`
+2024-11-11 17:50:15,099 - INFO - client_runner.py:1103 - Running profile for yolov8n-pose in state compiled_model
+2024-11-11 17:50:15,954 - INFO - estimator.py:1543 - 
+Model Details
+--------------------------------  ----------
+Input Tensors Shapes              640x640x3
+Operations per Input Tensor       9.18 GOPs
+Operations per Input Tensor       4.60 GMACs
+Pure Operations per Input Tensor  9.18 GOPs
+Pure Operations per Input Tensor  4.60 GMACs
+Model Parameters                  3.60 M
+--------------------------------  ----------
+
+Profiler Input Settings
+-----------------  -----------------
+Optimization Goal  Reach Highest FPS
+Profiler Mode      Compiled
+-----------------  -----------------
+
+Performance Summary
+----------------------  ---
+Number of Devices       1
+Number of Contexts      2
+Throughput              N/A
+Latency                 N/A
+Operations per Second   N/A
+MACs per Second         N/A
+Total Input Bandwidth   N/A
+Total Output Bandwidth  N/A
+Context Switch Configs  N/A
+----------------------  ---
+2024-11-11 17:50:21,112 - INFO - profiler.py:59 - Saved Profiler HTML Report to: /home/r300/Documents/Github/ITRI-AI-Hub/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/yolov8n-pose_compiled_model.html
