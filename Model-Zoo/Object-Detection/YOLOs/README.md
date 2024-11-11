@@ -17,19 +17,19 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. Yo
 | YOLO11n    |0.077                           |0.77             | 0.51               |
 
 * [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
-* [How to Run](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Export_your_custom_YOLOs_(PyTorch____TFLite).ipynb)
+* [Tutorial" How to Export and Run](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
 ## Inference Speed 
 
 **Deployment Template**: [[ArmNN]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [[NeuronRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)
 
-| Model            | Genio510<br><sub>Mali GPU | Genio510<br><sub>MDLA 3.0 | Genio700<br><sub>Mali GPU | Genio700<br><sub>MDLA 3.0 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>MDLA 2.0 |
-|------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
-| YOLOv5n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv5n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv8n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv8n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
-| YOLO11n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
-| YOLO11n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
+| Model               | Genio510<br><sub>Mali GPU | Genio510<br><sub>MDLA 3.0 | Genio700<br><sub>Mali GPU | Genio700<br><sub>MDLA 3.0 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>MDLA 2.0 |
+|---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
+| YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
+| YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
+| YOLOv8n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
+| YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
+| YOLO11n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
+| YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
 
 ## Memory Usage
