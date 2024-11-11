@@ -11,7 +11,7 @@ The dataset used for training includes three categories: person, hat, and head. 
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|--------------------------------|-----------------|--------------------|
-| YOLOv5n    ||||
+| YOLOv5n    |0.072                           |0.63             | 0.45               |
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    ||||
 
