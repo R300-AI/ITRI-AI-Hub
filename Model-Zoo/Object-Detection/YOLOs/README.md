@@ -11,6 +11,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | YOLO11n    ||||
 
 ## Inference Speed 
+
 | Model            | Device | Genio510<sub>Mali GPU | Genio510<sub>MDLA 3.0 | Genio700<sub>Mali GPU | Genio700<sub>MDLA 3.0 | Genio1200<sub>Mali GPU | Genio1200<sub>MDLA 3.0 |
 |                  |        |                        |                  |                             |                    |                        |                       |
 | YOLOv5n<sub>fp16 |        |                        |                  |                             |                    |                        |                       |
