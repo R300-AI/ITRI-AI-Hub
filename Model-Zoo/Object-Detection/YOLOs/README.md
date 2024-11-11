@@ -23,18 +23,4 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | YOLO11n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
 | YOLO11n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
 
-
-#
-
-| APIs   | |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |
-
-|  Device    | Chipset     | API | YOLOv5n<sub>fp16  || YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
-|------------|-------------|-------------|--------------------|-------------------|------------------|------------------|-------------------|------------------|
-| Genio510   |`Mali GPU`   |        |          |          |          |          |          |          |
-| Genio510   |`MDLA 3.0`   |     |          |          |          |          |          |          |
-| Genio700   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
-| Genio700   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |          |          |          |          |          |          | 
-| Genio1200  |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
-| Genio1200  |`MDLA 2.0`   |NeuronRT     |       |:x:       |:x:       |:x:       |:x:       |:x:       |
-
 ## Usage Memory 
