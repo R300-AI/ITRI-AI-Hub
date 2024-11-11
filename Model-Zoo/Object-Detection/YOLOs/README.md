@@ -11,10 +11,23 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | YOLO11n    ||||
 
 ## Inference Speed 
-|  Device    | Chipset     | API | YOLOv5n<sub>fp16  | YOLOv5n<sub>fp32 | YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
+| Model            | Device | Genio510<sub>Mali GPU | Genio510<sub>MDLA 3.0 | Genio700<sub>Mali GPU | Genio700<sub>MDLA 3.0 | Genio1200<sub>Mali GPU | Genio1200<sub>MDLA 3.0 |
+|                  |        |                        |                  |                             |                    |                        |                       |
+| YOLOv5n<sub>fp16 |        |                        |                  |                             |                    |                        |                       |
+| YOLOv5n<sub>fp32 |        |                        |                  |                             |                    |                        |                       |
+| YOLOv8n<sub>fp16 |        |                        |                  |                             |                    |                        |                       |
+| YOLOv8n<sub>fp32 |        |                        |                  |                             |                    |                        |                       |
+| YOLO11n<sub>fp16 |        |                        |                  |                             |                    |                        |                       |
+| YOLO11n<sub>fp32 |        |                        |                  |                             |                    |                        |                       |
+
+#
+
+| APIs   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |
+
+|  Device    | Chipset     | API | YOLOv5n<sub>fp16  || YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
 |------------|-------------|-------------|--------------------|-------------------|------------------|------------------|-------------------|------------------|
-| Genio510   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
-| Genio510   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |          |          |          |          |          |          |
+| Genio510   |`Mali GPU`   |        |          |          |          |          |          |          |
+| Genio510   |`MDLA 3.0`   |     |          |          |          |          |          |          |
 | Genio700   |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
 | Genio700   |`MDLA 3.0`   |[NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)     |          |          |          |          |          |          | 
 | Genio1200  |`Mali GPU`   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN)        |          |          |          |          |          |          |
