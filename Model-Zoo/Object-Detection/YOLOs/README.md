@@ -23,4 +23,4 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 | YOLO11n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
 | YOLO11n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
 
-## Usage Memory 
+## Memory Usage
