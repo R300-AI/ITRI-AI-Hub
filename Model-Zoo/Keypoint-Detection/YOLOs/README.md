@@ -9,4 +9,4 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 ## Inference Speed 
 
-**Deployment Template**: [[HailoRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT) |
+**Deployment Template**: [[HailoRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT)
