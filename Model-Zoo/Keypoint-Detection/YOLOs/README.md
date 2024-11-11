@@ -24,11 +24,9 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. Yo
 
 | Model               | Genio510<br><sub>Mali GPU | Genio510<br><sub>Hailo-8 | Genio700<br><sub>Mali GPU | Genio700<br><sub>Hailo-8 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>Hailo-8 |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
-| YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv8n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
-| YOLO11n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
+| YOLOv8n-pose<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
+| YOLOv8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
+| YOLO11n-pose<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
+| YOLO11n-pose<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
 
 **Deployment Template**: [[HailoRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT)
