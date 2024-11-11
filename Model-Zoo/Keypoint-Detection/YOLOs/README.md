@@ -28,5 +28,3 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. Yo
 | YOLOv8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |                     |
 | YOLO11n-pose<sub> (fp16) |                       |                       |                       |                       |                        |                     |
 | YOLO11n-pose<sub> (fp32) |                       |                       |                       |                       |                        |                     |
-
-**Deployment Template**: [[HailoRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT)
