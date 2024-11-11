@@ -5,15 +5,19 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 # Benchmarks
 ## Train/Val Accuracy
 
-The following table presents the training and validation accuracy benchmarks for various YOLO models. The metrics include the processing time on a T4 GPU, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+For training demonstration purposes, we utilized a small-scale [HardHat](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Dataset.YOLO.zip
+) dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>
 
-The dataset used for training includes three categories: person, hat, and head. It consists of 100 samples, divided into 70 for training, 20 for testing, and 10 for validation. The training process was conducted for 100 epochs.
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|--------------------------------|-----------------|--------------------|
-| YOLOv5n    ||||
+| YOLOv5n    |0.072                           |0.63             | 0.45               |
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
-| YOLO11n    ||||
+| YOLO11n    |0.077                           |0.77             | 0.51               |
+
+* [How to Train](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_your_YOLOs_on_Workstation.ipynb)
+* [How to Run](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Export_your_custom_YOLOs_(PyTorch____TFLite).ipynb)
 
 ## Inference Speed 
 
