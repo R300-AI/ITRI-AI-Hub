@@ -116,6 +116,35 @@ class LetterBox:
         labels["instances"].add_padding(padw, padh)
         return labels
 
+def preprocess(im):
+    #im = np.stack(self.pre_transform(im))
+    im = im[..., ::-1]
+    im = np.ascontiguousarray(im).astype(np.float32)
+    im /= 255.0
+    #im = np.transpose(im, (0, 3, 1, 2))
+    return im
+
+def postprocess(preds, conf_thres=0.25, iou_thres=0.45, classes=None, agnostic=False, multi_label=False, labels=(), max_det=300, nc=0, max_time_img=0.05, max_nms=30000, max_wh=7680, in_place=True, rotated=False):
+        xc = np.max(preds[:, 4: 1 + 4], axis = 1) > conf_thres
+        preds = np.transpose(preds, (0, 2, 1))
+        preds[..., :4] = xywh2xyxy(preds[..., :4])
+        x = preds[0][xc[0]]
+
+        if not x.shape[0]:
+          return None
+        box, cls, keypoints = x[:, :4], x[:, 4:5], x[:, 5:]
+        j = np.argmax(cls, axis=1)
+        conf = cls[[i for i in range(len(j))], j]
+        concatenated = np.concatenate((box, conf.reshape(-1, 1), j.reshape(-1, 1).astype(float), keypoints), axis=1)
+        x = concatenated[conf.flatten() > conf_thres]
+
+        if x.shape[0] > max_nms:
+            x = x[x[:, 4].argsort(descending=True)[:max_nms]]
+        cls = x[:, 5:6] * (0 if agnostic else max_wh)
+        scores, boxes = x[:, 4], x[:, :4] + cls
+
+        i = non_max_suppression(boxes, scores, iou_thres)
+        return [x[i[:max_det]]]
 def xywh2xyxy(x):
     assert x.shape[-1] == 4, f"input shape last dimension expected 4 but input shape is {x.shape}"
     y = np.empty_like(x)
