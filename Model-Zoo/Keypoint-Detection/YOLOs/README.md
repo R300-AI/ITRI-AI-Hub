@@ -10,12 +10,12 @@ For training demonstration purposes, we utilized a small-scale [HardHat-Pose](ht
 
 These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html).
 
-|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
-|------------|--------------------------------|-----------------|--------------------|
-| YOLOv5n    |                           |             |                |
-| YOLOv8n    |                           |             |               |
-| YOLO11n    |                           |             |               |
+|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50<\sub>(B)     |  mAP<sub>50-95<\sub>(B)     |  mAP<sub>50<\sub>(P)     |  mAP<sub>50-95<\sub>(P)     |
+|------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
+| YOLOv8n-pose    |                                |             |               |             |               |
+| YOLO11n-pose    | 0.074                          | 0.91          | 0.78             | 0.88          | 0.70              |
 
+* [Tutorial: How to Train a custom YOLOs?]()
 * [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
 ## Inference Speed 
