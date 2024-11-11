@@ -16,6 +16,9 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU, an
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    |0.077                           |0.77             | 0.51               |
 
+* [How to Train](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_your_YOLOs_on_Workstation.ipynb)
+* [How to Run](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Export_your_custom_YOLOs_(PyTorch____TFLite).ipynb)
+
 ## Inference Speed 
 
 **Demo**: [[ArmNN]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [[NeuronRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)
