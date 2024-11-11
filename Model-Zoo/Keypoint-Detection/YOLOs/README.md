@@ -10,7 +10,7 @@ For training demonstration purposes, we utilized a small-scale [HardHat-Pose](ht
 
 These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html).
 
-|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50<\sub>(B)     |  mAP<sub>50-95<\sub>(B)     |  mAP<sub>50<\sub>(P)     |  mAP<sub>50-95<\sub>(P)     |
+|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
 | YOLOv8n-pose    |                                |             |               |             |               |
 | YOLO11n-pose    | 0.074                          | 0.91          | 0.78             | 0.88          | 0.70              |
