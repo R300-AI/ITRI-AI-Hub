@@ -131,3 +131,21 @@ For more information, see Hailo Dataflow Compiler user guide / Model Optimizatio
 2024-11-08 15:44:04,850 - INFO - quant_checker.py:134 - 	yolov8m-pose/input_layer1:
 	Current range, per feature:	[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0)]
 	Expected range (for all features):	(0, 255)
+2024-11-11 13:54:43,974 - WARNING - mo_config.py:124 - Reducing optimization level to 0 (the accuracy won't be optimized and compression won't be used) because there's less data than the recommended amount (1024), and there's no available GPU
+2024-11-11 13:54:43,975 - INFO - mo_script_parser.py:71 - Model received quantization params from the hn
+2024-11-11 13:54:45,364 - INFO - algorithm_base.py:117 - Starting Mixed Precision
+2024-11-11 13:54:45,448 - INFO - algorithm_base.py:126 - Mixed Precision is done (completion time is 00:00:00.08)
+2024-11-11 13:54:45,632 - INFO - algorithm_base.py:113 - create_layer_norm skipped
+2024-11-11 13:54:45,638 - INFO - algorithm_base.py:117 - Starting Stats Collector
+2024-11-11 13:54:45,640 - INFO - stats_collection.py:62 - Using dataset with 64 entries for calibration
+2024-11-11 13:55:24,705 - INFO - algorithm_base.py:126 - Stats Collector is done (completion time is 00:00:39.07)
+2024-11-11 13:55:29,849 - INFO - algorithm_base.py:113 - Bias Correction skipped
+2024-11-11 13:55:29,860 - INFO - algorithm_base.py:113 - Adaround skipped
+2024-11-11 13:55:29,866 - INFO - algorithm_base.py:113 - Fine Tune skipped
+2024-11-11 13:55:29,945 - INFO - algorithm_base.py:113 - Layer Noise Analysis skipped
+2024-11-11 13:55:29,946 - INFO - quant_checker.py:110 - Runtime input quantization on host will be required.
+Adding normalization on chip could improve the performance, by making the quantization redundant.
+For more information, see Hailo Dataflow Compiler user guide / Model Optimization / Optimization Related Model Script Commands / model_modification_commands / normalization
+2024-11-11 13:55:29,947 - INFO - quant_checker.py:134 - 	yolov8n-pose/input_layer1:
+	Current range, per feature:	[(0.0, 0.0), (0.0, 0.0), (0.0, 0.0)]
+	Expected range (for all features):	(0, 255)

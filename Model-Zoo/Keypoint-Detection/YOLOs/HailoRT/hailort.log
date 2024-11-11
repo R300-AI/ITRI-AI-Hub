@@ -1,0 +1,146 @@
+[2024-11-11 14:18:30.969] [1137768] [HailoRT] [info] [device.cpp:46] [Device] OS Version: Linux 5.15.0-124-generic #134~20.04.1-Ubuntu SMP Tue Oct 1 15:27:33 UTC 2024 x86_64
+[2024-11-11 14:18:30.969] [1137768] [HailoRT] [info] [control.cpp:100] [control__parse_identify_results] firmware_version is: 4.17.0
+[2024-11-11 14:18:30.969] [1137768] [HailoRT] [info] [vdevice.cpp:566] [create] VDevice Infos: 0000:03:00.0
+[2024-11-11 14:18:30.997] [1137768] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-11 14:18:30.997] [1137768] [HailoRT] [warning] [device_internal.cpp:782] [check_clock_rate_for_hailo8] HEF was compiled assuming clock rate of 400 MHz, while the device clock rate is 200 MHz. FPS calculations might not be accurate.
+[2024-11-11 14:18:31.007] [1137768] [HailoRT] [info] [internal_buffer_manager.cpp:208] [print_execution_results] Planned internal buffer memory: CMA memory 0, user memory 801280. memory to edge layer usage factor is 1.0
+[2024-11-11 14:18:31.007] [1137768] [HailoRT] [info] [internal_buffer_manager.cpp:216] [print_execution_results] Default Internal buffer planner executed successfully
+[2024-11-11 14:18:31.022] [1137768] [HailoRT] [info] [device_internal.cpp:58] [configure] Configuring HEF took 24.714113 milliseconds
+[2024-11-11 14:18:31.022] [1137768] [HailoRT] [info] [vdevice.cpp:665] [configure] Configuring HEF on VDevice took 25.212243 milliseconds
+[2024-11-11 14:18:31.027] [1137768] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolov8n-pose took 0.426454 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-11 14:18:31.027] [1137768] [HailoRT] [info] [core_op.cpp:160] [activate] Activating yolov8n-pose took 0.434992 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2024-11-11 14:18:31.027] [1137768] [HailoRT] [info] [edge_elements.cpp:55] [create] Created (HwWriteEl2yolov8n-pose/input_layer1 | hw_frame_size: 1228800)
+[2024-11-11 14:18:31.027] [1137768] [HailoRT] [info] [queue_elements.cpp:255] [create] Created (PushQEl2yolov8n-pose/input_layer1 | timeout: 10s)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [filter_elements.cpp:110] [create] Created (PreInferEl2yolov8n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3))
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating yolov8n-pose/input_layer1...
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [vstream_builder.cpp:101] [create_inputs] Input pipeline 'yolov8n-pose/input_layer1': (PreInferEl2yolov8n-pose/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: -1.00787, limvals_max: 1 | Reorder - src_order: NHWC, src_shape: (640, 640, 3), dst_order: NHCW, dst_shape: (640, 640, 3)) >> (PushQEl2yolov8n-pose/input_layer1 | timeout: 10s) >> (HwWriteEl2yolov8n-pose/input_layer1 | hw_frame_size: 1228800) >> HW
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl15yolov8n-pose/conv43 | hw_frame_size: 409600)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read15yolov8n-pose/conv43)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl15yolov8n-pose/conv43 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.57501, limvals_max: 6.62148)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl15yolov8n-pose/conv43 | timeout: 10s)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv43...
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv43': HW >> (HwReadEl15yolov8n-pose/conv43 | hw_frame_size: 409600) >> (PullQEl_hw_read15yolov8n-pose/conv43) >> (PostInferEl15yolov8n-pose/conv43 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.57501, limvals_max: 6.62148) >> (UserBuffQEl15yolov8n-pose/conv43 | timeout: 10s)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl12yolov8n-pose/conv44 | hw_frame_size: 6400)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read12yolov8n-pose/conv44)
+[2024-11-11 14:18:31.028] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl12yolov8n-pose/conv44 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -20.4223, limvals_max: 0)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl12yolov8n-pose/conv44 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv44...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv44': HW >> (HwReadEl12yolov8n-pose/conv44 | hw_frame_size: 6400) >> (PullQEl_hw_read12yolov8n-pose/conv44) >> (PostInferEl12yolov8n-pose/conv44 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -20.4223, limvals_max: 0) >> (UserBuffQEl12yolov8n-pose/conv44 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl10yolov8n-pose/conv45 | hw_frame_size: 358400)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read10yolov8n-pose/conv45)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl10yolov8n-pose/conv45 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -3.82528, limvals_max: 3.73632 | Reorder - src_order: FCR, src_shape: (80, 80, 56), dst_order: FCR, dst_shape: (80, 80, 51))
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl10yolov8n-pose/conv45 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv45...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv45': HW >> (HwReadEl10yolov8n-pose/conv45 | hw_frame_size: 358400) >> (PullQEl_hw_read10yolov8n-pose/conv45) >> (PostInferEl10yolov8n-pose/conv45 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -3.82528, limvals_max: 3.73632 | Reorder - src_order: FCR, src_shape: (80, 80, 56), dst_order: FCR, dst_shape: (80, 80, 51)) >> (UserBuffQEl10yolov8n-pose/conv45 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl3yolov8n-pose/conv57 | hw_frame_size: 102400)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read3yolov8n-pose/conv57)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl3yolov8n-pose/conv57 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.75891, limvals_max: 7.58529)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl3yolov8n-pose/conv57 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv57...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv57': HW >> (HwReadEl3yolov8n-pose/conv57 | hw_frame_size: 102400) >> (PullQEl_hw_read3yolov8n-pose/conv57) >> (PostInferEl3yolov8n-pose/conv57 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.75891, limvals_max: 7.58529) >> (UserBuffQEl3yolov8n-pose/conv57 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl5yolov8n-pose/conv58 | hw_frame_size: 1600)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read5yolov8n-pose/conv58)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl5yolov8n-pose/conv58 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -23.1921, limvals_max: 0)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl5yolov8n-pose/conv58 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv58...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv58': HW >> (HwReadEl5yolov8n-pose/conv58 | hw_frame_size: 1600) >> (PullQEl_hw_read5yolov8n-pose/conv58) >> (PostInferEl5yolov8n-pose/conv58 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -23.1921, limvals_max: 0) >> (UserBuffQEl5yolov8n-pose/conv58 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl6yolov8n-pose/conv59 | hw_frame_size: 89600)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read6yolov8n-pose/conv59)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl6yolov8n-pose/conv59 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -5.43628, limvals_max: 3.86742 | Reorder - src_order: FCR, src_shape: (40, 40, 56), dst_order: FCR, dst_shape: (40, 40, 51))
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl6yolov8n-pose/conv59 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv59...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv59': HW >> (HwReadEl6yolov8n-pose/conv59 | hw_frame_size: 89600) >> (PullQEl_hw_read6yolov8n-pose/conv59) >> (PostInferEl6yolov8n-pose/conv59 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -5.43628, limvals_max: 3.86742 | Reorder - src_order: FCR, src_shape: (40, 40, 56), dst_order: FCR, dst_shape: (40, 40, 51)) >> (UserBuffQEl6yolov8n-pose/conv59 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl8yolov8n-pose/conv70 | hw_frame_size: 25600)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read8yolov8n-pose/conv70)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl8yolov8n-pose/conv70 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.43547, limvals_max: 6.69885)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl8yolov8n-pose/conv70 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv70...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv70': HW >> (HwReadEl8yolov8n-pose/conv70 | hw_frame_size: 25600) >> (PullQEl_hw_read8yolov8n-pose/conv70) >> (PostInferEl8yolov8n-pose/conv70 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -1.43547, limvals_max: 6.69885) >> (UserBuffQEl8yolov8n-pose/conv70 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl13yolov8n-pose/conv71 | hw_frame_size: 400)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read13yolov8n-pose/conv71)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl13yolov8n-pose/conv71 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -23.0867, limvals_max: 0 | Reorder - src_order: NHCW, src_shape: (20, 20, 1), dst_order: NHWC, dst_shape: (20, 20, 1))
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl13yolov8n-pose/conv71 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv71...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv71': HW >> (HwReadEl13yolov8n-pose/conv71 | hw_frame_size: 400) >> (PullQEl_hw_read13yolov8n-pose/conv71) >> (PostInferEl13yolov8n-pose/conv71 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -23.0867, limvals_max: 0 | Reorder - src_order: NHCW, src_shape: (20, 20, 1), dst_order: NHWC, dst_shape: (20, 20, 1)) >> (UserBuffQEl13yolov8n-pose/conv71 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [edge_elements.cpp:293] [create] Created (HwReadEl1yolov8n-pose/conv72 | hw_frame_size: 22400)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:613] [create] Created (PullQEl_hw_read1yolov8n-pose/conv72)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [filter_elements.cpp:369] [create] Created (PostInferEl1yolov8n-pose/conv72 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -5.95625, limvals_max: 4.03614 | Reorder - src_order: FCR, src_shape: (20, 20, 56), dst_order: FCR, dst_shape: (20, 20, 51))
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [queue_elements.cpp:756] [create] Created (UserBuffQEl1yolov8n-pose/conv72 | timeout: 10s)
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream.cpp:1107] [OutputVStreamImpl] Creating yolov8n-pose/conv72...
+[2024-11-11 14:18:31.029] [1137768] [HailoRT] [info] [vstream_builder.cpp:224] [create_outputs] Output pipeline 'yolov8n-pose/conv72': HW >> (HwReadEl1yolov8n-pose/conv72 | hw_frame_size: 22400) >> (PullQEl_hw_read1yolov8n-pose/conv72) >> (PostInferEl1yolov8n-pose/conv72 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -5.95625, limvals_max: 4.03614 | Reorder - src_order: FCR, src_shape: (20, 20, 56), dst_order: FCR, dst_shape: (20, 20, 51)) >> (UserBuffQEl1yolov8n-pose/conv72 | timeout: 10s)
+[2024-11-11 14:18:31.299] [1137830] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl15yolov8n-pose/conv43!
+[2024-11-11 14:18:31.299] [1137829] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.299] [1137829] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.299] [1137829] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read15yolov8n-pose/conv43 was aborted!
+[2024-11-11 14:18:31.299] [1137829] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read15yolov8n-pose/conv43 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read15yolov8n-pose/conv43 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137830] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl15yolov8n-pose/conv43 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl15yolov8n-pose/conv43 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137831] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.299] [1137831] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.299] [1137832] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl12yolov8n-pose/conv44!
+[2024-11-11 14:18:31.299] [1137831] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read12yolov8n-pose/conv44 was aborted!
+[2024-11-11 14:18:31.299] [1137831] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read12yolov8n-pose/conv44 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read12yolov8n-pose/conv44 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137832] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl12yolov8n-pose/conv44 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl12yolov8n-pose/conv44 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137833] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.299] [1137834] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl10yolov8n-pose/conv45!
+[2024-11-11 14:18:31.299] [1137833] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.299] [1137833] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read10yolov8n-pose/conv45 was aborted!
+[2024-11-11 14:18:31.299] [1137833] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read10yolov8n-pose/conv45 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read10yolov8n-pose/conv45 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137834] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl10yolov8n-pose/conv45 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl10yolov8n-pose/conv45 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137835] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.299] [1137835] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.299] [1137836] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl3yolov8n-pose/conv57!
+[2024-11-11 14:18:31.299] [1137835] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read3yolov8n-pose/conv57 was aborted!
+[2024-11-11 14:18:31.299] [1137835] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read3yolov8n-pose/conv57 is not running anymore, exiting..
+[2024-11-11 14:18:31.299] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read3yolov8n-pose/conv57 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.299] [1137836] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl3yolov8n-pose/conv57 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl3yolov8n-pose/conv57 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137837] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.300] [1137837] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.300] [1137838] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl5yolov8n-pose/conv58!
+[2024-11-11 14:18:31.300] [1137837] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read5yolov8n-pose/conv58 was aborted!
+[2024-11-11 14:18:31.300] [1137837] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read5yolov8n-pose/conv58 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read5yolov8n-pose/conv58 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137838] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl5yolov8n-pose/conv58 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl5yolov8n-pose/conv58 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137839] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.300] [1137839] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.300] [1137840] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl6yolov8n-pose/conv59!
+[2024-11-11 14:18:31.300] [1137839] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read6yolov8n-pose/conv59 was aborted!
+[2024-11-11 14:18:31.300] [1137839] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read6yolov8n-pose/conv59 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read6yolov8n-pose/conv59 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137840] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl6yolov8n-pose/conv59 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl6yolov8n-pose/conv59 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137842] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl8yolov8n-pose/conv70!
+[2024-11-11 14:18:31.300] [1137841] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.300] [1137841] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.300] [1137841] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read8yolov8n-pose/conv70 was aborted!
+[2024-11-11 14:18:31.300] [1137841] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read8yolov8n-pose/conv70 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read8yolov8n-pose/conv70 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137842] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl8yolov8n-pose/conv70 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl8yolov8n-pose/conv70 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137843] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.300] [1137843] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.300] [1137844] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl13yolov8n-pose/conv71!
+[2024-11-11 14:18:31.300] [1137843] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read13yolov8n-pose/conv71 was aborted!
+[2024-11-11 14:18:31.300] [1137843] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read13yolov8n-pose/conv71 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read13yolov8n-pose/conv71 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137844] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl13yolov8n-pose/conv71 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl13yolov8n-pose/conv71 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137845] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_ABORT(63) (device: 0000:03:00.0)
+[2024-11-11 14:18:31.300] [1137845] [HailoRT] [info] [edge_elements.cpp:403] [run_pull] Reading from stream was aborted!
+[2024-11-11 14:18:31.300] [1137846] [HailoRT] [info] [queue_elements.cpp:811] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl1yolov8n-pose/conv72!
+[2024-11-11 14:18:31.300] [1137845] [HailoRT] [info] [queue_elements.cpp:694] [run_in_thread] run_pull of queue element PullQEl_hw_read1yolov8n-pose/conv72 was aborted!
+[2024-11-11 14:18:31.300] [1137845] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PullQEl_hw_read1yolov8n-pose/conv72 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PullQEl_hw_read1yolov8n-pose/conv72 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.300] [1137846] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element UserBuffQEl1yolov8n-pose/conv72 is not running anymore, exiting..
+[2024-11-11 14:18:31.300] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element UserBuffQEl1yolov8n-pose/conv72 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.301] [1137828] [HailoRT] [info] [queue_elements.cpp:54] [operator()] Thread in element PushQEl2yolov8n-pose/input_layer1 is not running anymore, exiting..
+[2024-11-11 14:18:31.301] [1137768] [HailoRT] [info] [queue_elements.cpp:43] [~BaseQueueElement] Queue element PushQEl2yolov8n-pose/input_layer1 has 0 frames in his Queue on destruction
+[2024-11-11 14:18:31.301] [1137768] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.81617 ms
+[2024-11-11 14:18:31.301] [1137768] [HailoRT] [info] [core_op.cpp:191] [deactivate] Deactivating took 0.829766 ms
