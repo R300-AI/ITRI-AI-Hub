@@ -12,14 +12,14 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 ## Inference Speed 
 
-| Model            | Genio510<br><sub>(Mali GPU) | Genio510<br><sub>(MDLA 3.0) | Genio700<br><sub>(Mali GPU) | Genio700<br><sub>(MDLA 3.0) | Genio1200<br><sub>(Mali GPU) | Genio1200<br><sub>(MDLA 2.0) |
+| Model            | Genio510<br><sub>Mali GPU | Genio510<br><sub>MDLA 3.0 | Genio700<br><sub>Mali GPU | Genio700<br><sub>MDLA 3.0 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>MDLA 2.0 |
 |------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
-| YOLOv5n<sub>fp16 |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv5n<sub>fp32 |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv8n<sub>fp16 |                        |                  |                             |                    |                        |:x:                       |
-| YOLOv8n<sub>fp32 |                        |                  |                             |                    |                        |:x:                       |
-| YOLO11n<sub>fp16 |                        |                  |                             |                    |                        |:x:                       |
-| YOLO11n<sub>fp32 |                        |                  |                             |                    |                        |:x:                       |
+| YOLOv5n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
+| YOLOv5n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
+| YOLOv8n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
+| YOLOv8n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
+| YOLO11n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
+| YOLO11n<sub> (fp32) |                        |                  |                             |                    |                        |:x:                       |
 
 
 #
