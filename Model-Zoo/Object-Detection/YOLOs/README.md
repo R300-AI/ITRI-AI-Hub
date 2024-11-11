@@ -4,7 +4,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Benchmarks
 ## Train/Val Accuracy
-|  Model     | Prorcess Time (hr)<br>T4 CUDA   |  mAP<sub>50     |  mAP<sub>50-95     |
+|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|-----------------|-----------------|--------------------|
 | YOLOv5n    ||||
 | YOLOv8n    ||||
