@@ -4,6 +4,11 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 # Benchmarks
 ## Train/Val Accuracy
+
+The following table presents the training and validation accuracy benchmarks for various YOLO models. The metrics include the processing time on a T4 GPU, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+
+The dataset used for training includes three categories: person, hat, and head. It consists of 100 samples, divided into 70 for training, 20 for testing, and 10 for validation. The training process was conducted for 100 epochs.
+
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|--------------------------------|-----------------|--------------------|
 | YOLOv5n    ||||
