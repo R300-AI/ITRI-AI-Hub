@@ -12,7 +12,7 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. Yo
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
-| YOLOv8n-pose    |                                |             |               |             |               |
+| YOLOv8n-pose    | 0.073                          | 0.92          | 0.78             | 0.86          | 0.70              |
 | YOLO11n-pose    | 0.074                          | 0.91          | 0.78             | 0.88          | 0.70              |
 
 * [Tutorial: How to Train a custom YOLOs?]()
