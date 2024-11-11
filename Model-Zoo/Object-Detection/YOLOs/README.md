@@ -6,15 +6,15 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 ## Train/Val Accuracy
 
 For training demonstration purposes, we utilized a small-scale [HardHat](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Dataset.YOLO.zip
-) dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. 
+) dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>
 
-These training was executed on a **CUDA** workstation equipped with a T4 GPU, and the metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+These training was executed on a **CUDA** workstation equipped with a T4 GPU, and). You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|--------------------------------|-----------------|--------------------|
 | YOLOv5n    |0.072                           |0.63             | 0.45               |
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
-| YOLO11n    ||||
+| YOLO11n    |0.077                           |0.77             | 0.51               |
 
 ## Inference Speed 
 
