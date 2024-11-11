@@ -5,7 +5,8 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 # Benchmarks
 ## Train/Val Accuracy
 
-For training demonstration purposes, we utilized a small-scale HardHat dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. 
+For training demonstration purposes, we utilized a small-scale [HardHat](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Dataset.YOLO.zip
+) dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. 
 
 These training was executed on a CUDA workstation equipped with a T4 GPU, and the metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
