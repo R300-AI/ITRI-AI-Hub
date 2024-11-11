@@ -12,6 +12,8 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 ## Inference Speed 
 
+[[ArmNN]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [[NeuronRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)
+
 | Model            | Genio510<br><sub>Mali GPU | Genio510<br><sub>MDLA 3.0 | Genio700<br><sub>Mali GPU | Genio700<br><sub>MDLA 3.0 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>MDLA 2.0 |
 |------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
 | YOLOv5n<sub> (fp16) |                        |                  |                             |                    |                        |:x:                       |
@@ -24,7 +26,7 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 #
 
-| APIs   |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |
+| APIs   | |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |[ArmNN](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/ArmNN) | [NeuronRT](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT) |
 
 |  Device    | Chipset     | API | YOLOv5n<sub>fp16  || YOLOv8n<sub>fp16 | YOLOv8n<sub>fp32 | YOLO11n<sub>fp32  | YOLO11n<sub>fp32 |
 |------------|-------------|-------------|--------------------|-------------------|------------------|------------------|-------------------|------------------|
