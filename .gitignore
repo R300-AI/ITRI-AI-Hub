@@ -1,3 +1,13 @@
 
 Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/yolo11n-pose.pt
 *.pt
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/pyhailort.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/hailort.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/hailo_sdk.core.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/hailo_sdk.core.1.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/hailo_sdk.client.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/estimation.csv
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/allocator.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/acceleras.log
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/__pycache__/utils.cpython-311.pyc
+Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/.ipynb_checkpoints/Pruning_ONNX-checkpoint.ipynb
