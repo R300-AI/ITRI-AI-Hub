@@ -33,3 +33,4 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. Yo
 | YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
 
 ## Memory Usage
+## Power Consumption
