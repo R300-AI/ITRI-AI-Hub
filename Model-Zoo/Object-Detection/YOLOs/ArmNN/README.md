@@ -1,1 +1,1 @@
-# Run YOLOs on ArmNN
+# Deploy YOLOs on ArmNN
