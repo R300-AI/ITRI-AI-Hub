@@ -8,7 +8,7 @@ nav_order: 42
 ##### update : 2024/10 by Markov Chen
 <br>
 
-<div align="center"><img src="../../assets/images/armnn.png" width="720"/></div>
+<div align="center"><img src="../../assets/images/armnn.png" width="900"/></div>
 
 ## Notes
 ```bash
