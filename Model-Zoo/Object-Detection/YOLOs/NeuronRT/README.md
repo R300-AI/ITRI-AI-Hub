@@ -39,7 +39,7 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 ```
 
 
-## Deploy Sample Code and Inference on Genio Boards
+## Deploy Sample Codes on Board
 
 ```bash
 $ git clone https://github.com/R300-AI/ITRI-AI-Hub.git && cd Model-Zoo/Detection/YOLOs/MediaTek-Genios-Demo
