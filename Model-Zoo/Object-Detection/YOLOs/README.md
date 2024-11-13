@@ -8,13 +8,22 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 For training demonstration purposes, we utilized a small-scale [HardHat](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Dataset.YOLO.zip
 ) dataset, which includes three categories: person, hat, and head. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>)
 
-These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html). In order to reproduce the following results
-
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
 |------------|--------------------------------|-----------------|--------------------|
 | YOLOv5n    |0.072                           |0.63             | 0.45               |
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    |0.077                           |0.77             | 0.51               |
+
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html). In order to reproduce the following results
+
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI -Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to reproduce the following results, you can run these commands to install the environment for ultralytics framwork, and then you can start with *Jupyter Notebook*
+
+```
+$ conda create --name ultralytics python=3.11
+$ source activate ultralytics
+
+$ pip install -r requirements.txt
+```
 
 * [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
 * [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
