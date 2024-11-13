@@ -1,1 +1,1 @@
-# ArmNN for YOLOs
+# Run YOLOs on ArmNN
