@@ -19,3 +19,4 @@ tf_keras
 onnx2tf==1.22.3
 onnxslim
 micropy-cli
+jupyter
