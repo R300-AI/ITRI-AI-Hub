@@ -7,6 +7,6 @@ To illustrate the process of delegating a model from the ONNX format to a Hailo 
 ### Prerequisites
 
 * Exported **YOLOv8n-pose** model in ONNX format ([[Tutorial]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)).
-* **Ubuntu 22.04 LTS x86_64 Workstation** which **Data-Compiler** has been installed.
+* **Ubuntu 22.04 LTS x86_64 Workstation** which **Data-Compiler** has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/data-compiler.html))
 * A **Evaluation Board (with Hailo-8 M.2 expansion)** which **HailoRT** Library has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/hailort.html))
 
