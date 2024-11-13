@@ -33,7 +33,7 @@ $ conda create --name ultralytics python=3.11 && source activate ultralytics
 ```
 
 * [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
-* [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
+* [Tutorial: How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
 ## Inference Speed 
 
