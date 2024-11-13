@@ -5,7 +5,12 @@ nav_order: 42
 ---
 
 # ArmNN
+##### update : 2024/10 by Markov Chen
+<br>
 
+<div align="center"><img src="../../assets/images/armnn.png" width="720"/></div>
+
+## Notes
 ```bash
 wget -O ArmNN-aarch64.tgz https://github.com/ARM-software/armnn/releases/download/v23.08/ArmNN-linux-aarch64.tar.gz
 mkdir armnn
