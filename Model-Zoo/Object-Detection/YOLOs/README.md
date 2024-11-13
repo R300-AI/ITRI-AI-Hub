@@ -14,9 +14,7 @@ For training demonstration purposes, we utilized a small-scale [HardHat](https:/
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    |0.077                           |0.77             | 0.51               |
 
-These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html). In order to reproduce the following results
-
-These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI -Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to train your own model or reproduce the above results, you can follow the instruction below to  
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to train your own model or reproduce the above results, you can follow the instruction below to  
 
 **Step 1**. Create and install virtual environment for ultralytics framework.
 ```bash
