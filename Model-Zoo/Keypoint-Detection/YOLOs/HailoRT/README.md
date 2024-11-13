@@ -15,8 +15,6 @@ To illustrate the process of converting a model from the ONNX format to a Hailo 
 ```bash
 $ source activate ultralytics
 (ultralytics)$ pip install -r requirements.txt
-```
-```bash
 (ultralytics)& python pruning_onnx.py
 ```
 ```bash
@@ -25,3 +23,7 @@ $ source activate data-compiler
 ```
 
 ## Deploy Sample Codes on Board
+```bash
+$ source activate hailort
+(hailort)& python demo_hef.py
+```
