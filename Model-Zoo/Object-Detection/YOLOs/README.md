@@ -16,18 +16,21 @@ For training demonstration purposes, we utilized a small-scale [HardHat](https:/
 
 These training was executed on a **CUDA** workstation equipped with a T4 GPU. You can set up your own workstation by following the guidelines in [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html). In order to reproduce the following results
 
-These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI -Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to reproduce the following results, you can run these commands to install the environment for ultralytics framwork, and then you can start with *Jupyter Notebook*
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI -Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to train your own model or reproduce the above results, you can follow the instruction below to  
 
+**Step 1**. Create and install virtual environment for ultralytics framework.
 ```bash
 $ conda create --name ultralytics python=3.11
 $ source activate ultralytics
 
 (ultralytics)$ pip install -r requirements.txt
 ```
-* **Step 2**. Open Notebook to 
-```bash
-(ultralytics)$ jupyter notebook
-```
+
+**Step 2**. Open Notebook to 
+  ```bash
+  (ultralytics)$ jupyter notebook
+  ```
+
 * [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
 * [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
