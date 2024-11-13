@@ -8,7 +8,7 @@ To illustrate the process of delegating a model from TFLite format to an MDLA bi
 
 * Exported **YOLOv8n** model in TFlite format ([[Tutorial]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)).
 * **Ubuntu 22.04 LTS x86_64 Workstation** which **NeuronPilot** has been installed.
-* A **Genio-510/700 EVK (MDLA3.0)** board which **NeuronRT** Library has been installed.
+* A **Genio-510/700 EVK (MDLA3.0)** board which **NeuronRT** Library has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html))
 
 
 ## Training YOLOs and Compile it on Workstation
