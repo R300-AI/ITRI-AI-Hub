@@ -14,21 +14,20 @@ For training demonstration purposes, we utilized a small-scale [HardHat](https:/
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    |0.077                           |0.77             | 0.51               |
 
-These training sessions were executed on a **CUDA** workstation equipped with a T4 GPU. To train your own model or reproduce the results above, please follow the instructions below:
-
+These training sessions were executed on a **CUDA** workstation equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
 **Step 1**. Follow this [Installation Guideline](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html) to setup CUDA on your T4 GPU workstation.
 
-**Step 2**. Create a virtual environment for the PyTorch/Ultralytics framework.
+**Step 2**. Create and environment with dependencies on your workstation.
 ```bash
 $ conda create --name ultralytics python=3.11
-$ source activate ultralytics
 ```
 ```bash
+$ source activate ultralytics
 (ultralytics)$ pip install -r requirements.txt
 ```
 
-**Step 3**. Open **Jupyter Notebook** to run the training scripts.
+**Step 3**. Open **Jupyter Notebook** to execute prebuilt training session.
   ```bash
   (ultralytics)$ jupyter notebook
   ```
