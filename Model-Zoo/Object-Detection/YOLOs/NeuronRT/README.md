@@ -11,7 +11,7 @@ To illustrate the process of delegating a model from TFLite format to an MDLA bi
 * A **Genio-510/700 EVK (MDLA3.0)** board with **NeuronRT** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html))
 
 
-## Training YOLOs and Compile it on Workstation
+## Convert TFLite to DLA on Workstation
 
 #### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
