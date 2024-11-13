@@ -14,9 +14,11 @@ For training demonstration purposes, we utilized a small-scale [HardHat](https:/
 | YOLOv8n    |0.065                           |0.63             | 0.44               |
 | YOLO11n    |0.077                           |0.77             | 0.51               |
 
-These training was executed on a **CUDA** workstation equipped with a T4 GPU. [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html) we demonstrate how we set the CUDA for T4 GPU on workstation . In order to train your own model or reproduce the above results, you can follow the instruction below to  
+These training was executed on a **CUDA** workstation equipped with a T4 GPU. In order to train your own model or reproduce the above results, you can follow the instruction below to  
 
-**Step 1**. Create an virtual environment for PyTorch/Ultralytics.
+**Step 1**.  Setup T4 GPU for your workstaion by follow [this](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html) instruction. 
+
+**Step 2**. Create an virtual environment for PyTorch/Ultralytics framework.
 ```bash
 $ conda create --name ultralytics python=3.11
 $ source activate ultralytics
