@@ -1,12 +1,12 @@
 # About YOLOs
 
-The YOLO family of models referenced in this guide are provided by Ultralytics. This document aims to demonstrate how users can quickly train and acquire customized models for deployment to a given system. It is important to note that these models are intended for educational and demonstration purposes only. For any commercial or product-level deployments, users must thoroughly review the official AGPL-3.0 license terms and comply with the licensing requirements to ensure proper use and distribution of the models. Users are responsible for ensuring that their use of the models does not infringe on any legal or copyright regulations.
+The YOLO family of models referenced in this guide is provided by Ultralytics. This document aims to demonstrate how users can quickly train and acquire customized models for deployment to a given system. It is important to note that these models are intended for educational and demonstration purposes only. For any commercial or product-level deployments, users must thoroughly review the official AGPL-3.0 license terms and comply with the licensing requirements to ensure proper use and distribution of the models. Users are responsible for ensuring that their use of the models does not infringe on any legal or copyright regulations.
 
 # Benchmarks
 ## Train/Val Accuracy
 
 
-For training demonstration purposes, we utilized a small-scale [HardHat-Pose](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Pose_Dataset.YOLO.zip) dataset, which includes one categories: person with 17 body keypoints. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>)
+For training demonstration purposes, we utilized a small-scale [HardHat-Pose](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Pose_Dataset.YOLO.zip) dataset, which includes 1 class: person with 17 body keypoints. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|

@@ -1,11 +1,11 @@
 # Deploy YOLOs on ArmNN (Preview)
 
-ArmNN is an inference engine designed specifically for Cortex-A CPUs and Mali-GPUs. Developers can flexibly use these processors to implement high-performance, low-power deep learning operations without additional conversion work.
+ArmNN is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
 
-To illustrate how to delegate a model in TFLite format, we will use Ultralytics' pre-built YOLOv8n model as an example. The model is trained on the COCO dataset, which includes 80 categories of objects. Please follow the instructions provided in the previous table of contents to obtain the model on your workstation. Then, continue with the steps outlined in this document to complete the Python example to verify the inference results.
+To illustrate how to delegate a model in TFLite format, we will use the pre-built YOLOv8n model from Ultralytics as an example. The model is trained on the COCO dataset, which includes 80 categories of objects. Please follow the instructions provided in the previous sections to obtain the model on your workstation. Then, continue with the steps outlined in this document to complete the Python example and verify the inference results.
 
 ### Prerequisites
 
-* The **YOLOv8n** model in TFlite format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
-* A **Evaluation Board (with Mali GPU)** which **ArmNN** Library has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/armnn.html))
+* The **YOLOv8n** model in TFLite format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
+* An **Evaluation Board (Mali GPU)** with **ArmNN** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/armnn.html))
 

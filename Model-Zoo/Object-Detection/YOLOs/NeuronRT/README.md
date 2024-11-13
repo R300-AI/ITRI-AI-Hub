@@ -1,14 +1,14 @@
 # Deploy YOLOs on NeuronRT (Preview)
 
-NeuronRT is an inference engine specifically designed for the MediaTek Genio SoC accelerator (MDLA), offering developers high-performance and low-power deep learning operations. 
+NeuronRT is an inference engine specifically designed for the MediaTek Genio SoC accelerator (MDLA), offering developers high-performance, low-power deep learning operations. 
 
-To illustrate the process of delegating a model from TFLite format to an MDLA binary file (.dla), we will use the pre-built YOLOv8n model by Ultralytics as an example. This model is trained on the COCO dataset, which includes 80 classes of objects, and only support for MDLA 3.0. Follow the instructions provided in the [previous directory](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs) to obtain the model on a workstation. Then, proceed with the steps outlined in this document to complete the conversion process. Finally, verify the accuracy of the inference results using a simple Python example.
+To illustrate the process of delegating a model from TFLite format to an MDLA binary file (.dla), we will use the pre-built YOLOv8n model by Ultralytics as an example. This model is trained on the COCO dataset, which includes 80 classes of objects, and only supports MDLA 3.0. Follow the instructions provided in the [previous directory](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs) to obtain the model on a workstation. Then, proceed with the steps outlined in this document to complete the conversion process. Finally, verify the accuracy of the inference results using a simple Python example.
 
 ### Prerequisites
 
-* The **YOLOv8n** model in TFlite format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
-* **Ubuntu 22.04 LTS x86_64 Workstation** which **NeuronPilot** has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
-* A **Genio-510/700 EVK (MDLA3.0)** board which **NeuronRT** Library has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html))
+* The **YOLOv8n** model in TFLite format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
+* **Ubuntu 22.04 LTS x86_64 Workstation** with **NeuronPilot** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html))
+* A **Genio-510/700 EVK (MDLA3.0)** board with **NeuronRT** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html))
 
 
 ## Training YOLOs and Compile it on Workstation

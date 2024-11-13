@@ -18,17 +18,17 @@ These training sessions were executed on a **CUDA Workstation** equipped with a 
 
 **Step 1**. Follow this [Installation Guideline](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html) to setup CUDA/ROCm for your GPU.
 
-**Step 2**. Create and environment with dependencies on your **Workstation**.
+**Step 2**. Create an environment with dependencies on your **Workstation**.
 
 ```bash
-$ conda create --name ultralytics python=3.11 && source activate ultralytics
+$ conda create --name ultralytics python=3.11 && conda activate ultralytics
 (ultralytics)$ pip install -r requirements.txt
 ```
 
 **Step 3**. Open **Jupyter Notebook** to execute the training and export sessions.
 
 ```bash
-& source activate ultralytics
+& conda activate ultralytics
 (ultralytics)$ jupyter notebook
 ```
 
