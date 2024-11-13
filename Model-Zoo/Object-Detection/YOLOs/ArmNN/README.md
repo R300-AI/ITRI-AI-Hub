@@ -6,6 +6,6 @@ To illustrate how to delegate a model in TFLite format, we will use Ultralytics'
 
 ### Prerequisites
 
-* The **YOLOv8n** model in TFlite format has been exported from [Previous Directory > Benchmarks > Train/Val Accuracy].
+* The **YOLOv8n** model in TFlite format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
 * A **Evaluation Board (with Mali GPU)** which **ArmNN** Library has been installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/armnn.html))
 
