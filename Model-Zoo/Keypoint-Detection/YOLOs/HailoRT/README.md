@@ -1,3 +1,1 @@
-# HailoRT Deployment Option
-## Converter Tool
-## Runtime APIs
+# Run YOLOs on HailoRT
