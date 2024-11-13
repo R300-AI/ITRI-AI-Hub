@@ -1,4 +1,4 @@
-## MediaTek Genios
+# Deploy YOLOs on NeuronRT (Preview)
 
 NeuronRT is an inference engine specifically designed for the MediaTek Genio SoC accelerator (MDLA), offering developers high-performance and low-power deep learning operations. 
 
@@ -10,7 +10,7 @@ To illustrate the process of delegating a model from TFLite format to an MDLA bi
 * A **Genio-510/700 EVK (equipped with MDLA3.0)** board which **NeuronRT** Library has been installed.
 
 
-### Training YOLOs and Compile it on Workstation
+## Training YOLOs and Compile it on Workstation
 
 #### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
@@ -38,7 +38,7 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 ```
 
 
-### Deploy Sample Code and Inference on Genio Boards
+## Deploy Sample Code and Inference on Genio Boards
 
 ```bash
 $ git clone https://github.com/R300-AI/ITRI-AI-Hub.git && cd Model-Zoo/Detection/YOLOs/MediaTek-Genios-Demo

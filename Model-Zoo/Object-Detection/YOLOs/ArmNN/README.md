@@ -1,1 +1,1 @@
-tutorial for run this on board
+# Deploy YOLOs on ArmNN (Preview)
