@@ -1,4 +1,4 @@
-## MediaTek Genios
+# NeuronRT Deployment Option
 
 ### Prerequisites
 
