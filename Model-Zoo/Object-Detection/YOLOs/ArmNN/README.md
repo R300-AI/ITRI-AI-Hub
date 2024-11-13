@@ -7,4 +7,4 @@ To illustrate how to delegate a model in TFLite format, we will use Ultralytics'
 ### Prerequisites
 
 * Exported **YOLOv8n** model in TFlite format ([[Tutorial]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)).
-* A **Genio-510/700/1200 EVK (Mali GPU)** board which **ArmNN** Library has been installed.
+* A **Evaluation Board (with Mali GPU)** which **ArmNN** Library has been installed.
