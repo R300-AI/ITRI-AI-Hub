@@ -1,1 +1,1 @@
-# Run YOLOs on HailoRT
+# Deploy YOLOs on HailoRT
