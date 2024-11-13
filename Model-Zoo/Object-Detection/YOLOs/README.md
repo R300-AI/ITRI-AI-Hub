@@ -16,7 +16,7 @@ For training demonstration purposes, we utilized a small-scale [HardHat](https:/
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
-**Step 1**. Follow this [Installation Guideline](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation/cuda.html) to setup CUDA on your T4 GPU workstation.
+**Step 1**. Follow this [Installation Guideline](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html) to setup CUDA/ROCm for your GPU.
 
 **Step 2**. Create and environment with dependencies on your **Workstation**.
 
