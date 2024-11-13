@@ -22,8 +22,8 @@ These training was executed on a **CUDA** workstation equipped with a T4 GPU. In
 ```bash
 $ conda create --name ultralytics python=3.11
 $ source activate ultralytics
-```bash
 ```
+```bash
 (ultralytics)$ pip install -r requirements.txt
 ```
 
