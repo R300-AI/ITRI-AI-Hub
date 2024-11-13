@@ -12,4 +12,17 @@ To illustrate the process of converting a model from the ONNX format to a Hailo 
 
 ## Convert ONNX to hef on Workstation
 
+```bash
+$ source activate ultralytics
+(ultralytics)$ pip install -r requirements.txt
+```
+```bash
+(ultralytics)& python pruning_onnx.py
+```
+
+```bash
+$ source activate data-compiler
+(data-compiler)& python parsing_har.py
+```
+
 ## Deploy Sample Codes on Board
