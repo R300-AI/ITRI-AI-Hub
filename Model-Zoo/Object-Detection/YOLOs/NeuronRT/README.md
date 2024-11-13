@@ -1,4 +1,4 @@
-# NeuronRT For YOLOs
+# Run YOLOs on NeuronRT
 
 ### Prerequisites
 
