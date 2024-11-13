@@ -19,7 +19,6 @@ $ source activate ultralytics
 ```bash
 (ultralytics)& python pruning_onnx.py
 ```
-
 ```bash
 $ source activate data-compiler
 (data-compiler)& python parsing_har.py
