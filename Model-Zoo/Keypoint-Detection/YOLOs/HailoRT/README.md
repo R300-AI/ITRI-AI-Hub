@@ -15,7 +15,7 @@ To illustrate the process of converting a model from the ONNX format to a Hailo 
 if you do not install ultralytics, please follow the instruction previous directory
 ```bash
 $ source activate ultralytics
-(ultralytics)& python pruning_onnx.py
+(ultralytics)& python pruning_onnx.py --model_name <name_of_onnx_file>
 ```
 ```bash
 $ source activate data-compiler
@@ -25,5 +25,5 @@ $ source activate data-compiler
 ## Deploy Sample Codes on Board
 ```bash
 $ source activate hailort
-(hailort)& python demo_hef.py
+(hailort)& python run_hailo.py
 ```
