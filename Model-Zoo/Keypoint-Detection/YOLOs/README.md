@@ -5,8 +5,7 @@ The YOLO family of models referenced in this guide is provided by Ultralytics. T
 # Benchmarks
 ## Train/Val Accuracy
 
-
-For training demonstration purposes, we utilized a small-scale [HardHat-Pose](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/datasets/HardHat_Pose_Dataset.YOLO.zip) dataset, which includes 1 class: person with 17 body keypoints. This dataset consists of a total of 100 samples, partitioned into 70 for training, 20 for testing, and 10 for validation. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+For training demonstrations, we use a small open-source dataset of COCO8-pose, Tiger-pose, and Hand-Keypoints that show how to tune different application types. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
