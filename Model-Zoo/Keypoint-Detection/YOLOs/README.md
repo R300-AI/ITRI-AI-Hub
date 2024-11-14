@@ -27,7 +27,7 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 **Step 3**. Open **Jupyter Notebook** to execute the training and export sessions.
 
 ```bash
-& source activate ultralytics
+& conda activate ultralytics
 (ultralytics)$ jupyter notebook
 ```
 
