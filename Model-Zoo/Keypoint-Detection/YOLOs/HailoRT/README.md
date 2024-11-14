@@ -25,5 +25,5 @@ $ source activate data-compiler
 ## Deploy Sample Codes on Board
 ```bash
 $ source activate hailort
-(hailort)& python demo_hef.py
+(hailort)& python run_hailo.py
 ```
