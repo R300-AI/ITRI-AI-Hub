@@ -5,7 +5,7 @@ The YOLO family of models referenced in this guide is provided by Ultralytics. T
 # Benchmarks
 ## Train/Val Accuracy
 
-or the training demonstration, we used open-source datasets such as COCO8-pose, Tiger-pose, and Hand-Keypoints, all of which can be automatically downloaded via the Ultralytics API, and showed how they can be adapted to different application types. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+For the training demonstration, we used open-source datasets such as COCO8-pose, Tiger-pose, and Hand-Keypoints, all of which can be automatically downloaded via the Ultralytics API, and showed how they can be adapted to different application types. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
