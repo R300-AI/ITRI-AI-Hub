@@ -11,7 +11,7 @@ To illustrate the process of delegating a model from TFLite format to an MDLA bi
 * A **Genio-510/700 EVK (MDLA3.0)** board with **NeuronRT** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/neuronrt.html))
 
 
-## Training YOLOs and Compile it on Workstation
+## Convert TFLite to DLA on Workstation
 
 #### Step 1: Environment Setup
 To set up the environment and prepare for model training, execute the following commands:
@@ -39,7 +39,7 @@ $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32
 ```
 
 
-## Deploy Sample Code and Inference on Genio Boards
+## Deploy Sample Codes on Board
 
 ```bash
 $ git clone https://github.com/R300-AI/ITRI-AI-Hub.git && cd Model-Zoo/Detection/YOLOs/MediaTek-Genios-Demo
