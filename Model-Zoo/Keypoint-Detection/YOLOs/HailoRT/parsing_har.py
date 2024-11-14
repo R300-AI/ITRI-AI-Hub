@@ -1,8 +1,13 @@
 from hailo_sdk_client import ClientRunner
 import numpy as np
-import onnx, subprocess
+import onnx, subprocess, argparse
 
-model_name = 'yolov8n-pose'
+parser = argparse.ArgumentParser()
+parser.add_argument("-n", "--model_name", default='yolov8n-pose', type=str, help=".")
+args = parser.parse_args()
+
+model_name = args.model_name
+
 calibration_size = 100
 onnx_model = onnx.load(f'{model_name}_front.onnx')
 input_names = {input.name: tuple([i.dim_value for i in input.type.tensor_type.shape.dim]) for input in onnx_model.graph.input}

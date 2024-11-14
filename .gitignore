@@ -16,3 +16,5 @@ Model-Zoo/Keypoint-Detection/YOLOs/HailoRT/.ipynb_checkpoints/Pruning_ONNX-check
 *.hef
 *.onnx
 *.html
+*.onnx
+*.log

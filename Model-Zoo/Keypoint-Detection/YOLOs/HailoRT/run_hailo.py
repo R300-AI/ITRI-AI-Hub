@@ -1,15 +1,18 @@
+############[Setup Hailo APIs]##############
 from hailo_platform import (HEF, ConfigureParams, FormatType, HailoSchedulingAlgorithm, HailoStreamInterface,
                             InferVStreams, InputVStreamParams, InputVStreams, OutputVStreamParams, OutputVStreams,
                             VDevice)
-import numpy as np
 import onnxruntime as ort
-############[Setup]##############
-front_model_path = 'yolov8n-pose.hef'
-rear_model_path = 'yolov8n-pose_rear.onnx'
+import numpy as np
+import argparse
 
-############[Config]##############
-session = ort.InferenceSession(rear_model_path)
-hef = HEF('yolov8n-pose.hef')
+parser = argparse.ArgumentParser()
+parser.add_argument("-n", "--model_name", default='yolov8n-pose', type=str, help=".")
+args = parser.parse_args()
+
+model_name = args.model_name
+session = ort.InferenceSession(f'{model_name}_end.onnx')
+hef = HEF(f'{model_name}.hef')
 params = VDevice.create_params()
 params.scheduling_algorithm = HailoSchedulingAlgorithm.NONE
 target = VDevice(params=params)
@@ -29,7 +32,6 @@ for inputs_detail in output_vstream_info:
         if i.shape == [1, channels, image_height, image_width]:
             name_space[inputs_detail.name] = i.name
             
-############[Main]##############
 def inference(input_data):
     with InferVStreams(network_group, input_vstreams_params, output_vstreams_params) as infer_pipeline:
         with network_group.activate(network_group_params):
@@ -39,6 +41,7 @@ def inference(input_data):
     results = session.run(output_details, inputs)
     return results[0]
 
+############[Main]##############
 from utils import preprocess, postprocess, plot
 import cv2
 
