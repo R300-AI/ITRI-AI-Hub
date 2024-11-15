@@ -57,5 +57,8 @@ preds = inference(im)
 results = postprocess(preds)
 print(results[0])
 
+single_power_measurement = target.control.power_measurement()
+print('Power from single measurement: {} W'.format(single_power_measurement))
+
 cv2.imshow('hef results', plot(frame.copy(), results[0].copy(), connections))
 cv2.waitKey(0)
