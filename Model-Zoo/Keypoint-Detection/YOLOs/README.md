@@ -9,8 +9,8 @@ In the training demonstration, we can 00utilized open-source datasets such as CO
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
-| YOLOv8n-pose    | 0.073                          | 0.92          | 0.78             | 0.86          | 0.70              |
-| YOLO11n-pose    | 0.074                          | 0.91          | 0.78             | 0.88          | 0.70              |
+| YOLOv8n-pose    | 0.030                           | 0.95          | 0.67             | 0.54          | 0.35              |
+| YOLO11n-pose    | 0.029                           | 0.91          | 0.71             | 0.72          | 0.36              |
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
