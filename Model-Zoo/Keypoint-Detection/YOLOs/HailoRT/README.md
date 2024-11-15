@@ -22,7 +22,7 @@ $ source activate data-compiler
 (data-compiler)& python parsing_har.py
 ```
 
-## Deploy Sample Codes on Board
+## Deploy Sample Codes on Evaluation Board
 ```bash
 $ source activate hailort
 (hailort)& python run_hailo.py
