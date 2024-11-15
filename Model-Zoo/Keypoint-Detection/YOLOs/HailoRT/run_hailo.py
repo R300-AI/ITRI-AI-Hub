@@ -54,6 +54,6 @@ with InferVStreams(network_group, input_vstreams_params, output_vstreams_params)
         results = postprocess(results[0])
 
         single_power_measurement = device_info.control.power_measurement()
-        frame = cv2.putText(frame, 'Power (Hailo-8): {} W'.format(single_power_measurement), (0, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+        frame = cv2.putText(frame, 'Power (Hailo-8): {} W'.format(round(single_power_measurement, 2)), (0, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
         cv2.imshow('hef results', plot(frame, results[0], connections))
         cv2.waitKey(0)
