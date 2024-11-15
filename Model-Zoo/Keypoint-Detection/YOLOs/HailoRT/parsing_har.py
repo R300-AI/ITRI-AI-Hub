@@ -1,4 +1,5 @@
 from hailo_sdk_client import ClientRunner
+from utils import preprocess
 import numpy as np
 import onnx, subprocess, argparse
 
@@ -8,7 +9,7 @@ args = parser.parse_args()
 
 model_name = args.model_name
 
-calibration_size = 100
+calibration_size = 1024
 onnx_model = onnx.load(f'{model_name}_front.onnx')
 input_names = {input.name: tuple([i.dim_value for i in input.type.tensor_type.shape.dim]) for input in onnx_model.graph.input}
 output_names = {output.name: tuple([i.dim_value for i in output.type.tensor_type.shape.dim]) for output in onnx_model.graph.output}
@@ -19,12 +20,20 @@ hn, npz = runner.translate_onnx_model(f'./{model_name}_front.onnx', model_name,
                                     end_node_names=list(output_names.keys()),
                                     net_input_shapes=list(input_names.values()))
 
+samples = np.random.randint(0, 255, (calibration_size, 640, 640, 3)).astype(np.float32)
+calib_dataset = preprocess(samples)
 
-calib_dataset = np.random.randint(0, 1, (calibration_size, 640, 640, 3)).astype(np.uint8)
+model_script_commands = [
+    f'model_optimization_config(calibration, calibset_size={calibration_size})\n',
+    'model_optimization_flavor(optimization_level=0, quantization_bits=32)\n',
+]
+runner.load_model_script(''.join(model_script_commands))
 runner.optimize(calib_dataset)
+
 hef = runner.compile()
 
 with open(f'{model_name}.hef', 'wb') as f:
     f.write(hef)
 runner.save_har(f'{model_name}.har')
+
 subprocess.run(["hailo", "profiler", f'{model_name}.har']) 
