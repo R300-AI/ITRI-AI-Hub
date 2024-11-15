@@ -1,7 +1,7 @@
 ############[Setup Hailo APIs]##############
 from hailo_platform import (HEF, ConfigureParams, FormatType, HailoSchedulingAlgorithm, HailoStreamInterface,
                             InferVStreams, InputVStreamParams, InputVStreams, OutputVStreamParams, OutputVStreams,
-                            VDevice)
+                            VDevice, Device)
 import onnxruntime as ort
 import numpy as np
 import argparse
@@ -31,7 +31,7 @@ for inputs_detail in output_vstream_info:
     for i in session.get_inputs():
         if i.shape == [1, channels, image_height, image_width]:
             name_space[inputs_detail.name] = i.name
-
+device_info = Device()
 ############[Main]##############
 from utils import preprocess, postprocess, plot
 import cv2
@@ -52,10 +52,8 @@ with InferVStreams(network_group, input_vstreams_params, output_vstreams_params)
 
         #---------------------
         results = postprocess(results[0])
-        print(results[0])
 
-        single_power_measurement = target.control.power_measurement()
-        print('Power from single measurement: {} W'.format(single_power_measurement))
-
-        cv2.imshow('hef results', plot(frame.copy(), results[0].copy(), connections))
+        single_power_measurement = device_info.control.power_measurement()
+        frame = cv2.putText(frame, 'Power (Hailo-8): {} W'.format(single_power_measurement), (0, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+        cv2.imshow('hef results', plot(frame, results[0], connections))
         cv2.waitKey(0)
