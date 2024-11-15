@@ -38,7 +38,10 @@ Download the Data Compiler 3.27.0 from [HERE](https://itriaihub.blob.core.window
 $ sudo apt-get install -y graphviz-dev
 $ pip install hailo_dataflow_compiler-3.27.0-py3-none-linux_x86_64.whl
 
-$ pip install --extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-cuda110 nvidia-dali-tf-plugin-cuda110   #optional for accelerate process
+# $ pip install --extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-cuda110 nvidia-dali-tf-plugin-cuda110   #optional for accelerate process
+$ pip install nvidia-pyindex
+$ pip install nvidia-dali
+$
 ```
 
 ### Step 4: Verify Installation
