@@ -37,7 +37,7 @@ $ conda activate ultralytics
 
 **Deployment Template**: [[HailoRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs/HailoRT)
 
-| Model               | Genio510<br><sub>Mali GPU | Genio510<br><sub>Hailo-8 | Genio700<br><sub>Mali GPU | Genio700<br><sub>Hailo-8 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>Hailo-8 |
+| Model(Chipset)               | Genio510<br><sub>Mali GPU | Genio510<br><sub>Hailo-8 | Genio700<br><sub>Mali GPU | Genio700<br><sub>Hailo-8 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>Hailo-8 |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
 | YOLOv8n-pose<sub> (fp16) |                       |                       |                       |                       |                        |                     |
 | YOLOv8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |                     |
