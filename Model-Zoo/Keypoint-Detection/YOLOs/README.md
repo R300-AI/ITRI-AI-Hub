@@ -5,7 +5,7 @@ The YOLO family of models referenced in this guide is provided by Ultralytics. T
 # Benchmarks
 ## Train/Val Accuracy
 
-For the training demonstration, we used open-source datasets such as COCO8-pose, Tiger-pose, and Hand-Keypoints, all of which can be automatically downloaded via the Ultralytics API, and showed how they can be adapted to different application types. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+In the training demonstration, we can 00utilized open-source datasets such as COCO8-pose, Tiger-pose, and Hand-Keypoints. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Tutorial 1]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb). The following metrics are from previous benchmarks, measured based on COCO8-pose. The metrics include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50(B)     |  mAP<sub>50-95(B)     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     |
 |------------|--------------------------------|--------------------------|-----------------------------|--------------------------|-----------------------------|
@@ -30,8 +30,8 @@ $ conda activate ultralytics
 (ultralytics)$ jupyter notebook
 ```
 
-* [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
-* [Tutorial" How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
+* [Tutorial 1: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
+* [Tutorial 2: How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
 ## Inference Speed 
 
