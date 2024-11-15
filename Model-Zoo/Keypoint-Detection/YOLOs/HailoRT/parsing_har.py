@@ -25,7 +25,7 @@ calib_dataset = preprocess(samples)
 
 model_script_commands = [
     f'model_optimization_config(calibration, calibset_size={calibration_size})\n',
-    'model_optimization_flavor(optimization_level=0, quantization_bits=32)\n',
+    'model_optimization_flavor(optimization_level=0)\n',
 ]
 runner.load_model_script(''.join(model_script_commands))
 runner.optimize(calib_dataset)
