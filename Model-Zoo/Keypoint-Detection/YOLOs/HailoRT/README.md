@@ -15,12 +15,12 @@ This document will guide you through this process and successfully recognize an 
 
 ## Convert ONNX to hef on Workstation
 
-Please follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to create `ultralytics` environment
+Pruning the model into accelerable and non-acceleratable parts through ONNX. .if you don't have `ultralytics` environment, follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to build it
 ```bash
 $ source activate ultralytics
 (ultralytics)& python pruning_onnx.py --model_name <name_of_onnx_file>
 ```
-
+Parsing the model and moving the hef file with this catalogue to the evaluation board.
 ```bash
 $ source activate data-compiler
 (data-compiler)& python parsing_har.py
