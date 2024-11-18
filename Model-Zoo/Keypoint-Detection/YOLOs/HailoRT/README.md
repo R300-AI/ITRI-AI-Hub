@@ -15,18 +15,25 @@ This document will guide you through this process and successfully recognize an 
 
 ## Convert ONNX to hef on Workstation
 
-if you do not install ultralytics, please follow the instruction previous directory
-```bash
-$ source activate ultralytics
-(ultralytics)& python pruning_onnx.py --model_name <name_of_onnx_file>
-```
-```bash
-$ source activate data-compiler
-(data-compiler)& python parsing_har.py
-```
+* Pruning the model into accelerable and non-acceleratable parts through ONNX. .if you don't have `ultralytics` environment, please follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to build it.
+  ```bash
+  $ source activate ultralytics
+  (ultralytics)& python pruning_onnx.py --model_name <model_name>
+  ```
+* Parse the front-end acceleratable model , and move this directory with the `.hef` (front) model and `.onnx` (end) model to the evaluation board.
+  ```bash
+  $ source activate data-compiler
+  (data-compiler)& python parsing_har.py --model_name <model_name>
+  ```
 
 ## Deploy Sample Codes on Evaluation Board
+* Before you start running the demo, we recommend you to maximise the **CPU Frequency Setting** tool (e.g. [cpupower-gui](https://launchpad.net/ubuntu/+source/cpupower-gui)) to ensure Hailo is running correctly.
+<div align="center">
+  <img src="https://github.com/R300-AI/CES-Badminton-Trainer/blob/main/assets/demo-field.png" width="600"/>
+</div>
+* 
+* 
 ```bash
 $ source activate hailort
-(hailort)& python run_hailo.py
+(hailort)& python run_hailo.py --model_name <model_name>
 ```
