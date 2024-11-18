@@ -16,7 +16,8 @@ This document will guide you through this process and successfully recognize an 
 ## Convert ONNX to hef on Workstation
 
 * If you need to customise a paragraph for acceleration, you can use [Netron](https://netron.app/) to view the workflow of the model and fill in the desired `<model_name>` and corresponding `<end_nodes>` into `./config.yaml` file to complete the initial setup.
-  > **Note**: *Reshape* is only supported between the Conv and Dense layers, and is not supported for use in the final stage. in which case we recommended that you specify the area in the red box below as the <end_nodes> to avoid errors.
+  > **Note**:
+  > *Reshape* is only supported between the Conv and Dense layers, and is not supported for use in the final stage. in which case we recommended that you specify the area in the red box below as the <end_nodes> to avoid errors.
 
 <div align="center">
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/end_node.png" width="900"/>
