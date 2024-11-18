@@ -33,7 +33,7 @@ $ cd opencv-4.10.0
 $ patch -p1 </path/to/kleidicv/adapters/opencv/opencv-4.10>.patch
 ```
 ```bash
-$ https://git.gitlab.arm.com/kleidi/kleidicv.git
+$ cd && git clone https://git.gitlab.arm.com/kleidi/kleidicv.git
 $ cmake -S </path/to/opencv> -B build-opencv-linux -DWITH_KLEIDICV=ON -DKLEIDICV_SOURCE_PATH=</path/to/kleidicv>
 $ cmake --build build-opencv-linux --parallel
 ```
