@@ -21,7 +21,7 @@ This document will guide you through this process and successfully recognize an 
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/end_node.png" width="900"/>
 </div>
 
-> Although Reshape itself is supported, the Hailo Dataflow Compiler User Guide states "Between Conv and Dense layers (in both directions)", and its use in the final stage above is not supported. In this case, an error will occur, but you can avoid the error by specifying the area enclosed in the red frame above as the end_node.
+  > Although Reshape itself is supported, the Hailo Dataflow Compiler User Guide states "Between Conv and Dense layers (in both directions)", and its use in the final stage above is not supported. In this case, an error will occur, but you can avoid the error by specifying the area enclosed in the red frame above as the end_node.
 
 * Pruning the model into accelerable and non-acceleratable parts through ONNX. .if you don't have `ultralytics` environment, please follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to build it.
   ```bash
@@ -42,7 +42,6 @@ This document will guide you through this process and successfully recognize an 
 </div>
 
 * Run
-* 
 ```bash
 $ source activate hailort
 (hailort)& python run_hailo.py --model_name <model_name>
