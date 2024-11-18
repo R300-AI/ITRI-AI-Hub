@@ -45,7 +45,7 @@ This document will guide you through this process and successfully recognize an 
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/cpu-frequency-setting.png" width="600"/>
 </div>
 
-* Run
+* Run these commands to start detect keypoints to `./grace_hopper.jpg`.
 ```bash
 $ source activate hailort
 (hailort)& python run_hailo.py --model_name <model_name>
