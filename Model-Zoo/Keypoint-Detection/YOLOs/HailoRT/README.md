@@ -15,13 +15,12 @@ This document will guide you through this process and successfully recognize an 
 
 ## Convert ONNX to hef on Workstation
 
-* Using [Netron](https://netron.app/) to 
+* Using [Netron](https://netron.app/) to view the model's computational flow and determine the Hailo acceleration
+  > **Note**: *Reshape* is only supported for use ‘between the Conv and Dense layers’ and is not supported for use in the final stage, in which case it is recommended that you specify the area in the red box below as the end_node to avoid errors.
 
 <div align="center">
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/end_node.png" width="900"/>
 </div>
-
-  > Although Reshape itself is supported, the Hailo Dataflow Compiler User Guide states "Between Conv and Dense layers (in both directions)", and its use in the final stage above is not supported. In this case, an error will occur, but you can avoid the error by specifying the area enclosed in the red frame above as the end_node.
 
 * Pruning the model into accelerable and non-acceleratable parts through ONNX. .if you don't have `ultralytics` environment, please follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to build it.
   ```bash
