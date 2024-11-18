@@ -13,11 +13,12 @@ labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5
 
 model_name = 'yolo11n'
 img = cv2.imread('./bus.jpg')
-
 delegated_model = YOLOs(model_path=f'./{model_name}.onnx')
+
 t = time.time()
-for _ in range(10):
-  results = delegated_model.predict([img], conf=0.25, iou=0.7, agnostic=False, max_det=300)
-print('Average Speed:', (time.time() - t) * 100, 'ms')
+for _ in range(32):
+    results = delegated_model.predict([img], conf=0.25, iou=0.7, agnostic=False, max_det=300)\
+    
+print('Average Speed:', (time.time() - t) * 1000 / 32, 'ms')
 plt.imshow(plot(img, results[0].copy(), labels)[:, :, ::-1])
 plt.show()
