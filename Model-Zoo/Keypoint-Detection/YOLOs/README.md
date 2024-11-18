@@ -40,6 +40,5 @@ $ conda activate ultralytics
 | Model/Chipset               | Genio510<br><sub>Mali GPU | Genio510<br><sub>Hailo-8 | Genio700<br><sub>Mali GPU | Genio700<br><sub>Hailo-8 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>Hailo-8 |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
 | YOLOv8n-pose<sub> (fp16) |                       |                       |                       |                       |                        |                     |
-| YOLOv8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |                     |
-| YOLO11n-pose<sub> (fp16) |                       |                       |                       |                       |                        |                     |
-| YOLO11n-pose<sub> (fp32) |                       |                       |                       |                       |                        |                     |
+| YOLOv8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |          42         |
+
