@@ -15,15 +15,15 @@ This document will guide you through this process and successfully recognize an 
 
 ## Convert ONNX to hef on Workstation
 
-* If you need to customise a paragraph for acceleration, you can use [Netron](https://netron.app/) to view the workflow of the model and fill in the desired `<model_name>` and corresponding `<end_nodes>` into `./config.yaml` file to complete the initial setup.
-  > 
-  > **Note**:<br>
-  >
-  > *Reshape* is only supported between the Conv and Dense layers, and is not supported for use in the final stage. in which case we recommended that you specify the area in the red box below as the <end_nodes> to avoid errors.
+* If you need to customise a paragraph for acceleration, you can use [Netron](https://netron.app/) to view the workflow of the model, and fill in the desired `<model_name>` and corresponding `<end_nodes>` into `./config.yaml` file to complete the initial setup.
 
 <div align="center">
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/end_node.png" width="900"/>
 </div>
+
+  > **Note**:<br>
+  >
+  > *Reshape* is only supported between the Conv and Dense layers, and is not supported for use in the final stage. in which case we recommended that you specify the area in the red box above as the <end_nodes> to avoid errors.
 
 * Pruning the model into accelerable and non-acceleratable parts through ONNX. .if you don't have `ultralytics` environment, please follow the instruction [previous](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs) directory to build it.
   ```bash
