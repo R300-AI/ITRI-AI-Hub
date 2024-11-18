@@ -182,12 +182,14 @@ def non_max_suppression(boxes, scores, iou_threshold):
 
 def plot(image, results, connections, visible = 0.1):
     for bboxes in results:
-      x1, y1, x2, y2 = int(bboxes[0]), int(bboxes[1]), int(bboxes[2]), int(bboxes[3])
+      x1, y1, x2, y2 = int(bboxes[0] * image.shape[1] / 640), int(bboxes[1] * image.shape[0] / 640), int(bboxes[2] * image.shape[1] / 640), int(bboxes[3] * image.shape[0] / 640)
       conf, cls = bboxes[4] , bboxes[5]
       cv2.rectangle(image, (x1, y1), (x2, y2), color=(0, 255, 0), thickness=3)
       cv2.putText(image, f'instance {conf:.2f}', (x1, y1 - 2), 0, 1, [0, 255, 0], thickness=2, lineType=cv2.LINE_AA)
 
       keypoints = bboxes[6:].reshape(-1, 3)
+      keypoints[:, 0] *=  image.shape[1] / 640
+      keypoints[:, 1] *=  image.shape[0] / 640
       for i in range(len(keypoints)):
         if keypoints[i][2] > visible:
           cv2.circle(image, (int(keypoints[i][0]), int(keypoints[i][1])), 5, (0, 255, 0), -1)

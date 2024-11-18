@@ -9,7 +9,7 @@ This document will guide you through this process and successfully recognize an 
 
 ### Prerequisites
 
-* The **YOLOv8n-pose** model in ONNX format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs).
+* The **YOLOv8n-pose** model in ONNX(`opset=11`) format has been exported by Ultralytics.
 * **Ubuntu 22.04 LTS x86_64 Workstation** with **Data-Compiler** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/data-compiler.html))
 * A **Evaluation Board (Hailo-8 M.2 expansion)** with **HailoRT** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/hailort.html))
 
@@ -25,7 +25,7 @@ $ source activate data-compiler
 (data-compiler)& python parsing_har.py
 ```
 
-## Deploy Sample Codes on Board
+## Deploy Sample Codes on Evaluation Board
 ```bash
 $ source activate hailort
 (hailort)& python run_hailo.py
