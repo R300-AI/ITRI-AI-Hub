@@ -20,7 +20,7 @@ Pruning the model into accelerable and non-acceleratable parts through ONNX. .if
 $ source activate ultralytics
 (ultralytics)& python pruning_onnx.py --model_name <name_of_onnx_file>
 ```
-Parsing the model, and move this directory with the hef model to the evaluation board.
+Parse the front-end acceleratable model , and move this directory with the hef model to the evaluation board.
 ```bash
 $ source activate data-compiler
 (data-compiler)& python parsing_har.py
