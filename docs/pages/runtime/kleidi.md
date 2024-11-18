@@ -40,6 +40,5 @@ $ cmake --build build-opencv-linux --parallel
 
 ## Appendix
 
-* [Arm blog: KleidiAI Helping AI frameworks elevate their performance on Arm CPUs](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/kleidiai)
 * [KleidiAI Gitlab - micro-kernels for Arm® CPUs](https://gitlab.arm.com/kleidi/kleidiai)
 * [KleidiCV Gitlab - micro-kernels for Arm® GPUs](https://gitlab.arm.com/kleidi/kleidicv)
