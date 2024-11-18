@@ -20,6 +20,10 @@ This document will guide you through this process and successfully recognize an 
   $ source activate ultralytics
   (ultralytics)& python pruning_onnx.py --model_name <model_name>
   ```
+<div align="center">
+  <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/end_node.png" width="600"/>
+</div>
+  
 * Parse the front-end acceleratable model , and move this directory with the `.hef` (front) model and `.onnx` (end) model to the evaluation board.
   ```bash
   $ source activate data-compiler
