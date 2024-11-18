@@ -7,6 +7,9 @@ class YOLOs():
         self.session = ort.InferenceSession(model_path)
         self.input_details  = [i for i in self.session.get_inputs()]
         self.output_details = [i.name for i in self.session.get_outputs()]
+        self.io = self.session.io_binding()
+        self.io.bind_output(self.output_details[0])
+        
         self.X_axis = [0, 2] + [5 + i * 3 for i in range(num_of_keypoints)]
         self.y_axis = [1, 3] + [6 + i * 3 for i in range(num_of_keypoints)]
         self.nc = nc
@@ -40,9 +43,9 @@ class YOLOs():
         return [x[i[:max_det]]]
 
     def inference(self, im):
-        inputs = {key.name: value for key, value in zip(self.input_details, [im])}
-        preds = self.session.run(self.output_details, inputs)[0]
-        return preds
+        self.io.bind_cpu_input(self.input_details[0].name, im)
+        self.session.run_with_iobinding(self.io)
+        return self.io.copy_outputs_to_cpu()[0]
 
     def preprocess(self, im):
         im = np.stack(self.pre_transform(im))
