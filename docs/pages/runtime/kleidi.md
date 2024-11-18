@@ -31,9 +31,13 @@ $ wget https://github.com/opencv/opencv/archive/refs/tags/4.10.0.tar.gz
 $ tar xf 4.10.0.tar.gz
 $ cd opencv-4.10.0
 $ patch -p1 </path/to/kleidicv/adapters/opencv/opencv-4.10>.patch
+```
+```bash
+$ https://git.gitlab.arm.com/kleidi/kleidicv.git
 $ cmake -S </path/to/opencv> -B build-opencv-linux -DWITH_KLEIDICV=ON -DKLEIDICV_SOURCE_PATH=</path/to/kleidicv>
 $ cmake --build build-opencv-linux --parallel
 ```
+
 ## Appendix
 
 * [Arm blog: KleidiAI Helping AI frameworks elevate their performance on Arm CPUs](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/kleidiai)
