@@ -1,4 +1,4 @@
-# Deploy YOLOs on ArmNN (Preview)
+# Deploy YOLOs on Kleidi AI (Preview)
 
 ArmNN is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
 
