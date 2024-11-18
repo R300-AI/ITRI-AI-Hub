@@ -31,7 +31,8 @@ This document will guide you through this process and successfully recognize an 
 <div align="center">
   <img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/cpu-frequency-setting.png" width="600"/>
 </div>
-* 
+
+* Run
 * 
 ```bash
 $ source activate hailort
