@@ -27,6 +27,7 @@ $ source activate data-compiler
 ```
 
 ## Deploy Sample Codes on Evaluation Board
+Before starting, we recommend you to unlock the **CPU Frequency Setting (Maximum)** to ensure the correct Hailo result.
 ```bash
 $ source activate hailort
 (hailort)& python run_hailo.py --model_name <model_name>
