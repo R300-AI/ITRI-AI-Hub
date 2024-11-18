@@ -2,7 +2,10 @@
 
 HailoRT is an inference engine designed specifically for the Hailo expansion accelerator, providing developers with high-performance, low-power deep learning operations.
 
-To illustrate the process of converting a model from the ONNX format to a Hailo binary file (.hef), we will use the pre-built YOLOv8n-pose model from Ultralytics as an example. The model is trained on the COCO-Pose dataset, which contains 1 class of people with 17 keypoints. Please follow the instructions provided in the previous sections to obtain the model on your workstation, then proceed with the steps outlined in this document to complete the conversion process. Finally, use a simple Python example to verify the accuracy of the inference results.
+Currently, we only support the YOLOv8 series Pose (Keypoints) models on Hailo-8. Before deployment, we need to export the PyTorch model to an ONNX file with `opset=11`, and then use the Data-Compiler to quantize and calibrate the model into a Hailo binary file (.hef). During this process, you will also need to extract a portion of images from your training dataset as calibration samples to prevent accuracy degradation due to quantization.
+
+This document will guide you through this process and successfully recognize an image on Hailo-8. Please follow the instructions provided in the previous sections to obtain the Ultralytics pre-trained PyTorch model (`yolov8n-pose.pt`) on the COCO-pose dataset, which contains 1 class of people with 17 keypoints, and then proceed with the steps outlined in this document to complete the task.
+
 
 ### Prerequisites
 
