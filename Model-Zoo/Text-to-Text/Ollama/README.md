@@ -8,7 +8,7 @@
 
 
 ```
-ollama run smollm:135m "def print_hello_world():" --verbose
+ollama run smollm2:135m "Gravity is" --verbose
 ollama run qwen2.5:0.5b "Give me a short introduction to large language model." --verbose
 ollama run llama3.2:1b "The key to life is" --verbose
 ```
