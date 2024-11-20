@@ -2,7 +2,8 @@
 
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
-The [**Deep Learning for Developers**](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/docs/Deep_Learning_for_Developers) curriculum provides a comprehensive introduction to the AI model development process and basic methods. You can quickly develop a custom AI model by following the step-by-step instructions in each lesson.
+
+The ITRI-AI-Hub provides developers with guidelines for deploying AI models on cutting-edge processors. You can select the appropriate backbone model and hardware core based on the pre-validated systems and procedures in Model Zoo, which will help progress the implementation of application concepts.
 
 * **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
