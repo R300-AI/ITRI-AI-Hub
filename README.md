@@ -6,7 +6,7 @@ The [**Deep Learning for Developers**](https://github.com/R300-AI/ITRI-AI-Hub/tr
 
 * **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
-* **Natural Language Processing**: 
+* **Natural Language Processing**: [[Iamge-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**: 
 
 If you are already familiar with development frameworks and processes for deep learning such as PyTorch, Tensorflow, etc., we also recommend using the [model_zoo_library](https://github.com/R300-AI/model_zoo_library) repository to test the desired application configuration.
