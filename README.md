@@ -12,7 +12,7 @@ The officially supported and previewed options are categorized as follows:
 * **Natural Language Processing**: [[Iamge-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**:
 
-If you have compatible hardware, follow the step-by-step instructions in the Developer Zone to configure your system environment and test the results. The Developer Zone provides detailed guidance on setting up your environment, and corresponding implementation examples can be found in the Model Zoo, helping you understand how to apply these models to your specific use cases.
+If you have compatible hardware, follow the step-by-step instructions in the Developer Zone to configure your system environment and test the results. The [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/) provides detailed guidance on setting up your environment, and corresponding implementation examples can be found in the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo), helping you understand how to apply these models to your specific use cases.
 
 ## <div align="center">News</div>
 
