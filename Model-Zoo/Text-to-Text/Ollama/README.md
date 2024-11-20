@@ -4,7 +4,7 @@
 |------------|-------------|-----------------|--------------------|
 | [SmolLM2](https://ollama.com/library/smollm2:135m)    |270 MB       |4.64             |               |
 | [Qwen2.5](https://ollama.com/library/qwen2.5:0.5b)    |397 MB       |2.83             |               |
-| [Llama 3.2](https://ollama.com/library/llama3.2)      |1.3 MB       |6.09             |               |
+| [Llama 3.2](https://ollama.com/library/llama3.2)      |1.3 MB       |6.09, 3.75             |               |
 
 
 ```bash
@@ -21,5 +21,4 @@ ollama run qwen2.5:0.5b "Give me a short introduction to large language model." 
 ollama run llama3.2:1b "The key to life is" --verbose
 
 # >> It sounds like you're about to share something interesting. The phrase "The key to life" can refer to various things, and I'm curious - what are your thoughts on it? Are you looking for inspiration, wisdom, or perhaps a specific insight that will help guide you through life's journey?
-
 ```
