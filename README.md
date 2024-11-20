@@ -9,7 +9,7 @@ The ITRI-AI-Hub provides developers with a guide to deploying AI models on cutti
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
 * **Natural Language Processing**: [[Iamge-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**:
-* 
+
 If you have a compatible hardware system at your side, you can also configure the execution environment by Following the step-by-step instructions in the [Developer's Zone](https://r300-ai.github.io/ITRI-AI-Hub/).
 
 ## <div align="center">News</div>
