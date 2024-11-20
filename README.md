@@ -3,14 +3,16 @@
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
 
-The ITRI-AI-Hub provides developers with a guide to deploying AI models on cutting-edge processors. You can select the appropriate backbone model and hardware core based on the pre-validated systems and procedures in Model Zoo, which will help advance the application concept. Currently, officially supported and previewed options in Model Zoo include the following categories:
+The ITRI AI Hub offers developers a detailed guide for deploying AI models on advanced processors. This guide helps you choose the appropriate backbone model and hardware core based on pre-validated systems and procedures available in the Model Zoo.
+
+The officially supported and previewed options in the Model Zoo are categorized as follows:
 
 * **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
 * **Natural Language Processing**: [[Iamge-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**:
 
-If there is a compatible hardware at your side, you can follow the step-by-step instructions in the Developer Zone to configure the system environment in order to test the results for yourself, and the corresponding implementation examples can be found in Model Zoo.
+If you have compatible hardware, follow the step-by-step instructions in the Developer Zone to configure your system environment and test the results. The Developer Zone provides detailed guidance on setting up your environment, and corresponding implementation examples can be found in the Model Zoo, helping you understand how to apply these models to your specific use cases.
 
 ## <div align="center">News</div>
 
