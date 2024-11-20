@@ -4,10 +4,10 @@
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
 The [**Deep Learning for Developers**](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/docs/Deep_Learning_for_Developers) curriculum provides a comprehensive introduction to the AI model development process and basic methods. You can quickly develop a custom AI model by following the step-by-step instructions in each lesson.
 
-* **Computer Vision**: *[[Classification]]() [[Detection]]() [[Segmentation]]()*
-* **Voices & Signals**
-* **Natural Language Processing**: *[[Text-to-Text]]() [[Iamge-Text-to-Text]]()*
-* **Recommender Systems**: *[[Optimization]]() [[System Control]]() [[Tool Chain]]()*
+* **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
+* **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
+* **Natural Language Processing**: 
+* **Recommender Systems**: 
 
 If you are already familiar with development frameworks and processes for deep learning such as PyTorch, Tensorflow, etc., we also recommend using the [model_zoo_library](https://github.com/R300-AI/model_zoo_library) repository to test the desired application configuration.
 
