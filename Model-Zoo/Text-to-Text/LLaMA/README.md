@@ -1,4 +1,4 @@
-### AMD: qwen2:0.5b = 177.42 tokens/s
+### AMD: llama3.2:1b = 181.42 tokens/s
 
 
 ```
