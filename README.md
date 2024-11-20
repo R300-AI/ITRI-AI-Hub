@@ -5,7 +5,7 @@
 
 The ITRI AI Hub offers developers a detailed guide for deploying AI models on advanced processors. This guide helps you choose the appropriate backbone model and hardware core based on pre-validated systems and procedures available in the Model Zoo.
 
-The officially supported and previewed options in the Model Zoo are categorized as follows:
+The officially supported and previewed options are categorized as follows:
 
 * **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
