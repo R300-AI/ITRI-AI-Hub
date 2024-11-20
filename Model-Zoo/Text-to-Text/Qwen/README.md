@@ -2,7 +2,7 @@
 
 
 ```
-ollama run llama3.2:1b --verbose
+ollama run qwen2:0.5b --verbose
 >> give me all the numbers from 1 to 3 without any extra introduction.
 ```
 
