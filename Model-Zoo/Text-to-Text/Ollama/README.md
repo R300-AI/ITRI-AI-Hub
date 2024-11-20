@@ -1,10 +1,10 @@
 
 
 |  Model     | Size        |  Max Speed<sub>tokens/s     |  Memory Usage     |  Memory Usage     |
-|------------|-------------|-----------------|--------------------|
-| [SmolLM2](https://ollama.com/library/smollm2:135m)    |270 MB       |5.74             |               |
-| [Qwen2.5](https://ollama.com/library/qwen2.5:0.5b)    |397 MB       |6.44             |               |
-| [Llama 3.2](https://ollama.com/library/llama3.2)      |1.3 MB       |6.09             |               |
+|------------|-------------|-----------------------------|-------------------|-------------------|
+| [SmolLM2](https://ollama.com/library/smollm2:135m)    |270 MB       |5.74             |               ||
+| [Qwen2.5](https://ollama.com/library/qwen2.5:0.5b)    |397 MB       |6.44             |               ||
+| [Llama 3.2](https://ollama.com/library/llama3.2)      |1.3 MB       |6.09             |               ||
 
 
 ```bash
