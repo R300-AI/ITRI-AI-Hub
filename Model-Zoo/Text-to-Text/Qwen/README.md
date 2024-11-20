@@ -1,13 +1,6 @@
-```
-tmux
-ctrl + b + shift + %
-htop
-ctrl + b + →
-```
+# AMD Server
+### qwen2:0.5b = 177.42 tokens/s
 
-```
-curl -fsSL https://ollama.com/install.sh | sh
-```
 
 ```
 ollama run llama3.2:1b --verbose
