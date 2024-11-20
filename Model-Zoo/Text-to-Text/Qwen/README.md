@@ -1,5 +1,4 @@
-# AMD Server
-### qwen2:0.5b = 177.42 tokens/s
+### AMD: qwen2:0.5b = 177.42 tokens/s
 
 
 ```
