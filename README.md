@@ -3,7 +3,7 @@
 ### <div align="center">1. Getting Started with AI Software Development</div>
 ![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/tasks.png)
 
-The ITRI-AI-Hub provides developers with guidelines for deploying AI models on cutting-edge processors. You can select the appropriate backbone model and hardware core based on the pre-validated systems and procedures in Model Zoo, which will help progress the implementation of application concepts.
+The ITRI-AI-Hub provides developers with a guide to deploying AI models on cutting-edge processors. You can select the appropriate backbone model and hardware core based on the pre-validated systems and procedures in Model Zoo, which will help advance the application concept. Currently, officially supported and previewed options in Model Zoo include the following categories:
 
 * **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
