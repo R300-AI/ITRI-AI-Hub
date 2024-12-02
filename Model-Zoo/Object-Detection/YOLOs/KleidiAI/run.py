@@ -1,5 +1,6 @@
 from utils import YOLOs, plot
 import matplotlib.pyplot as plt
+import numpy as np
 import time, cv2, argparse
 
 parser = argparse.ArgumentParser()
