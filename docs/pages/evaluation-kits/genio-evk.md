@@ -129,7 +129,7 @@ Follow the [NeuronRT Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/d
 
 
 ### Step 3: Install Kleidi Kernel
-Follow the [Kleidi Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/ml-engine/kleidi.html) to install the Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
+Follow the [Kleidi Installation Guide](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/kleidi.html) to install the Kleidi kernel for Arm-based Ubuntu systems to unleash the AI performance on CPUs.
 
 ## Appendix
 
