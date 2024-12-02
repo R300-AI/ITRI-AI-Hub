@@ -9,3 +9,10 @@ To illustrate how to delegate a model in TFLite format, we will use the pre-buil
 * The **YOLOv8n** model in `ONNX` format has been exported from [[Previous Directory > Benchmarks > Train/Val Accuracy]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs).
 * An **Evaluation Board (Mali GPU)** with **ArmNN** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/armnn.html))
 
+## Deploy Sample Codes on Board
+
+```bash
+$ git clone https://github.com/R300-AI/ITRI-AI-Hub.git && cd Model-Zoo/Detection/YOLOs/MediaTek-Genios-Demo
+conda create --name YOLOs python=3.9 && source activate YOLOs
+sudo pip install numpy==1.26.4 opencv-python tflite-runtime
+```
