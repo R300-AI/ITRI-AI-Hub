@@ -1,0 +1,7 @@
+fasterrcnn_resnet50_fpn
+
+fasterrcnn_resnet50_fpn_v2
+
+fasterrcnn_mobilenet_v3_large_fpn
+
+fasterrcnn_mobilenet_v3_large_320_fpn

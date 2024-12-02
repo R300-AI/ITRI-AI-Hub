@@ -5,8 +5,10 @@ import onnxruntime as ort
 class YOLOs():
     def __init__(self, model_path, nc = 1, num_of_keypoints = 17):
         self.session = ort.InferenceSession(model_path)
+        self.input_type = self.session.get_inputs()[0].type
         self.input_details  = [i for i in self.session.get_inputs()]
         self.output_details = [i.name for i in self.session.get_outputs()]
+        
         self.io = self.session.io_binding()
         self.io.bind_output(self.output_details[0])
         
@@ -16,7 +18,7 @@ class YOLOs():
 
     def predict(self, frames, conf=0.25, iou=0.7, agnostic=False, max_det=300):
         im = self.preprocess(frames)
-        preds = self.inference(im)
+        preds = self.inference(im.astype(np.float16)) if self.input_type == 'tensor(float16)' else self.inference(im)
         results = self.postprocess(preds, conf_thres=conf, iou_thres=iou, agnostic=agnostic, max_det=max_det)
         return results
 
@@ -120,7 +122,7 @@ class LetterBox:
 
 def plot(image, results, labels):
     for bboxes in results:
-      x1, y1, x2, y2 = int(bboxes[0] * image.shape[1]), int(bboxes[1] * image.shape[0]), int(bboxes[2] * image.shape[1]), int(bboxes[3] * image.shape[0])
+      x1, y1, x2, y2 = int(bboxes[0] * image.shape[1] / 640), int(bboxes[1] * image.shape[0] / 640), int(bboxes[2] * image.shape[1] / 640), int(bboxes[3] * image.shape[0] / 640)
       conf, cls = bboxes[4] , bboxes[5]
       cv2.rectangle(image, (x1, y1), (x2, y2), color=(0, 255, 0), thickness=3)
       cv2.putText(image, f'{labels[int(cls)]} {conf:.2f}', (x1, y1 - 2), 0, 1, [0, 255, 0], thickness=2, lineType=cv2.LINE_AA)

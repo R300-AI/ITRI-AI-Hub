@@ -1,6 +1,11 @@
 from utils import YOLOs, plot
 import matplotlib.pyplot as plt
-import cv2, time
+import numpy as np
+import time, cv2, argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-m", "--model_path", default='', type=str, help="Path to YOLO-ONNX Detector.")
+args = parser.parse_args()
 
 labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant',
       11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear',
@@ -11,13 +16,12 @@ labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5
       67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear',
       78: 'hair drier', 79: 'toothbrush'}
 
-model_name = 'yolo11n'
-img = cv2.imread('./bus.jpg')
-delegated_model = YOLOs(model_path=f'./{model_name}.onnx')
+img = cv2.imread('./bus.jpg').astype(np.float16) if 'float16' in args.model_path else cv2.imread('./bus.jpg')
+delegated_model = YOLOs(model_path=args.model_path)
 
 t = time.time()
 for _ in range(32):
-    results = delegated_model.predict([img], conf=0.25, iou=0.7, agnostic=False, max_det=300)\
+    results = delegated_model.predict([img], conf=0.25, iou=0.7, agnostic=False, max_det=300)
     
 print('Average Speed:', (time.time() - t) * 1000 / 32, 'ms')
 plt.imshow(plot(img, results[0].copy(), labels)[:, :, ::-1])
