@@ -15,7 +15,7 @@ labels = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5
       67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear',
       78: 'hair drier', 79: 'toothbrush'}
 
-img = cv2.imread('./bus.jpg')
+img = cv2.imread('./bus.jpg').astype(np.float16) if 'float16' in args.model_path else cv2.imread('./bus.jpg')
 delegated_model = YOLOs(model_path=args.model_path)
 
 t = time.time()
