@@ -17,3 +17,4 @@
 | **RegNet_X_8GF**        |           |  79.344       |  94.686   |                  |  39.6M      |   8         |             | [[TorchScript]](), [[ONNX]](), [[TFLite]]() |
 | **RegNet_X_16GF**        |           |   80.058    |  94.944   |                  |    54.3M     |   15.94     |             | [[TorchScript]](), [[ONNX]](), [[TFLite]]() |
 | **RegNet_X_32GF**        |           |   80.622    |  95.248   |                  |   107.8M     |   31.74     |             | [[TorchScript]](), [[ONNX]](), [[TFLite]]() |
+| **RegNet_X_128GF**        |           |   80.622    |  95.248   |                  |   107.8M     |   31.74     |             | [[TorchScript]](), [[ONNX]](), [[TFLite]]() |
