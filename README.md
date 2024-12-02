@@ -8,7 +8,7 @@ The ITRI AI Hub provides developers with a comprehensive guide for deploying AI 
 The officially supported and previewed options are categorized as follows:
 
 
-* **Computer Vision**: [[Classification]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint-Detection]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection)
+* **Computer Vision**: [[Classify]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection), [[Segment]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Semantic-Segmentation)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
 * **Natural Language Processing**: [[Image-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**:
