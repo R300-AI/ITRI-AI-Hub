@@ -44,4 +44,4 @@ $ conda activate ultralytics
 
 | Model/Chipset               | Genio510<br><sub>KleidiAI | Genio510<br><sub>Hailo-8 | Genio700<br><sub>KleidiAI | Genio700<br><sub>Hailo-8 | Genio1200<br><sub>KleidiAI | Genio1200<br><sub>Hailo-8 |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
-| yolov8n-pose<sub> (fp32) |                       |                       |                       |                       |                        |          42 ms      |
+| yolov8n-seg<sub> (fp32) |                       |                       |                       |                       |                        |             |
