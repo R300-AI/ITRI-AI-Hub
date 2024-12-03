@@ -1,4 +1,4 @@
-# Deploy RT-DETR on Kleidi AI (Preview)
+# Deploy RT-DETR on Kleidi AI
 
 Kleidi AI is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
 
