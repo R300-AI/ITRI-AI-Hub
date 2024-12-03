@@ -1,27 +1,11 @@
-## Category of Benchmarks
+## Preview
 ### Computer Vision
 #### 1. Classification
   | Name                        | Tags          | Extention     |
   | :-------------------------- | :------------ | :------------ | 
   | Torchvision/AlexNets          | `License:BSD 3-Clause` | [[Paper]](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html), [[Github]](https://github.com/pytorch/vision) |
   | Torchvision/VGGs              | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1409.1556), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/GoogleNets        | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1409.4842), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/Inceptions        | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1512.00567), [[Github]](https://github.com/pytorch/vision) |
-  | [**Torchvision/ResNets**](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification/ResNets)           | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1512.03385), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/SqueezeNet        | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1602.07360), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/DenseNets         | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1608.06993), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/ConvNeXts         | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1611.05431), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/ConvNeXts         | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1807.11626), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/ShuffleNets       | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1807.11164), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/MobileNetV1       | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1704.04861), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/MobileNetV2       | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1801.04381), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/MobileNetV3       | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1905.02244), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/EfficientNets     | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/1905.11946), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/RegNets           | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/2003.13678), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/ViTs              | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/2010.11929), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/MaxViT            | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/2204.01697), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/Swin Transformers | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/2103.14030), [[Github]](https://github.com/pytorch/vision) |
-  | Torchvision/EfficientVit      | `License:BSD 3-Clause` | [[Paper]](https://arxiv.org/abs/2205.14756), [[Github]](https://github.com/pytorch/vision) |
+
 #### 2. Detection
   | Provider: Name              | Tags          | Extention     |
   | :-------------------------- | :------------ | :------------ | 
