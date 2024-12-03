@@ -31,7 +31,7 @@ These training sessions were executed on a **CUDA Workstation** equipped with a 
 
 * [How to setup GPU for your own workstation?](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html)
 
-**Step 2**. Create an environment with dependencies on your **Workstation**.
+**Step 2**. Create an environment and install dependencies.
 
 ```bash
 $ conda create --name ultralytics python=3.11 && conda activate ultralytics
