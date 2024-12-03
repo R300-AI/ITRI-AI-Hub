@@ -9,16 +9,16 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(M)     |  mAP<sub>50-95(M)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-seg    | 3.4  |             |             |                |    |     |[[ONNX]]() |
-| yolov8s-seg    | 11.8 |             |             |                |    |     |[[ONNX]]() |
-| yolov8m-seg    | 27.3 |             |             |                |    |     |[[ONNX]]() |
-| yolov8l-seg    | 46.0 |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-seg    | 71.8 |             |             |                |    |     |[[ONNX]]() |
-| yolo11n-seg    | 2.9  |             |             |                |    |     |[[ONNX]]() |
-| yolo11s-seg    | 10.1 |             |             |                |    |     |[[ONNX]]() |
-| yolo11m-seg    | 22.4 |             |             |                |    |     |[[ONNX]]() |
-| yolo11l-seg    | 27.6 |             |             |                |    |     |[[ONNX]]() |
-| yolo11x-seg    | 62.1 |             |             |                |    |     |[[ONNX]]() |
+| yolov8n-seg    | 3.4  |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolov8n-seg.onnx) |
+| yolov8s-seg    | 11.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolov8s-seg.onnx) |
+| yolov8m-seg    | 27.3 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolov8m-seg.onnx) |
+| yolov8l-seg    | 46.0 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolov8l-seg.onnx) |
+| yolov8x-seg    | 71.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolov8x-seg.onnx) |
+| yolo11n-seg    | 2.9  |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolo11n-seg.onnx) |
+| yolo11s-seg    | 10.1 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolo11s-seg.onnx) |
+| yolo11m-seg    | 22.4 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolo11m-seg.onnx) |
+| yolo11l-seg    | 27.6 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolo11l-seg.onnx) |
+| yolo11x-seg    | 62.1 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/YOLOs/yolo11x-seg.onnx) |
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
