@@ -49,14 +49,14 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 
 **Deployment Template**: [[KleidiAI]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs/KleidiAI) | [[NeuronRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)
 
-| Model               | Genio510<br><sub>Mali GPU | Genio510<br><sub>MDLA 3.0 | Genio700<br><sub>Mali GPU | Genio700<br><sub>MDLA 3.0 | Genio1200<br><sub>Mali GPU | Genio1200<br><sub>MDLA 2.0 |
-|---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|------------------------|
-| YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv8n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
-| YOLO11n<sub> (fp16) |                       |                       |                       |                       |                        |:x:                     |
-| YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |:x:                     |
+| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>NeuronRT | Genio700<br><sub>KleidiAI | Genio700<br><sub>NeuronRT | Genio1200<br><sub>KleidiAI |
+|---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
+| YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |
+| YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |
+| YOLOv8n<sub> (fp16) |                       |                       |                       |                       |                        |
+| YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |
+| YOLO11n<sub> (fp16) |                       |                       |                       |                       |                        |
+| YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |
 
 ## Memory Usage
 ## Power Consumption
