@@ -9,7 +9,7 @@ In the training and validation demonstration, we can utilized open-source datase
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
 |------------|-------|-----------------------|-----------------|--------------------|--------------------|
-| rtdetr-l    |1.06  |                       |                 |                    |[[ONNX]]() |
+| rtdetr-l    |32.97  |                       |                 |                    |[[ONNX]]() |
 | rtdetr-x    |67.46  |                       |                 |                    |[[ONNX]]() |
 
 
