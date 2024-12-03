@@ -9,17 +9,17 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-pose    | 3.3  | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]]() |
-| yolov8s-pose    | 11.6 |             |             |                |    |     |[[ONNX]]() |
-| yolov8m-pose    | 26.4 |             |             |                |    |     |[[ONNX]]() |
-| yolov8l-pose    | 44.5 |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-pose    | 69.5 |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-pose-p6 | 99.2 |             |             |                |    |     |[[ONNX]]() |
-| yolo11n-pose    | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]]() |
-| yolo11s-pose    | 9.9  |             |             |                |    |     |[[ONNX]]() |
-| yolo11m-pose    | 20.9 |             |             |                |    |     |[[ONNX]]() |
-| yolo11l-pose    | 26.2 |             |             |                |    |     |[[ONNX]]() |
-| yolo11x-pose    | 58.8 |             |             |                |    |     |[[ONNX]]() |
+| yolov8n-pose    | 3.3  | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8n-pose.onnx) |
+| yolov8s-pose    | 11.6 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8s-pose.onnx) |
+| yolov8m-pose    | 26.4 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8m-pose.onnx) |
+| yolov8l-pose    | 44.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8l-pose.onnx) |
+| yolov8x-pose    | 69.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose.onnx) |
+| yolov8x-pose-p6 | 99.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose-p6.onnx) |
+| yolo11n-pose    | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11n-pose.onnx) |
+| yolo11s-pose    | 9.9  |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11s-pose.onnx) |
+| yolo11m-pose    | 20.9 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11m-pose.onnx) |
+| yolo11l-pose    | 26.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11l-pose.onnx) |
+| yolo11x-pose    | 58.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11x-pose.onnx) |
 
 
 
