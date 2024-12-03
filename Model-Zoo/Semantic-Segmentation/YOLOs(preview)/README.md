@@ -3,7 +3,7 @@
 The YOLO family of models referenced in this guide is provided by Ultralytics. This document aims to demonstrate how users can quickly train and acquire customized models for deployment to a given system. It is important to note that these models are intended for educational and demonstration purposes only. For any commercial or product-level deployments, users must thoroughly review the official AGPL-3.0 license terms and comply with the licensing requirements to ensure proper use and distribution of the models. Users are responsible for ensuring that their use of the models does not infringe on any legal or copyright regulations.
 
 # Benchmarks
-## Train/Val Accuracy
+## Training/Performance Evaluation
 
 In the training demonstration, we can utilized open-source datasets such as COCO8-seg, Crack-seg, and Package-seg. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]](), and export it by [[Delegating Notebook]](). The following metrics are from previous benchmarks measured based on COCO8-pose, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
