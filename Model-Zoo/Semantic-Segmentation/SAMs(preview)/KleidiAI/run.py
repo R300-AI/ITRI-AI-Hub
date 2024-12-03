@@ -1,4 +1,4 @@
-from ultralytics.models.fastsam import FastSAMPredictor
+from ultralytics import FastSAM
 import numpy as np
 import time, cv2, argparse
 
@@ -7,13 +7,17 @@ parser.add_argument("-m", "--model_path", default='', type=str, help="Path to ON
 args = parser.parse_args()
 
 img = cv2.imread('./bus.jpg')
+# Run inference with bboxes prompt
+results = model(img, bboxes=[439, 437, 524, 709])
+print('Class:\n', [model.names[int(i.item())] for i in results[0].boxes.cls])
+print('Masks:\n', results[0].masks.xy)
 
-predictor = FastSAMPredictor(overrides=dict(conf=0.25, task="segment", mode="predict", model="FastSAM-s.pt", save=False, imgsz=1024))
+# Run inference with points prompt
+results = model(img, points=[[200, 200]], labels=[1])
+print('Class:\n', [model.names[int(i.item())] for i in results[0].boxes.cls])
+print('Masks:\n', results[0].masks.xy)
 
-# Prompt inference
-everything_results = predictor(img)
-bbox_results = predictor.prompt(everything_results, bboxes=[[200, 200, 300, 300]])
-point_results = predictor.prompt(everything_results, points=[200, 200])
-text_results = predictor.prompt(everything_results, texts="a photo of a dog")
-
-cv2.imshow(results[0].plot())
+# Run inference with texts prompt
+results = model(img, texts="a photo of a dog")
+print('Class:\n', [model.names[int(i.item())] for i in results[0].boxes.cls])
+print('Masks:\n', results[0].masks.xy)
