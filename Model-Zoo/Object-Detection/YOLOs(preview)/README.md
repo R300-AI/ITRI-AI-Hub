@@ -7,24 +7,23 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 In the training demonstration, we can utilized open-source datasets such as COCO8, Objects365, LVIS...etc. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Tutorial 1]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb). The following metrics are from previous benchmarks measured based on COCO8, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
-|  Model     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
-|------------|-----------------------|-----------------|--------------------|--------------------|
-| yolov5nu    |0.072                  |0.63             | 0.45               ||
-| yolov5su    |                       |                 |                    ||
-| yolov5mu    |                       |                 |                    ||
-| yolov5lu    |                       |                 |                    ||
-| yolov5xu    |                       |                 |                    ||
-| yolov8n    |0.065                  |0.63             | 0.44               ||
-| yolov8s    |                       |                 |                    ||
-| yolov8m    |                       |                 |                    ||
-| yolov8l    |                       |                 |                    ||
-| yolov8x    |                       |                 |                    ||
-| YOLO11n    |0.077                  |0.77             | 0.51               ||
-| yolo11n    |                       |                 |                    ||
-| yolo11s    |                       |                 |                    ||
-| yolo11m    |                       |                 |                    ||
-| yolo11l    |                       |                 |                    ||
-| yolo11x    |                       |                 |                    ||
+|  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
+|------------|-------|-----------------------|-----------------|--------------------|--------------------|
+| yolov5nu    |1.06  |0.072                  |0.63             | 0.45               ||
+| yolov5su    |1.27  |                       |                 |                    ||
+| yolov5mu    |1.86  |                       |                 |                    ||
+| yolov5lu    |2.50  |                       |                 |                    ||
+| yolov5xu    |3.81  |                       |                 |                    ||
+| yolov8n     |3.2   |0.065                  |0.63             | 0.44               ||
+| yolov8s     |11.2  |                       |                 |                    ||
+| yolov8m     |25.9  |                       |                 |                    ||
+| yolov8l     |43.7  |                       |                 |                    ||
+| yolov8x     |68.2  |                       |                 |                    ||
+| YOLO11n     |2.6   |0.077                  |0.77             | 0.51               ||
+| yolo11s     |9.4   |                       |                 |                    ||
+| yolo11m     |20.1  |                       |                 |                    ||
+| yolo11l     |25.3  |                       |                 |                    ||
+| yolo11x     |56.9  |                       |                 |                    ||
 
 
 
