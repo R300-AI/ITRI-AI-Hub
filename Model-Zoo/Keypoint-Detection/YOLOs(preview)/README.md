@@ -7,19 +7,19 @@ The YOLO family of models referenced in this guide is provided by Ultralytics. T
 
 In the training demonstration, we can utilized open-source datasets such as COCO8-pose, Tiger-pose, and Hand-Keypoints. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs(preview)/Train_YOLOs_on_Workstation.ipynb), and export it by [[Delegating Notebook]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Keypoint-Detection/YOLOs(preview)/Delegate_Models_to_ONNX_and_TFLite.ipynb). The following metrics are from previous benchmarks measured based on **COCO8-pose**, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
-|  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     | Pre-built Models   |
-|------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-pose    | 3.3  | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8n-pose.onnx) |
-| yolov8s-pose    | 11.6 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8s-pose.onnx) |
-| yolov8m-pose    | 26.4 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8m-pose.onnx) |
-| yolov8l-pose    | 44.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8l-pose.onnx) |
-| yolov8x-pose    | 69.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose.onnx) |
-| yolov8x-pose-p6 | 99.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose-p6.onnx) |
-| yolo11n-pose    | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11n-pose.onnx) |
-| yolo11s-pose    | 9.9  |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11s-pose.onnx) |
-| yolo11m-pose    | 20.9 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11m-pose.onnx) |
-| yolo11l-pose    | 26.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11l-pose.onnx) |
-| yolo11x-pose    | 58.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11x-pose.onnx) |
+|  Model     |  Input Size     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     | Pre-built Models   |
+|------------|------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
+| yolov8n-pose    |640 | 3.3  | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8n-pose.onnx) |
+| yolov8s-pose    |640 | 11.6 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8s-pose.onnx) |
+| yolov8m-pose    |640 | 26.4 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8m-pose.onnx) |
+| yolov8l-pose    |640 | 44.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8l-pose.onnx) |
+| yolov8x-pose    |640 | 69.5 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose.onnx) |
+| yolov8x-pose-p6 |640 | 99.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolov8x-pose-p6.onnx) |
+| yolo11n-pose    |640 | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11n-pose.onnx) |
+| yolo11s-pose    |640 | 9.9  |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11s-pose.onnx) |
+| yolo11m-pose    |640 | 20.9 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11m-pose.onnx) |
+| yolo11l-pose    |640 | 26.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11l-pose.onnx) |
+| yolo11x-pose    |640 | 58.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11x-pose.onnx) |
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
