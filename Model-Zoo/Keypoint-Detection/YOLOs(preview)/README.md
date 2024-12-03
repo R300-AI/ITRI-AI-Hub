@@ -14,7 +14,7 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 | yolov8m-pose    | 26.4 |             |             |                |    |     |[[ONNX]]() |
 | yolov8l-pose    | 44.5 |             |             |                |    |     |[[ONNX]]() |
 | yolov8x-pose    | 69.5 |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-pose-p6 |      |             |             |                |    |     |[[ONNX]]() |
+| yolov8x-pose-p6 | 99.2 |             |             |                |    |     |[[ONNX]]() |
 | yolo11n-pose    | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]]() |
 | yolo11s-pose    | 9.9  |             |             |                |    |     |[[ONNX]]() |
 | yolo11m-pose    | 20.9 |             |             |                |    |     |[[ONNX]]() |
