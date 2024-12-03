@@ -49,11 +49,8 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 
 | Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>NeuronRT | Genio700<br><sub>KleidiAI | Genio700<br><sub>NeuronRT | Genio1200<br><sub>KleidiAI |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
-| YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |
 | YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |
-| YOLOv8n<sub> (fp16) |                       |                       |                       |                       |                        |
 | YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |
-| YOLO11n<sub> (fp16) |                       |                       |                       |                       |                        |
 | YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |
 
 ## Memory Usage
