@@ -5,7 +5,7 @@ The YOLO family of models referenced in this guide is provided by Ultralytics. T
 # Benchmarks
 ## Training/Performance Evaluation
 
-In the training demonstration, we can utilized open-source datasets such as COCO8-seg, Crack-seg, and Package-seg. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]](), and export it by [[Delegating Notebook]](). The following metrics are from previous benchmarks measured based on COCO8-pose, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+In the training demonstration, we can utilized open-source datasets such as COCO8-seg, Crack-seg, and Package-seg. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]](), and export it by [[Delegating Notebook]](). The following metrics are from previous benchmarks measured based on **COCO8-seg**, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(M)     |  mAP<sub>50-95(M)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
