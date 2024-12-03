@@ -9,7 +9,7 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-pose    |      | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]]() |
+| yolov8n-pose    | 3.29 | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]]() |
 | yolov8s-pose    |      |             |             |                |    |     |[[ONNX]]() |
 | yolov8m-pose    |      |             |             |                |    |     |[[ONNX]]() |
 | yolov8l-pose    |      |             |             |                |    |     |[[ONNX]]() |
