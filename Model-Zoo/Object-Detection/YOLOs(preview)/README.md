@@ -9,32 +9,21 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
 |------------|-------|-----------------------|-----------------|--------------------|--------------------|
-| yolov5nu    |1.06  |0.072                  |0.63             | 0.45               |[[ONNX]() |
-| yolov5su    |1.27  |                       |                 |                    |[[ONNX]() |
-| yolov5mu    |1.86  |                       |                 |                    |[[ONNX]() |
-| yolov5lu    |2.50  |                       |                 |                    |[[ONNX]() |
-| yolov5xu    |3.81  |                       |                 |                    |[[ONNX]() |
-| yolov8n     |3.2   |0.065                  |0.63             | 0.44               |[[ONNX]() |
-| yolov8s     |11.2  |                       |                 |                    |[[ONNX]() |
-| yolov8m     |25.9  |                       |                 |                    |[[ONNX]() |
-| yolov8l     |43.7  |                       |                 |                    |[[ONNX]() |
-| yolov8x     |68.2  |                       |                 |                    |[[ONNX]() |
-| YOLO11n     |2.6   |0.077                  |0.77             | 0.51               |[[ONNX]() |
-| yolo11s     |9.4   |                       |                 |                    |[[ONNX]() |
-| yolo11m     |20.1  |                       |                 |                    |[[ONNX]() |
-| yolo11l     |25.3  |                       |                 |                    |[[ONNX]() |
-| yolo11x     |56.9  |                       |                 |                    |[[ONNX]() |
-
-
-
-
-
-
-
-
-
-
-
+| yolov5nu    |1.06  |0.072                  |0.63             | 0.45               |[[ONNX]]() |
+| yolov5su    |1.27  |                       |                 |                    |[[ONNX]]() |
+| yolov5mu    |1.86  |                       |                 |                    |[[ONNX]]() |
+| yolov5lu    |2.50  |                       |                 |                    |[[ONNX]]() |
+| yolov5xu    |3.81  |                       |                 |                    |[[ONNX]]() |
+| yolov8n     |3.2   |0.065                  |0.63             | 0.44               |[[ONNX]]() |
+| yolov8s     |11.2  |                       |                 |                    |[[ONNX]]() |
+| yolov8m     |25.9  |                       |                 |                    |[[ONNX]]() |
+| yolov8l     |43.7  |                       |                 |                    |[[ONNX]]() |
+| yolov8x     |68.2  |                       |                 |                    |[[ONNX]]() |
+| YOLO11n     |2.6   |0.077                  |0.77             | 0.51               |[[ONNX]]() |
+| yolo11s     |9.4   |                       |                 |                    |[[ONNX]]() |
+| yolo11m     |20.1  |                       |                 |                    |[[ONNX]]() |
+| yolo11l     |25.3  |                       |                 |                    |[[ONNX]]() |
+| yolo11x     |56.9  |                       |                 |                    |[[ONNX]]() |
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
