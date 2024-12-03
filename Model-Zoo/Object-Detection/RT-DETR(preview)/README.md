@@ -9,8 +9,8 @@ In the training and validation demonstration, we can utilized open-source datase
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
 |------------|-------|-----------------------|-----------------|--------------------|--------------------|
-| rtdetr-l    |32.97  |                       |                 |                    |[[ONNX]]() |
-| rtdetr-x    |67.46  |                       |                 |                    |[[ONNX]]() |
+| rtdetr-l    |32.97  |                       |                 |                    |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Object-Detection/RT-DETR/rtdetr-l.onnx) |
+| rtdetr-x    |67.46  |                       |                 |                    |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Object-Detection/RT-DETR/rtdetr-x.onnx) |
 
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
