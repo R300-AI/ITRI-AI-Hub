@@ -1,4 +1,4 @@
-# Deploy ResNet on Kleidi AI (Preview)
+# Deploy ResNet on Kleidi AI
 ### Prerequisites
 
 * Any **ResNet** model in `ONNX` format obtained from [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/RT-DETR(preview)) part.
