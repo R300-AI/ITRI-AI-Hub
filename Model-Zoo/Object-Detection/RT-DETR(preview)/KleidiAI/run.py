@@ -1,5 +1,4 @@
 from ultralytics import YOLO
-import matplotlib.pyplot as plt
 import numpy as np
 import time, cv2, argparse
 
