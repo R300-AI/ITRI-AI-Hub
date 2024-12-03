@@ -2,11 +2,11 @@
 
 Kleidi AI is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
 
-To illustrate how to delegate a model in ONNX format, we will use the pre-built YOLO11n model from Ultralytics as an example. The model is trained on the COCO dataset, which includes 80 categories of objects. Please follow the instructions provided in the previous sections to obtain the model on your workstation. Then, continue with the steps outlined in this document to complete the Python example and verify the inference results.
+To illustrate how to delegate a model in ONNX format, we will use the pre-built model from Ultralytics as an example. The model is trained on the COCO-pose dataset, which includes 1 person categories with 17 keypoints. Please follow the instructions provided in the previous sections to obtain the model on your workstation. Then, continue with the steps outlined in this document to complete the Python example and verify the inference results.
 
 ### Prerequisites
 
-* Any **YOLO** model in `ONNX` format obtained from [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs(preview)) part.
+* Any **YOLO-pose** model in `ONNX` format obtained from [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs(preview)) part.
 * An **Arm Processors Board** with **Kleidi AI** Library installed. ([[Installation Guide]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/kleidi.html))
 
 ## Deploy Sample Codes on Board
