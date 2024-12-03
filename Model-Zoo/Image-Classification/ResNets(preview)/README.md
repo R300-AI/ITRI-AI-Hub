@@ -7,16 +7,16 @@ The ResNet family of models referenced in this guide are provided by Torchvision
 
 |  Model     |  Input Size         |  params (M)         | Time (hr)<br>T4 GPU   |  Accuracy  | Pre-built Models   |
 |------------|---------------------|---------------------|-----------------------|------------|--------------------|
-| resnet18         |244  | 11.7         |                       |            |[[ONNX]]()          |
-| resnet34         |244  | 21.8         |                       |            |[[ONNX]]()          |
-| resnet50         |244  | 25.5         |                       |            |[[ONNX]]()          |
-| resnet101        |244  | 44.5         |                       |            |[[ONNX]]()          |
-| resnet152        |244  | 60.2         |                       |            |[[ONNX]]()          |
-| resnext50_32x4d  |244  | 25.0         |                       |            |[[ONNX]]()          |
-| resnext101_32x8d |244  | 88.8         |                       |            |[[ONNX]]()          |
-| resnext101_64x4d |244  | 83.4         |                       |            |[[ONNX]]()          |
-| wide_resnet50_2  |244  | 68.9         |                       |            |[[ONNX]]()          |
-| wide_resnet101_2 |244  | 126.8        |                       |            |[[ONNX]]()          |
+| resnet18         |244  | 11.7         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnet18.onnx)          |
+| resnet34         |244  | 21.8         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnet34.onnx)          |
+| resnet50         |244  | 25.5         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnet50.onnx)          |
+| resnet101        |244  | 44.5         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnet101.onnx)          |
+| resnet152        |244  | 60.2         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnet152.onnx)          |
+| resnext50_32x4d  |244  | 25.0         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnext50_32x4d.onnx)          |
+| resnext101_32x8d |244  | 88.8         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnext101_32x8d.onnx)          |
+| resnext101_64x4d |244  | 83.4         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/resnext101_64x4d.onnx)          |
+| wide_resnet50_2  |244  | 68.9         |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/wide_resnet50_2.onnx)          |
+| wide_resnet101_2 |244  | 126.8        |                       |            |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Image-Classification/ResNets/wide_resnet101_2.onnx)          |
 
 
 ## Memory Usage
