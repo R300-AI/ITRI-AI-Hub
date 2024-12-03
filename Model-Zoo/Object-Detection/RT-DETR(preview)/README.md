@@ -5,12 +5,12 @@ The RT-DETR family of models referenced in this guide are provided by **Ultralyt
 # Benchmarks
 ## Training/Performance Evaluation 
 
-In the training and validation demonstration, we can utilized open-source datasets such as COCO8, Objects365, LVIS...etc. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs(preview)/Train_YOLOs_on_Workstation.ipynb), and export it by [[Delegating Notebook]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs(preview)/Delegate_Models_to_ONNX_and_TFLite.ipynb). The following metrics are from previous benchmarks measured based on **COCO8**, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
+In the training and validation demonstration, we can utilized open-source datasets such as COCO8, Objects365, LVIS...etc. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Training Notebook]], and export it by [[Delegating Notebook]](). The following metrics are from previous benchmarks measured based on **COCO8**, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
 |------------|-------|-----------------------|-----------------|--------------------|--------------------|
 | rtdetr-l    |1.06  |                       |                 |                    |[[ONNX]]() |
-| rtdetr-x    |1.27  |                       |                 |                    |[[ONNX]]() |
+| rtdetr-x    |67.46  |                       |                 |                    |[[ONNX]]() |
 
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
