@@ -11,7 +11,14 @@ To illustrate how to delegate a model in ONNX format, we will use the pre-built 
 
 ## Deploy Sample Codes on Board
 
+**Step 1.** Install dependencies on your board.
+
 ```bash
 $ pip install -r requirements.txt
+```
+
+**Step 2.** Execute an detection for `./bus.jpg`.
+
+```bash
 $ python run.py --model_path <path_to_your_model>.onnx
 ```
