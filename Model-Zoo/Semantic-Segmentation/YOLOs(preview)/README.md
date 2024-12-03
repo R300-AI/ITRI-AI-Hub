@@ -14,11 +14,11 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 | yolov8m-seg    |      |             |             |                |    |     |[[ONNX]]() |
 | yolov8l-seg    |      |             |             |                |    |     |[[ONNX]]() |
 | yolov8x-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolo11n-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolo11s-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolo11m-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolo11l-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolo11x-seg    |      |             |             |                |    |     |[[ONNX]]() |
+| yolo11n-seg    | 2.9  |             |             |                |    |     |[[ONNX]]() |
+| yolo11s-seg    | 10.1 |             |             |                |    |     |[[ONNX]]() |
+| yolo11m-seg    | 22.4 |             |             |                |    |     |[[ONNX]]() |
+| yolo11l-seg    | 27.6 |             |             |                |    |     |[[ONNX]]() |
+| yolo11x-seg    | 62.1 |             |             |                |    |     |[[ONNX]]() |
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
