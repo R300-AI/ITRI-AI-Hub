@@ -27,9 +27,9 @@ In the training and validation demonstration, we can utilized open-source datase
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
-**Step 1**. Clone expected **Jupyter Notebook** to Workstation.
+**Step 1**. Clone expected **Jupyter Notebook** to your Workstation.
 
-* [How to setup GPU for your workstation?](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html)
+* [How to setup GPU for your own workstation?](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html)
 
 **Step 2**. Create an environment with dependencies on your **Workstation**.
 
