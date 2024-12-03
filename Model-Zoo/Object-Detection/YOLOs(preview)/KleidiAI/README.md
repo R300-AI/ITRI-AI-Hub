@@ -13,5 +13,5 @@ To illustrate how to delegate a model in TFLite format, we will use the pre-buil
 
 ```bash
 $ pip install -r requirements.txt
-$ python run.py --model_path ./yolo11n_float32.onnx
+$ python run.py --model_path ./yolo11n.onnx
 ```
