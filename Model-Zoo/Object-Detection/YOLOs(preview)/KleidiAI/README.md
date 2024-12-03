@@ -1,6 +1,6 @@
 # Deploy YOLOs on Kleidi AI (Preview)
 
-ArmNN is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
+Kleidi AI is an inference engine designed specifically for Cortex-A CPUs and Mali GPUs. Developers can use these processors flexibly to implement high-performance, low-power deep learning operations without additional conversion work.
 
 To illustrate how to delegate a model in TFLite format, we will use the pre-built YOLOv8n model from Ultralytics as an example. The model is trained on the COCO dataset, which includes 80 categories of objects. Please follow the instructions provided in the previous sections to obtain the model on your workstation. Then, continue with the steps outlined in this document to complete the Python example and verify the inference results.
 
