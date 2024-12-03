@@ -9,11 +9,11 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(P)     |  mAP<sub>50-95(P)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-pose    | 3.29 | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]]() |
-| yolov8s-pose    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8m-pose    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8l-pose    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-pose    |      |             |             |                |    |     |[[ONNX]]() |
+| yolov8n-pose    | 3.3  | 0.030       | 0.95        | 0.67           |0.54|0.35 |[[ONNX]]() |
+| yolov8s-pose    | 11.6 |             |             |                |    |     |[[ONNX]]() |
+| yolov8m-pose    | 26.4 |             |             |                |    |     |[[ONNX]]() |
+| yolov8l-pose    | 44.5 |             |             |                |    |     |[[ONNX]]() |
+| yolov8x-pose    | 69.5 |             |             |                |    |     |[[ONNX]]() |
 | yolov8x-pose-p6 |      |             |             |                |    |     |[[ONNX]]() |
 | yolo11n-pose    | 2.9  |  0.029      | 0.91        | 0.71           |0.72|0.36 |[[ONNX]]() |
 | yolo11s-pose    | 9.9  |             |             |                |    |     |[[ONNX]]() |
