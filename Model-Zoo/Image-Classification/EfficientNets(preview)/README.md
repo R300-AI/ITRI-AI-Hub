@@ -11,6 +11,13 @@ The EfficientNet family of models referenced in this guide are provided by Torch
 |          |  |          |                       |            |[[ONNX]]()          |
 |          |  |          |                       |            |[[ONNX]]()          |
 |          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
+|          |  |          |                       |            |[[ONNX]]()          |
 
 ## Memory Usage
 ## Power Consumption
