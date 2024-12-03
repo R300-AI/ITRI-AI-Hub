@@ -9,11 +9,11 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 
 |  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(M)     |  mAP<sub>50-95(M)     | Pre-built Models   |
 |------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| yolov8n-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8s-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8m-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8l-seg    |      |             |             |                |    |     |[[ONNX]]() |
-| yolov8x-seg    |      |             |             |                |    |     |[[ONNX]]() |
+| yolov8n-seg    | 3.4  |             |             |                |    |     |[[ONNX]]() |
+| yolov8s-seg    | 11.8 |             |             |                |    |     |[[ONNX]]() |
+| yolov8m-seg    | 27.3 |             |             |                |    |     |[[ONNX]]() |
+| yolov8l-seg    | 46.0 |             |             |                |    |     |[[ONNX]]() |
+| yolov8x-seg    | 71.8 |             |             |                |    |     |[[ONNX]]() |
 | yolo11n-seg    | 2.9  |             |             |                |    |     |[[ONNX]]() |
 | yolo11s-seg    | 10.1 |             |             |                |    |     |[[ONNX]]() |
 | yolo11m-seg    | 22.4 |             |             |                |    |     |[[ONNX]]() |
