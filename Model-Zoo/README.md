@@ -8,5 +8,5 @@
 * [EfficientDets]()
 * [15x YOLOs](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs(preview))
 
-#### 3. Keypoint-Detection
+#### 3. Keypoint Detection
 * [11x YOLOs](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection/YOLOs(preview))
