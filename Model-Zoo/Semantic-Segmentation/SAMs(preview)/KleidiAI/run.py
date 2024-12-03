@@ -1,4 +1,4 @@
-from ultralytics import YOLO
+from ultralytics.models.fastsam import FastSAMPredictor
 import numpy as np
 import time, cv2, argparse
 
@@ -7,11 +7,13 @@ parser.add_argument("-m", "--model_path", default='', type=str, help="Path to ON
 args = parser.parse_args()
 
 img = cv2.imread('./bus.jpg')
-model = YOLO(model_path=args.model_path)
-results = model.predict(img, conf=0.25, iou=0.7)
 
-print('Class:\n', [model.names[int(i.item())] for i in results[0].boxes.cls])
-print('Boxes:\n', results[0].boxes.xyxy)
-print('Keypoints:\n', results[0].keypoints.xy)
+predictor = FastSAMPredictor(overrides=dict(conf=0.25, task="segment", mode="predict", model="FastSAM-s.pt", save=False, imgsz=1024))
+
+# Prompt inference
+everything_results = predictor(img)
+bbox_results = predictor.prompt(everything_results, bboxes=[[200, 200, 300, 300]])
+point_results = predictor.prompt(everything_results, points=[200, 200])
+text_results = predictor.prompt(everything_results, texts="a photo of a dog")
 
 cv2.imshow(results[0].plot())
