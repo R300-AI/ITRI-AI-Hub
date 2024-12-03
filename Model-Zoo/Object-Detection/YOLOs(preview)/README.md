@@ -38,7 +38,7 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 (ultralytics)$ pip install -r requirements.txt
 ```
 
-**Step 3**. Open **Jupyter Notebook** to execute the training and export sessions.
+**Step 3**. Open **Jupyter Notebook** to execute the Training and Export Tutorial.
 
 ```bash
 & conda activate ultralytics
