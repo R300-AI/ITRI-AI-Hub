@@ -1,0 +1,13 @@
+tensorflow-model-optimization==0.7.0
+tensorflowjs==3.18.0
+twine==1.9.0
+urllib3==1.21.1
+pandas==1.4.1
+numpy==1.23.5
+numba==0.53
+tflite-model-maker==0.4.2
+packaging==20.9
+tf2onnx
+pycocotools
+jupyter==1.0.0
+
