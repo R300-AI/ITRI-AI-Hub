@@ -22,6 +22,4 @@ results = model.predict(img, conf=0.25, iou=0.7)
 
 print('Class:\n', [labels[int(i.item())] for i in results[0].boxes.cls])
 print('Boxes:\n', results[0].boxes.xyxy)
-
-plt.imshow(results[0].plot()[:, :, ::-1])
-plt.show()
+cv2.imshow(results[0].plot())
