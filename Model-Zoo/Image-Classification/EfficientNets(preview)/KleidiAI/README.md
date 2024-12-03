@@ -1,7 +1,7 @@
-# Deploy ResNet on Kleidi AI
+# Deploy EfficientNets on Kleidi AI
 ### Prerequisites
 
-* Any **ResNet** model in `ONNX` format obtained from [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/RT-DETR(preview)) part.
+* Any **EfficientNet** model in `ONNX` format obtained from [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/RT-DETR(preview)) part.
 * An **Arm Processors Board** with **Kleidi AI** Library installed. ([[Installation Guide]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/kleidi.html))
 
 ## Deploy Sample Codes on Board
