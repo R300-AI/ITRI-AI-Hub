@@ -47,8 +47,6 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 
 ## Inference Speed 
 
-**Deployment Template**: [[KleidiAI]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs/KleidiAI) | [[NeuronRT]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Detection/YOLOs/NeuronRT)
-
 | Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>NeuronRT | Genio700<br><sub>KleidiAI | Genio700<br><sub>NeuronRT | Genio1200<br><sub>KleidiAI |
 |---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
 | YOLOv5n<sub> (fp16) |                       |                       |                       |                       |                        |
