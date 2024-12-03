@@ -7,7 +7,7 @@ To illustrate how to delegate a model in ONNX format, we will use the pre-built 
 ### Prerequisites
 
 * The **YOLO** model in `ONNX` format get by [[Training/Performance Evaluation]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs(preview)) part.
-* An **Evaluation Board (Mali GPU)** with **ArmNN** Library installed. ([[Tutoiral]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/armnn.html))
+* An **Evaluation Board (Mali GPU)** with **Kleidi AI** Library installed. ([[Installation Guide]](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/runtime/kleidi.html))
 
 ## Deploy Sample Codes on Board
 
