@@ -7,11 +7,35 @@ The YOLO family of models referenced in this guide are provided by Ultralytics. 
 
 In the training demonstration, we can utilized open-source datasets such as COCO8, Objects365, LVIS...etc. All these datasets are automatically downloaded through the Ultralytics API. You can also create your own custom datasets for training by following the guidelines in the [[Tutorial 1]](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb). The following metrics are from previous benchmarks measured based on COCO8, include the processing time for 100 epochs, mean Average Precision (mAP) at IoU threshold 0.50 (mAP<sub>50</sub>), and mean Average Precision across IoU thresholds from 0.50 to 0.95 (mAP<sub>50-95</sub>).
 
-|  Model     | Prorcess Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |
-|------------|--------------------------------|-----------------|--------------------|
-| YOLOv5n    |0.072                           |0.63             | 0.45               |
-| YOLOv8n    |0.065                           |0.63             | 0.44               |
-| YOLO11n    |0.077                           |0.77             | 0.51               |
+|  Model     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
+|------------|-----------------------|-----------------|--------------------|--------------------|
+| yolov5nu    |0.072                  |0.63             | 0.45               ||
+| yolov5su    |                       |                 |                    ||
+| yolov5mu    |                       |                 |                    ||
+| yolov5lu    |                       |                 |                    ||
+| yolov5xu    |                       |                 |                    ||
+| yolov8n    |0.065                  |0.63             | 0.44               ||
+| yolov8s    |                       |                 |                    ||
+| yolov8m    |                       |                 |                    ||
+| yolov8l    |                       |                 |                    ||
+| yolov8x    |                       |                 |                    ||
+| YOLO11n    |0.077                  |0.77             | 0.51               ||
+| yolo11n    |                       |                 |                    ||
+| yolo11s    |                       |                 |                    ||
+| yolo11m    |                       |                 |                    ||
+| yolo11l    |                       |                 |                    ||
+| yolo11x    |                       |                 |                    ||
+
+
+
+
+
+
+
+
+
+
+
 
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
