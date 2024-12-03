@@ -29,7 +29,7 @@ These training sessions were executed on a **CUDA Workstation** equipped with a 
 
 **Step 1**. Clone expected **Jupyter Notebook** to Workstation.
 
-* [How to setup GPU for your workstation?](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html))
+* [How to setup GPU for your workstation?](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/workstation.html)
 
 **Step 2**. Create an environment with dependencies on your **Workstation**.
 
@@ -44,9 +44,6 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 & conda activate ultralytics
 (ultralytics)$ jupyter notebook
 ```
-
-* [Tutorial: How to Train a custom YOLOs?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Train_YOLOs_on_Workstation.ipynb)
-* [Tutorial: How to Export and Use ONNX (or TFLite) on CPU?](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/Object-Detection/YOLOs/Delegate_Models_to_ONNX_and_TFLite.ipynb)
 
 ## Inference Speed 
 
