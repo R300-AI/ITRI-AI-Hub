@@ -21,17 +21,6 @@ In the training demonstration, we can utilized open-source datasets such as COCO
 | yolo11l-pose    | 26.2 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11l-pose.onnx) |
 | yolo11x-pose    | 58.8 |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Keypoint-Detection/YOLOs/yolo11x-pose.onnx) |
 
-
-
-
-
-
-
-
-
-
-
-
 These training sessions were executed on a **CUDA Workstation** equipped with a T4 GPU. To train your own model or reproduce the results above, here we provide instructions to get started:
 
 **Step 1**. Clone expected **Jupyter Notebook** to your Workstation.
