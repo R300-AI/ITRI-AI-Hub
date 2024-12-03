@@ -11,7 +11,6 @@ model = YOLO(model_path=args.model_path)
 results = model.predict(img, conf=0.25, iou=0.7)
 
 print('Class:\n', [model.names[int(i.item())] for i in results[0].boxes.cls])
-print('Boxes:\n', results[0].boxes.xyxy)
-print('Keypoints:\n', results[0].keypoints.xy)
+print('Masks:\n', masks = results[0].masks.xy)
 
 cv2.imshow(results[0].plot())
