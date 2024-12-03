@@ -2,10 +2,18 @@
 # Benchmarks
 ## Training/Performance Evaluation
 
-|  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     |  mAP<sub>50(M)     |  mAP<sub>50-95(M)     | Pre-built Models   |
-|------------|-------|-----------------|-----------------|--------------------|--------------------|--------------------|--------------------|
-| FastSAM-s    |       |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/SAMs/FastSAM-s.onnx) |
-| FastSAM-x    |       |             |             |                |    |     |[[ONNX]](https://itriaihub.blob.core.windows.net/modelzoo/Instance-Segmentation/SAMs/FastSAM-x.onnx) |
+|  Model     |  params<sub>(M)     | Time (hr)<br>T4 GPU   |  Accuracy  | Pre-built Models   |
+|------------|---------------------|-----------------------|------------|--------------------|
+| resnet18  |                     |                       |            |[[ONNX]]()          |
+| resnet34  |                     |                       |            |[[ONNX]]()          |
+| resnet50  |                     |                       |            |[[ONNX]]()          |
+| resnet101  |                     |                       |            |[[ONNX]]()          |
+| resnet152  |                     |                       |            |[[ONNX]]()          |
+| resnext50_32x4d  |                     |                       |            |[[ONNX]]()          |
+| resnext101_32x8d  |                     |                       |            |[[ONNX]]()          |
+| resnext101_64x4d  |                     |                       |            |[[ONNX]]()          |
+| wide_resnet50_2  |                     |                       |            |[[ONNX]]()          |
+| wide_resnet101_2  |                     |                       |            |[[ONNX]]()          |
 
 ## Memory Usage
 ## Power Consumption
