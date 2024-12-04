@@ -10,7 +10,7 @@ The officially supported and previewed options are categorized as follows:
 
 * **Computer Vision**: [[Classify]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Classification), [[Object]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection), [[Keypoint]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Keypoint-Detection), [[Segment]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Semantic-Segmentation)
 * **Voices & Signals**: [[Voice-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Voice-to-Text)
-* **Natural Language Processing**: [[Image-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
+* **Natural Language**: [[Image-Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Iamge-Text-to-Text), [[Text-to-Image]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Image), [[Text-to-Text]](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Text-to-Text)
 * **Recommender Systems**:
 
 If you have compatible hardware, you can find step-by-step instructions in the [Developer Zone](https://r300-ai.github.io/ITRI-AI-Hub/) to configure your system environment. Corresponding implementation examples are available in the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo), which can help you understand how to apply these models and verify the results for your use cases.
