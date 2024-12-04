@@ -5,7 +5,7 @@
 * [10 x ResNets](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Image-Classification/ResNets(preview))
 
 #### 2. Object Detection
-* [EfficientDets](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/EfficientDets(preview))
+* [5x EfficientDets](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/EfficientDets(preview))
 * [15 x YOLOs](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Object-Detection/YOLOs(preview))
 
 #### 3. Keypoint Detection
