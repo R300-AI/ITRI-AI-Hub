@@ -1,4 +1,6 @@
-
+# About SAMs
+# Benchmarks
+## Performance Evaluation
 
 |  Model     | Size        |  Max Speed<sub>tokens/s     |  Memory Usage     |  Memory Usage     |
 |------------|-------------|-----------------------------|-------------------|-------------------|
