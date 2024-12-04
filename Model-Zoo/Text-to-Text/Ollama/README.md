@@ -1,4 +1,4 @@
-# About SAMs
+# About Ollama
 # Benchmarks
 ## Performance Evaluation
 
