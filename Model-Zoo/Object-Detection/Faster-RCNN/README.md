@@ -1,7 +1,14 @@
-fasterrcnn_resnet50_fpn
+# About Faster-RCNN
+# Benchmarks
+## Training/Performance Evaluation 
 
-fasterrcnn_resnet50_fpn_v2
+|  Model     |  Input Size     |  params (M)     | Time (hr)<br>T4 GPU   |  mAP<sub>50     |  mAP<sub>50-95     | Pre-built Models   |
+|------------|---------|-------|-----------------------|-----------------|--------------------|--------------------|
+| fasterrcnn_resnet50_fpn   |      |  |                       |                 |                    |[[ONNX]]() |
+| fasterrcnn_resnet50_fpn_v2   |      |  |                       |                 |                    |[[ONNX]]() |
+| fasterrcnn_mobilenet_v3_large_fpn   |      |  |                       |                 |                    |[[ONNX]]() |
+| fasterrcnn_mobilenet_v3_large_320_fpn   |      |  |                       |                 |                    |[[ONNX]]() |
 
-fasterrcnn_mobilenet_v3_large_fpn
-
-fasterrcnn_mobilenet_v3_large_320_fpn
+## Inference Speed 
+## Memory Usage
+## Power Consumption
