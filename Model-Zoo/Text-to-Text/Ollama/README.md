@@ -1,6 +1,6 @@
 # About Ollama
 # Benchmarks
-## Performance Evaluation
+## Inference/Performance Evaluation
 
 |  Model         | Size        |  Max Speed<sub>tokens/s     |  Memory Usage     |  Memory Usage     |
 |----------------|-------------|-----------------------------|-------------------|-------------------|
