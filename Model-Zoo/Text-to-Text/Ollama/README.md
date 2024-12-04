@@ -13,8 +13,8 @@
 | qwen2.5:1.5b   |1B (986 MB)  | Textbook data.         | 128k              | `MMLU(56.5)`      |
 | qwen2.5:3b     |3B (1.9 GB)  | Textbook data.         | 128k              | `MMLU(63.2)`      |
 | qwen2.5:7b     |7B (4.7 GB)  | Textbook data.         | 128k              | `MMLU(70.3)`      |
-| phi3.5         |2.2 GB       | Textbook data.         |                   |                   |
-| phi3           |2.2 GB       | Textbook data.         |                   |                   |
+| phi3.5         |3.8B (2.2 GB)| Textbook data.         | 128k              | `MMLU(69.0)`      |
+| phi3           |3.8B (2.2 GB)| Textbook data.         | 128k              | `MMLU(55.4)`      |
 
 
 ```bash
