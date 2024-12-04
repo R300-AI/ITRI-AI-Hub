@@ -14,3 +14,7 @@
 #### 3. Instance Segmentation
 * [2 x SAMs](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Semantic-Segmentation/SAMs(preview))
 * [10 x YOLOs](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo/Semantic-Segmentation/YOLOs(preview))
+
+### Natural Language
+#### 1. Text-to-Text
+* [11 x Ollama]()
