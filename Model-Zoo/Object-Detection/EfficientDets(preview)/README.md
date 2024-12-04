@@ -7,7 +7,7 @@
 | efficientdet_lite0   | 320      | 3.2 |                       |                 |                    |[[ONNX]]() |
 | efficientdet_lite1   | 384      | 4.3 |                       |                 |                    |[[ONNX]]() |
 | efficientdet_lite2   | 448      | 5.3 |                       |                 |                    |[[ONNX]]() |
-| efficientdet_lite3   | 640      | 8.4 |                       |                 |                    |[[ONNX]]() |
+| efficientdet_lite3   | 512      | 8.4 |                       |                 |                    |[[ONNX]]() |
 | efficientdet_lite4   | 640      |  |                       |                 |                    |[[ONNX]]() |
 
 ## Inference Speed 
