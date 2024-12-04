@@ -2,7 +2,7 @@
 # Benchmarks
 ## Inference/Performance Evaluation
 
-|  Model         | Size        |  Training Data         |  Context Length   |  Metric           |
+|  Model         | Size        |  Dataset               |  Context Length   |  Metric           |
 |----------------|-------------|------------------------|-------------------|-------------------|
 | smollm2:135m   |270 MB       |                        |                   |                   |
 | smollm2:360m   |726 MB       |                        |                   |                   |
