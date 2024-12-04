@@ -4,9 +4,9 @@
 
 |  Model         | Size        |  Dataset               | Context<br> Length|  Metric           |
 |----------------|-------------|------------------------|-------------------|-------------------|
-| smollm2:135m   |270 MB  | Public online data.    |                   | `MMLU(31.5)`      |
-| smollm2:360m   |726 MB  | Public online data.    |                   | `MMLU(35.8)`      |
-| smollm2:1.7b   |1.8 GB  | Public online data.    |                   | `MMLU-Pro(19.3)`  |
+| smollm2:135m   |270 MB  | Public online data.    | 8k                | `MMLU(31.5)`      |
+| smollm2:360m   |726 MB  | Public online data.    | 8k                | `MMLU(35.8)`      |
+| smollm2:1.7b   |1.8 GB  | Public online data.    | 8k                | `MMLU-Pro(19.3)`  |
 | llama3.2:1b    |1.23B   | Public online data.    | 128k              | `MMLU(32.2)`      |
 | llama3.2:3b    |3.21B   | Public online data.    | 128k              | `MMLU(58.0)`      |
 | qwen2.5:0.5b   |397 MB  | Textbook data.         | 128k              | `MMLU(45.4)`      |
