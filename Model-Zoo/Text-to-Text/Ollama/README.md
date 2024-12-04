@@ -11,8 +11,8 @@
 | qwen2.5:1.5b   |986 MB       |                                                 |                   |                   |
 | qwen2.5:3b     |1.9 GB       |                                                 |                   |                   |
 | qwen2.5:7b     |4.7 GB       |                                                 |                   |                   |
-| llama3.2:1b    |1B (1.23B)   | A new mix of publicly available online data.    | 128k              |                   |
-| llama3.2:3b    |2.0 GB       |                                                 |                   |                   |
+| llama3.2:1b    |1B (1.23B)   | A new mix of publicly available online data.    | 128k              | MMLU(32.2)        |
+| llama3.2:3b    |2.0 GB       |                                                 |                   | MMLU(58)          |
 | phi3.5         |2.2 GB       |                                                 |                   |                   |
 | phi3           |2.2 GB       |                                                 |                   |                   |
 
