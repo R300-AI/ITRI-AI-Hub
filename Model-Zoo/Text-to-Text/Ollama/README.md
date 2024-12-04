@@ -7,12 +7,12 @@
 | smollm2:135m   |270 MB       |                                                 |                   |                   |
 | smollm2:360m   |726 MB       |                                                 |                   |                   |
 | smollm2:1.7b   |1.8 GB       |                                                 |                   |                   |
-| qwen2.5:0.5b   |397 MB       |                                                 |                   |                   |
-| qwen2.5:1.5b   |986 MB       |                                                 |                   |                   |
-| qwen2.5:3b     |1.9 GB       |                                                 |                   |                   |
-| qwen2.5:7b     |4.7 GB       |                                                 |                   |                   |
-| llama3.2:1b    |1B (1.23B)   | A new mix of publicly available online data.    | 128k              | MMLU(32.2)        |
-| llama3.2:3b    |3B (3.21B)   | A new mix of publicly available online data.    | 128k              | MMLU(58)          |
+| qwen2.5:0.5b   |397 MB       |                                                 |                   | `MMLU(32.2)`        |
+| qwen2.5:1.5b   |986 MB       |                                                 |                   | `MMLU(32.2)`        |
+| qwen2.5:3b     |1.9 GB       |                                                 |                   | `MMLU(32.2)`        |
+| qwen2.5:7b     |4.7 GB       |                                                 |                   | `MMLU(32.2)`        |
+| llama3.2:1b    |1B (1.23B)   | A new mix of publicly available online data.    | 128k              | `MMLU(32.2)`        |
+| llama3.2:3b    |3B (3.21B)   | A new mix of publicly available online data.    | 128k              |` MMLU(58)`          |
 | phi3.5         |2.2 GB       |                                                 |                   |                   |
 | phi3           |2.2 GB       |                                                 |                   |                   |
 
