@@ -13,6 +13,7 @@
 | qwen2.5:7b     |4.7 GB       |                             |                   |                   |
 | llama3.2:1b    |1.3 GB       |6.09                         |                   |                   |
 | llama3.2:3b    |2.0 GB       |                             |                   |                   |
+| phi3.5         |2.2 GB       |                             |                   |                   |
 
 ```bash
 ollama run smollm2:135m "Gravity is" --verbose
