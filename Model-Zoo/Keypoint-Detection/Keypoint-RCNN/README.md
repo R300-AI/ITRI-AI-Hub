@@ -1,5 +1,3 @@
-
-
 # About Keypoint-RCNN
 
 # Benchmarks
