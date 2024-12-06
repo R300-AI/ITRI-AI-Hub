@@ -7,8 +7,8 @@
 | smollm2:135m   |270 MB  | Public online data.    | 8k                | `MMLU(31.5)`      |
 | smollm2:360m   |726 MB  | Public online data.    | 8k                | `MMLU(35.8)`      |
 | smollm2:1.7b   |1.8 GB  | Public online data.    | 8k                | `MMLU-Pro(19.3)`  |
-| llama3.2:1b    |1.23B   | Public online data.    | 128k              | `MMLU(32.2)`      |
-| llama3.2:3b    |3.21B   | Public online data.    | 128k              | `MMLU(58.0)`      |
+| llama3.2:1b    |1.23 GB   | Public online data.    | 128k              | `MMLU(32.2)`      |
+| llama3.2:3b    |3.21 GB   | Public online data.    | 128k              | `MMLU(58.0)`      |
 | qwen2.5:0.5b   |397 MB  | Textbook data.         | 128k              | `MMLU(45.4)`      |
 | qwen2.5:1.5b   |986 MB  | Textbook data.         | 128k              | `MMLU(56.5)`      |
 | qwen2.5:3b     |1.9 GB  | Textbook data.         | 128k              | `MMLU(63.2)`      |
