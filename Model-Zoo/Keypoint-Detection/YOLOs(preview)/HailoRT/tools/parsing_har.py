@@ -4,18 +4,18 @@ import numpy as np
 import onnx, subprocess, argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-n", "--model_name", default='yolov8n-pose', type=str, help=".")
+parser.add_argument("-n", "--model_path", default='yolov8n-pose', type=str, help=".")
 args = parser.parse_args()
 
-model_name = args.model_name
+model_path = args.model_path
 
 calibration_size = 1024
-onnx_model = onnx.load(f'{model_name}_front.onnx')
+onnx_model = onnx.load(f'{model_path}_front.onnx')
 input_names = {input.name: tuple([i.dim_value for i in input.type.tensor_type.shape.dim]) for input in onnx_model.graph.input}
 output_names = {output.name: tuple([i.dim_value for i in output.type.tensor_type.shape.dim]) for output in onnx_model.graph.output}
 
 runner = ClientRunner(hw_arch='hailo8')
-hn, npz = runner.translate_onnx_model(f'./{model_name}_front.onnx', model_name,
+hn, npz = runner.translate_onnx_model(f'{model_path}_front.onnx', model_path,
                                     start_node_names=list(input_names.keys()),
                                     end_node_names=list(output_names.keys()),
                                     net_input_shapes=list(input_names.values()))
@@ -32,8 +32,8 @@ runner.optimize(calib_dataset)
 
 hef = runner.compile()
 
-with open(f'{model_name}.hef', 'wb') as f:
+with open(f'{model_path}.hef', 'wb') as f:
     f.write(hef)
-runner.save_har(f'{model_name}.har')
+runner.save_har(f'{model_path}.har')
 
-subprocess.run(["hailo", "profiler", f'{model_name}.har']) 
+subprocess.run(["hailo", "profiler", f'{model_path}.har']) 
