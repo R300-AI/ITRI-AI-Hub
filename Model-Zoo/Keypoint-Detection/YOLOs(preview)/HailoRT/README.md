@@ -29,14 +29,14 @@ This document will guide you through this process and successfully recognize an 
   
   ```bash
   $ source activate ultralytics
-  (ultralytics)& python pruning_onnx.py --model_name <model_name>
+  (ultralytics)& python tools/pruning_onnx.py --model_name <model_name>
   ```
   
 * Parse the front-end acceleratable model , and move this directory with the `.hef` (front) model and `.onnx` (end) model to the evaluation board.
   
   ```bash
   $ source activate data-compiler
-  (data-compiler)& python parsing_har.py --model_name <model_name>
+  (data-compiler)& python tools/parsing_har.py --model_name <model_name>
   ```
 
 ## Deploy Sample Codes on Evaluation Board
