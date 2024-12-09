@@ -14,6 +14,8 @@ nav_order: 12
 
 > * Conda
 
+## Tutorial
+
 ### Step 1: Install AMD unified driver package repositories and installer script
 Run the following commands to install the AMD unified driver package repositories and installer script:
 
