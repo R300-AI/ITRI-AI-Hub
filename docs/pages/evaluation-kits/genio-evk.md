@@ -120,7 +120,7 @@ To install CMake, execute the following commands:
 
 ```bash
 $ sudo apt-get install libssl-dev
-$ git clone https://github.com/Kitware/CMake.git && cd Cmake
+$ git clone https://github.com/Kitware/CMake.git && cd CMake
 $ ./bootstrap && make && sudo make install
 ```
 
