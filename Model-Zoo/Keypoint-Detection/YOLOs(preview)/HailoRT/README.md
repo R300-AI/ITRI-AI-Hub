@@ -4,7 +4,7 @@ HailoRT is an inference engine designed specifically for the Hailo expansion acc
 
 Currently, we only support the YOLOv8 series Pose (Keypoints) models on Hailo-8. Before deployment, we need to export the PyTorch model to an ONNX file with `opset=11`, and then use the Data-Compiler to quantize and calibrate the model into a Hailo binary file (.hef). During this process, you will also need to extract a portion of images from your training dataset as calibration samples to prevent accuracy degradation due to quantization.
 
-This document will guide you through this process and successfully recognize an image on Hailo-8. Please follow the instructions provided in the previous sections to obtain the Ultralytics pre-trained PyTorch model (`yolov8n-pose.pt`) on the COCO-pose dataset, which contains 1 class of people with 17 keypoints, and then proceed with the steps outlined in this document to complete the task.
+This document will guide you through this process and successfully recognize an image on Hailo-8. Please follow the instructions provided in the previous sections to obtain the Ultralytics pre-trained PyTorch model (`yolov8n-pose`) on the COCO-pose dataset, which contains 1 class of people with 17 keypoints, and then proceed with the steps outlined in this document to complete the task.
 
 
 ### Prerequisites
