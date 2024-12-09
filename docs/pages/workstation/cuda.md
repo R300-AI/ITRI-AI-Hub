@@ -10,6 +10,12 @@ nav_order: 11
 
 <div align="center"><img src="../../assets/images/cuda.png" width="720"/></div>
 
+## Requirements
+
+> * Conda
+
+## Tutorial
+
 ### Step 1: Update and upgrade your system
 Run the following commands to update and upgrade your system:
 
