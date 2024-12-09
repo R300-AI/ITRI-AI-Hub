@@ -9,7 +9,9 @@ nav_order: 12
 <br>
 
 <div align="center"><img src="../../assets/images/rocm.png" width="640"/></div>
+
 ## Requirements
+
 > * Conda
 
 ### Step 1: Install AMD unified driver package repositories and installer script
