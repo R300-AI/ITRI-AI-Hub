@@ -46,12 +46,41 @@ $ conda create --name ultralytics python=3.11 && conda activate ultralytics
 ```
 
 ## Inference Speed 
+The average inference time from the first to the thousandth time has been noted in the following table.
+| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>ArmNN | Genio700<br><sub>KleidiAI | Genio700<br><sub>ArmNN | Genio1200<br><sub>KleidiAI |Genio1200<br><sub>ArmNN |
+|---------------------|---------------------------|------------------------|---------------------------|------------------------|----------------------------|------------------------|
+| YOLOv5n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+| YOLOv8n<sub> (fp32) | 223.81ms (CPU)            | 163.77ms (GPU)         |                           |                        |                            |                        |
+| YOLO11n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
 
-| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>NeuronRT | Genio700<br><sub>KleidiAI | Genio700<br><sub>NeuronRT | Genio1200<br><sub>KleidiAI |
-|---------------------|-----------------------|-----------------------|-----------------------|-----------------------|------------------------|
-| YOLOv5n<sub> (fp32) |                       |                       |                       |                       |                        |
-| YOLOv8n<sub> (fp32) |                       |                       |                       |                       |                        |
-| YOLO11n<sub> (fp32) |                       |                       |                       |                       |                        |
-
+    
+    
+    
 ## Memory Usage
+The average memory usage of the whole system from the first to the thousandth time has been noted in the following table.
+| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>ArmNN | Genio700<br><sub>KleidiAI | Genio700<br><sub>ArmNN | Genio1200<br><sub>KleidiAI |Genio1200<br><sub>ArmNN |
+|---------------------|---------------------------|------------------------|---------------------------|------------------------|----------------------------|------------------------|
+| YOLOv5n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+| YOLOv8n<sub> (fp32) | 2.56GB (CPU)              | 2.65GB                 |                           |                        |                            |                        |
+| YOLO11n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+
+
+    
+    
 ## Power Consumption
+The average power consumption of the whole system from the first to the thousandth time has been noted in the following table.    
+| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>ArmNN | Genio700<br><sub>KleidiAI | Genio700<br><sub>ArmNN | Genio1200<br><sub>KleidiAI |Genio1200<br><sub>ArmNN |
+|---------------------|---------------------------|------------------------|---------------------------|------------------------|----------------------------|------------------------|
+| YOLOv5n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+| YOLOv8n<sub> (fp32) | 6.86W (CPU)               | 7.61W (GPU)            |                           |                        |                            |                        |
+| YOLO11n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+    
+    
+    
+## Temperature
+The average temperature of the whole system from the first to the thousandth time has been noted in the following table.
+| Model               | Genio510<br><sub>KleidiAI | Genio510<br><sub>ArmNN | Genio700<br><sub>KleidiAI | Genio700<br><sub>ArmNN | Genio1200<br><sub>KleidiAI |Genio1200<br><sub>ArmNN |
+|---------------------|---------------------------|------------------------|---------------------------|------------------------|----------------------------|------------------------|
+| YOLOv5n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
+| YOLOv8n<sub> (fp32) | 42.7°C (CPU)              | 42.9°C (GPU)           |                           |                        |                            |                        |
+| YOLO11n<sub> (fp32) |                           |                        |                           |                        |                            |                        |
