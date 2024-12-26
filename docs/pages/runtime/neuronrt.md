@@ -21,8 +21,14 @@ $ git clone https://github.com/R300-AI/Genio-Ubuntu.git && cd Genio-Ubuntu
 $ bash ./setup_<your_device>.sh
 ```
 
-### Step 2: Reboot and Verify the Installation
-Reboot your system and verify the installation by running the following command:
+### Step 2: Reboot to restart the Ubuntu kernel
+
+```bash
+$ reboot
+```
+
+### Step 3: Verify the Installation
+verify the installation by running the following command:
 
 ```bash
 $ sudo python3 /usr/share/neuropilot/benchmark_dla/benchmark.py --auto
