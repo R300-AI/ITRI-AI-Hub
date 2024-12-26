@@ -17,7 +17,7 @@ To illustrate the process of delegating a model from TFLite format to an MDLA bi
 Use the following commands to compile a model in NeuronPilot, if you do not have NeuronPilot installed please refer to the guide [HERE](https://r300-ai.github.io/ITRI-AI-Hub/docs/pages/compiler/neuronpilot.html):
 
 ```bash
-$ source deactivate && source activate neuronpilot
+$ conda activate neuronpilot
 $ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite --arch=mdla3.0 --relax-fp32 ./<model_name>_saved_model/<model_name>_float32.tflite ./<model_name>_float32_mdla3.tflite
 ```
 
