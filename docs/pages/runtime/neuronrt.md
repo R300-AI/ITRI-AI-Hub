@@ -8,7 +8,7 @@ nav_order: 45
 ##### update : 2024/12 by Markov Chen
 <br>
 
-NeuronRT is an AI acceleration engine designed for **MTK Genio SoCs** for applications such as autonomous driving and industrial automation. Currently, NeuronRT mainly supports TensorFlow Lite model deployment framework to provide the best inference efficiency.
+NeuronRT is an AI acceleration engine designed for MTK Genio SoCs , which is suitable for applications such as autonomous driving and industrial automation. Currently, NeuronRT mainly supports TensorFlow Lite model deployment framework to provide the best inference efficiency.
 
 Our ITRI AI Hub also provides automated installation scripts in [Genio-Ubutun](https://github.com/R300-AI/Genio-Ubuntu) according to the guidelines of [Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html) Document, you can follow the steps below to install NeuronRT for your embedded devices.
 
