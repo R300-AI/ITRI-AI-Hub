@@ -14,18 +14,11 @@ NeuronPilot is an AI acceleration platform designed for MTK Genio SoCs for appli
 
 ### Step 1: Install Gstreamer and NeuronPilot Library
 Clone the repository and run the setup script for your specific Genio device:
+`<your_device>` can be `genio350`, `genio510`, `genio700` or `genio1200`.
 
 ```bash
-$ git clone https://github.com/R300-AI/ITRI-AI-Hub.git
-
-# Genio 350
-$ bash ITRI-AI-Hub/tools/setup_genio350.sh
-# Genio 510
-$ bash ITRI-AI-Hub/tools/setup_genio510.sh
-# Genio 700
-$ bash ITRI-AI-Hub/tools/setup_genio700.sh
-# Genio 1200
-$ bash ITRI-AI-Hub/tools/setup_genio1200.sh
+$ git clone https://github.com/R300-AI/Genio-Ubuntu.git && cd Genio-Ubuntu
+$ bash ./setup_<your_device>.sh
 ```
 
 ### Step 2: Reboot and Verify the Installation
