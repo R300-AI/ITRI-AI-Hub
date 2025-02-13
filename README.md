@@ -25,7 +25,7 @@ Contact With Us :wave:
 
 　Require registion
   
-　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/HailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
+　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
 
 </details>
 
