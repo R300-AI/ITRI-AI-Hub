@@ -12,6 +12,8 @@ Contact With Us :wave:
 <summary>MediaTek Genio EVK</summary>
   
 　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-blue) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-blue)
+  * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
+  * [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
 
 </details>
 
