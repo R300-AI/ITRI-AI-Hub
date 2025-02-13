@@ -11,7 +11,7 @@ Contact Us
 <details open>
 <summary>MediaTek Genio EVK</summary>
   
-　![](https://img.shields.io/badge/OS-Yocto-blue) ![](https://img.shields.io/badge/OS-Ubuntu-orange)
+　![](https://img.shields.io/badge/Usage-Computer_Vision-blue)
 
 </details>
 
