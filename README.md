@@ -32,11 +32,11 @@ Contact With Us :wave:
 
 <table>
     <tr>
-        <td rowspan=2>Main</td>
-        <td>Row 1</td>
+        <td rowspan=2>Computer Vision</td>
+        <td>Image Classification</td>
     </tr>
     <tr>
-        <td>Row 2</td>
+        <td>Object Detection</td>
     </tr>
 </table>
 
