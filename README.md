@@ -44,7 +44,7 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating *
 
 <table>
     <tr>
-        <th>Category</th><th>Application</th><th>Genio<br><th>Hailo</th>
+        <th>Category</th><th>Application</th><th>Genio<br><th>Hailo</th><th>Ryzen</th><th>Jetson</th>
     </tr>
     <tr>
         <td rowspan=3>CV</td>
