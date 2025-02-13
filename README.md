@@ -11,7 +11,7 @@ contact us
 <details open>
 <summary>MediaTek Genio EVK</summary>
   
-  | [Install Yocto OS for Genio](https://docs.ultralytics.com/zh) | [Install Ubuntu OS for Genio](https://docs.ultralytics.com/zh) |
+  | [Installation (Yocto OS)](https://docs.ultralytics.com/zh) | [Installation (Ubuntu)](https://docs.ultralytics.com/zh) |
 
 </details>
 
