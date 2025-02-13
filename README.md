@@ -11,9 +11,9 @@ Contact With Us :wave:
 <details open>
 <summary>MediaTek Genio EVK</summary>
 
-  Genio EVK is a development board with Arm GPU and MediaTek DLA supporting General-Purpose I/O (GPIO) for AIoT applications.
-  
-　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
+Genio EVK is a development board with Arm GPU and MediaTek DLA supporting General-Purpose I/O (GPIO) for AIoT applications.
+
+![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
   * [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
   * [Deploy Pre-Trained Models using NVIDIA TAO Toolkit](https://mediatek.gitlab.io/genio/doc/tao/index.html)
