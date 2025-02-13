@@ -11,7 +11,7 @@ Contact With Us :wave:
 <details open>
 <summary>MediaTek Genio EVK</summary>
 
-　Support Classification, Object Detection, Segmentation, other CV tasks
+　Note
   
 　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
@@ -23,7 +23,7 @@ Contact With Us :wave:
 <details open>
 <summary>Hailo PCIe/ M.2 Card</summary>
 
-　require registion, Support Classification, Object Detection, Segmentation, other CV tasks
+　Require registion
   
 　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/HailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
 
