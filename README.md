@@ -19,7 +19,8 @@ Contact With Us :wave:
 
 <details open>
 <summary>Hailo-8 PCIe/ M.2 Card</summary>
-  
+
+  require registion
 　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/HailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-blue)
 
 </details>
