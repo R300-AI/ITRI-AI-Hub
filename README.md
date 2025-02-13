@@ -26,13 +26,6 @@ Contact With Us :wave:
 
 </details>
 
-<details open>
-<summary>AMD Ryzen</summary>
-  
-* Computer Vision
-
-</details>
-
 ## <div align="center">News</div>
 
 * 2024/09 Released a Simple and Clear **Developer's Guide** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
