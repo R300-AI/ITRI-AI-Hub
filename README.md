@@ -15,8 +15,6 @@
 
 <a href="https://www.ey.gov.tw/File/B8B426A05E026782" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://odas.ida.gov.tw/logo.png" alt="MOEA logo" height="62" width="206"></a>
 
-<!-- SVG image from https://opencollective.com/ITRI-AI-Hub/contributors.svg?width=990 -->
-
 ## <div align="center">License</div>
 ## <div align="center">Contact</div>
 
