@@ -45,7 +45,7 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating *
 <details>
 <summary>NVIDIA Jetson</summary>
   
-Jetson Orin is an SoC specifically designed for edge AI, integrating an Ampere architecture GPU and Arm CPU, capable of delivering up to 67-275 TOPS of AI performance.
+Jetson Orin is an SoC specifically designed for edge AI, integrating an **Arm CPU** and **Ampere GPUs** , capable of delivering up to 67-275 TOPS of AI performance.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
