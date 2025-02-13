@@ -33,6 +33,8 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 <details>
 <summary>Ryzen AI Processor</summary>
 
+
+![](https://img.shields.io/badge/OS-Windows-orange) 
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
   * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
