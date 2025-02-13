@@ -13,7 +13,7 @@ Contact With Us :wave:
 
 　Support Classification, Object Detection, Segmentation, other CV tasks
   
-　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-blue) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-blue)
+　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
   * [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
   * [Deploy Pre-Trained Models using NVIDIA TAO Toolkit](https://mediatek.gitlab.io/genio/doc/tao/index.html)
@@ -25,7 +25,7 @@ Contact With Us :wave:
 
 　require registion, Support Classification, Object Detection, Segmentation, other CV tasks
   
-　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/HailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-blue)
+　![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/HailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
 
 </details>
 
