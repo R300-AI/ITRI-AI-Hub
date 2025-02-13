@@ -1,8 +1,6 @@
 # ITRI AI Hub
 
-<div align="center">
 [Ultralytics](https://www.ultralytics.com/) is an AI model deployment verification platform build upon selected CPUs, GPUs, MCUs, and DLAs. These chips are designed to accelerate neural network processing for Computer Vision, Audio Signals, and Natural Language.
-</div>
 
 ### <div align="center">1. Getting Started</div>
 
