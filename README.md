@@ -1,6 +1,6 @@
 <div align="center">
   
-  [ITRI AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, MCUs, and DLAs. It is designed to delegate the computer vision, audio signals or natural language models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
+  [ITRI AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, MCUs, and DLAs. It is designed to delegate the computer vision (CV), audio signals or natural language models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
 
 Contact Us
 
@@ -11,14 +11,14 @@ Contact Us
 <details open>
 <summary>MediaTek Genio EVK</summary>
   
-　![](https://img.shields.io/badge/Usage-Computer_Vision-blue)
+　![](https://img.shields.io/badge/Usage-CV-blue)
 
 </details>
 
 <details open>
 <summary>Hailo-8 PCIe/ M.2 Card</summary>
   
-　![](https://img.shields.io/badge/Usage-Computer_Vision-blue)
+　![](https://img.shields.io/badge/Usage-CV-blue)
 
 </details>
 
