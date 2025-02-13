@@ -26,8 +26,8 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 Hailo is an expansion card designed for computer vision acceleration. **(*registration is required to access the documents below)**
 
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
-  * [Dataflow Compiler v3.27.0 Installation](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
-  * [Install PCIe driver and Python SDK]
+  * [Dataflow Compiler Installation](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
+  * [PCIe Driver(HailoRT) and Python SDK(pyHailoRT) Installation]
 </details>
 
 
