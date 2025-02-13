@@ -43,11 +43,16 @@ Contact With Us :wave:
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
-        <td>Text to Text</td>
+        <td>Speech-Recognition</td>
     </tr>
     <tr>
         <td rowspan=1>Natural Language Process</td>
         <td>Text to Text</td>
+    </tr>
+    <tr>
+        <td rowspan=2>Multi-Modal</td>
+        <td>Text to Image</td>
+        <td>Text to Voice</td>
     </tr>
 </table>
 
