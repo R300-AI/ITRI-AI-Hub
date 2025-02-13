@@ -10,6 +10,8 @@ Contact With Us :wave:
 
 <details open>
 <summary>MediaTek Genio EVK</summary>
+
+  Support Classification, Object Detection, Segmentation, other CV tasks
   
 　![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-blue) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-blue)
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
