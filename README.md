@@ -32,7 +32,7 @@ Contact With Us :wave:
 
 <table>
     <tr>
-        <th>Category</th><th>Application</th><th>Genio<br><sub>510, 700, 1200</th><th>Hailo-8</th>
+        <th>Category</th><th>Application</th><th>Genio<br><sub>510, 700</th><th>Genio<br><sub>1200</th><th>Hailo-8</th>
     </tr>
     <tr>
         <td rowspan=3>Computer Vision</td>
