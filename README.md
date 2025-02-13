@@ -32,7 +32,7 @@ Contact With Us :wave:
 
 <table>
     <tr>
-        <th>Category</th><th>Application</th><th>MediaTek Genio</th><th>Hailo-8</th>
+        <th>Category</th><th>Application</th><th>Genio</th><th>Hailo</th>
     </tr>
     <tr>
         <td rowspan=3>Computer Vision</td>
