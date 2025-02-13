@@ -11,7 +11,7 @@ contact us
 <details open>
 <summary>MediaTek Genio EVK</summary>
   
-[Installation](https://docs.ultralytics.com/zh) |
+  | [Installation](https://docs.ultralytics.com/zh) | [Installation](https://docs.ultralytics.com/zh) |
 
 </details>
 
