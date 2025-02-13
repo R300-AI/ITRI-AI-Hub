@@ -27,7 +27,7 @@ Hailo is an expansion card designed for computer vision acceleration. **(*regist
 
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
   * [Dataflow Compiler Installation](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
-  * [PCIe Driver(HailoRT) and Python SDK(pyHailoRT) Installation]
+  * [PCIe Driver(HailoRT) and Python SDK(pyHailoRT) Installation](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
 </details>
 
 
