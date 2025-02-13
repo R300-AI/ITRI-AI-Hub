@@ -32,6 +32,9 @@ Contact With Us :wave:
 
 <table>
     <tr>
+        <th>Category</th><th>Application</th>
+    </tr>
+    <tr>
         <td rowspan=3>Computer Vision</td>
         <td>Image Classification</td>
     </tr>
