@@ -1,5 +1,9 @@
 # ITRI AI Hub
 
+<div align="center">
+ITRI-AI-Hub is an AI model verification platform build upon selected CPUs, GPUs, MCUs, and DLAs.
+</div>
+
 ### <div align="center">1. Getting Started</div>
 
 ## <div align="center">News</div>
