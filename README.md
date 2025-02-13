@@ -5,18 +5,14 @@
 
 ## <div align="center">Documentations</div>
 
-<details>
-<summary>Hailo-8</summary>
-
-Pip install the Ultralytics package including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml) in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
-
+<details open>
+<summary>MediaTek Genio</summary>
+* Computer Vision
 </details>
 
-<details>
+<details open>
 <summary>Hailo-8</summary>
-
-Pip install the Ultralytics package including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml) in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
-
+* Computer Vision
 </details>
 
 ## <div align="center">News</div>
