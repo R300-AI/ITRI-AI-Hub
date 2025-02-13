@@ -35,7 +35,7 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating multi-core CPUs and GPUs, capable of delivering up to 50 TOPS of AI performance.
 
-![](https://img.shields.io/badge/OS-Windows-orange) 
+![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-blue)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
   * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
