@@ -35,7 +35,7 @@ Contact With Us :wave:
         <th>Category</th><th>Application</th><th>Genio<br><th>Hailo</th>
     </tr>
     <tr>
-        <td rowspan=3>Computer Vision</td>
+        <td rowspan=3>CV</td>
         <td>Image Classification</td>
     </tr>
     <tr>
@@ -49,7 +49,7 @@ Contact With Us :wave:
         <td>Speech-Recognition</td>
     </tr>
     <tr>
-        <td rowspan=1>Natural Language Process</td>
+        <td rowspan=1>NLP</td>
         <td>Text to Text</td>
     </tr>
     <tr>
