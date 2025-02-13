@@ -31,11 +31,21 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 </details>
 
 <details>
-<summary>Ryzen AI Processor</summary>
+<summary>AMD Ryzen</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
 ![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue)
+  * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
+  * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
+  * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
+
+</details>
+
+<details>
+<summary>NVIDIA Jetson</summary>
+
+![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
   * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
