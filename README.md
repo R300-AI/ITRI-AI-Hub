@@ -18,7 +18,7 @@ Contact Us
 <details open>
 <summary>Hailo-8 PCIe/ M.2 Card</summary>
   
-* Computer Vision
+　![](https://img.shields.io/badge/Usage-Computer_Vision-blue)
 
 </details>
 
