@@ -11,7 +11,7 @@ Contact Us
 <details open>
 <summary>MediaTek Genio EVK</summary>
   
-　![](https://img.shields.io/badge/Installation-Yocto-blue)![](https://img.shields.io/badge/Installation-UBUNTU-blue)
+　![](https://img.shields.io/badge/Installation-Yocto-green)![](https://img.shields.io/badge/Installation-UBUNTU-blue)
   
   | [Installation (Yocto OS)](https://docs.ultralytics.com/zh) | [Installation (Ubuntu)](https://docs.ultralytics.com/zh) |
 
