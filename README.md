@@ -16,7 +16,7 @@ Contact Us
 </details>
 
 <details open>
-<summary>Hailo-8 PCIe/ M.2</summary>
+<summary>Hailo-8 PCIe/ M.2 card</summary>
   
 * Computer Vision
 
