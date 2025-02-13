@@ -11,7 +11,7 @@ Contact With Us :wave:
 <details open>
 <summary>MediaTek Genio EVK</summary>
 
-Genio is powered by an **Arm GPU** and **MediaTek DLA**(0.7~3 TOPs). It supports General-Purpose I/O (GPIO), making it suitable for developing AIoT-level computer vision applications.
+Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of computing power. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
 
 ![](https://img.shields.io/badge/OS-Yocto_|_Ubuntu-orange) ![](https://img.shields.io/badge/NeuronPilot-v6-blue) ![](https://img.shields.io/badge/Python-3.7-green)
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
