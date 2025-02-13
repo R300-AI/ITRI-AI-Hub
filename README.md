@@ -30,6 +30,14 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
   * [Install HailoRT(PCIe Driver) and pyHailoRT with mPCIe or M.2 board](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
 </details>
 
+<details>
+<summary>Ryzen AI Processor</summary>
+
+  * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
+  * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
+  * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
+
+</details>
 
 <table>
     <tr>
