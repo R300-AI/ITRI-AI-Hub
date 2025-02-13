@@ -21,7 +21,7 @@ Contact With Us :wave:
 </details>
 
 <details open>
-<summary>Hailo-8 PCIe/ M.2 Card</summary>
+<summary>Hailo PCIe/ M.2 Card</summary>
 
 　require registion, Support Classification, Object Detection, Segmentation, other CV tasks
   
@@ -32,7 +32,7 @@ Contact With Us :wave:
 
 <table>
     <tr>
-        <th>Category</th><th>Application</th><th>Genio<br><sub>510, 700</th><th>Genio<br><sub>1200</th><th>Hailo-8</th>
+        <th>Category</th><th>Application</th><th>Genio<br><sub>510, 700</th><th>Genio<br><sub>1200</th><th>Hailo<sub>8</th>
     </tr>
     <tr>
         <td rowspan=3>Computer Vision</td>
