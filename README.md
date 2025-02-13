@@ -23,7 +23,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 <details open>
 <summary>Hailo PCIe/ M.2 Card</summary>
 
-Hailo is an accelerated expansion card for computer vision. (*registration is required to access the development documents)
+Hailo is an expansion card designed for computer vision acceleration. (*registration is required to access the development documents)
   
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
 
