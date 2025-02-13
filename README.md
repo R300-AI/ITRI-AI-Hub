@@ -12,6 +12,13 @@ Pip install the Ultralytics package including all [requirements](https://github.
 
 </details>
 
+<details>
+<summary>Hailo-8</summary>
+
+Pip install the Ultralytics package including all [requirements](https://github.com/ultralytics/ultralytics/blob/main/pyproject.toml) in a [**Python>=3.8**](https://www.python.org/) environment with [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
+
+</details>
+
 ## <div align="center">News</div>
 
 * 2024/09 Released a Simple and Clear **Developer's Guide** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
