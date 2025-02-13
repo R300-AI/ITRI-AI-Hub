@@ -1,6 +1,6 @@
 <div align="center">
   
-  [ITRI AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, MCUs, and DLAs. It is designed to delegate the computer vision (CV), audio signals or natural language process (NLP) models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
+  [ITRI AI Hub](https://e-aihub.dev/) is an **AI Deployment Verification Platform** build upon selected CPUs, GPUs, MCUs, and DLAs. It is designed to delegate the computer vision (CV), audio signals, natural language process (NLP) and multimodal models to be accelerated on-chip. making AI application proof-of-concept and commercial implementation easier.
 
 Contact With Us :wave:
 
@@ -32,18 +32,22 @@ Contact With Us :wave:
 
 <table>
     <tr>
-        <td rowspan=2>Computer Vision</td>
+        <td rowspan=3>Computer Vision</td>
         <td>Image Classification</td>
     </tr>
     <tr>
         <td>Object Detection</td>
     </tr>
     <tr>
-        <td rowspan=2>Natural Language Process</td>
+        <td>Semantic Segmentation</td>
+    </tr>
+    <tr>
+        <td rowspan=1>Voice Signals</td>
         <td>Text to Text</td>
     </tr>
     <tr>
-        <td>Text to Image</td>
+        <td rowspan=1>Natural Language Process</td>
+        <td>Text to Text</td>
     </tr>
 </table>
 
