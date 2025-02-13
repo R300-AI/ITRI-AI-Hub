@@ -18,7 +18,7 @@ Contact Us
 <details open>
 <summary>Hailo-8 PCIe/ M.2 Card</summary>
   
-　![](https://img.shields.io/badge/Usage-CV-blue)
+　![](https://img.shields.io/badge/Data_Compiler-v3.27-blue) ![](https://img.shields.io/badge/Python-3.8-blue)
 
 </details>
 
