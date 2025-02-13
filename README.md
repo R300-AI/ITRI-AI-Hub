@@ -7,12 +7,16 @@
 
 <details open>
 <summary>MediaTek Genio</summary>
+  
 * Computer Vision
+
 </details>
 
 <details open>
 <summary>Hailo-8</summary>
+  
 * Computer Vision
+
 </details>
 
 ## <div align="center">News</div>
