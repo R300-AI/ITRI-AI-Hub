@@ -9,14 +9,14 @@ contact us
 ## <div align="center">Documentations</div>
 
 <details open>
-<summary>MediaTek Genio</summary>
+<summary>MediaTek Genio EVK</summary>
   
-* Computer Vision
+[Installation](https://docs.ultralytics.com/zh) |
 
 </details>
 
 <details open>
-<summary>Hailo-8</summary>
+<summary>Hailo-8 PCIe/ M.2</summary>
   
 * Computer Vision
 
