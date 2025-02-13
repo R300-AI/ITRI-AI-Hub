@@ -38,6 +38,13 @@ Contact With Us :wave:
     <tr>
         <td>Object Detection</td>
     </tr>
+    <tr>
+        <td rowspan=2>Natural Language Process</td>
+        <td>Text to Text</td>
+    </tr>
+    <tr>
+        <td>Text to Image</td>
+    </tr>
 </table>
 
 ## <div align="center">News</div>
