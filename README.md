@@ -23,7 +23,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 <details open>
 <summary>Hailo PCIe/ M.2 Card</summary>
 
-Hailo offers a set of expansion cards designed for computer vision models. This includes an x86 evaluation board for compiling and mPCIe or M.2 boards for accelerating. **(*registration is required to access the documents below)**
+Hailo offers a set of expansion cards designed for computer vision models. This includes an evaluation board for compiling and mPCIe or M.2 boards for accelerating. **(*registration is required to access the documents below)**
 
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
   * [Install Dataflow Compiler with Evaluation board](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
