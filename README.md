@@ -29,6 +29,12 @@ Contact With Us :wave:
 
 </details>
 
+
+<table border=1>
+    <tr><td rowspan=2>1</td><td rowspan=2>Main</td><td>Row 1</td></tr>
+    <tr><td>Row 2</td></tr>
+</table>
+
 ## <div align="center">News</div>
 
 * 2024/09 Released a Simple and Clear **Developer's Guide** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
