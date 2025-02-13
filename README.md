@@ -41,17 +41,22 @@ Contact With Us :wave:
     <tr>
         <td>Semantic Segmentation</td>
     </tr>
+  
     <tr>
         <td rowspan=1>Voice Signals</td>
         <td>Speech-Recognition</td>
     </tr>
+    
     <tr>
         <td rowspan=1>Natural Language Process</td>
         <td>Text to Text</td>
     </tr>
+    
     <tr>
-        <td rowspan=2>Multi-Modal</td>
+        <td rowspan=2>Multi Modal</td>
         <td>Text to Image</td>
+    </tr>
+        <tr>
         <td>Text to Voice</td>
     </tr>
 </table>
