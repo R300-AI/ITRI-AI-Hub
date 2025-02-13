@@ -20,7 +20,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 
 </details>
 
-<details open>
+<details>
 <summary>Hailo AI Accelerator Plugins</summary>
 
 Hailo offers a set of expansion cards designed for computer vision. This includes an **Evaluation Board** for compiling and **mPCIe/M.2 boards** for accelerating. **(*registration is required to access the documents)**
