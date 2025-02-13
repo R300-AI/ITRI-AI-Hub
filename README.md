@@ -33,7 +33,7 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 <details>
 <summary>AMD Ryzen</summary>
 
-AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
+AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
 ![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
@@ -45,7 +45,7 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating *
 <details>
 <summary>NVIDIA Jetson</summary>
   
-Jetson Orin is an SoC specifically designed for edge AI, integrating an **Arm CPU** and **Ampere GPUs** , capable of delivering up to 67-275 TOPS of AI performance.
+Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67 to 275 TOPS.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
