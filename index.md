@@ -49,10 +49,9 @@ Follow the instructions to configure the engine and operating environment for yo
 
 Here, the ITRI AI Hub plays a crucial role by offering comprehensive development resources and tutorials for each stage of the process. This support enables enterprises and individual users to efficiently and quickly validate their new AI applications. For more information, please visit the "Developer Support" section.
 
-
 </div>
 
 ## **How to Build Your Own Application?**
 
-* [How to Train Your Own Model?]()
+* [Deploying Computer Vision Models with Ultralytics YOLOs: A Step-by-Step Guide]()
 * [Pre-trained Model from Model Zoo or Third-Party]()
