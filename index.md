@@ -17,10 +17,11 @@ nav_order: 1
 <div style="margin-left: 20px;">
 <p>Overall, the model deployment process includes the following three stages:</p>
 
-
-<strong>Step1. Training</strong>
 <div style="margin-left: 20px;">
-This term refers to the phase where AI models are developed and trained on a host machine.
+<strong>Step1. Training</strong>
+
+<div style="margin-left: 20px;">
+This term refers to the design and development of AI models. This usually involves a lot of data annotation, augmentation, and parameter tuning. Or, you can use pre-trained models to skip these steps.
 <ul>
     <li><a href="https://azure.microsoft.com/zh-tw">Cloud-hosted Data Center (e.g. Azure, AWS)</a></li>
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
@@ -42,6 +43,7 @@ This term refers to lightweight host boards designed for specific embedded proce
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
 </ul>
+</div>
 </div>
 
 Visit "Developer Support" for more information
