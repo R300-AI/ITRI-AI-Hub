@@ -31,7 +31,7 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 </details>
 
 <details>
-<summary>AMD Ryzen</summary>
+<summary>AMD Ryzen AI Processor</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
@@ -174,8 +174,8 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
   
 ## <div align="center">Contridutors</div>
 
-<a href="https://www.ey.gov.tw/File/B8B426A05E026782" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/moea_logo.png" alt="MOEA logo" height="42" width="216"></a>
-<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42"></a>
+<a href="https://www.moea.gov.tw/Mns/populace/home/Home.aspx" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/moea_logo.png" alt="MOEA logo" height="42" width="216"></a>
+<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42"></a>
 
 ## <div align="center">License</div>
 
