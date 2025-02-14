@@ -20,7 +20,7 @@ nav_order: 1
 <div style="margin-left: 20px;">
 <strong>Step1. Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
 <ul>
-    <li><a href="https://azure.microsoft.com/zh-tw">Azure-hosted Cloud</a></li>
+    <li><a href="https://azure.microsoft.com/zh-tw">Cloud-hosted Data Center (e.g. Azure, AWS)</a></li>
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
     <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
 </ul>
