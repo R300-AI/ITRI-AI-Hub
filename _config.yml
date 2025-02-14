@@ -3,9 +3,7 @@ description: >
   A description of your site.
 theme: "just-the-docs"
 
-# Just the Docs settings
 just_the_docs:
-  logo: "/docs/assets/images/logo.png"
   nav:
     - title: "How to Get Started?"
       url: "/"
