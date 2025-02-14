@@ -4,7 +4,7 @@ title: Quick Start
 nav_order: 1
 ---
 
-# Get Started
+# Welcome to ITRI AI Hub Tutorials
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 <br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of devices we selected, helping you compare them more intuitively with Model Zoo, open-source communities, or other custom models.
