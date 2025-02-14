@@ -24,3 +24,8 @@ nav_order: 1
     > **Runtime APIs**: APIs that delegate the model inference process to designated computing units. Usage examples can be found in the Model Zoo.
 
 </div><br>
+
+## **How Can I Get the Models?**
+
+* [Train Your Own Model]()
+* [Pre-trained Model from Model Zoo or Third-Party]()
