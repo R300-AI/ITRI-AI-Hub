@@ -4,7 +4,7 @@
 
 Contact With Us :wave:
 
-| [Verify your application]() |
+| [Verify Your Application]() |
 
 </div>
 
