@@ -178,7 +178,7 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
 ## <div align="center">Contridutors</div>
 
 <a href="https://www.ey.gov.tw/File/B8B426A05E026782" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://odas.ida.gov.tw/logo.png" alt="MOEA logo" height="62" width="206"></a>
-<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="62" width="180"></a>
+<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="48" width="206"></a>
 
 ## <div align="center">License</div>
 
