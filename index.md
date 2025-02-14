@@ -15,7 +15,7 @@ nav_order: 1
 ## **Development Flow Overview**
 
 <div style="margin-left: 20px;">
-<p>Overall, a model deployment process involves three stages: training, compilation, and inference.</p>
+<p>Overall, the model deployment process includes the following three stages.</p>
 
 
 <strong>Step1. Training</strong>
