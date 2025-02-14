@@ -170,7 +170,7 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
 
 ## <div align="center">News</div>
 
-* 2024/09 Released a Simple and Clear **Developer's Guide** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
+* 2024/09 Released a Simple and Clear **Developer's Tutorial** Website [HERE](https://r300-ai.github.io/ITRI-AI-Hub/).
 * 2024/07 Started Testing Model Deployment with **NVIDIA, AMD, ARM,** and **Mediatek**.
 * 2024/05 Release **ITRI AI Hub**.
   
