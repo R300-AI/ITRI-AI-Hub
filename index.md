@@ -7,11 +7,11 @@ nav_order: 1
 # Get Started
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
-工研院AI Hub為企業及開發者提供簡單、快速、商業化的Edge AI實施方案。在選擇系統之前，我們建議您依照運算能力及能源效率來評估哪些設備適合您所設計的應用。
+工研院AI Hub為企業及開發者提供簡單、快速、商業化的Edge AI實施方案。在選擇系統之前，我們建議您根據模型類型、運算能力、記憶體及能源效率來評估適合您應用的設備。下圖簡要地統整了selected設備的記憶體和運算能力分佈，幫助您更直觀地與Model Zoo、開源社群或其他自訂模型進行比較。
 
-<br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your designed applications based on computing power and energy efficiency.
+<br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of selected devices, helping you compare them more intuitively with Model Zoo, open-source communities, or other custom models.
 
-<div align="center"><img src="./docs/assets/images/pages/metric-of-all-devices.png" width="840"/></div>
+<div align="center"><img src="./docs/assets/images/pages/metric-of-all-devices.png" width="760"/></div>
 
 
 # Get Started
