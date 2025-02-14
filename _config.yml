@@ -7,85 +7,14 @@ theme: "just-the-docs"
 just_the_docs:
   logo: "/docs/assets/images/logo.png"
   nav:
-    - title: "Home"
-      url: "/"
+    - title: "How to Get Started?"
+      url: "/docs/get-start.md"
       nav_order: 1
       children:
-      - title: "Geting Started"
-        url: "/docs/pages/get-started.md"
+      - title: "Genio Evaluation Kits"
+        url: "/docs/genio-evk.md"
         nav_order: 2
-
-      - title: "Work Station"
-        url: "/docs/pages/workstation.md"
-        nav_order: 10
-      - title: "　-　CUDA"
-        url: "/docs/pages/workstation/cuda.md"
-        nav_order: 11
-      - title: "　-　ROCm"
-        url: "/docs/pages/workstation/rocm.md"
-        nav_order: 12
-      - title: "　-　Open VINO"
-        url: "/docs/pages/workstation/openvino.md"
-        nav_order: 13
-      - title: "　-　Ryzen AI"
-        url: "/docs/pages/workstation/ryzen-ai.md"
-        nav_order: 14
-
-      - title: "Evaluation Kits"
-        url: "/docs/pages/evaluation-kits.md"
-        nav_order: 20
-      - title: "　-　Genio EVKs"
-        url: "/docs/pages/evaluation-kits/genio-evk.md"
-        nav_order: 21
-      - title: "　-　I-Pi SMARC"
-        url: "/docs/pages/evaluation-kits/ipi-smarc.md"
-        nav_order: 22
-      - title: "　-　Raspberry Pi"
-        url: "/docs/pages/evaluation-kits/raspberrypi.md"
-        nav_order: 23
-      - title: "　-　Jetson EVK"
-        url: "/docs/pages/evaluation-kits/jetson-evk.md"
-        nav_order: 24
-
-      - title: "Converter Tools"
-        url: "/docs/pages/compiler.md"
-        nav_order: 30
-      - title: "　-　Data Compiler"
-        url: "/docs/pages/compiler/data-compiler.md"
-        nav_order: 31
-      - title: "　-　NeuronPilot"
-        url: "/docs/pages/compiler/neuronpilot.md"
-        nav_order: 32
-      - title: "　-　Vitis AI"
-        url: "/docs/pages/compiler/vitis-ai.md.md"
-        nav_order: 33
-
-      - title: "Runtime SDKs"
-        url: "/docs/pages/runtime.md"
-        nav_order: 40
-      - title: "　-　Kleidi AI"
-        url: "/docs/pages/runtime/kleidi.md"
-        nav_order: 41
-      - title: "　-　ArmNN"
-        url: "/docs/pages/runtime/armnn.md"
-        nav_order: 42
-      - title: "　-　HailoRT"
-        url: "/docs/pages/runtime/hailort.md"
-        nav_order: 43
-      - title: "　-　TensorRT"
-        url: "/docs/pages/runtime/tensorrt.md"
-        nav_order: 44
-      - title: "　-　NeuronRT"
-        url: "/docs/pages/runtime/neuronrt.md"
-        nav_order: 45
-  
-      - title: "Benchmarks"
-        url: "/docs/pages/benchmark.md"
-        nav_order: 50
-
-      - title: "Use Case"
-        url: "/docs/pages/usecase.md"
-        nav_order: 60
-      - title: "　-　Case 1"
-        url: "/docs/pages/usecase/usecase1.md"
-        nav_order: 61
+      - title: "　-　Step1."
+        url: "/docs/genio-evk/step1.md"
+        nav_order: 3
+    
