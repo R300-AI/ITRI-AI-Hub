@@ -5,13 +5,13 @@ nav_order: 1
 ---
 
 # Get Started
-##### update : 2025/01 by ITRI(EOSL-R3)
+##### update : 2025/01 by ITRI (EOSL-R3)
 
 工研院AI Hub為企業及開發者提供簡單、快速、商業化的Edge AI實施方案。在選擇系統之前，我們建議您依照運算能力及能源效率來評估哪些設備適合您所設計的應用。
 
 <br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your designed applications based on computing power and energy efficiency.
 
-<div align="center"><img src="../assets/images/pages/metric-of-all-devices.png" width="840"/></div>
+<div align="center"><img src="./docs/assets/images/pages/metric-of-all-devices.png" width="840"/></div>
 
 
 # Get Started
