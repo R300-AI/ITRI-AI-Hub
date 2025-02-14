@@ -17,9 +17,9 @@ nav_order: 1
 <div style="margin-left: 20px;">
 <br>
 
+Overall, a model deployment process involves three stages: training, compilation, and inference.
 
-In the following documents, we provide software installation guidelines for Work Stations and Evaluation Kits to meet the basic needs of developing embedded AI:
-<br>
+<br><br>
 * **Work Station**: This term refers to the host used to develop and train AI models (usually through PyTorch or TensorFlow), which mainly includes facilities such as GPUs and CPUs. Typically, it is separate from embedded systems because this stage requires high performance and high power consumption.
 <br>
 **Converter Tools**: These tools involve vendor-specific properties designed to translate the model into instructions readable by the embedded processors.
