@@ -24,7 +24,9 @@ nav_order: 1
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
     <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
 </ul>
+
 <strong>Step2. Compiling</strong><br>These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.
+
 <strong>Step3. Inference</strong><br>This term refers to lightweight host boards designed for specific embedded processors. 
 <ul>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
