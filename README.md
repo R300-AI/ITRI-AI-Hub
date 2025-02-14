@@ -4,7 +4,7 @@
 
 Contact With Us :wave:
 
-| [Verify Your Application]() |
+| [Application Validation]() | [Supply Opportunities]() | [Developer Inquiries]() |
 
 </div>
 
