@@ -31,7 +31,7 @@ This stage involves the design and development of AI models. These models are ty
 
 <strong>Step2. Compiling</strong>
 <div style="margin-left: 20px;">
-To ensure that the model can execute efficiently on embedded systems, we need to use vendor-specific compilers. These compilers fine-tune parameters, optimize memory and computational resources, and generate binary files based on the chip architecture and instruction set.
+To ensure that the model can execute efficiently on embedded systems, we need to use vendor-specific compilers. These compilers fine-tune parameters, optimize memory and computational resource allocation, and generate binary files based on the chip architecture and instruction set.
 <ul></ul>
 </div>
 
