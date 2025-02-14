@@ -9,7 +9,7 @@ just_the_docs:
       nav_order: 1
       children:
       - url: "/docs/genio-evk.md"
-        nav_order: 2
       - url: "/docs/genio-evk/step1.md"
-        nav_order: 3
-    
+      - url: "/docs/hailo.md"
+      - url: "/docs/ryzen.md"
+      - url: "/docs/jetson-evk.md"
