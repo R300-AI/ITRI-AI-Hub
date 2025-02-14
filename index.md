@@ -17,17 +17,25 @@ nav_order: 1
 <div style="margin-left: 20px;">
 <p>Overall, a model deployment process involves three stages: training, compilation, and inference.</p>
 
+
+<strong>Step1. Training</strong>
 <div style="margin-left: 20px;">
-<strong>Step1. Training</strong><br>This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
+This term refers to the phase where AI models are developed and trained on a host machine.
 <ul>
     <li><a href="https://azure.microsoft.com/zh-tw">Cloud-hosted Data Center (e.g. Azure, AWS)</a></li>
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
     <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
 </ul>
+</div>
 
-<strong>Step2. Compiling</strong><br>These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.
+<strong>Step2. Compiling</strong>
+<div style="margin-left: 20px;">
+These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.
+</div>
 
-<strong>Step3. Inference</strong><br>This term refers to lightweight host boards designed for specific embedded processors. 
+<strong>Step3. Inference</strong>
+<div style="margin-left: 20px;">
+This term refers to lightweight host boards designed for specific embedded processors. 
 <ul>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
@@ -35,6 +43,7 @@ nav_order: 1
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
 </ul>
 </div>
+
 Visit "Developer Support" for more information
 
 </div><br>
