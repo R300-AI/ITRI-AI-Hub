@@ -4,7 +4,7 @@
 
 Contact With Us :wave:
 
-| [Application Validation]() | [Supply Opportunities]() | [Developer Inquiries]() |
+| [Application Validation]() | [Chipset Partnerships]() | [Developer Support]() |
 
 </div>
 
