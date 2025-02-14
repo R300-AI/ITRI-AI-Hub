@@ -8,7 +8,7 @@ just_the_docs:
   logo: "/docs/assets/images/logo.png"
   nav:
     - title: "How to Get Started?"
-      url: "/docs/get-start.md"
+      url: "/"
       nav_order: 1
       children:
       - title: "Genio Evaluation Kits"
