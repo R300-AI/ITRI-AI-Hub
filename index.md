@@ -11,7 +11,7 @@ nav_order: 1
 
 <br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your designed applications based on computing power and energy efficiency.
 
-<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
+<div align="center"><img src="../assets/images/pages/metric-of-all-devices.png" width="840"/></div>
 
 
 # Get Started
