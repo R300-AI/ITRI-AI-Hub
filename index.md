@@ -7,19 +7,16 @@ nav_order: 1
 # Get Started
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
-工研院AI Hub為企業及開發者提供簡單、快速、商業化的Edge AI實施方案。在選擇系統之前，我們建議您根據模型類型、運算能力、記憶體及能源效率來評估適合您應用的設備。下圖簡要地統整了selected設備的記憶體和運算能力分佈，幫助您更直觀地與Model Zoo、開源社群或其他自訂模型進行比較。
-
-<br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of selected devices, helping you compare them more intuitively with Model Zoo, open-source communities, or other custom models.
+<br>ITRI AI Hub offers simple, fast, and commercialized Edge AI implementation solutions for enterprises and developers. Before selecting a system, we recommend evaluating which devices are suitable for your applications based on model type, computing power, memory, and energy efficiency. The diagram below summarizes the memory and computing power distribution of devices we selected, helping you compare them more intuitively with Model Zoo, open-source communities, or other custom models.
 
 <div align="center"><img src="./docs/assets/images/pages/metric-of-all-devices.png" width="760"/></div>
 
 
-# Get Started
-##### update : 2024/11 by Markov Chen
 
-<br>Before selecting an embedded processor for your application, we recommend that you review the use cases or similar real-world models in Model Zoo. Then, select the appropriate Evaluation Kits based on their performance benchmarks on different processors. (...增加下圖的描述)
 
-<div align="center"><img src="../assets/images/software-support-metric.png" width="840"/></div>
+
+
+
 
 In the following documents, we provide software installation guidelines for Work Stations and Evaluation Kits to meet the basic needs of developing embedded AI:
 
