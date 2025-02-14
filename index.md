@@ -37,7 +37,7 @@ To ensure that the model can execute efficiently on embedded systems, we need to
 
 <strong>Step3. Inference</strong>
 <div style="margin-left: 20px;">
-This term refers to lightweight host boards designed for specific embedded processors. 
+This term refers to deploying the model's binary files to run on embedded chips.
 <ul>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
     <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
