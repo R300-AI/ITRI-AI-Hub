@@ -48,9 +48,6 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating t
 Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
 
 ![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
-  * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
-  * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
-  * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
 
 </details>
 
@@ -177,8 +174,8 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
   
 ## <div align="center">Contridutors</div>
 
-<a href="https://www.ey.gov.tw/File/B8B426A05E026782" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://odas.ida.gov.tw/logo.png" alt="MOEA logo" height="62" width="206"></a>
-<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42" width="168"></a>
+<a href="https://www.ey.gov.tw/File/B8B426A05E026782" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/moea_logo.png" alt="MOEA logo" height="42" width="216"></a>
+<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42"></a>
 
 ## <div align="center">License</div>
 
