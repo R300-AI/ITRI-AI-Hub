@@ -21,7 +21,7 @@ nav_order: 1
 <strong>Step1. Training</strong>
 
 <div style="margin-left: 20px;">
-This stage involves the design and development of AI models. These models are typically annotated, extended, and parameterised using the computing resources listed below. Alternatively, these steps can be skipped by using pre-trained models.
+This stage involves the design and development of AI models. These models are typically annotated, extended, and parameterized using the computing resources listed below. Alternatively, these steps can be skipped by using pre-trained models.
 <ul>
     <li><a href="https://azure.microsoft.com/zh-tw">Cloud-hosted Data Center (e.g. Azure, AWS)</a></li>
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
@@ -31,7 +31,7 @@ This stage involves the design and development of AI models. These models are ty
 
 <strong>Step2. Compiling</strong>
 <div style="margin-left: 20px;">
-To ensure that the model can execute efficiently on embedded systems, we need to use vendor-specific compilers. These compilers fine-tune parameters, optimise memory and computational resources, and generate binary files based on the chip architecture and instruction set.
+To ensure that the model can execute efficiently on embedded systems, we need to use vendor-specific compilers. These compilers fine-tune parameters, optimize memory and computational resources, and generate binary files based on the chip architecture and instruction set.
 <ul></ul>
 </div>
 
