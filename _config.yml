@@ -1,0 +1,18 @@
+title: Developer Zone
+description: >
+  A description of your site.
+theme: "just-the-docs"
+
+just_the_docs:
+  nav:
+    - title: "How to Get Started?"
+      url: "/"
+      nav_order: 1
+      children:
+      - title: "Genio Evaluation Kits"
+        url: "/docs/genio-evk.md"
+        nav_order: 2
+      - title: "　-　Step1."
+        url: "/docs/genio-evk/step1.md"
+        nav_order: 3
+    
