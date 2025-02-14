@@ -47,7 +47,7 @@ This term refers to lightweight host boards designed for specific embedded proce
 </div>
 </div>
 
-Visit "Developer Support" for more information
+Visiting "Developer Support" for more information
 
 </div><br>
 
