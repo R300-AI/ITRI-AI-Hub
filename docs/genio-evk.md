@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get Started
+title: Genio Evaluation Kits
 nav_order: 2
 ---
 
