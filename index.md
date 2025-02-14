@@ -25,7 +25,7 @@ nav_order: 1
 
 </div><br>
 
-## **How Can I Get the Models?**
+## **How to Build Your Own Application?**
 
 * [Train Your Own Model]()
 * [Pre-trained Model from Model Zoo or Third-Party]()
