@@ -15,30 +15,26 @@ nav_order: 1
 ## **Development Flow Overview**
 
 <div style="margin-left: 20px;">
-<br>
-
 <p>Overall, a model deployment process involves three stages: training, compilation, and inference.</p>
 
-    <div style="margin-left: 20px;">
-        <strong>Step1. Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
-        <ul>
-            <li><a href="https://azure.microsoft.com/zh-tw">Azure-hosted Cloud</a></li>
-            <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
-            <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
-        </ul>
-
-        <strong>Step2. Compiling</strong>: These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.</li>
-
-        <strong>Step3. Inference</strong>: This term refers to lightweight host boards designed for specific embedded processors. 
-        <ul>
-            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
-            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
-            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
-            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
-        </ul>
-    </div>
-
+<div style="margin-left: 20px;">
+<strong>Step1. Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
+<ul>
+    <li><a href="https://azure.microsoft.com/zh-tw">Azure-hosted Cloud</a></li>
+    <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
+    <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
+</ul>
+<strong>Step2. Compiling</strong>: These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.
+<strong>Step3. Inference</strong>: This term refers to lightweight host boards designed for specific embedded processors. 
+<ul>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
+    <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
+</ul>
+</div>
 Visit "Developer Support" for more information
+
 </div><br>
 
 
