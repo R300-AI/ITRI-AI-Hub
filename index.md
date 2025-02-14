@@ -53,5 +53,4 @@ Here, the ITRI AI Hub plays a crucial role by offering comprehensive development
 
 ## **How to Build Your Own Application?**
 
-* [Deploying Computer Vision Models with Ultralytics YOLOs: A Step-by-Step Guide]()
-* [Pre-trained Model from Model Zoo or Third-Party]()
+* [Simplified Computer Vision Deployment on Genio Using Ultralytics YOLOs]()
