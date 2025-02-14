@@ -64,24 +64,93 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
         <td>
           :white_check_mark:
         </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td>Object Detection</td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td>Semantic Segmentation</td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td rowspan=1>NLP</td>
         <td>Text to Text</td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :black_square_button:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
         <td>Speech-Recognition</td>
+        <td>
+          :black_square_button:
+        </td>
+        <td>
+          :black_square_button:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td rowspan=2>Multi Modal</td>
         <td>Text to Image</td>
+        <td>
+          :black_square_button:
+        </td>
+        <td>
+          :black_square_button:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
         <tr>
         <td>Text to Voice</td>
