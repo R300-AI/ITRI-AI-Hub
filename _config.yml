@@ -2,11 +2,10 @@ title: Developer Zone
 description: >
   A description of your site.
 theme: "just-the-docs"
-color_scheme: blue
+color_scheme: light_blue
 just_the_docs:
   nav:
     - url: "/"
-      nav_order: 1
       children:
       - url: "/docs/genio-evk.md"
       - url: "/docs/genio-evk/step1.md"
