@@ -31,7 +31,7 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 </details>
 
 <details>
-<summary>AMD Ryzen</summary>
+<summary>AMD Ryzen AI Processor</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
