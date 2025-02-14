@@ -21,7 +21,7 @@ nav_order: 1
 <strong>Step1. Training</strong>
 
 <div style="margin-left: 20px;">
-This term refers to the design and development of AI models, which usually involves resources below for data annotation, augmentation, and parameter tuning. Alternatively, pre-trained models can be used to skip these steps.
+This stage refers to the design and development of AI models, which usually involves the following resources for data annotation, augmentation, and parameter tuning. Alternatively, pre-trained models can be used to skip these steps.
 <ul>
     <li><a href="https://azure.microsoft.com/zh-tw">Cloud-hosted Data Center (e.g. Azure, AWS)</a></li>
     <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
