@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Get Started?
+title: Quick Start
 nav_order: 1
 ---
 
