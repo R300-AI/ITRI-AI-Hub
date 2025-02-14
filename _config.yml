@@ -2,7 +2,7 @@ title: Developer Zone
 description: >
   A description of your site.
 theme: "just-the-docs"
-color_scheme: dark
+color_scheme: blue
 just_the_docs:
   nav:
     - url: "/"
