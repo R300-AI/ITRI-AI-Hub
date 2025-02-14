@@ -4,6 +4,8 @@
 
 Contact With Us :wave:
 
+| [Verify Your Application]() |
+
 </div>
 
 ## <div align="center">Documentations</div>
