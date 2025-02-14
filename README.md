@@ -4,7 +4,7 @@
 
 Contact With Us :wave:
 
-| [Verify Your Application]() |
+| [Application Validation]() | [Chipset Partnership]() | [Developer Support]() |
 
 </div>
 
