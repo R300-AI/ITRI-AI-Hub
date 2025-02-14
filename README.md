@@ -61,6 +61,9 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
     <tr>
         <td rowspan=3>CV</td>
         <td>Image Classification</td>
+        <td>
+          :white_check_mark:
+        </td>
     </tr>
     <tr>
         <td>Object Detection</td>
