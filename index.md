@@ -19,14 +19,12 @@ nav_order: 1
 
 Overall, a model deployment process involves three stages: training, compilation, and inference.
 
-<br><br>
-* **Work Station**: This term refers to the host used to develop and train AI models (usually through PyTorch or TensorFlow), which mainly includes facilities such as GPUs and CPUs. Typically, it is separate from embedded systems because this stage requires high performance and high power consumption.
-<br>
-**Converter Tools**: These tools involve vendor-specific properties designed to translate the model into instructions readable by the embedded processors.
-<br>
-**Evaluation Kits**: This term refers to lightweight motherboards designed specifically for certain embedded processors. Due to their highly reconfigurable hardware, they are often used in the development of various portable devices and electronic products.
-<br>
-**Runtime APIs**: APIs that delegate the model inference process to designated computing units. Usage examples can be found in the Model Zoo.
+<ul>
+  <li><strong>Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine, primarily involving GPUs and CPUs. This stage is usually separate from embedded systems due to the need for high performance and high power consumption.</li>
+  <li><strong>Compiling</strong>: These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.</li>
+  <li><strong>Inference</strong>: This term refers to lightweight host boards designed for specific embedded processors. Due to their highly reconfigurable hardware, they are commonly used in the development of various portable devices and electronic products.</li>
+  <li><strong>Runtime API</strong>: APIs that delegate the model inference process to designated computational units. Examples of usage can be found in model zoos.</li>
+</ul>
 
 </div><br>
 
