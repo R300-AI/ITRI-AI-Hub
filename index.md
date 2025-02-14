@@ -19,29 +19,24 @@ nav_order: 1
 
 <p>Overall, a model deployment process involves three stages: training, compilation, and inference.</p>
 
-<strong>Step1. Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
-<ul>
-    <li><a href="https://azure.microsoft.com/zh-tw">Azure-hosted cloud</a></li>
-    <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
-    <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
-</ul>
+    <div style="margin-left: 20px;">
+        <strong>Step1. Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
+        <ul>
+            <li><a href="https://azure.microsoft.com/zh-tw">Azure-hosted Cloud</a></li>
+            <li><a href="https://www.amd.com/zh-tw/products/software/rocm.html">Servers or Workstations with ROCm</a></li>
+            <li><a href="https://developer.nvidia.com/cuda-toolkit">Servers or Workstations with CUDA</a></li>
+        </ul>
 
+        <strong>Compiling</strong>: These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.</li>
 
-<ul>
-  <li><strong>Training</strong>: This term refers to the phase where AI models are developed and trained (typically using PyTorch or TensorFlow) on a host machine.
-    
-  </li>
-  <li><strong>Compiling</strong>: These tools involve vendor-specific attributes designed to convert models into instructions readable by embedded processors.</li>
-  <li><strong>Inference</strong>: This term refers to lightweight host boards designed for specific embedded processors. 
-    <ul>
-      <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
-      <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
-      <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
-      <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
-    </ul>
-  </li>
-  <li><strong>Runtime API</strong>: APIs that delegate the model inference process to designated computational units. Examples of usage can be found in model zoos.</li>
-</ul>
+        <strong>Inference</strong>: This term refers to lightweight host boards designed for specific embedded processors. 
+        <ul>
+            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html">Genio Evaluation Kits</a></li>
+            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/hailo.html">Hailo AI Accelerator</a></li>
+            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/ryzen.html">Ryzen AI Processor</a></li>
+            <li><a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/jetson-evk.html">Jetson Evaluation Kits</a></li>
+        </ul>
+    </div>
 
 Visit "Developer Support" for more information
 </div><br>
