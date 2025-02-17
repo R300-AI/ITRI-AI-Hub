@@ -4,8 +4,6 @@ description: >
 theme: "just-the-docs"
 color_scheme: light_blue
 just_the_docs:
-  custom_css:
-    - "/docs/assets/css/custom.css"
   nav:
     - url: "/"
       children:
