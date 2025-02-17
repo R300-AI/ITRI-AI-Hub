@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "　-　Step1. Setup Flash Environment"
+title: "　-　Step1. Setup Tools"
 nav_order: 3
 ---
 
