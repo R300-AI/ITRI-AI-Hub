@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 # Genio EVK Setup Guide
-##### update : 2024/10 by Markov Chen<br>
+##### update : 2025/01 by ITRI (EOSL-R3)
 
 ### Prerequisites
 
