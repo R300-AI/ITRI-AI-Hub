@@ -9,7 +9,6 @@ nav_order: 5
 
 ### Prerequisites
 
-* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
 * Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
 
 ## Install Board Support Packages (BSP)<sub>(*Ubuntu only)
