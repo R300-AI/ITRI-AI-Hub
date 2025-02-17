@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "-　Step3. Install Board Support Packages"
+title: "-　Step3. Install Packages"
 nav_order: 5
 ---
 

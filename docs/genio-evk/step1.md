@@ -10,7 +10,7 @@ nav_order: 3
 
 ### Prerequisites
 
-* To install the AIoT Tools (include `aiot-config`, `aiot-flash`, `aiot-board`), you should use **Ubuntu 22.04** LTS workstation with **x86_64** processors.
+* An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the AIoT Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
 
 ## Make Sure Flash Tools Working on Host
 

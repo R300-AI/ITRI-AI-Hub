@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "-　Step2. Flash Image"
+title: "-　Step2. Flash Board"
 nav_order: 4
 ---
 
