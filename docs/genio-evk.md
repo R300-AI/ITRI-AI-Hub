@@ -4,7 +4,7 @@ title: Genio Evaluation Kits
 nav_order: 2
 ---
 
-# Genio Evaluation Kits
+# How to Install Your Genio Board?
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 <div align="center">
