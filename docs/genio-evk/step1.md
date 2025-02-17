@@ -9,9 +9,9 @@ nav_order: 3
 
 
 > ### Prerequisites
-> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the AIoT Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
+> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
 
-## Make Sure Flash Tools Working on Host
+## Make Sure Flash Tools Working on Computer
 
 ### Step 1: Install Required Packages
 Execute the following command to install the necessary packages:
@@ -21,14 +21,14 @@ $ sudo apt update && sudo apt upgrade -y
 $ sudo apt-get install gawk wget git diffstat unzip texinfo gcc build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint xterm python3-subunit mesa-common-dev
 ```
 
-### Step 2: Install Fastboot and Set Up the Environment
+### Step 2: Install Fastboot and Setup the Environment
 Execute the following command to install Fastboot and set up the environment:
 
 ```bash
 $ sudo apt-get install android-tools-adb android-tools-fastboot
 ```
 
-### Step 3: Install USB Driver and Set Up the Environment
+### Step 3: Install USB Driver and Setup the Environment
 Execute the following commands to install the USB driver and set up the environment:
 
 ```bash
