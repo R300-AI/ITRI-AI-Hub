@@ -13,6 +13,12 @@ nav_order: 1
 <img src="/docs/assets/images/pages/metric_of_all_devices.png" width="760"/>
 </div>
 
+![](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/pages/Genio_510_EVK.png)
+
+<div align="center">
+<img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/pages/Genio_510_EVK.png" width="760"/>
+</div>
+
 ## **Development Flow Overview**
 
 <div style="margin-left: 20px;">
