@@ -12,7 +12,6 @@ nav_order: 4
 > * Prepare one of the following: **Genio510, 700**, or **1200 EVK** board with power cable.
 > * A **USB to Micro USB cable** to connect the computer and the board.
 
-
 ## Flashing Pre-built Image to Board
 
 ### Step 1: Download Compatible Pre-built Image

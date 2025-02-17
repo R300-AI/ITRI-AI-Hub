@@ -9,6 +9,7 @@ nav_order: 3
 
 
 > ### Prerequisites
+
 > * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
 
 ## Make Sure Flash Tools Working on Computer
