@@ -11,7 +11,6 @@ nav_order: 1
 
 <div align="center"><img src="/docs/assets/images/pages/metric_of_all_devices.png" width="760"/></div>
 
-
 ## **Development Flow Overview**
 
 <div style="margin-left: 20px;">
