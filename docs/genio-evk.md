@@ -26,3 +26,5 @@ nav_order: 2
 <div style="margin-left: 20px;">
 <p>The Genio 1200 is also available as a lighter board (ADLINK I-Pi SMARCs 1200) with the Yocto operating system.</p>
 </div>
+
+## Process to delegate
