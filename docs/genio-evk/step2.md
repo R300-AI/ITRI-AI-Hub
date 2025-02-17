@@ -1,16 +1,15 @@
 ---
 layout: default
-title: "-　Step2. Flash Board"
+title: "-　Step2. Flash Genio Board"
 nav_order: 4
 ---
 
 # Genio EVK Setup Guide
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
-### Prerequisites
-
-* An **Ubuntu 22.04** LTS workstation with **x86_64** processors to install the AIoT Tools (including `aiot-config`, `aiot-flash`, `aiot-board`).
-* Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
+> ### Prerequisites
+> * An x86_64 computer with Ubuntu 22.04 LTS and **AIoT tools** installed..
+> * Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
 
 
 ## Flashing Pre-built Image to Board
