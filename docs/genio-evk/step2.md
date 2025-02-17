@@ -8,7 +8,7 @@ nav_order: 4
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * An x86_64 computer with Ubuntu 22.04 LTS and **AIoT tools** installed.
+> * An x86_64 computer (running Ubuntu 22.04 LTS) with **AIoT tools** installed.
 > * Prepare one of the following: **Genio510, 700**, or **1200 EVK** board with power cable.
 > * A **USB to Micro USB cable** to connect the computer and the board.
 
