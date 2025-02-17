@@ -11,6 +11,7 @@ nav_order: 5
 
 * Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
 
+
 ## Install Board Support Packages (BSP)<sub>(*Ubuntu only)
 
 Besides the native BSP that has been included with Yocto, we recommend that if you are using the Ubuntu operating system, please follow the steps below to complete the setup of your development environment.
