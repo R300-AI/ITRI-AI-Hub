@@ -8,7 +8,7 @@ nav_order: 2
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 <div align="center">
-<img src="docs/assets/images/pages/genio_510_evk.png" width="560"/>
+<img src="assets/images/pages/genio_510_evk.png" width="560"/>
 </div>
 
 <div style="margin-left: 20px;">
