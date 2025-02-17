@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "　-　Step1. Setup Flash Environment"
-nav_order: 3
+title: "　-　Step3. Install Dependencies"
+nav_order: 5
 ---
 
 # Genio EVK Setup Guide

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "　-　Step1. Setup Flash Environment"
-nav_order: 3
+title: "　-　Step2. Flash Image to Board"
+nav_order: 4
 ---
 
 # Genio EVK Setup Guide

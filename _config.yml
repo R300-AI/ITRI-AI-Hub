@@ -9,6 +9,8 @@ just_the_docs:
       children:
       - url: "/docs/genio-evk.md"
       - url: "/docs/genio-evk/step1.md"
+      - url: "/docs/genio-evk/step2.md"
+      - url: "/docs/genio-evk/step3.md"
       - url: "/docs/hailo.md"
       - url: "/docs/ryzen.md"
       - url: "/docs/jetson-evk.md"
