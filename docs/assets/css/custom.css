@@ -1,0 +1,4 @@
+/* Prevent nav tab titles from wrapping */
+.nav-list .nav-item {
+    white-space: nowrap;
+  }
