@@ -8,9 +8,8 @@ nav_order: 3
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 
-### Prerequisites
-
-* An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the AIoT Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
+> ### Prerequisites
+> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the AIoT Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
 
 ## Make Sure Flash Tools Working on Host
 
