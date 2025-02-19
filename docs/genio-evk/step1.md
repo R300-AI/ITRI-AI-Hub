@@ -12,7 +12,7 @@ nav_order: 3
 
 > * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`) and NeuronPilot Compilers(including `NCC-TFLite` and `MTK-Converter`).
 
-## Install Flash Tools on Your Computer
+## Install Flash Tools
 
 ### Step 1: Install Required Packages
 Execute the following command to install the necessary packages:
@@ -54,7 +54,7 @@ fastboot: OK
 udev rules: OK
 ```
 
-## Install NeuronPilot Converters on Your Computer
+## Install NeuronPilot Converters
 
 ### Step 1: Create and Activate Conda Environment
 Execute the following command to create and activate the Conda environment:
@@ -86,5 +86,5 @@ Reboot and execute the following command to verify the installation:
 
 ```bash
 $ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
->> 2.9.0
+# Output should be: 2.9.0
 ```
