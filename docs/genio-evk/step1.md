@@ -1,18 +1,18 @@
 ---
 layout: default
-title: "-　Step1. Setup Flash Tools"
+title: "-　Step1. Setup Toolkits"
 nav_order: 3
 ---
 
-# Genio EVK Setup Guide
+# Installation Guide for Genio EVK
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 
 > ### Prerequisites
 
-> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`)
+> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`) and NeuronPilot Compilers(including `NCC-TFLite` and `MTK-Converter`).
 
-## Make Sure Flash Tools Working on Computer
+## Install Flash Tools on Your Computer
 
 ### Step 1: Install Required Packages
 Execute the following command to install the necessary packages:
@@ -52,4 +52,39 @@ Verify the installation:
 $ genio-config
 fastboot: OK
 udev rules: OK
+```
+
+## Install NeuronPilot Converters on Your Computer
+
+### Step 1: Create and Activate Conda Environment
+Execute the following command to create and activate the Conda environment:
+
+```bash
+$ conda create --name neuronpilot python=3.7
+```
+### Step 2: Extract and Install NeuronPilot
+Download the NeuronPilot from [HERE](https://itriaihub.blob.core.windows.net/github-download-resources/repository/ITRI-AI-Hub/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
+
+```bash
+$ sudo apt-get update
+$ sudo apt install libncurses5 libstdc++6 libc++1
+$ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
+$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib:$LD_LIBRARY_PATH
+```
+
+### Step 3: Set Library Path and Install Dependencies
+Execute the following commands to install dependencies:
+
+```bash
+$ source activate neuronpilot
+$ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+$ pip install torch==1.9.0 torchvision==0.10.0
+```
+
+### Step 4: Verify Installation
+Reboot and execute the following command to verify the installation:
+
+```bash
+$ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
+>> 2.9.0
 ```
