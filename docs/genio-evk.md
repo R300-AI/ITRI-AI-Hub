@@ -30,5 +30,6 @@ nav_order: 2
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="700"/>
 </div>
 
+## Refferences
 [1] [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)<br>
 [2] [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
