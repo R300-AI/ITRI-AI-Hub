@@ -14,7 +14,7 @@ nav_order: 2
 <div style="margin-left: 20px;">
 <p>
 
-</p>
+</p></div>
 
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
@@ -24,7 +24,7 @@ nav_order: 2
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
 | **Memory**        | 4GB LPDDR4                          | 8GB LPDDR4                           | 16GB LPDDR5                          |
 
-## Process to delegate
+## Process to Demonstration
 
 TFLite
 NeuronPilot
