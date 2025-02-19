@@ -24,7 +24,7 @@ nav_order: 2
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
 | **Memory**        | 4GB LPDDR4                          | 8GB LPDDR4                           | 16GB LPDDR5                          |
 
-## Process to Demonstration
+## Components and Inference Process
 
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
