@@ -58,5 +58,5 @@ Here, the ITRI AI Hub plays a crucial role by offering comprehensive development
 
 ### Training Model
 
-### Deployment
+### Quantization and Deployment
 * [Computer Vision Deployment on Genio DLAs Using Ultralytics Pre-Trained YOLOs]()
