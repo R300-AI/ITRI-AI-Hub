@@ -14,6 +14,8 @@ nav_order: 2
 <div style="margin-left: 20px;">
 <p>
 
+</p>
+
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
 | **OS**            |  `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |
@@ -24,6 +26,7 @@ nav_order: 2
 
 ## Process to delegate
 
+TFLite
 NeuronPilot
 ArmNN
 NeuronRT
