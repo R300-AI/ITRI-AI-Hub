@@ -53,5 +53,10 @@ Here, the ITRI AI Hub plays a crucial role by offering comprehensive development
 </div>
 
 ## **How to Build Your Own Application?**
+### Data Preparation
+* [Using Albumentations augmentations to diversify your data](https://www.ultralytics.com/zh/blog/using-albumentations-augmentations-to-diversify-your-data)
 
+### Model Training
+
+### Deployment
 * [Computer Vision Deployment on Genio DLAs Using Ultralytics Pre-Trained YOLOs]()
