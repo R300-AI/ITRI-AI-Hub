@@ -56,7 +56,7 @@ Here, the ITRI AI Hub plays a crucial role by offering comprehensive development
 ### Data Preparation
 * [Using Albumentations augmentations to diversify your data](https://www.ultralytics.com/zh/blog/using-albumentations-augmentations-to-diversify-your-data)
 
-### Model Training
+### Training Model
 
 ### Deployment
 * [Computer Vision Deployment on Genio DLAs Using Ultralytics Pre-Trained YOLOs]()
