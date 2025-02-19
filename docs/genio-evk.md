@@ -27,7 +27,7 @@ nav_order: 2
 ## Process to Demonstration
 
 <div align="center">
-<img src="assets/images/pages/genio_510_demonstration_workflow.png" width="560"/>
+<img src="assets/images/pages/genio_510_demonstration_workflow.png" width="700"/>
 </div>
 
 [1] [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
