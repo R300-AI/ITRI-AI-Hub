@@ -17,6 +17,7 @@ nav_order: 2
 
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
+| **OS**            |  `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |
 | **Chipsets**      |  `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 2.0` |
 | **Performance**   | 0.15~2.8TOPs                        | 0.20~4.0TOPs                         | 0.25~4.8TOPs                         |
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
