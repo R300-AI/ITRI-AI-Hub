@@ -27,7 +27,7 @@ nav_order: 2
 ## Process to Demonstration
 
 <div align="center">
-<img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
+<img src="assets/images/pages/genio_510_demonstration_workflow1.png" width="780"/>
 </div>
 
 ## Refferences
