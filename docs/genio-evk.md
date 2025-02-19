@@ -17,11 +17,13 @@ nav_order: 2
 
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
-| **Chipsets** |  `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 2.0` |
-| **Converter Tool**   | NeuronPilot                         | NeuronPilot                          | NeuronPilot                          |
-| **Runtime SDK**      | `Kleidi AI`, `ArmNN`, `NeuronRT`| `Kleidi AI`, `ArmNN`, `NeuronRT` | `Kleidi AI`, `ArmNN`, `NeuronRT` |
-| **Power**    | 5~10W         | 7~15W         | 10~20W         |
-| **Memory**   | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
-
+| **Chipsets**      |  `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 2.0` |
+| **Performance**   | 0.15~2.8TOPs                        | 0.20~4.0TOPs                         | 0.25~4.8TOPs                         |
+| **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
+| **Memory**        | 4GB LPDDR4                          | 8GB LPDDR4                           | 16GB LPDDR5                          |
 
 ## Process to delegate
+
+NeuronPilot
+ArmNN
+NeuronRT
