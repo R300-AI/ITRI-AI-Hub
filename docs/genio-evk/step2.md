@@ -8,7 +8,7 @@ nav_order: 4
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * An x86_64 computer (running Ubuntu 22.04 LTS) with **AIoT tools** installed.
+> * An x86_64 computer (running Ubuntu 22.04 LTS) with **Flash Tools** and **NeuronPilot** installed.
 > * Prepare one of the following: **Genio510, 700**, or **1200 EVK** board with power cable.
 > * A **USB to Micro USB cable** to connect the computer and the board.
 
@@ -17,12 +17,13 @@ nav_order: 4
 ### Step 1: Download Compatible Pre-built Image
 Download the compatible pre-built image from the table below:
 
-| OS\ Device    | Genio350  | Genio510  | Genio700 | Genio1200 |
-|---------------|-----------|-----------|----------|-----------|
-| Yocto         |[[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Yocto/kirkstone_k5.15_v24.0_genio-350-evk_private_240626075838.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Yocto/kirkstone_k5.15_v24.0_genio-510-evk_private_240626080308.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Yocto/kirkstone_k5.15_v24.0_genio-700-evk_private_240626082053.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Yocto/kirkstone_k5.15_v24.0_genio-1200-evk_private_240626084538.tar.gz) |
-| Ubuntu 22.04  |[[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio350/genio-classic-server-2204-x09-20231004-131.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio350/ubuntu-boot-firmware-genio-350-evk-v23.1.3.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio510/genio-classic-desktop-2204-20240322-185.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio510/ubuntu-boot-firmware-genio-510-evk-v23.2.1.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio700/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio700/ubuntu-boot-firmware-genio-700-evk-v23.1.3.tar.gz) | [[Image]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio1200/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://itriaihub.blob.core.windows.net/prebuilt-images/MediaTek-Genio-Ubuntu/genio1200/ubuntu-boot-firmware-genio-1200-evk-v23.1.3.tar.gz) |
+| OS\ Device    | Genio510  | Genio700 | Genio1200 |
+|---------------|-----------|----------|-----------|
+| Yocto         |[[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-510-evk_private_240626080308.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-700-evk_private_240626082053.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-1200-evk_private_240626084538.tar.gz) | 
+| Ubuntu        |[[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio510/genio-classic-desktop-2204-20240322-185.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio510/ubuntu-boot-firmware-genio-510-evk-v23.2.1.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio700/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio700/ubuntu-boot-firmware-genio-700-evk-v23.1.3.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio1200/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio1200/ubuntu-boot-firmware-genio-1200-evk-v23.1.3.tar.gz) |
 
-* `Yocto` already includes the Board Support Packages (BSPs) supported by MediaTek Genio, while `Ubuntu` requires an additional step to install the BSPs according to the subsequent instructions.
+* `Yocto` already includes the Board Support Packages (BSPs) supported by MediaTek Genio
+* `Ubuntu` requires an additional step to install the BSPs according to the subsequent instructions.
 
 ### Step 2: Connect the Board to Your Host
 Connect the Genio EVK to your host using a USB cable based on board layout configuration.

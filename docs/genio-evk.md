@@ -23,8 +23,5 @@ nav_order: 2
 | **Power**    | 5~10W         | 7~15W         | 10~20W         |
 | **Memory**   | 4GB/8GB LPDDR4 | 4GB/8GB LPDDR4 | 8GB/16GB LPDDR5 |
 
-<div style="margin-left: 20px;">
-<p>The Genio 1200 is also available as a lighter board (ADLINK I-Pi SMARCs 1200) with the Yocto operating system.</p>
-</div>
 
 ## Process to delegate
