@@ -27,5 +27,18 @@ $ ./bootstrap && make && sudo make install
 Follow the [Installation Guide (NeuroPilot Hardware Packages)](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuronRT on Ubuntu OS, to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
 
-### Step 3: Install Kleidi Kernel
-(None)
+### Step 3: Install KleidiAI from Source Code
+
+```bash
+$ git clone https://git.gitlab.arm.com/kleidi/kleidiai.git && cd kleidiai
+$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmake/toolchains/aarch64-none-linux-gnu.toolchain.cmake -S . -B build/
+$ cmake --build ./build
+```
+
+### Step 3: Install KleidiCV from Source Code
+
+```bash
+$ git clone https://git.gitlab.arm.com/kleidi/kleidicv.git && cd kleidicv
+$ cmake -S /path/to/kleidicv -B build-kleidicv-linux
+$ cmake --build build-kleidicv-linux --parallel
+```
