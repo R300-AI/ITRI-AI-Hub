@@ -83,7 +83,7 @@ $ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-ma
 $ pip install torch==1.9.0 torchvision==0.10.0
 ```
 
-### Step 4: Verify Installation
+### Step 4: Verify the Installation
 Reboot and execute the following command to verify the installation:
 
 ```bash

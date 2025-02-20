@@ -28,12 +28,13 @@ Extract the downloaded image using the following command:
 ```bash
 $ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 
-# If you are using Ubuntu, please run following command subsequence
+# If you are using Ubuntu, please run the following command subsequently
 $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
 ### Step 3: Connecting Board to Host
-Following the official instruction [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html).
+Follow the official instructions [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your host machine using a USB cable.
+
 1. Connect the board to your host machine using a USB cable.
 2. Ensure the board is powered on.
 3. Verify the connection by checking if the device is listed using the `lsusb` command.
@@ -45,8 +46,9 @@ Navigate to the directory where the image was extracted:
 $ cd <IMAGE_PATH>/<IMAGE>
 ```
 
-### Step 5: Enter Download Mode
-Use the following commands to enter download mode:
+### Step 5: Start the Image Flasher to Match the Genio SoC
+
+Enter download mode using the following commands:
 
 ```bash
 # for Yocto 
@@ -56,11 +58,15 @@ $ genio-flash
 ```
 
 ### Step 6: Boot the Board into Download Mode
-Press and hold **Download** button and tap **RST** button on your board. and hold the Download button until you see the log Erasing `mmc0` message, as shown below:
+Press and hold **Download** button and tap **RST** button on your board. Continue holding the Download button until you see the log message `Erasing mmc0`, as shown below:
 
 <div align="center">
 <img src="assets/images/pages/genio_flash.png" width="560"/>
 </div>
 
 ### Step 7: Verify Installation
-After the board reboots, verify the installation by checking the boot logging the OS correctly.
+After the flashing process is complete, ensure the board boots correctly:
+
+1. Disconnect and reconnect the power cable to reboot the board.
+2. Connect to the board using a serial console (e.g., minicom or screen).
+3. Check the boot log for any errors.
