@@ -11,10 +11,20 @@ nav_order: 2
 <img src="assets/images/pages/genio_510_evk.png" width="560"/>
 </div>
 
+The Genio Evaluation Kits are designed to provide developers with a robust platform for AI and IoT applications. These kits support both Yocto and Ubuntu 22.04 operating systems, each offering unique advantages to cater to different development needs.
+
+### Operating Systems:
+
+* **Yocto**: Known for its high power performance, Yocto is ideal for developers who require a highly customizable and efficient OS. However, it may present a steeper learning curve due to its complexity.
+* **Ubuntu 22.04**: This OS is more user-friendly and easier to develop on, making it suitable for developers who prioritize ease of use and rapid development.
+
+
 <div style="margin-left: 20px;">
 <p>
-
+where yocto have higher power performance but hard to develop, the ubuntu is revert
 </p></div>
+
+### Device Specifications: 
 
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
@@ -26,10 +36,15 @@ nav_order: 2
 
 ## AI Development Resources
 
+The Genio Evaluation Kits come with comprehensive AI development resources, including detailed documentation and workflow demonstrations to help developers get started quickly and efficiently.
+
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
 </div>
 
-## Refferences
-[1] [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)<br>
-[2] [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
+For more information, refer to the following resources:
+
+    1. [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)<br>
+    2. [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
+
+These resources provide in-depth guidance on leveraging the full potential of the Genio Evaluation Kits for your AI and IoT projects.

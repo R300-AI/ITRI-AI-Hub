@@ -15,7 +15,7 @@ nav_order: 4
 ## Flashing Pre-built Image to Board
 
 ### Step 1: Download Compatible Pre-built Image
-Choose one of the following options. The Board Support Packages (BSPs) are already included in `Yocto`. For `Ubuntu`, you need to install the Board Support Packages (BSPs) manually.
+Choose one of the following options. The Board Support Packages (BSPs) are already included in `Yocto`. For `Ubuntu`, you need to install the BSPs manually.
 
 
 | OS\ Device    | Genio510  | Genio700 | Genio1200 |
