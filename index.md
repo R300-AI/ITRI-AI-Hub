@@ -54,7 +54,8 @@ Here, the ITRI AI Hub plays a crucial role by offering comprehensive development
 
 ## **How to Build Your Own Application?**
 ### Data Preparation
-* [Using Albumentations augmentations to diversify your data](https://www.ultralytics.com/zh/blog/using-albumentations-augmentations-to-diversify-your-data)
+* [Label Studio: Open Source Data Labeling](https://labelstud.io/)
+* [Albumentations: fast and flexible image augmentations](https://albumentations.ai/)
 
 ### Training Model
 
