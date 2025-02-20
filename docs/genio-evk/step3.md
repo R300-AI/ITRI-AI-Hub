@@ -9,7 +9,8 @@ nav_order: 5
 
 ### Prerequisites
 
-* Be prepared with the **Genio-350/ 510/700/ 1200 EVK** board, power cable and USB to Micro cable.
+* Prepare the **Genio-350, 510, 700, or 1200 EVK** board, power cable, and keyboard.
+* Ensure the WiFi6 or 5G module is connected to the antenna and activated.
 
 ## Install Board Support Packages (BSP)<sub>(*Ubuntu only)
 
