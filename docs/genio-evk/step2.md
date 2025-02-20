@@ -63,7 +63,7 @@ $ genio-flash
 press and hold the **Download** button, then tap the **RST** button on your board. Refer to the layout [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html). Keep holding the Download button until the log message `Erasing mmc0` appears.
 
 <div align="center">
-<img src="assets/images/pages/genio_flash.png" width="560"/>
+<img src="../assets/images/pages/genio_flash.png" width="560"/>
 </div>
 
 ### Step 7: Verify Installation
