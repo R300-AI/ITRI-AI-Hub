@@ -27,8 +27,23 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 Connect the Genio EVK to your host using a USB cable based on board layout configuration.
 
 <div align="center">
-<img src="assets/images/pages/genio_510_layout1.png" width="560"/>
+<img src="assets/images/pages/genio_510_700_layout.png" width="560"/>
 </div>
+
+<div class="tabs">
+  <input type="radio" name="tabs" id="tab1" checked>
+  <label for="tab1">Tab 1</label>
+  <div class="tab">
+    <p>Content for Tab 1.</p>
+  </div>
+  
+  <input type="radio" name="tabs" id="tab2">
+  <label for="tab2">Tab 2</label>
+  <div class="tab">
+    <p>Content for Tab 2.</p>
+  </div>
+</div>
+
 
 ### Step 3: Extract the Downloaded Image
 Extract the downloaded image using the following command:
