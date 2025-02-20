@@ -54,7 +54,7 @@ fastboot: OK
 udev rules: OK
 ```
 
-## Install NeuronPilot Converters
+## Install NeuronPilot Tools
 
 ### Step 1: Create and Activate Conda Environment
 Execute the following command to create and activate the Conda environment:
