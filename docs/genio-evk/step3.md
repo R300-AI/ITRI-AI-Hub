@@ -15,7 +15,6 @@ nav_order: 5
 ## Install Board Support Packages (BSP) for Ubuntu on Genio<sub>
 
 ### Step 1: Install CMake from Source Code
-To install CMake, execute the following commands:
 
 ```bash
 $ sudo apt-get install libssl-dev
