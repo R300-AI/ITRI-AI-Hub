@@ -40,13 +40,15 @@ $ sudo udevadm trigger
 $ sudo usermod -a -G plugdev $USER
 ```
 
-### Step 4: Install Genio Tools and Verify the Installation
+### Step 4: Install Genio Tools
 Execute the following commands to install Genio tools and verify the installation:
 
 ```bash
 $ pip3 install -U genio-tools
 $ sudo usermod -a -G dialout $USER
 ```
+
+### Step 5: Verify the Installation
 Verify the installation:
 ```bash
 $ genio-config

@@ -28,7 +28,7 @@ Extract the downloaded image using the following command:
 ```bash
 $ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 
-# If you are using Ubuntu, please run following command
+# If you are using Ubuntu, please run following command subsequence
 $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
@@ -39,14 +39,14 @@ Following the official instruction [HERE](https://mediatek.gitlab.io/aiot/doc/ai
 3. Verify the connection by checking if the device is listed using the `lsusb` command.
 
 ### Step 4: Launch genio-flash Tool
-Navigate to the directory where the image was extracted and launch the genio-flash tool:
+Navigate to the directory where the image was extracted:
 
 ```bash
 $ cd <IMAGE_PATH>/<IMAGE>
 ```
 
 ### Step 5: Enter Download Mode
-To enter download mode, use the following commands:
+Use the following commands to enter download mode:
 
 ```bash
 # for Yocto 
@@ -55,11 +55,12 @@ $ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo vide
 $ genio-flash
 ```
 
-### Step 6: Boot the Board into Fastboot Mode
-To boot the board into Fastboot mode, press and hold **Download** button and tap **RST** button on your board.
+### Step 6: Boot the Board into Download Mode
+Press and hold **Download** button and tap **RST** button on your board. and hold the Download button until you see the log Erasing `mmc0` message, as shown below:
+
+<div align="center">
+<img src="assets/images/pages/genio_flash.png" width="560"/>
+</div>
 
 ### Step 7: Verify Installation
-After the board reboots, verify the installation by checking the boot logs and ensuring the system boots correctly.
-
-### Step 8: Verify Installation
-After the board reboots, verify the installation by checking the boot logs and ensuring the system boots correctly.
+After the board reboots, verify the installation by checking the boot logging the OS correctly.
