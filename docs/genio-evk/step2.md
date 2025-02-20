@@ -17,7 +17,6 @@ nav_order: 4
 ### Step 1: Download Compatible Pre-built Image
 Choose one of the following options. The Board Support Packages (BSPs) are already included in `Yocto`. For `Ubuntu`, you need to install the BSPs manually.
 
-
 | OS\ Device    | Genio510  | Genio700 | Genio1200 |
 |---------------|-----------|----------|-----------|
 | Yocto         |[[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-510-evk_private_240626080308.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-700-evk_private_240626082053.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-1200-evk_private_240626084538.tar.gz) | 
@@ -28,7 +27,7 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 Connect the Genio EVK to your host using a USB cable based on board layout configuration.
 
 <div align="center">
-<img src="assets/images/pages/genio_510_layout.png" width="560"/>
+<img src="assets/images/pages/genio_510_layout1.png" width="560"/>
 </div>
 
 ### Step 3: Extract the Downloaded Image
