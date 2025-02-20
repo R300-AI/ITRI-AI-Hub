@@ -8,8 +8,8 @@ nav_order: 4
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * An x86_64 computer (running Ubuntu 22.04 LTS) with **Flash Tools** and **NeuronPilot** installed.
-> * Prepare one of the following: **Genio510, 700**, or **1200 EVK** board with power cable.
+> * An x86_64 computer (running with Ubuntu 22.04 LTS), which **Flash Tools** and **NeuronPilot** installed.
+> * One of the following boards: **Genio510**, **Genio700**, or **Genio1200 EVK**, along with a power cable.
 > * A **USB to Micro USB cable** to connect the computer and the board.
 
 ## Flashing Pre-built Image to Board
@@ -32,41 +32,43 @@ $ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
-### Step 3: Connecting Board to Host
-Follow the official instructions [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your host machine using a USB cable.
+### Step 3: Connecting Board to Computer
+Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your Computer.
 
 1. Connect the board to your host machine using a USB cable.
 2. Ensure the board is powered on.
 3. Verify the connection by checking if the device is listed using the `lsusb` command.
 
 ### Step 4: Launch genio-flash Tool
-Navigate to the directory where the image was extracted:
+Navigate to the directory containing the extracted image files by executing:
 
 ```bash
 $ cd <IMAGE_PATH>/<IMAGE>
 ```
 
-### Step 5: Start the Image Flasher to Match the Genio SoC
+### Step 5: Match the Genio SoC using Flash Tools
 
-Enter download mode using the following commands:
+Activate the image flasher and wait for the board to match by executing these commands:
 
 ```bash
 # for Yocto 
 $ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
+
 # for Ubuntu
 $ genio-flash
 ```
 
 ### Step 6: Boot the Board into Download Mode
-Press and hold **Download** button and tap **RST** button on your board. Continue holding the Download button until you see the log message `Erasing mmc0`, as shown below:
+
+press and hold the **Download** button, then tap the **RST** button on your board. Refer to the layout [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html). Keep holding the Download button until the log message `Erasing mmc0` appears.
 
 <div align="center">
 <img src="assets/images/pages/genio_flash.png" width="560"/>
 </div>
 
 ### Step 7: Verify Installation
-After the flashing process is complete, ensure the board boots correctly:
+To confirm the board has booted into the operating system after flashing:
 
-1. Disconnect and reconnect the power cable to reboot the board.
-2. Connect to the board using a serial console (e.g., minicom or screen).
-3. Check the boot log for any errors.
+1. Power cycle the board by disconnecting and reconnecting the power cable.
+2. Use a serial console application (e.g., `minicom` or `screen`) to connect to the board.
+3. Review the boot log to ensure there are no errors and the operating system has started successfully.
