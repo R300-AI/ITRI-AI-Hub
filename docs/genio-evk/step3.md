@@ -7,18 +7,12 @@ nav_order: 5
 # Genio EVK Setup Guide
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
-### Prerequisites
+> ### Prerequisites
+> * A **Genio-350, 510, 700**, or **1200 EVK** with the operating system flashed.
+> * Ensure the **WiFi6** or **5G** module is connected to the antenna and activated.
+> * It is recommended to use **Miniconda for Linux** to manage Python applications. Follow the [installation instructions](https://docs.anaconda.com/miniconda/install/).
 
-* Prepare the **Genio-350, 510, 700, or 1200 EVK** board, power cable, and keyboard.
-* Ensure the WiFi6 or 5G module is connected to the antenna and activated.
-
-## Install Board Support Packages (BSP)<sub>(*Ubuntu only)
-
-Besides the native BSP that has been included with Yocto, we recommend that if you are using the Ubuntu operating system, please follow the steps below to complete the setup of your development environment.
-
-> Gnome Desktop and Virtual Environment (important for changing monitor)
-> * Disable Screen lock and Activate Automatic Login 
-> * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
+## Install Board Support Packages (BSP) for Ubuntu on Genio<sub>
 
 ### Step 1: Install CMake from Source Code
 To install CMake, execute the following commands:
