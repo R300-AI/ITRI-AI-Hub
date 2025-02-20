@@ -51,10 +51,10 @@ $ cd <IMAGE_PATH>/<IMAGE>
 Activate the image flasher and wait for the board to match by executing these commands:
 
 ```bash
-# for Yocto 
+# for Yocto image
 $ genio-flash --load-dtbo gpu-mali.dtbo --load-dtbo apusys.dtbo --load-dtbo video.dtbo
 
-# for Ubuntu
+# for Ubuntu image
 $ genio-flash
 ```
 
