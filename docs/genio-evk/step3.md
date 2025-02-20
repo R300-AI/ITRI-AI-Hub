@@ -19,7 +19,6 @@ Besides the native BSP that has been included with Yocto, we recommend that if y
 > Gnome Desktop and Virtual Environment (important for changing monitor)
 > * Disable Screen lock and Activate Automatic Login 
 > * Miniconda ([Installation Guide](https://docs.anaconda.com/miniconda/))
-> * WIFI driver ([[DWA-171]](https://github.com/CarlosSenobio/d-link-dwa-171-wifi-adapter-automatic-driver-installer)) 
 
 ### Step 1: Install CMake from Source Code
 To install CMake, execute the following commands:
