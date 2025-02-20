@@ -10,7 +10,8 @@ nav_order: 3
 
 > ### Prerequisites
 
-> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`) and NeuronPilot Compilers(including `NCC-TFLite` and `MTK-Converter`).
+> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required for install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`) and 
+> * Conda should be install on your computer to install the NeuronPilot Tools(including `NCC-TFLite` and `MTK-Converter`).
 
 ## Install Flash Tools
 
