@@ -4,7 +4,7 @@
 
 Contact With Us :wave:
 
-| [Application Validation]() | [Chipset Partnership]() | [Developer Support]() |
+| [Application Validation](mailto:sylvia.chan@itri.org.tw) | [Chipset Partnership](mailto:Markv.chen1996@itri.org.tw) | [Developer Support](mailto:Markv.chen1996@itri.org.tw) |
 
 </div>
 
