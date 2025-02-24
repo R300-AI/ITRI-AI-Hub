@@ -47,5 +47,5 @@ For more information, refer to the following resources:
 These resources provide in-depth guidance on leveraging the full potential of the Genio Evaluation Kits for your AI and IoT projects.
 
 <br><div align="right">
-<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html">[Next > Step 1]</a>
+<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html">[ Next >> Step 1 ]</a>
 </div>
