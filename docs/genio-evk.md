@@ -50,7 +50,7 @@ These resources provide in-depth guidance on leveraging the full potential of th
 <div align="right">
 <a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html"> 
 
-[ Next >> Step 1 ]
+[ Next >> Step1. Setup Tools ]
   
 </a>
 </div>
