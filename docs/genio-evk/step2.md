@@ -35,9 +35,10 @@ $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMA
 ### Step 3: Connecting Board to Computer
 Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your Computer.
 
-1. Connect the board to your host machine using a USB cable.
-2. Ensure the board is powered on.
-3. Verify the connection by checking if the device is listed using the `lsusb` command.
+> [!NOTE]
+> 1. Connect the board to your host machine using a USB cable.
+> 2. Ensure the board is powered on.
+> 3. Verify the connection by checking if the device is listed using the `lsusb` command.
 
 ### Step 4: Launch genio-flash Tool
 Navigate to the directory containing the extracted image files by executing:
