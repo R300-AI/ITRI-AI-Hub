@@ -33,7 +33,9 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 
 ## AI Development Resources
 
-The diverse chipset of this system provides extensive application potential, while also indicating that developers will face a more complex development environment. The diagram below illustrates the complete system resources and workflow. The workstation is used for installing the operating system and compiling trained models, all to enable efficient inference execution on the development board. You can follow the guidelines in this document to quickly set up both parts.
+The diverse chipset of this system provides extensive application potential, while also indicating that developers will face a more complex development environment. 
+
+The diagram below illustrates the complete system resources and workflow. The workstation is used for installing the operating system and compiling trained models, all to enable efficient inference execution on the development board. You can follow the guidelines in this document to quickly set up both parts.
 
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
