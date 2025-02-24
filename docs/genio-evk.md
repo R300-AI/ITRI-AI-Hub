@@ -45,3 +45,7 @@ For more information, refer to the following resources:
 2. [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
 
 These resources provide in-depth guidance on leveraging the full potential of the Genio Evaluation Kits for your AI and IoT projects.
+
+<br><div align="right">
+<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html">[Next: Step1]</a>
+</div>
