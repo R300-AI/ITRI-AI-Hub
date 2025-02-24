@@ -4,10 +4,10 @@
 ### Image Classification
 ### Object Detection
 
-| Model   |    dtype   |     Platform     |        Chipsets         |    Speed (ms) |     Memory    |     Power     |     Temperature    |
-|---------|------------|------------------|-------------------------|---------------|---------------|---------------|--------------------|
-| YOLOv8n |  Float 32  |    Genio-510      | `Cortex-A`, `Mali GPU` |               |               |               |                    |
-| YOLOv8n |  Float 32  |    Genio-510      | `MDLA 3.0`             |               |               |               |                    |
+| Model   |    dtype   |     Platform     |        Chipsets         |    Speed (ms) |     Memory    |     Power     |     Temp (°C)    |
+|---------|------------|------------------|-------------------------|---------------|---------------|---------------|------------------|
+| YOLOv8n |  Float 32  |    Genio-510      | `Cortex-A`, `Mali GPU` |               |               |               |                  |
+| YOLOv8n |  Float 32  |    Genio-510      | `MDLA 3.0`             |               |               |               |                  |
 
 ### Keypoint Detection
 ### Semantic Segmentation
