@@ -69,9 +69,9 @@ press and hold the **Download** button, then tap the **RST** button on your boar
 ### Step 7: Verify Installation
 To confirm the board has booted into the operating system after flashing:
 
-1. Power cycle the board by disconnecting and reconnecting the power cable.
-2. Use a serial console application (e.g., `minicom` or `screen`) to connect to the board.
-3. Review the boot log to ensure there are no errors and the operating system has started successfully.
+　1. Power cycle the board by disconnecting and reconnecting the power cable.
+　2. Use a serial console application (e.g., `minicom` or `screen`) to connect to the board.
+　3. Review the boot log to ensure there are no errors and the operating system has started successfully.
 
 <br>
 <div align="right">
