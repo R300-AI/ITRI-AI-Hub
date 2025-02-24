@@ -72,3 +72,12 @@ To confirm the board has booted into the operating system after flashing:
 1. Power cycle the board by disconnecting and reconnecting the power cable.
 2. Use a serial console application (e.g., `minicom` or `screen`) to connect to the board.
 3. Review the boot log to ensure there are no errors and the operating system has started successfully.
+
+<br>
+<div align="right">
+<a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step3.html"> 
+
+[ Next >> Step3. Install Packages ]
+  
+</a>
+</div>
