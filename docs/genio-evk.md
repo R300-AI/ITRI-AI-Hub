@@ -20,7 +20,7 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 * **Ubuntu 22.04**: This OS is more user-friendly and easier to develop on, making it suitable for developers who prioritize ease of use and rapid development.
 
 
-### Device Specifications: 
+### Device Tpye: 
 
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
