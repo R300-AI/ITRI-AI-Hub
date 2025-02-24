@@ -4,7 +4,7 @@
 ### Image Classification
 ### Object Detection
 
-| Model   |    dtype   |     Platform     |        Chipsets         |    Speed (ms) |     Memory    |     Power     |     Temp (°C)    |
+| Model   |    dtype   |     Platform     |        Chipsets         |    Speed (ms) |     Memory    |  Power (Watt) |     Temp (°C)    |
 |---------|------------|------------------|-------------------------|---------------|---------------|---------------|------------------|
 | YOLOv8n |  Float 32  |    Genio-510      | `Cortex-A`, `Mali GPU` |               |               |               |                  |
 | YOLOv8n |  Float 32  |    Genio-510      | `MDLA 3.0`             |               |               |               |                  |
