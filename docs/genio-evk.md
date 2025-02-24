@@ -11,7 +11,7 @@ nav_order: 2
 <img src="assets/images/pages/genio_510_evk.png" width="560"/>
 </div>
 
-The Genio Evaluation Kits are designed to provide developers with a robust platform for AI and IoT applications. These kits support both Yocto and Ubuntu 22.04 operating systems, each offering unique advantages to cater to different development needs.
+The Genio Evaluation Kits are designed to provide developers with a robust platform for **Computer Vision** and **AIoT** applications. These kits support both Yocto and Ubuntu 22.04 operating systems, each offering unique advantages to cater to different development needs.
 
 
 ### Operating Systems:
