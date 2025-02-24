@@ -1,6 +1,8 @@
 # Demonstration List
 
-> * [Custom your model](https://r300-ai.github.io/ITRI-AI-Hub/)
+The Model Zoo aggregates benchmarks for different tasks, providing information on the feasibility of innovative applications across various chips. This enables developers to quickly select the most suitable chip system platforms.
+
+In our Python Demo example, developers will also find multiple pre-trained models and comprehensive annotations. These resources are intended to help developers rapidly conduct practical tests. Additionally, seasoned developers can leverage open-source frameworks such as TensorFlow and PyTorch to develop custom models.
 
 ## Computer Vision
 ### Image Classification
