@@ -44,8 +44,6 @@ For more information, refer to the following resources:
 1. [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
 2. [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
 
-These resources provide in-depth guidance on leveraging the full potential of the Genio Evaluation Kits for your AI and IoT projects.
-
 <br>
 <div align="right">
 <a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step1.html"> 
