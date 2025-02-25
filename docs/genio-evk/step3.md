@@ -31,6 +31,7 @@ Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-install
 
 ```bash
 git clone https://github.com/ARM-software/armnn.git && cd armnn
+
 cd build-tool/scripts
 sudo ./install-packages.sh
 
