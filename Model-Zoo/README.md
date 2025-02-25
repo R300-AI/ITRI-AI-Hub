@@ -11,7 +11,7 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 | Model   |    Interpreter    |     Platform     |        Chipsets         |    Speed (ms) |     Memory    |  Power (Watt) |     Temp (°C)    |    Demo    |
 |---------|-------------------|------------------|-------------------------|---------------|---------------|---------------|------------------|---------------|
 | YOLOv8n<sub>(fp32) |  TFLite  | [Genio 510](https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html) | `Cortex-A`, `Mali GPU` |               |               |               |                  |[link](https://github.com/R300-AI/MTK-genio-demo/tree/main)                  |
-| YOLOv8n<sub>(fp32) |  TFLite  | [Genio 510](https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html) | `MDLA 3.0`             | 2.1           |               |               |                  |[link](https://github.com/R300-AI/MTK-genio-demo/tree/main)                  |
+| YOLOv8n<sub>(fp32) |  TFLite  | [Genio 510](https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html) | `MDLA 3.0`             | 2.6           |               |               |                  |[link](https://github.com/R300-AI/MTK-genio-demo/tree/main)                  |
 
 ### Keypoint Detection
 ### Semantic Segmentation
