@@ -20,6 +20,7 @@ nav_order: 5
 $ sudo apt-get install libssl-dev
 $ git clone https://github.com/Kitware/CMake.git && cd CMake
 $ ./bootstrap && make && sudo make install
+$ cd            # go back to the root directory
 ```
 
 ### Step 2: Install and Verify the NeuronRT Library
@@ -43,6 +44,10 @@ sudo ./install-packages.sh
 
 ### Step 2: Verify the ArmNN Installation
 
+```bash
+$ cd            # go back to the root directory
+```
+
 ## Install KleidiAI on Ubuntu Genio
 ### Step 1: Install KleidiAI from Source Code
 
@@ -50,6 +55,7 @@ sudo ./install-packages.sh
 $ git clone https://git.gitlab.arm.com/kleidi/kleidiai.git && cd kleidiai
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmake/toolchains/aarch64-none-linux-gnu.toolchain.cmake -S . -B build/
 $ cmake --build ./build
+$ cd            # go back to the root directory
 ```
 
 ### Step 2: Install KleidiCV from Source Code
@@ -58,6 +64,7 @@ $ cmake --build ./build
 $ git clone https://git.gitlab.arm.com/kleidi/kleidicv.git && cd kleidicv
 $ cmake -S /path/to/kleidicv -B build-kleidicv-linux
 $ cmake --build build-kleidicv-linux --parallel
+$ cd            # go back to the root directory
 ```
 
 <br>
