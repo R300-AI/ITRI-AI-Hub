@@ -14,7 +14,7 @@ nav_order: 5
 
 
 ## Install NeuronRT on Ubuntu Genio
-### Step 1: Install CMake from Source Code
+### Step 1: Install CMake from source code
 
 ```bash
 $ sudo apt-get install libssl-dev
@@ -28,7 +28,7 @@ Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-install
 
 ## Install ArmNN on Ubuntu Genio
 
-### Step 1: Install the Arm Compute Library and ArmNN from Source Code
+### Step 1: Install the ArmNN with Arm Compute Library (ACL) from source code
 
 ```bash
 git clone https://github.com/ARM-software/armnn.git && cd armnn
@@ -42,14 +42,14 @@ sudo ./install-packages.sh
 ./build-armnn.sh --help
 ```
 
-### Step 2: Verify the ArmNN Installation
+### Step 2: Verify the Installation
 
 ```bash
 $ cd            # go back to the root directory
 ```
 
 ## Install KleidiAI on Ubuntu Genio
-### Step 1: Install KleidiAI from Source Code
+### Step 1: Install KleidiAI from source code
 
 ```bash
 $ git clone https://git.gitlab.arm.com/kleidi/kleidiai.git && cd kleidiai
@@ -58,7 +58,7 @@ $ cmake --build ./build
 $ cd            # go back to the root directory
 ```
 
-### Step 2: Install KleidiCV from Source Code
+### Step 2: Install KleidiCV from source code
 
 ```bash
 $ git clone https://git.gitlab.arm.com/kleidi/kleidicv.git && cd kleidicv
