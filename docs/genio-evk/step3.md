@@ -28,6 +28,19 @@ Follow the [Installation Guide (NeuroPilot Hardware Packages)](https://mediatek.
 ## Install ArmNN on Ubuntu Genio
 
 ### Step 1: Install the Arm Compute Library and ArmNN from Source Code
+
+```bash
+git clone https://github.com/ARM-software/armnn.git && cd armnn
+cd build-tool/scripts
+sudo ./install-packages.sh
+
+./setup-armnn.sh --target-arch=aarch64 --all
+./build-armnn.sh --target-arch=aarch64 --all --neon-backend --cl-backend
+
+./setup-armnn.sh --help
+./build-armnn.sh --help
+```
+
 ### Step 2: Verify the ArmNN Installation
 
 ## Install KleidiAI on Ubuntu Genio
