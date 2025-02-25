@@ -23,7 +23,7 @@ $ ./bootstrap && make && sudo make install
 $ cd            # go back to the root directory
 ```
 
-### Step 2: Install and Verify the NeuronRT Library
+### Step 2: Install and verify the NeuronRT library
 Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuroPilot Hardware Packages (NeuronRT), to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
 ## Install ArmNN on Ubuntu Genio
@@ -42,7 +42,7 @@ sudo ./install-packages.sh
 ./build-armnn.sh --help
 ```
 
-### Step 2: Verify the Installation
+### Step 2: Verify the installation
 
 ```bash
 $ cd            # go back to the root directory
