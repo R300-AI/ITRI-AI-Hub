@@ -8,12 +8,12 @@ nav_order: 5
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * A **Genio-350, 510, 700**, or **1200 EVK** with the operating system flashed.
+> * A **Genio-350, 510, 700**, or **1200 EVK** with the Ubuntu operating system flashed.
 > * Ensure the **WiFi6** or **5G** module is connected to the antenna and activated.
 > * It is recommended to use **Miniconda for Linux** or **Virtualenv** to manage Python APIs.
 
 
-## Install NeuronRT on Ubuntu Genio
+## Install the NeuronRT
 ### Step 1: Install CMake from source code
 
 ```bash
@@ -25,7 +25,7 @@ $ ./bootstrap && make && sudo make install && cd
 ### Step 2: Install and verify the NeuronRT library
 Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuroPilot Hardware Packages (NeuronRT), to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
-## Install ArmNN on Ubuntu Genio
+## Install the ArmNN
 
 ### Step 1: Install the ArmNN with Arm Compute Library (ACL) from source code
 
@@ -48,7 +48,7 @@ sudo ./install-packages.sh
 $ cd            # go back to the root directory
 ```
 
-## Install KleidiAI on Ubuntu Genio
+## Install the KleidiAI
 ### Step 1: Install KleidiAI from source code
 
 ```bash
