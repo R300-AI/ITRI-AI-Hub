@@ -45,7 +45,6 @@ $ cmake --build build-kleidicv-linux --parallel
 <br>
 <div align="right">
   
-[ Next >> Finished ]
-  
-</a>
+[ Finished >>  ]
+
 </div>
