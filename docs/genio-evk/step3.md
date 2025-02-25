@@ -22,13 +22,13 @@ $ git clone https://github.com/Kitware/CMake.git && cd CMake
 $ ./bootstrap && make && sudo make install
 ```
 
-### Step 2: Install NeuronRT Library
+### Step 2: Install and Verify the NeuronRT Library
 Follow the [Installation Guide (NeuroPilot Hardware Packages)](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuronRT on Ubuntu OS, to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
 ## Install ArmNN on Ubuntu Genio
 
 ### Step 1: Install Arm Compute Library from Source Code
-### Step 2: Install ArmNN from Source Code
+### Step 2: Install and Verify ArmNN from Source Code
 
 ## Install KleidiAI on Ubuntu Genio
 ### Step 1: Install KleidiAI from Source Code
