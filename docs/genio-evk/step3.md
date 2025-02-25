@@ -13,7 +13,7 @@ nav_order: 5
 > * It is recommended to use **Miniconda for Linux** or **Virtualenv** to manage Python APIs.
 
 
-## Install the NeuronRT
+## NeuronRT
 ### Step 1: Install CMake from source code
 
 ```bash
@@ -25,7 +25,7 @@ $ ./bootstrap && make && sudo make install && cd
 ### Step 2: Install and verify the NeuronRT library
 Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuroPilot Hardware Packages (NeuronRT), to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
-## Install the ArmNN
+## ArmNN
 
 ### Step 1: Install the ArmNN with Arm Compute Library (ACL) from source code
 
@@ -48,7 +48,7 @@ sudo ./install-packages.sh
 $ cd            # go back to the root directory
 ```
 
-## Install the KleidiAI
+## KleidiAI
 ### Step 1: Install KleidiAI from source code
 
 ```bash
