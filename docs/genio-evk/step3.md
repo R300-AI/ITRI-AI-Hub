@@ -10,7 +10,7 @@ nav_order: 5
 > ### Prerequisites
 > * A **Genio-350, 510, 700**, or **1200 EVK** with the operating system flashed.
 > * Ensure the **WiFi6** or **5G** module is connected to the antenna and activated.
-> * It is recommended to use **Miniconda for Linux** to manage Python applications. Follow the [Installation Guide](https://docs.anaconda.com/miniconda/install/).
+> * It is recommended to use **Miniconda for Linux** or **Virtualenv** to manage Python APIs.
 
 
 ## Install NeuronRT on Ubuntu Genio
