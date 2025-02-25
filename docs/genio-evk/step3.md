@@ -13,7 +13,7 @@ nav_order: 5
 > * It is recommended to use **Miniconda for Linux** to manage Python applications. Follow the [Installation Guide](https://docs.anaconda.com/miniconda/install/).
 
 
-## Install NeuronRT for Ubuntu on Genio<sub>
+## Install NeuronRT on Ubuntu Genio
 ### Step 1: Install CMake from Source Code
 
 ```bash
@@ -25,9 +25,9 @@ $ ./bootstrap && make && sudo make install
 ### Step 2: Install NeuronRT Library
 Follow the [Installation Guide (NeuroPilot Hardware Packages)](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-installation/neuropilot.html#) to install and verify the NeuronRT on Ubuntu OS, to access MediaTek Deep Learning Accelerator (MDLA) and Vision Processor (VP).
 
-## Install ArmNN for Ubuntu on Genio<sub>
+## Install ArmNN on Ubuntu Genio
 
-## Install KleidiAI for Ubuntu on Genio<sub>
+## Install KleidiAI on Ubuntu Genio
 ### Step 1: Install KleidiAI from Source Code
 
 ```bash
