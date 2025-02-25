@@ -19,8 +19,7 @@ nav_order: 5
 ```bash
 $ sudo apt-get install libssl-dev
 $ git clone https://github.com/Kitware/CMake.git && cd CMake
-$ ./bootstrap && make && sudo make install
-$ cd            # go back to the root directory
+$ ./bootstrap && make && sudo make install && cd
 ```
 
 ### Step 2: Install and verify the NeuronRT library
@@ -54,8 +53,7 @@ $ cd            # go back to the root directory
 ```bash
 $ git clone https://git.gitlab.arm.com/kleidi/kleidiai.git && cd kleidiai
 $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmake/toolchains/aarch64-none-linux-gnu.toolchain.cmake -S . -B build/
-$ cmake --build ./build
-$ cd            # go back to the root directory
+$ cmake --build ./build && cd
 ```
 
 ### Step 2: Install KleidiCV from source code
@@ -63,8 +61,7 @@ $ cd            # go back to the root directory
 ```bash
 $ git clone https://git.gitlab.arm.com/kleidi/kleidicv.git && cd kleidicv
 $ cmake -S /path/to/kleidicv -B build-kleidicv-linux
-$ cmake --build build-kleidicv-linux --parallel
-$ cd            # go back to the root directory
+$ cmake --build build-kleidicv-linux --parallel && cd
 ```
 
 <br>
