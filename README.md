@@ -23,7 +23,16 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 </details>
 
 <details>
-<summary>Hailo AI Accelerator Plugins</summary>
+
+<summary>WiseEyeII AI Accelerator</summary>
+  
+Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
+
+![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
+
+</details>
+
+<summary>Hailo AI Accelerator</summary>
 
 Hailo offers 26~40 TOPs expansion cards designed for computer vision. This includes an **Evaluation Board** for compiling and **mPCIe/M.2 boards** for accelerating. **(*registration is required to access the documents)**
 
