@@ -11,7 +11,7 @@ Contact With Us :wave:
 ## <div align="center">Documentations</div>
 
 <details open>
-<summary>MediaTek Genio AIoT SoC</summary>
+<summary>MediaTek Genio AIoT module</summary>
 
 Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
 
@@ -23,7 +23,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 </details>
 
 <details>
-<summary>AMD Ryzen AI PC SoC</summary>
+<summary>AMD Ryzen AI PC module</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
@@ -31,6 +31,15 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating t
   * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
   * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
   * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
+
+</details>
+
+<details>
+<summary>NVIDIA Jetson GPU module</summary>
+  
+Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
+
+![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
 
 </details>
 
@@ -48,14 +57,6 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
   * [Install HailoRT(PCIe Driver) and pyHailoRT with mPCIe or M.2 board](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
 </details>
 
-<details>
-<summary>NVIDIA Jetson EVK</summary>
-  
-Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
-
-![](https://img.shields.io/badge/OS-Ubuntu_|_JetPack-orange) ![](https://img.shields.io/badge/TensorRT-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
-
-</details>
 
 <table>
     <tr>
