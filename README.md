@@ -45,6 +45,9 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
 
 <details>
 <summary>WiseEye2 AI Accelerator</summary>
+
+Cortex M55 CPU以及Ethos U55 NPU
+ 
 </details>
 
 <details>
