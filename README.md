@@ -44,14 +44,14 @@ Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring a
 </details>
 
 <details>
-<summary>WiseEye2 AI Accelerator</summary>
+<summary>WiseEye2 AI Processor</summary>
 
 Cortex M55 CPU以及Ethos U55 NPU
  
 </details>
 
 <details>
-<summary>Hailo AI Accelerator</summary>
+<summary>Hailo AI Processor</summary>
 
 Hailo offers 26~40 TOPs expansion cards designed for computer vision. This includes an **Evaluation Board** for compiling and **mPCIe/M.2 boards** for accelerating. **(*registration is required to access the documents)**
 
