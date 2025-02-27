@@ -25,7 +25,7 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 |  Devices     | Genio 510     | Genio 700     | Genio 1200     |
 | :----------: |:-------------:|:-------------:|:--------------:|
 | **OS**            |  `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |
-| **CPU**           |  `Cortex-A55`*4,`Cortex-A78`*2      |   `Cortex-A55`*6,`Cortex-A78`*2      |   `Cortex-A55`*4,`Cortex-A78`*4      |
+| **CPU**           |  `Cortex-A55`x4,`Cortex-A78`x2      |   `Cortex-A55`x6,`Cortex-A78`x2      |   `Cortex-A55`x4,`Cortex-A78`x4      |
 | **GPU**           |  `Mali-G57 MC2`                       |   `Mali-G57 MC3`                   |   `Mali-G57 MC5`                     |
 | **APU**           | `MDLA 3.0`x1, `VP`x1                |   `MDLA 3.0`x1, `VP`x1               |   `MDLA 2.0`x2, `VP`x2               |
 | **Performance**   | 0.15~2.8TOPs                        | 0.20~4.0TOPs                         | 0.25~4.8TOPs                         |
