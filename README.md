@@ -23,7 +23,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 </details>
 
 <details>
-<summary>WiseEyeII AI Accelerator</summary>
+<summary>WiseEye2 AI Accelerator</summary>
 </details>
 
 <details>
