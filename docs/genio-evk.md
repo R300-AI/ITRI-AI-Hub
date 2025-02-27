@@ -26,7 +26,7 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 | :----------: |:-------------:|:-------------:|:--------------:|
 | **OS**            |  `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |
 | **CPU**           |  `Cortex-A55`*4,`Cortex-A78`*2      |   `Cortex-A55`*6,`Cortex-A78`*2      |   `Cortex-A55`*4,`Cortex-A78`*4      |
-| **GPU**           |  `Mali G57 MC2`                       |   `Mali G57 MC3`                   |   `Mali G57 MC5`                     |
+| **GPU**           |  `Mali-G57 MC2`                       |   `Mali-G57 MC3`                   |   `Mali-G57 MC5`                     |
 | **APU**           | `MDLA 3.0`x1, `VP`x1                |   `MDLA 3.0`x1, `VP`x1               |   `MDLA 2.0`x2, `VP`x2               |
 | **Performance**   | 0.15~2.8TOPs                        | 0.20~4.0TOPs                         | 0.25~4.8TOPs                         |
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
