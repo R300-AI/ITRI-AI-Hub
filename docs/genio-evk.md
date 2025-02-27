@@ -43,6 +43,8 @@ The diagram below illustrates the complete system resources and workflow. The wo
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
 </div>
 
+Additionally, on a correctly installed board, you can delegate model inference through native frameworks such as TFLite, ArmNN, or NeuronRT, each utilizing different computational resources. TFLite primarily uses the CPU for inference, ArmNN can leverage both the CPU and GPU for acceleration, while NeuronRT will call upon the MDLA for high-performance inference.
+
 For more information, refer to the following resources:
 
 1. [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
