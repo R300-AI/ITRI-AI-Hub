@@ -11,7 +11,7 @@ Contact With Us :wave:
 ## <div align="center">Documentations</div>
 
 <details open>
-<summary>MediaTek Genio EVK</summary>
+<summary>MediaTek Genio AI Processor</summary>
 
 Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
 
@@ -19,6 +19,18 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
   * [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
   * [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
   * [Deploy Pre-Trained Models using NVIDIA TAO Toolkit](https://mediatek.gitlab.io/genio/doc/tao/index.html)
+
+</details>
+
+<details>
+<summary>AMD Ryzen AI Processor</summary>
+
+AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
+
+![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
+  * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
+  * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
+  * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
 
 </details>
 
@@ -34,18 +46,6 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
   * [Install Dataflow Compiler with Evaluation Board](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
   * [Install HailoRT(PCIe Driver) and pyHailoRT with mPCIe or M.2 board](https://hailo.ai/developer-zone/documentation/hailort-v4-17-0/?sp_referrer=install/install.html#ubuntu-installer-requirements)
-</details>
-
-<details>
-<summary>AMD Ryzen AI Processor</summary>
-
-AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
-
-![](https://img.shields.io/badge/OS-Windows-orange) ![](https://img.shields.io/badge/Quark_Quantizer-latest-blue) ![](https://img.shields.io/badge/Vitis_AI_EP-latest-blue) ![](https://img.shields.io/badge/Python->3.6-green)
-  * [Development Flow Overview](https://ryzenai.docs.amd.com/en/latest/index.html)
-  * [Examples, Demos, Tutorials for Ryzen AI Software](https://ryzenai.docs.amd.com/en/latest/examples.html)
-  * [AMD Quark Quantizer for Efficient AI Model Deployment](https://www.amd.com/en/developer/resources/technical-articles/amd-quark-quantizer-for-efficient-ai-model-deployment.html)
-
 </details>
 
 <details>
