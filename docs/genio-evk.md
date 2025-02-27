@@ -43,9 +43,9 @@ The diagram below illustrates the complete system resources and workflow. The wo
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
 </div>
 
-Additionally, on a correctly installed board, you can delegate model inference through native frameworks such as TFLite, ArmNN, or NeuronRT, each utilizing different computational resources. TFLite primarily uses the CPU for inference, ArmNN can leverage both the CPU and GPU for acceleration, while NeuronRT will call upon the MDLA for high-performance inference.
+Additionally, once the board is properly set up, you can perform model inference using native frameworks such as TFLite, ArmNN, or NeuronRT, each of which utilizes different computational resources. **TFLite** primarily relies on the CPU for inference. **ArmNN** can accelerate inference by optimizing both the CPU and GPU, resulting in faster and more efficient processing compared to running inference without ArmNN. **NeuronRT** leverages the MDLA for high-performance inference. For practical examples, please refer to the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo).
 
-For more information, refer to the following resources:
+### References
 
 1. [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
 2. [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
