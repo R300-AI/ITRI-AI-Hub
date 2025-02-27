@@ -26,6 +26,7 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 | :----------: |:-------------:|:-------------:|:--------------:|
 | **OS**            |  `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |   `Yocto`, `Ubuntu 22.04`            |
 | **Chipsets**      |  `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 3.0` |   `Cortex-A`, `Mali GPU`, `MDLA 2.0` |
+| **Core**          |  `Cortex-A55`x4,`Cortex-A78`x2      |   `Cortex-A55`x6,`Cortex-A78`x2      |   `Cortex-A55`x4,`Cortex-A78`x4      |
 | **Performance**   | 0.15~2.8TOPs                        | 0.20~4.0TOPs                         | 0.25~4.8TOPs                         |
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
 | **Memory**        | 4GB LPDDR4                          | 8GB LPDDR4                           | 16GB LPDDR5                          |
