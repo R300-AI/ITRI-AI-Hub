@@ -11,7 +11,7 @@ Contact With Us :wave:
 ## <div align="center">Documentations</div>
 
 <details open>
-<summary>MediaTek Genio AI SoC</summary>
+<summary>MediaTek Genio AIoT SoC</summary>
 
 Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
 
@@ -23,7 +23,7 @@ Genio is powered by an **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS
 </details>
 
 <details>
-<summary>AMD Ryzen AI SoC</summary>
+<summary>AMD Ryzen AI PC SoC</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
