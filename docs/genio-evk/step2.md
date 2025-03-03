@@ -8,7 +8,7 @@ nav_order: 4
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * An x86_64 computer (running with Ubuntu 22.04 LTS), which **Flash Tools** and **NeuronPilot** installed.
+> * An x86_64 Workstation (running with Ubuntu 22.04 LTS), which **Flash Tools** and **NeuronPilot** installed.
 > * One of the following boards: **Genio510**, **Genio700**, or **Genio1200 EVK**, along with a power cable.
 > * A **USB to Micro USB cable** to connect the computer and the board.
 
