@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "-　Step1. Setup Toolkits"
+title: "-　Step1. Setup Workstations"
 nav_order: 3
 ---
 
@@ -8,7 +8,7 @@ nav_order: 3
 ##### update : 2025/01 by ITRI (EOSL-R3)
 
 > ### Prerequisites
-> * An **x86_64 Computer** with **Ubuntu 22.04 LTS** is required to install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`).
+> * An **x86_64 Workstation** with **Ubuntu 22.04 LTS** is required to install the Flash Tools (including `aiot-config`, `aiot-flash`, `aiot-board`).
 > * Ensure **Conda** is installed on the computer above to set up the NeuronPilot Tools (`NCC-TFLite`, `MTK-Converter`), which require Python 3.7.
 
 ## Install Flash Tools
