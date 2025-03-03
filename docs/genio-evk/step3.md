@@ -27,10 +27,10 @@ Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-install
 
 ## ArmNN
 
-### Step 1: Download latest pre-built library **(ArmNN-linux-aarch64.tar.gz)** from [ArmNN-Release](https://github.com/ARM-software/armnn/releases) .
+### Step 1: Download the latest pre-built library **(ArmNN-linux-aarch64.tar.gz)** from [ArmNN-Release](https://github.com/ARM-software/armnn/releases) .
 
 ```bash
-curl -L https://github.com/ARM-software/armnn/releases/download/v24.02/ArmNN-linux-aarch64.tar.gz | tar -xz -C ~/
+curl -L https://github.com/ARM-software/armnn/releases/download/v24.11/ArmNN-linux-aarch64.tar.gz | tar -xz -C ~/
 ```
 
 ### Step 2: Setup the environment veriable
