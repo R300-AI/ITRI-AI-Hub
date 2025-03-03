@@ -57,13 +57,6 @@ $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=cmake/toolchains/aarch
 $ cmake --build ./build && cd
 ```
 
-### Step 2: Install KleidiCV from source code
-
-```bash
-$ git clone https://git.gitlab.arm.com/kleidi/kleidicv.git && cd kleidicv
-$ cmake -S /path/to/kleidicv -B build-kleidicv-linux
-$ cmake --build build-kleidicv-linux --parallel && cd
-```
 
 <br>
 <div align="right">
