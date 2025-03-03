@@ -73,8 +73,9 @@ To confirm the board has booted into the operating system after flashing:
   2. Press **PWR** on your board.
   3. Review the boot log and CHECK the operating system has started successfully.
 
-#
+#　
 
+<br>
 <div align="right">
 <a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step3.html"> 
 
