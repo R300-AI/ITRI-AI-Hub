@@ -71,9 +71,9 @@ To confirm the board has booted into the operating system after flashing:
 
 　1. Disconnecting and reconnecting the power cable.
  
-　2. Press 
+　2. Press **PWR** on your board.
  
-　3. Review the boot log and the operating system has started successfully.
+　3. Review the boot log and CHECK the operating system has started successfully.
 
 <br>
 <div align="right">
