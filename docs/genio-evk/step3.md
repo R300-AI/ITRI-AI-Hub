@@ -27,19 +27,10 @@ Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-install
 
 ## ArmNN
 
-### Step 1: Install the ArmNN with Arm Compute Library (ACL) from source code
+### Step 1: Download latest Pre-built library **(ArmNN-linux-aarch64.tar.gz)** from [ArmNN-Release](https://github.com/ARM-software/armnn/releases) .
 
 ```bash
-git clone https://github.com/ARM-software/armnn.git && cd armnn
-
-cd build-tool/scripts
-sudo ./install-packages.sh
-
-./setup-armnn.sh --target-arch=aarch64 --all
-./build-armnn.sh --target-arch=aarch64 --all --neon-backend --cl-backend
-
-./setup-armnn.sh --help
-./build-armnn.sh --help
+curl -L https://github.com/ARM-software/armnn/releases/download/v24.02/ArmNN-linux-aarch64.tar.gz | tar -xz -C /path/to/your/directory
 ```
 
 ### Step 2: Verify the installation
