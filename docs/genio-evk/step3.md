@@ -36,8 +36,9 @@ curl -L https://github.com/ARM-software/armnn/releases/download/v24.02/ArmNN-lin
 ### Step 2: Setup the environment veriable
 
 ```bash
-# add this line to .bashrc : LD_LIBRARY_PATH=/home/<user_name>/ArmNN-linux-aarch64/:$LD_LIBRARY_PATH
+# add this line to bashrc : LD_LIBRARY_PATH=/home/<user_name>/ArmNN-linux-aarch64/:$LD_LIBRARY_PATH
 $ vim ~/.bashrc
+$ source ~/.bashrc
 ```
 
 ## KleidiAI
