@@ -8,7 +8,7 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 
 ### Object Detection
 
-| Model   |    Platform    |     Delegation     |        Chipsets         |    Speed (ms) |     Memory (GB)    |  Power (Watt) |     Temp (°C)    |    Demo    |
+| Model   |    Platform    |     Framework     |        Chipsets         |    Speed (ms) |     Memory (GB)    |  Power (Watt) |     Temp (°C)    |    Demo    |
 |---------|-------------------|------------------|-------------------------|---------------|---------------|---------------|------------------|---------------|
 | YOLOv8n<sub>(fp32) | [Genio 510](https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html) |  --  | `Cortex-A`    | 775.1              | 0.12              |               |                  |[link](https://github.com/R300-AI/MTK-genio-demo/tree/main)                  |
 | YOLOv8n<sub>(fp32) | [Genio 510](https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk.html) |  ArmNN  | `Cortex-A` | 741.9              |  0.15             |               |                  |[link](https://github.com/R300-AI/MTK-genio-demo/tree/main)                  |
