@@ -37,7 +37,6 @@ Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io
 
   1. Connect the board to your host machine using a USB cable.
   2. Ensure the board is powered on.
-  3. Verify the connection by checking if the device is listed using the `lsusb` command.
 
 ### Step 4: Launch genio-flash Tool
 Navigate to the directory containing the extracted image files by executing:
