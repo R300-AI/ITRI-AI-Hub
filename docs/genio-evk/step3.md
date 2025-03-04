@@ -27,7 +27,7 @@ Follow the [Instruction](https://mediatek.gitlab.io/genio/doc/ubuntu/bsp-install
 
 ## ArmNN
 
-### Step 1: Download the latest pre-built library from [ArmNN-Release](https://github.com/ARM-software/armnn/releases) .
+### Step 1: Download pre-built **ArmNN-linux-aarch64** library from [ArmNN-Release](https://github.com/ARM-software/armnn/releases) .
 
 ```bash
 curl -L https://github.com/ARM-software/armnn/releases/download/v24.11/ArmNN-linux-aarch64.tar.gz | tar -xz -C ~/
@@ -50,9 +50,11 @@ $ cmake --build ./build && cd
 ```
 
 　
+
 <br>
 <div align="right">
-  
-[ Finished >>  ]
+<a href="https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo"> 
+
+[ Finished >> Run Demo ]
 
 </div>
