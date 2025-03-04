@@ -10,11 +10,11 @@ nav_order: 4
 > ### Prerequisites
 > * An x86_64 Workstation which **Flash Tools** and **NeuronPilot** installed.
 > * One of the following boards: **Genio510**, **Genio700**, or **Genio1200 EVK**, along with a power cable.
-> * A **USB to Micro USB cable** to connect the computer and the board.
+> * A **USB to Micro USB cable** to connect the workstation and the board.
 
 ## Flashing Pre-built Image to Board
 
-### Step 1: Download Compatible Pre-built Image
+### Step 1: Download Compatible Pre-built Image to Workstation
 Choose one of the following options. The Board Support Packages (BSPs) are already included in `Yocto`. For `Ubuntu`, you need to install the BSPs manually.
 
 | OS\ Device    | Genio510  | Genio700 | Genio1200 |
@@ -32,8 +32,8 @@ $ sudo tar -zxvf <IMAGE>.tar.gz -C <IMAGE_PATH>
 $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
 ```
 
-### Step 3: Connecting Board to Computer
-Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your Computer.
+### Step 3: Connecting Board to Workstation
+Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/connect.html) to connect the board to your workstation.
 
   1. Connect the board to your host machine using a USB cable.
   2. Ensure the board is powered on.
@@ -46,7 +46,7 @@ Navigate to the directory containing the extracted image files by executing:
 $ cd <IMAGE_PATH>/<IMAGE>
 ```
 
-### Step 5: Match the Genio SoC using Flash Tools
+### Step 5: Match the Genio Board using Flash Tools
 
 Activate the image flasher and wait for the board to match by executing these commands:
 
@@ -71,7 +71,7 @@ To confirm the board has booted into the operating system after flashing:
 
   1. Disconnecting and reconnecting the power cable.
   2. Press **PWR** on your board.
-  3. Review the boot log and CHECK the operating system has started successfully.
+  3. Review the boot log and check the operating system has started successfully.
 
 　
 <br>
