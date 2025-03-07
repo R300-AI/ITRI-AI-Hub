@@ -58,12 +58,6 @@ udev rules: OK
 
 ## Install NeuronPilot Tools
 
-### Step 1: Create and Activate Conda Environment
-Execute the following command to create and activate the Conda environment:
-
-```bash
-# $ conda create --name neuronpilot python=3.7
-```
 ### Step 2: Extract and Install NeuronPilot
 Download the NeuronPilot from [HERE](https://githubstorageblob.blob.core.windows.net/file-share/compiler/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
