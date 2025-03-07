@@ -62,36 +62,34 @@ udev rules: OK
 Execute the following command to create and activate the Conda environment:
 
 ```bash
-$ conda create --name neuronpilot python=3.7
+# $ conda create --name neuronpilot python=3.7
 ```
 ### Step 2: Extract and Install NeuronPilot
 Download the NeuronPilot from [HERE](https://githubstorageblob.blob.core.windows.net/file-share/compiler/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
 ```bash
-$ sudo apt-get update
+$ sudo apt update
+$ sudo apt install build-essential
+
+# Make sure GLIBCXX_3.4.29 in your list.
+$ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
+```
+
+
+### Step 3: Set Library Path and Install Dependencies
+
+```bash
 $ sudo apt install libncurses5 libstdc++6 libc++1
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
 $ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib:$LD_LIBRARY_PATH
 ```
 
-### Step 3: Set Library Path and Install Dependencies
-Execute the following commands to install dependencies:
-
-```bash
-$ source activate neuronpilot
-$ pip install ~/neuronpilot-6.0.5/offline_tool/mtk_converter-2.9.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
-$ pip install torch==1.9.0 torchvision==0.10.0
-```
-
 ### Step 4: Verify the Installation
-Reboot and execute the following command to verify the installation:
 
 ```bash
-$ python3 -c 'import mtk_converter; print(mtk_converter.__version__)'
-# the output should be: 2.9.0
+$ ~/neuronpilot-6.0.5/neuron_sdk/host/bin/ncc-tflite
 ```
 
-　
 <br>
 <div align="right">
 <a href="https://r300-ai.github.io/ITRI-AI-Hub/docs/genio-evk/step2.html"> 
