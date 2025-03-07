@@ -75,7 +75,6 @@ $ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 ```bash
 $ sudo apt install libncurses5 libstdc++6 libc++1
 $ tar zxvf neuronpilot-6.0.5_x86_64.tar.gz -C ~
-$ export LD_LIBRARY_PATH=~/neuronpilot-6.0.5/neuron_sdk/host/lib:$LD_LIBRARY_PATH
 ```
 
 ### Step 4: Verify the Installation
