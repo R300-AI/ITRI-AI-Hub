@@ -19,8 +19,8 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 
 | OS\ Device    | Genio510  | Genio700 | Genio1200 |
 |---------------|-----------|----------|-----------|
-| Yocto         |[[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-510-evk_private_240626080308.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-700-evk_private_240626082053.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-yocto/kirkstone_k5.15_v24.0_genio-1200-evk_private_240626084538.tar.gz) | 
-| Ubuntu        |[[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio510/genio-classic-desktop-2204-20240322-185.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio510/ubuntu-boot-firmware-genio-510-evk-v23.2.1.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio700/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio700/ubuntu-boot-firmware-genio-700-evk-v23.1.3.tar.gz) | [[Image]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio1200/genio-classic-desktop-2204-x01-20231005-133.tar.xz), [[Firmware]](https://githubstorageblob.blob.core.windows.net/file-share/image/genio-ubuntu/genio1200/ubuntu-boot-firmware-genio-1200-evk-v23.1.3.tar.gz) |
+| Yocto         |[[Image]]() | [[Image]]() | [[Image]]() | 
+| Ubuntu        |[[Image]](), [[Firmware]]() | [[Image]](), [[Firmware]]() | [[Image]](), [[Firmware]]() |
 
 ### Step 2: Extract the Downloaded Image
 Extract the downloaded image using the following command:
