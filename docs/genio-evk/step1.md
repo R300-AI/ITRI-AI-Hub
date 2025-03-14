@@ -59,7 +59,7 @@ udev rules: OK
 ## Install NeuronPilot Tools
 
 ### Step 2: Extract and Install NeuronPilot
-Download the NeuronPilot from [HERE](https://githubstorageblob.blob.core.windows.net/file-share/compiler/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
+Download the NeuronPilot from [HERE](https://githubfileshare.blob.core.windows.net/repo/neuronpilot-flask-server/neuronpilot-6.0.5_x86_64.tar.gz) and install it:
 
 ```bash
 $ sudo apt update
