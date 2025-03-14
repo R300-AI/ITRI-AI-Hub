@@ -184,10 +184,10 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
   
 ## <div align="center">Contridutors</div>
 
-<a href="https://www.moea.gov.tw/Mns/populace/home/Home.aspx" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/moea_logo.png" alt="MOEA logo" height="40" width="216"></a>
-<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42"></a>
-<a href="https://www-stage.mediatek.com/zh-tw/" target="聯發科技"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/mediatek_logo.png" alt="MediaTek logo" height="39"></a>
-<a href="https://www.arm.com/zh-TW/" target="Arm"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/arm_logo.png" alt="Arm logo" height="36"></a>
+<a href="https://www.moea.gov.tw/Mns/populace/home/Home.aspx" target="AI晶片異質整合模組前瞻製造平台計畫"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/moea_logo.png" alt="MOEA logo" height="40" width="216"> </a>
+<a href="https://www.itri.org.tw/index.aspx" target="工業技術研究院"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/itri_EL_A.jpg" alt="ITRI logo" height="42"> </a>
+<a href="https://www-stage.mediatek.com/zh-tw/" target="聯發科技"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/mediatek_logo.png" alt="MediaTek logo" height="39"> </a>
+<a href="https://www.arm.com/zh-TW/" target="Arm"><img src="https://github.com/R300-AI/ITRI-AI-Hub/blob/main/docs/assets/images/logo/arm_logo.png" alt="Arm logo" height="36"> </a>
 
 ## <div align="center">License</div>
 
