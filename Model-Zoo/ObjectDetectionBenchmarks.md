@@ -1,6 +1,6 @@
 ## MediaTek Genio Series
 
-* [Try it out](https://github.com/R300-AI/MTK-genio-demo/tree/main)
+[Let try it out](https://github.com/R300-AI/MTK-genio-demo/tree/main)
 
 | Model   |     Chipsets          |    Framework                |    Speed (ms) |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
 |---------|-----------------------|-----------------------------|---------------|---------------|---------------|------------------|
