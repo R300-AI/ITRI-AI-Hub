@@ -8,5 +8,5 @@
   | yolov8n  |  Genio-510 | NeuronRT(`MDLA 3.0`)        |  14.8   |           |               |                  |
   | yolo11n  |  Genio-510 | ArmNN(`Mali-G57 MC2`)       |         |           |               |                  |
   | yolo11n  |  Genio-510 | NeuronRT(`MDLA 3.0`)        |  18.5   |           |               |                  |
-  | yolo12n |  Genio-510 | ArmNN(`Mali-G57 MC2`)        |         |           |               |                  |
+  | yolo12n |  Genio-510 | ArmNN(`Mali-G57 MC2`)        |  1203.9 |           |               |                  |
   | yolo12n |  Genio-510 | NeuronRT(`MDLA 3.0`)         |  17.8   |           |               |                  |
