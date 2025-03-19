@@ -7,3 +7,4 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 ## Computer Vision
 * **Image Classification** | [[Run with Genio]](https://github.com/R300-AI/MTK-genio-demo/blob/main/README.md)
 * **Object Detection**     | [[Run with Genio]](https://github.com/R300-AI/MTK-genio-demo/blob/main/README.md)
+* **Pose Estimation**     | [[Run with Genio]](https://github.com/R300-AI/MTK-genio-demo/blob/main/README.md)
