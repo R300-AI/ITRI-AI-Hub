@@ -1,4 +1,4 @@
-## MediaTek Genio
+## MediaTek Genio Series
 
 * [Try it out](https://github.com/R300-AI/MTK-genio-demo/tree/main)
 
