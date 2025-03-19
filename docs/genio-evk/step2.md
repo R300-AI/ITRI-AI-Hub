@@ -26,7 +26,7 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 Extract the downloaded image using the following command:
 
 ```bash
-$ mkdir image && tar -xvJf genio-classic-desktop-2204-x01-20231005-133.tar.xz -C image/
+$ mkdir image && tar -xvJf <downloaded-image-name>.tar.xz -C image/
 
 # If you are using Ubuntu, please run the following command subsequently
 $ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C image
