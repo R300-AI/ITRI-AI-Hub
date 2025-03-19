@@ -51,7 +51,6 @@ Execute the following commands to install Genio tools and verify the installatio
 
 ```bash
 $ pip3 install -U genio-tools
-$ sudo usermod -a -G dialout $USER
 ```
 
 ### Step 5: Verify the Installation
