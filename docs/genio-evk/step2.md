@@ -26,10 +26,10 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 Extract the downloaded image using the following command:
 
 ```bash
-$ mkdir image && tar -xvJf <DOWNLOADED-IMAGE-NAME>.tar.xz --strip-components=1 -C image/
+$ mkdir image && tar -xvf <DOWNLOADED-IMAGE-NAME>.tar.xz --strip-components=1 -C image/
 
 # If you are using Ubuntu, please run the following command subsequently
-$ sudo tar --strip-components=1 -xvf <DOWNLOADED-FIRMWARE-NAME>.tar.gz -C ./image
+$ sudo tar -xvf <DOWNLOADED-FIRMWARE-NAME>.tar.gz --strip-components=1 -C ./image
 ```
 
 ### Step 3: Connecting Board to Workstation
