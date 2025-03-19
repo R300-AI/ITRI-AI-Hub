@@ -26,10 +26,10 @@ Choose one of the following options. The Board Support Packages (BSPs) are alrea
 Extract the downloaded image using the following command:
 
 ```bash
-$ tar -xvf {UBUNTU_IMAGE}.tar.xz
+$ mkdir image && tar -xvJf genio-classic-desktop-2204-x01-20231005-133.tar.xz -C image/
 
 # If you are using Ubuntu, please run the following command subsequently
-$ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C <IMAGE_PATH>/<IMAGE>
+$ sudo tar --strip-components=1 -xvf <BOOT_FIRMWARE>.tar.gz -C image
 ```
 
 ### Step 3: Connecting Board to Workstation
@@ -42,7 +42,7 @@ Follow the steps in the official documentation [HERE](https://mediatek.gitlab.io
 Navigate to the directory containing the extracted image files by executing:
 
 ```bash
-$ cd <IMAGE_PATH>/<IMAGE>
+$ cd image
 ```
 
 ### Step 5: Match the Genio Board using Flash Tools
