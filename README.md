@@ -111,8 +111,8 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
@@ -121,8 +121,8 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td rowspan=2>Multi Modal</td>
@@ -131,8 +131,8 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
     <tr>
         <td>Text to Voice</td>
@@ -140,8 +140,8 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
     </tr>
 </table>
 
