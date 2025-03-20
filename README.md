@@ -12,11 +12,8 @@ Contact With Us :wave:
 
 <details open>
 <summary>Arm Raspberry Pi Module</summary>
-
 </details>
 
-<details>
-  
 <details open>
 <summary>MediaTek Genio AIoT Module</summary>
 
