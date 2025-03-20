@@ -11,6 +11,13 @@ Contact With Us :wave:
 ## <div align="center">Documentations</div>
 
 <details open>
+<summary>Arm Raspberry Pi Module</summary>
+
+</details>
+
+<details>
+  
+<details open>
 <summary>MediaTek Genio AIoT Module</summary>
 
 Genio is powered by **Arm Cortex-A**, **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
