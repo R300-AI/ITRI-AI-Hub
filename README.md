@@ -63,116 +63,65 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
 
 <table>
     <tr>
-        <th>Category</th><th>Application</th><th>Genio<br><th>Hailo</th><th>Ryzen</th><th>Jetson</th>
+        <th>Category</th>
+        <th>Application</th>
+        <th>Genio<br>
+        <th>Hailo</th>
+        <th>Ryzen</th>
+        <th>Jetson</th>
     </tr>
     <tr>
         <td rowspan=3>CV</td>
         <td>Image Classification</td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Object Detection</td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Semantic Segmentation</td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td rowspan=1>NLP</td>
         <td>Text to Text</td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:white_check_mark:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
         <td>Speech-Recognition</td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td rowspan=2>Multi Modal</td>
         <td>Text to Image</td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
         <tr>
         <td>Text to Voice</td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :black_square_button:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
-        <td>
-          :white_check_mark:
-        </td>
+        <td>:black_square_button:</td>
+        <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
 </table>
 
