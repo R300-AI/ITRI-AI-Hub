@@ -57,7 +57,7 @@ Cortex M55 CPU以及Ethos U55 NPU
 <details>
 <summary>Hailo AI Processor</summary>
 
-Hailo offers 26~40 TOPs expansion cards designed for computer vision. This includes an **Evaluation Board** for compiling and **mPCIe/M.2 boards** for accelerating. **(*registration is required to access the documents)**
+Hailo offers 26~40 TOPs expansion cards designed for accelerating computer vision process. This provide **mPCIe/M.2 boards** interface. **(*registration is required to access the documents)**
 
 ![](https://img.shields.io/badge/Data_Compiler-3.27.0-blue) ![](https://img.shields.io/badge/PyHailoRT-4.17-blue) ![](https://img.shields.io/badge/Python-3.8-green)
   * [Install Dataflow Compiler with Evaluation Board](https://hailo.ai/developer-zone/documentation/dataflow-compiler-v3-27-0/?sp_referrer=install/install.html)
