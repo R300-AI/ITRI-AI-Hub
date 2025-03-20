@@ -71,7 +71,6 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <th>Jetson</th>
         <th>WiseEye</th>
         <th>Hailo</th>
-        
     </tr>
     <tr>
         <td rowspan=3>CV</td>
@@ -122,7 +121,6 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        
     </tr>
     <tr>
         <td rowspan=2>Multi Modal</td>
