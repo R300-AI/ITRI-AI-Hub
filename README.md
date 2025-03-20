@@ -65,14 +65,19 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
     <tr>
         <th>Category</th>
         <th>Application</th>
+        <th>Pi<br>
         <th>Genio<br>
-        <th>Hailo</th>
         <th>Ryzen</th>
         <th>Jetson</th>
+        <th>WiseEye</th>
+        <th>Hailo</th>
+        
     </tr>
     <tr>
         <td rowspan=3>CV</td>
         <td>Image Classification</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -84,9 +89,13 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Semantic Segmentation</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -99,12 +108,16 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td rowspan=1>Voice Signals</td>
         <td>Speech-Recognition</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
@@ -115,11 +128,15 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:black_square_button:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
         <tr>
         <td>Text to Voice</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
