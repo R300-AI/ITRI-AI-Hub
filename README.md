@@ -69,7 +69,7 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <th>Genio<br>
         <th>Ryzen</th>
         <th>Jetson</th>
-        <th>WiseEye</th>
+        <th>WE</th>
         <th>Hailo</th>
     </tr>
     <tr>
