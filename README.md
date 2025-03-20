@@ -90,11 +90,9 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Semantic Segmentation</td>
-        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -132,11 +130,10 @@ Hailo offers 26~40 TOPs expansion cards designed for computer vision. This inclu
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
-        <tr>
+    <tr>
         <td>Text to Voice</td>
         <td>:black_square_button:</td>
         <td>:black_square_button:</td>
-        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
