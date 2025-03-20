@@ -11,7 +11,7 @@ Contact With Us :wave:
 ## <div align="center">Documentations</div>
 
 <details open>
-<summary>MediaTek Genio AIoT module</summary>
+<summary>MediaTek Genio AIoT Module</summary>
 
 Genio is powered by **Arm Cortex-A**, **Arm GPU** and **MediaTek DLA**, providing 0.3~4.8 FTOPS of low-power AI computing performance. It supports General-Purpose I/O (GPIO) interfaces, making it suitable for developing AIoT-level computer vision applications.
 
@@ -23,7 +23,7 @@ Genio is powered by **Arm Cortex-A**, **Arm GPU** and **MediaTek DLA**, providin
 </details>
 
 <details>
-<summary>AMD Ryzen AI PC module</summary>
+<summary>AMD Ryzen AI PC Module</summary>
 
 AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating the most powerful **Zen CPU** and **RDNA GPU**, capable of delivering up to 50 TOPs of AI performance.
 
@@ -35,7 +35,7 @@ AMD Ryzen AI processors are SoCs specifically designed for AI PCs, integrating t
 </details>
 
 <details>
-<summary>NVIDIA Jetson GPU module</summary>
+<summary>NVIDIA Jetson GPU Module</summary>
   
 Jetson Orin is a cutting-edge SoC tailored for edge AI applications, featuring an **Arm CPU** and the most powerful **Ampere GPUs**. It delivers impressive AI performance ranging from 67~275 TOPS.
 
