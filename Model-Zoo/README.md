@@ -9,7 +9,7 @@ In our Python Demo examples, developers will find a variety of pre-trained model
 * **Object Detection ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/ObjectDetectionBenchmarks.md))**           | `Raspberry Pi`, `Genio`
 * **Pose Estimation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/PoseEstimationBenchmarks.md))**             | `Raspberry Pi`, `Genio`
 * **Semantic Segmentation ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/SemanticSegmentationBenchmarks.md))** | `Raspberry Pi`, `Genio`
-* 
+
 ## Language Process
 * **Text To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/TextToTextBenchmarks.md))**     | `Raspberry Pi`, `Genio`
 * **Voice To Text ([Benchmarks](https://github.com/R300-AI/ITRI-AI-Hub/blob/main/Model-Zoo/VoiceToTextBenchmarks.md))**   | `Raspberry Pi`, `Genio`
