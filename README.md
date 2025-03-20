@@ -10,7 +10,7 @@ Contact With Us :wave:
 
 ## <div align="center">Documentations</div>
 
-<details open>
+<details>
 <summary>Arm Raspberry Pi Module</summary>
 </details>
 
