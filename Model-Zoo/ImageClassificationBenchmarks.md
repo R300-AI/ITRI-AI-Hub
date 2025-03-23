@@ -1,5 +1,5 @@
 ## MediaTek Genio Series
-  
+### Genio 510 EVK
   | Model   |     Chipsets          |    Framework                |    Speed (ms) |   Memory (GB) |  Power (Watt) |     Temp (°C)    |
   |---------|-----------------------|-----------------------------|---------------|---------------|---------------|------------------|
   | resnet50  |  Genio-510    | ArmNN(`Mali-G57 MC2`)       |         |           |               |                  |
