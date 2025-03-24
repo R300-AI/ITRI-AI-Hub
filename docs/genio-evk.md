@@ -32,10 +32,11 @@ The Genio Evaluation Kits are designed to provide developers with a robust platf
 | **Power**         | 3.5~4.5W                            | 5~6W                                 | 6.2~7.2W                             |
 | **Memory**        | 4GB LPDDR4                          | 8GB LPDDR4                           | 16GB LPDDR5                          |
 
+Genio 510/700 are suitable for tasks with a single model and more complex structures (e.g., YOLO object detection). Among them, the 700 version has larger memory, which can accommodate higher computational power for streaming needs. On the other hand, the 1200 is suitable for tasks with composite models but simpler structures (e.g., ResNet image classification). You can choose the appropriate chipset according to your needs.
 
 ## AI Development Resources
 
-The diverse chipset of this system provides extensive application potential, while also indicating that developers will face a more complex development environment.
+The diverse chipset of this system provides extensive application potential, while also indicating that software developers will face a more complex development environment.
 
 The diagram below illustrates the complete system resources and workflow. The workstation is used for installing the operating system on board and compiling trained models, all to enable efficient inference execution on the development board. You can follow the guidelines in this document to quickly set up both environments.
 
@@ -49,8 +50,8 @@ Additionally, once the board is properly set up, you can perform model inference
 
 ### References
 
-1. [MediaTek IoT Yocto Developer Guide](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/)
-2. [Ubuntu on Genio documentation](https://mediatek.gitlab.io/genio/doc/ubuntu/index.html)
+1. [Get Started with IoT Yocto](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started.html)
+2. [Get Started with Ubuntu on Genio](https://mediatek.gitlab.io/genio/doc/ubuntu/get-started.html)
 
 <br>
 <div align="right">
