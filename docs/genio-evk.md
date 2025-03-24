@@ -39,11 +39,13 @@ The diverse chipset of this system provides extensive application potential, whi
 
 The diagram below illustrates the complete system resources and workflow. The workstation is used for installing the operating system on board and compiling trained models, all to enable efficient inference execution on the development board. You can follow the guidelines in this document to quickly set up both environments.
 
+The diagram below illustrates the complete system resources and workflow. The workstation is used for installing the operating system on board and compiling trained models, all to enable efficient inference execution on the development board. The blue section represents the Arm CPU and Arm GPU, which can directly handle any model inference through TFLite delegation, though each inference will consume a significant amount of memory. The yellow section represents the MediaTek NPUs, which require further conversion of TFLite models to DLA format using the NeuronPilot tool. The Genio-510/700 features mdla3.0 and vpu, while the Genio-1200 features mdla2.0 and vpu. They support only a limited and different set of operators. You can use the [NeuronPilot Online](https://app-aihub-neuronpilot.azurewebsites.net/) tool to check if your custom model is supported.
+
 <div align="center">
 <img src="assets/images/pages/genio_510_demonstration_workflow.png" width="780"/>
 </div>
 
-Additionally, once the board is properly set up, you can perform model inference using Native Frameworks, ArmNN, or NeuronRT, each of which utilizes different computational resources. **Native Frameworks (TFLite)** primarily relies on the CPU for inference. **ArmNN** can accelerate inference by optimizing both the CPU and GPU, resulting in faster and more efficient processing compared to running inference without ArmNN. **NeuronRT** leverages the MediaTek Deep Learning Accelerator (MDLA) or Vision Processor (VP) for high-performance inference. For practical examples, please refer to the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo).
+Additionally, once the board is properly set up, you can perform model inference using Native Frameworks, ArmNN, or NeuronRT, each of which utilizes different computational resources. You can quickly set up these two environments by following the guidelines in the rest of this document. **Native Frameworks (TFLite)** primarily relies on the CPU for inference. **ArmNN** can accelerate inference by optimizing both the CPU and GPU, resulting in faster and more efficient processing compared to running inference without ArmNN. **NeuronRT** leverages the MediaTek Deep Learning Accelerator (MDLA) or Vision Processor (VP) for high-performance inference. For practical examples, please refer to the [Model Zoo](https://github.com/R300-AI/ITRI-AI-Hub/tree/main/Model-Zoo).
 
 ### References
 
